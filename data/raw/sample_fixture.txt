@@ -1,0 +1,8 @@
+SYNTHETIC TEST FIXTURE - NOT A REAL STUDY. Written only to test the pipeline end to end.
+Replace with real open-access studies in data/raw/.
+
+Table 2. Medicinal plants recorded in the study area.
+Kamomili (Matricaria chamomilla), flowers, infusion, drunk for stomach ache. Recorded in village A.
+Çaj mali, aerial parts, decoction, drunk for colds and cough.
+Lule basani, flowering tops, macerated in olive oil, applied to wounds and burns.
+Sherebela, leaves, infusion, used as a gargle for sore throat.
