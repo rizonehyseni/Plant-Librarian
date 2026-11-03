@@ -1,0 +1,6 @@
+[
+ {"local_name": "Kamomili", "name_in_text": "Matricaria chamomilla", "family": null, "part_used": "flowers", "preparation": "infusion", "administration": "oral", "use": "stomach ache", "location": "village A", "page": 1, "quote": "Kamomili (Matricaria chamomilla), flowers, infusion, drunk for stomach ache."},
+ {"local_name": "Çaj mali", "name_in_text": null, "family": null, "part_used": "aerial parts", "preparation": "decoction", "administration": "oral", "use": "colds and cough", "location": null, "page": 1, "quote": "Çaj mali, aerial parts, decoction, drunk for colds and cough."},
+ {"local_name": "Lule basani", "name_in_text": null, "family": null, "part_used": "flowering tops", "preparation": "macerated in olive oil", "administration": "topical", "use": "wounds and burns", "location": null, "page": 1, "quote": "Lule basani, flowering tops, macerated in olive oil, applied to wounds and burns."},
+ {"local_name": "Sherebela", "name_in_text": null, "family": null, "part_used": "leaves", "preparation": "infusion", "administration": "gargle", "use": "sore throat", "location": null, "page": 1, "quote": "Sherebela, leaves, infusion, used as a gargle for sore throat."}
+]
