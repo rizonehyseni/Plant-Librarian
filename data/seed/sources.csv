@@ -1,2 +1,2 @@
-doc_id,title,citation,url,licence
-sample_fixture,SYNTHETIC test fixture (not a real study),Made up for pipeline testing only,,CC0
+doc_id,title,citation,url,licence,study_area
+sample_fixture,SYNTHETIC test fixture (not a real study),Made up for pipeline testing only,,CC0,Malet e Sharrit
