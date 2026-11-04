@@ -36,6 +36,7 @@ extraction so the whole pipeline runs without an API key. Replace it with real s
 | 5 Flags | `pipeline/flags.py` | Safety flags from `data/seed/risk_rules.csv`, conservation status from IUCN | No |
 | 6 Chemistry | `pipeline/chemistry.py` | Known compounds (Wikidata/LOTUS) and RDKit logP: "does the tea even extract it?" | No |
 | Map | `pipeline/geo.py` | GBIF occurrences in Kosovo, Albania, North Macedonia | No |
+| Places | `pipeline/places.py` | Puts each use record on the map: its `location` is matched against the gazetteer `data/seed/places.csv` (exact, inside a phrase, then fuzzy); if no place is named, the study's `study_area` is used | No |
 
 AI is used only to turn unstructured text into rows. Risk, conservation status and evidence
 level come from written rules and open databases. Every API and LLM response is cached in
@@ -44,9 +45,24 @@ level come from written rules and open databases. Every API and LLM response is 
 ## Adding a study
 
 1. Put the PDF in `data/raw/` (use a short file name, e.g. `mustafa2012.pdf`).
-2. Add a row to `data/seed/sources.csv` with title, citation, URL and licence.
+2. Add a row to `data/seed/sources.csv` with title, citation, URL, licence and `study_area`
+   (the region the study covers, e.g. `Malet e Sharrit`; it must be a place or alias in
+   `data/seed/places.csv`). Records that name no village are located there (`geo_precision = study`).
 3. Run `make build`. The extraction is cached in `data/cache/extract/<name>.json`.
 4. Hand-check some records and add them to `eval/gold.csv`, then run `make eval`.
+
+## Where each use was recorded
+
+`make build` stores a place for every use record in the `uses` table: `place`, `lat`, `lon` and
+`geo_precision`. `record` means the record names the village or town; `study` means only the
+study area is known, so the coordinates mark the region, not a spot; empty means the record
+cannot be placed. The app can use these columns to draw a map of recorded uses.
+
+To add a place, add a row to `data/seed/places.csv`: the Albanian name, `|`-separated aliases
+(definite forms such as `Prizreni`, Serbian/Macedonian spellings), coordinates (WGS84), country
+code and `town` or `region`. Aliases shorter than 4 letters (e.g. `Has`) only match exactly, so
+English words in a location do not put a pin on the map. Coordinates are town centres or rough
+region centroids. Run `make build` again afterwards.
 
 ## Data sources and licences
 
@@ -68,3 +84,4 @@ Check every licence before submission.
 - Preparation and study-type tags are keyword rules; they can mislabel abstracts.
 - logP below 1 as "water-soluble" is a rough screening cut-off, not a measurement.
 - IUCN global assessments miss many Balkan plants; add national red lists where possible.
+- The place gazetteer is small and hand-made; villages not in it fall back to the study area.

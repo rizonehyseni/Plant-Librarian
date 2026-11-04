@@ -1,0 +1,41 @@
+place,aliases,lat,lon,country,kind
+Prishtinë,Prishtina|Prishtinës|Pristina|Priština,42.6629,21.1655,XK,town
+Prizren,Prizreni|Prizrenit,42.2139,20.7397,XK,town
+Pejë,Peja|Pejës|Peć|Pec,42.6593,20.2887,XK,town
+Gjakovë,Gjakova|Gjakovës|Đakovica|Djakovica,42.3803,20.4308,XK,town
+Mitrovicë,Mitrovica|Mitrovicës|Mitrovicë e Jugut,42.8914,20.8660,XK,town
+Ferizaj,Ferizaji|Ferizajt|Uroševac|Urosevac,42.3702,21.1553,XK,town
+Gjilan,Gjilani|Gjilanit|Gnjilane,42.4635,21.4694,XK,town
+Dragash,Dragashi|Dragashit|Dragaš,42.0265,20.6533,XK,town
+Deçan,Deçani|Deçanit|Dečani,42.5402,20.2880,XK,town
+Istog,Istogu|Istogut|Istok,42.7808,20.4875,XK,town
+Klinë,Klina|Klinës,42.6203,20.5778,XK,town
+Rahovec,Rahoveci|Rahovecit|Orahovac,42.3994,20.6547,XK,town
+Suharekë,Suhareka|Suharekës|Theranda,42.3586,20.8253,XK,town
+Malishevë,Malisheva|Malishevës,42.4822,20.7458,XK,town
+Podujevë,Podujeva|Podujevës|Podujevo,42.9106,21.1931,XK,town
+Vushtrri,Vushtrria|Vushtrrisë|Vučitrn,42.8231,20.9675,XK,town
+Kaçanik,Kaçaniku|Kaçanikut|Kačanik,42.2319,21.2592,XK,town
+Shtërpcë,Shtërpca|Shtërpcës|Štrpce,42.2394,21.0272,XK,town
+Rugovë,Rugova|Rugovës|Rugova valley|Grykat e Rugovës,42.7000,20.1500,XK,region
+Malet e Sharrit,Sharr Mountains|Šar Mountains|Shar Mountains|Mali Sharr|Sharri|Sharrit,42.0500,20.8500,XK,region
+Opojë,Opoja|Opojës,42.0400,20.6200,XK,region
+Gorë,Gora|Gorës,41.9500,20.6500,XK,region
+Has,Hasi|Hasit|Has region,42.2000,20.5000,XK,region
+Drenicë,Drenica|Drenicës,42.6500,20.8500,XK,region
+Bjeshkët e Nemuna,Accursed Mountains|Prokletije|Alpet Shqiptare|Albanian Alps,42.4500,19.9000,AL,region
+Pashtrik,Mali i Pashtrikut|Pashtriku|Paštrik,42.2200,20.5700,XK,region
+Kukës,Kukësi|Kukësit,42.0769,20.4219,AL,town
+Tropojë,Tropoja|Tropojës|Bajram Curri,42.3572,20.0767,AL,town
+Shkodër,Shkodra|Shkodrës|Shkoder,42.0683,19.5126,AL,town
+Tiranë,Tirana|Tiranës,41.3275,19.8187,AL,town
+Tetovë,Tetova|Tetovës|Tetovo,42.0106,20.9714,MK,town
+Gostivar,Gostivari|Gostivarit,41.7958,20.9086,MK,town
+Shkup,Shkupi|Shkupit|Skopje,41.9981,21.4254,MK,town
+Kërçovë,Kërçova|Kërçovës|Kičevo|Kicevo,41.5142,20.9564,MK,town
+Dibër,Dibra|Dibrës|Debar,41.5244,20.5242,MK,town
+Ulqin,Ulqini|Ulqinit|Ulcinj,41.9294,19.2244,ME,town
+Plavë,Plava|Plavës|Plav,42.5967,19.9450,ME,town
+Guci,Gucia|Gucisë|Gusinje,42.5619,19.8339,ME,town
+Malësi e Madhe,Malësia|Malësia e Madhe|Malesija,42.3500,19.5500,AL,region
+Preshevë,Presheva|Preshevës|Preševo,42.3086,21.6497,RS,town

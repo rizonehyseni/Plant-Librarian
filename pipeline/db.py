@@ -5,7 +5,8 @@ from .config import DB_PATH
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS sources (
-    doc_id TEXT PRIMARY KEY, title TEXT, citation TEXT, url TEXT, licence TEXT
+    doc_id TEXT PRIMARY KEY, title TEXT, citation TEXT, url TEXT, licence TEXT,
+    study_area TEXT          -- fallback place for records that name no village
 );
 CREATE TABLE IF NOT EXISTS uses (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -24,6 +25,10 @@ CREATE TABLE IF NOT EXISTS uses (
     administration TEXT,
     use TEXT,
     location TEXT,
+    place TEXT,              -- gazetteer place the location resolved to
+    lat REAL,
+    lon REAL,
+    geo_precision TEXT,      -- record | study | NULL (not on the map)
     quote TEXT
 );
 CREATE TABLE IF NOT EXISTS evidence (
