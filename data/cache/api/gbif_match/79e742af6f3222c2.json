@@ -1,0 +1,26 @@
+{
+ "key": "Sideritis scardica",
+ "value": {
+  "usageKey": 7307419,
+  "scientificName": "Sideritis scardica Griseb.",
+  "canonicalName": "Sideritis scardica",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "genus": "Sideritis",
+  "species": "Sideritis scardica",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 408,
+  "familyKey": 2497,
+  "genusKey": 2926685,
+  "speciesKey": 7307419,
+  "class": "Magnoliopsida"
+ }
+}

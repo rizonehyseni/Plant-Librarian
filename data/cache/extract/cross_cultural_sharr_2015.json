@@ -1,0 +1,38 @@
+[
+  {
+    "local_name": "Mullaga",
+    "name_in_text": "Althaea officinalis L.",
+    "family": "Malvaceae",
+    "part_used": "Flowers",
+    "preparation": "Infusion",
+    "administration": null,
+    "use": "Anti-tussive / expectorant",
+    "location": null,
+    "page": 8,
+    "quote": "MullagaALB Flowers Infusion Anti-tussive/expectorant"
+  },
+  {
+    "local_name": "Lule qeni",
+    "name_in_text": "Chamomilla recutita (L.) Rauschert",
+    "family": "Asteraceae",
+    "part_used": "Aerial parts",
+    "preparation": "Infusion",
+    "administration": null,
+    "use": "Antimicrobial; infections of the digestive tract; urinary tract infections; eye infections",
+    "location": null,
+    "page": 9,
+    "quote": "Lule qeniALB Aerial parts Infusion Antimicrobial, Infections of the digestive tract, Urinary tract infections, Eye infections"
+  },
+  {
+    "local_name": "Çaj mali",
+    "name_in_text": "Origanum vulgare L.",
+    "family": "Lamiaceae",
+    "part_used": "Aerial parts",
+    "preparation": "Infusion",
+    "administration": null,
+    "use": "Anti-tussive; influenza; respiratory system infections",
+    "location": null,
+    "page": 13,
+    "quote": "Çaj maliALB Aerial parts Infusion Anti-tussive, Influenza, Respiratory system infections"
+  }
+]

@@ -1,0 +1,13 @@
+{
+ "key": "Sideritis scardica",
+ "value": [
+  {
+   "compound": "[(1R,2S,4R,5S,9R,10S,13R)-5-(hydroxymethyl)-5,9,14-trimethyl-2-tetracyclo[11.2.1.01,10.04,9]hexadec-14-enyl] acetate",
+   "smiles": "O=C(OC1CC2C(C)(CO)CCCC2(C)C3CCC4C(=CC13C4)C)C"
+  },
+  {
+   "compound": "hypolaetin",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(O2)C(=C(C=C3O)O)O)O)O"
+  }
+ ]
+}
