@@ -1,0 +1,26 @@
+{
+ "key": "Sempervivum tectorum L.",
+ "value": {
+  "usageKey": 2985949,
+  "scientificName": "Sempervivum tectorum L.",
+  "canonicalName": "Sempervivum tectorum",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Saxifragales",
+  "family": "Crassulaceae",
+  "genus": "Sempervivum",
+  "species": "Sempervivum tectorum",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 7219248,
+  "familyKey": 2406,
+  "genusKey": 2985948,
+  "speciesKey": 2985949,
+  "class": "Magnoliopsida"
+ }
+}

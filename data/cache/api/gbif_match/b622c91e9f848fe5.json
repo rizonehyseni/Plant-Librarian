@@ -1,0 +1,26 @@
+{
+ "key": "Cucumis sativus L.",
+ "value": {
+  "usageKey": 2874569,
+  "scientificName": "Cucumis sativus L.",
+  "canonicalName": "Cucumis sativus",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Cucurbitales",
+  "family": "Cucurbitaceae",
+  "genus": "Cucumis",
+  "species": "Cucumis sativus",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 7224005,
+  "familyKey": 6634,
+  "genusKey": 2874568,
+  "speciesKey": 2874569,
+  "class": "Magnoliopsida"
+ }
+}

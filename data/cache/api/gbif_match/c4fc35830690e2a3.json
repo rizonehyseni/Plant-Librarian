@@ -1,0 +1,26 @@
+{
+ "key": "Tilia platyphyllos Scop.",
+ "value": {
+  "usageKey": 3152048,
+  "scientificName": "Tilia platyphyllos Scop.",
+  "canonicalName": "Tilia platyphyllos",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Malvales",
+  "family": "Malvaceae",
+  "genus": "Tilia",
+  "species": "Tilia platyphyllos",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 941,
+  "familyKey": 6685,
+  "genusKey": 3152041,
+  "speciesKey": 3152048,
+  "class": "Magnoliopsida"
+ }
+}

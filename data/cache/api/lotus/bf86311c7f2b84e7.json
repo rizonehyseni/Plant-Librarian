@@ -1,0 +1,129 @@
+{
+ "key": "Polygonum aviculare",
+ "value": [
+  {
+   "compound": "vanillic acid",
+   "smiles": "COC1=C(C=CC(=C1)C(=O)O)O"
+  },
+  {
+   "compound": "(E)-sinapic acid",
+   "smiles": "COC1=CC(=CC(=C1O)OC)C=CC(=O)O"
+  },
+  {
+   "compound": "avicularin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(O4)CO)O)O)O)O"
+  },
+  {
+   "compound": "loliolide",
+   "smiles": "CC1(CC(CC2(C1=CC(=O)O2)C)O)C"
+  },
+  {
+   "compound": "kaempferol",
+   "smiles": "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "syringic acid",
+   "smiles": "COC1=CC(=CC(=C1O)OC)C(=O)O"
+  },
+  {
+   "compound": "chromium",
+   "smiles": "[Cr]"
+  },
+  {
+   "compound": "Maltotriose",
+   "smiles": "OCC1OC(OC2C(O)C(O)C(OC2CO)OC3C(O)C(O)C(O)OC3CO)C(O)C(O)C1O"
+  },
+  {
+   "compound": "Myricitrin",
+   "smiles": "O=C1C(OC2OC(C)C(O)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=C(O)C(O)=C(O)C4"
+  },
+  {
+   "compound": "Astragalin",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=CC(O)=CC4"
+  },
+  {
+   "compound": "[2-[2-(3,4-Dihydroxyphenyl)-5,7-dihydroxy-4-oxochromen-3-yl]oxy-4,5-dihydroxy-6-methyloxan-3-yl] 3,4,5-trihydroxybenzoate",
+   "smiles": "O=C(OC1C(O)C(O)C(OC1OC=2C(=O)C=3C(O)=CC(O)=CC3OC2C=4C=CC(O)=C(O)C4)C)C5=CC(O)=C(O)C(O)=C5"
+  },
+  {
+   "compound": "3-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]oxy-5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)chromen-4-one",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=C(O)C(O)=C(O)C4"
+  },
+  {
+   "compound": "(+)-syringaresinol",
+   "smiles": "COC1=CC(=CC(=C1O)OC)C2C3COC(C3CO2)C4=CC(=C(C(=C4)OC)O)OC"
+  },
+  {
+   "compound": "miquelianin",
+   "smiles": "O=C(O)C1OC(OC=2C(=O)C=3C(O)=CC(O)=CC3OC2C=4C=CC(O)=C(O)C4)C(O)C(O)C1O"
+  },
+  {
+   "compound": "Aviculin",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(CC3=CC(=C(C=C3C2C4=CC(=C(C=C4)O)OC)O)OC)CO)O)O)O"
+  },
+  {
+   "compound": "Juglanin",
+   "smiles": "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(O4)CO)O)O)O"
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=CC(O)=C(O)C4"
+  },
+  {
+   "compound": "ferulic acid",
+   "smiles": "COC1=C(C=CC(=C1)C=CC(=O)O)O"
+  },
+  {
+   "compound": "Myricetin 3-alpha-L-arabinofuranoside",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=C(O)C(O)=C(O)C4"
+  },
+  {
+   "compound": "trans-caffeic acid",
+   "smiles": "C1=CC(=C(C=C1C=CC(=O)O)O)O"
+  },
+  {
+   "compound": "4-hydroxybenzoic acid",
+   "smiles": "C1=CC(=CC=C1C(=O)O)O"
+  },
+  {
+   "compound": "3,4-dihydroxybenzoic acid",
+   "smiles": "C1=CC(=C(C=C1C(=O)O)O)O"
+  },
+  {
+   "compound": "3,4-dihydroxybenzoic acid",
+   "smiles": "c1cc(c(cc1C(=O)O)O)O"
+  },
+  {
+   "compound": "quercetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O"
+  },
+  {
+   "compound": "quercitrin",
+   "smiles": "CC1C(C(C(C(O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C=C4)O)O)O)O)O"
+  },
+  {
+   "compound": "luteoloside",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O)O"
+  },
+  {
+   "compound": "gentisic acid",
+   "smiles": "C1=CC(=C(C=C1O)C(=O)O)O"
+  },
+  {
+   "compound": "gallic acid",
+   "smiles": "C1=C(C=C(C(=C1O)O)O)C(=O)O"
+  },
+  {
+   "compound": "vitexin",
+   "smiles": "C1=CC(=CC=C1C2=CC(=O)C3=C(O2)C(=C(C=C3O)O)C4C(C(C(C(O4)CO)O)O)O)O"
+  },
+  {
+   "compound": "(E)-p-coumaric acid",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)O)O"
+  },
+  {
+   "compound": "liquiritin",
+   "smiles": "C1C(OC2=C(C1=O)C=CC(=C2)O)C3=CC=C(C=C3)OC4C(C(C(C(O4)CO)O)O)O"
+  }
+ ]
+}

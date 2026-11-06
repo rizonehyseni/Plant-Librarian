@@ -1,0 +1,26 @@
+{
+ "key": "Urtica dioica L.",
+ "value": {
+  "usageKey": 7960979,
+  "scientificName": "Urtica dioica L.",
+  "canonicalName": "Urtica dioica",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Rosales",
+  "family": "Urticaceae",
+  "genus": "Urtica",
+  "species": "Urtica dioica",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 691,
+  "familyKey": 6639,
+  "genusKey": 2984391,
+  "speciesKey": 7960979,
+  "class": "Magnoliopsida"
+ }
+}

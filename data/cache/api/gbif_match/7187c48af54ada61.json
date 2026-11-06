@@ -1,0 +1,26 @@
+{
+ "key": "Zea mays L.",
+ "value": {
+  "usageKey": 5290052,
+  "scientificName": "Zea mays L.",
+  "canonicalName": "Zea mays",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Poales",
+  "family": "Poaceae",
+  "genus": "Zea",
+  "species": "Zea mays",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 196,
+  "orderKey": 1369,
+  "familyKey": 3073,
+  "genusKey": 2705049,
+  "speciesKey": 5290052,
+  "class": "Liliopsida"
+ }
+}

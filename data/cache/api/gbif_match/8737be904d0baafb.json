@@ -1,0 +1,26 @@
+{
+ "key": "Taraxacum officinale F.H. Wigg.",
+ "value": {
+  "usageKey": 5394163,
+  "scientificName": "Taraxacum officinale Weber ex F.H.Wigg.",
+  "canonicalName": "Taraxacum officinale",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Asterales",
+  "family": "Asteraceae",
+  "genus": "Taraxacum",
+  "species": "Taraxacum officinale",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 414,
+  "familyKey": 3065,
+  "genusKey": 7787708,
+  "speciesKey": 5394163,
+  "class": "Magnoliopsida"
+ }
+}

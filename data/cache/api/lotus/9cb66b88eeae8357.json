@@ -1,0 +1,73 @@
+{
+ "key": "Tilia platyphyllos",
+ "value": [
+  {
+   "compound": "nonacosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "pelargonic acid",
+   "smiles": "CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "(4R,9R,10S)-5,5,9-trimethyl-14-methylidenetetracyclo[11.2.1.01,10.04,9]hexadecane",
+   "smiles": "C=C1CC23CCC4C(C)(C)CCCC4(C)C3CCC1C2"
+  },
+  {
+   "compound": "heneicosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "pentacosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "tricosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "heptacosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "linoleic acid",
+   "smiles": "CCCCCC=CCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "tetracosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "oleic acid",
+   "smiles": "CCCCCCCCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "docosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "palmitic acid",
+   "smiles": "CCCCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "myristic acid",
+   "smiles": "CCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "(5E,9E)-farnesyl acetone",
+   "smiles": "CC(=CCCC(=CCCC(=CCCC(=O)C)C)C)C"
+  },
+  {
+   "compound": "lauric acid",
+   "smiles": "CCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "farnesylacetone",
+   "smiles": "O=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C"
+  },
+  {
+   "compound": "capric acid",
+   "smiles": "CCCCCCCCCC(=O)O"
+  }
+ ]
+}

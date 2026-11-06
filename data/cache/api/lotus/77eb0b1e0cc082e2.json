@@ -1,0 +1,49 @@
+{
+ "key": "Fragaria vesca",
+ "value": [
+  {
+   "compound": "(+)-catechin",
+   "smiles": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O"
+  },
+  {
+   "compound": "pelargonidin-3-O-beta-D-glucoside",
+   "smiles": "O=C1C=C(O)C2=CC(OC3OC(CO)C(O)C(O)C3O)=C(OC2=C1)C=4C=CC(O)=CC4"
+  },
+  {
+   "compound": "vitamin C",
+   "smiles": "OC[CH](O)[CH]1OC(=O)C(=C1O)O"
+  },
+  {
+   "compound": "(−)-epicatechin",
+   "smiles": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O"
+  },
+  {
+   "compound": "Q104252257",
+   "smiles": "O=C(OCC=C(C)CCCC(C)CCCC(C)CCCC(C)C)CCC1C=2N=C(C=C3NC(=CC=4NC(C=C5N=C6C(C(=O)C(C(=O)OC)C62)=C5C)=C(C4C)CC)C(C=C)=C3C)C1C"
+  },
+  {
+   "compound": "2-(4-Hydroxyphenyl)-3-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-5-[4,5,6-trihydroxy-3-(hydroxymethyl)oxan-2-yl]oxychromen-7-one",
+   "smiles": "O=C1C=C2OC(=C(OC3OC(CO)C(O)C(O)C3O)C=C2C(OC4OC(O)C(O)C(O)C4CO)=C1)C=5C=CC(O)=CC5"
+  },
+  {
+   "compound": "Q110184368",
+   "smiles": "O=C(OCC=C(C)CCCC(C)CCCC(C)CCCC(C)C)CCC1C2=NC(=CC3=NC(=CC4=NC(=CC=5NC=6C(=C(O)C(C(=O)OC)C26)C5C)C(=C4C)CC)C(C=C)=C3C)C1C"
+  },
+  {
+   "compound": "(+)-procyanidin B2",
+   "smiles": "C1C(C(OC2=C1C(=CC(=C2C3C(C(OC4=CC(=CC(=C34)O)O)C5=CC(=C(C=C5)O)O)O)O)O)C6=CC(=C(C=C6)O)O)O"
+  },
+  {
+   "compound": "Pelargonin",
+   "smiles": "C1=CC(=CC=C1C2=C(C=C3C(=CC(=CC3=[O+]2)O)OC4C(C(C(C(O4)CO)O)O)O)OC5C(C(C(C(O5)CO)O)O)O)O"
+  },
+  {
+   "compound": "ellagic acid",
+   "smiles": "C1=C2C3=C(C(=C1O)O)OC(=O)C4=CC(=C(C(=C43)OC2=O)O)O"
+  },
+  {
+   "compound": "(E)-p-coumaric acid",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)O)O"
+  }
+ ]
+}

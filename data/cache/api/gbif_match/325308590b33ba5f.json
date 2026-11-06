@@ -1,0 +1,26 @@
+{
+ "key": "Sambucus nigra L.",
+ "value": {
+  "usageKey": 2888728,
+  "scientificName": "Sambucus nigra L.",
+  "canonicalName": "Sambucus nigra",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Dipsacales",
+  "family": "Viburnaceae",
+  "genus": "Sambucus",
+  "species": "Sambucus nigra",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 946,
+  "familyKey": 4924416,
+  "genusKey": 2888721,
+  "speciesKey": 2888728,
+  "class": "Magnoliopsida"
+ }
+}

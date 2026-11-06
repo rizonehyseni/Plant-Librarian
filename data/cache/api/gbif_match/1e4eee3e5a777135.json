@@ -1,0 +1,26 @@
+{
+ "key": "Cucumis melo L.",
+ "value": {
+  "usageKey": 2874570,
+  "scientificName": "Cucumis melo L.",
+  "canonicalName": "Cucumis melo",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Cucurbitales",
+  "family": "Cucurbitaceae",
+  "genus": "Cucumis",
+  "species": "Cucumis melo",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 7224005,
+  "familyKey": 6634,
+  "genusKey": 2874568,
+  "speciesKey": 2874570,
+  "class": "Magnoliopsida"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "key": "Allium porrum L.",
+ "value": {
+  "usageKey": 7668251,
+  "acceptedUsageKey": 2856037,
+  "scientificName": "Allium porrum L.",
+  "canonicalName": "Allium porrum",
+  "rank": "SPECIES",
+  "status": "SYNONYM",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Asparagales",
+  "family": "Amaryllidaceae",
+  "genus": "Allium",
+  "species": "Allium ampeloprasum",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 196,
+  "orderKey": 1169,
+  "familyKey": 7682,
+  "genusKey": 9624496,
+  "speciesKey": 2856037,
+  "class": "Liliopsida"
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "key": "Mespilus germanica",
+ "value": [
+  {
+   "compound": "(+)-catechin",
+   "smiles": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O"
+  },
+  {
+   "compound": "6-methoxy-alpha-pyrufuran",
+   "smiles": "COC1=CC=CC2=C1OC3=C2C(=C(C(=C3OC)OC)O)OC"
+  },
+  {
+   "compound": "procyanidin B1",
+   "smiles": "C1C(C(OC2=C1C(=CC(=C2C3C(C(OC4=CC(=CC(=C34)O)O)C5=CC(=C(C=C5)O)O)O)O)O)C6=CC(=C(C=C6)O)O)O"
+  },
+  {
+   "compound": "Epicatechin gallate",
+   "smiles": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)OC(=O)C4=CC(=C(C(=C4)O)O)O"
+  },
+  {
+   "compound": "(−)-epicatechin",
+   "smiles": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O"
+  },
+  {
+   "compound": "(+)-gallocatechin",
+   "smiles": "OC=1C=C(O)C2=C(OC(C3=CC(O)=C(O)C(O)=C3)C(O)C2)C1"
+  },
+  {
+   "compound": "(2R,3R)-2-(3,4-dihydroxyphenyl)-6-[(2R,3S,4S)-2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxy-3,4-dihydro-2H-chromen-4-yl]-3,4-dihydro-2H-chromene-3,5,7-triol",
+   "smiles": "OC=1C=C(O)C2=C(OC(C3=CC=C(O)C(O)=C3)C(O)C2C4=C(O)C=C5OC(C6=CC=C(O)C(O)=C6)C(O)CC5=C4O)C1"
+  },
+  {
+   "compound": "Prodelphinidin B",
+   "smiles": "OC=1C=C(O)C2=C(OC(C3=CC(O)=C(O)C(O)=C3)C(O)C2C=4C(O)=CC(O)=C5C4OC(C6=CC(O)=C(O)C(O)=C6)C(O)C5)C1"
+  },
+  {
+   "compound": "7-Hydroxy-6-Methoxy-alpha-pyrufuran",
+   "smiles": "OC=1C=CC2=C(OC=3C(OC)=C(OC)C(O)=C(OC)C32)C1OC"
+  },
+  {
+   "compound": "6-Hydroxy-alpha-pyrufuran",
+   "smiles": "OC=1C=CC=C2C1OC=3C(OC)=C(OC)C(O)=C(OC)C32"
+  },
+  {
+   "compound": "(-)-procyanidin B4",
+   "smiles": "C1C(C(OC2=C1C(=CC(=C2C3C(C(OC4=CC(=CC(=C34)O)O)C5=CC(=C(C=C5)O)O)O)O)O)C6=CC(=C(C=C6)O)O)O"
+  },
+  {
+   "compound": "(+)-procyanidin B2",
+   "smiles": "C1C(C(OC2=C1C(=CC(=C2C3C(C(OC4=CC(=CC(=C34)O)O)C5=CC(=C(C=C5)O)O)O)O)O)C6=CC(=C(C=C6)O)O)O"
+  },
+  {
+   "compound": "procyanidin B3",
+   "smiles": "C1C(C(OC2=C1C(=CC(=C2C3C(C(OC4=CC(=CC(=C34)O)O)C5=CC(=C(C=C5)O)O)O)O)O)C6=CC(=C(C=C6)O)O)O"
+  },
+  {
+   "compound": "epigallocatechin gallate",
+   "smiles": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C(=C3)O)O)O)OC(=O)C4=CC(=C(C(=C4)O)O)O"
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=CC(O)=C(O)C4"
+  },
+  {
+   "compound": "17-(5-ethyl-6-methylheptan-2-yl)-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol",
+   "smiles": "OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C)CCC(CC)C(C)C)C2(C)CC1"
+  },
+  {
+   "compound": "quercetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O"
+  },
+  {
+   "compound": "quercitrin",
+   "smiles": "CC1C(C(C(C(O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C=C4)O)O)O)O)O"
+  },
+  {
+   "compound": "procyanidin C1",
+   "smiles": "C1C(C(OC2=C1C(=CC(=C2C3C(C(OC4=C(C(=CC(=C34)O)O)C5C(C(OC6=CC(=CC(=C56)O)O)C7=CC(=C(C=C7)O)O)O)C8=CC(=C(C=C8)O)O)O)O)O)C9=CC(=C(C=C9)O)O)O"
+  },
+  {
+   "compound": "procyanidin B8",
+   "smiles": "C1C(C(OC2=CC(=C(C(=C21)O)C3C(C(OC4=CC(=CC(=C34)O)O)C5=CC(=C(C=C5)O)O)O)O)C6=CC(=C(C=C6)O)O)O"
+  },
+  {
+   "compound": "(-)-epigallocatechin",
+   "smiles": "OC=1C=C(O)C2=C(OC(C3=CC(O)=C(O)C(O)=C3)C(O)C2)C1"
+  },
+  {
+   "compound": "alpha-cotonefuran",
+   "smiles": "COC1=C(C=CC2=C1OC3=C(C(=C(C=C23)O)OC)OC)O"
+  }
+ ]
+}

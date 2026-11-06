@@ -1,0 +1,245 @@
+{
+ "key": "Zea mays",
+ "value": [
+  {
+   "pmid": "29271036",
+   "title": "Corrigendum.",
+   "abstract": "",
+   "year": "2018"
+  },
+  {
+   "pmid": "35195299",
+   "title": "Corrigendum.",
+   "abstract": "",
+   "year": "2022"
+  },
+  {
+   "pmid": "29052196",
+   "title": "3C in Maize and Arabidopsis.",
+   "abstract": "With Chromosome Conformation Capture (3C), the relative interaction frequency of one chromosomal fragment with another can be determined. The technique is especially suited for unraveling the 3D organization of specific loci when focusing on aspects such as enhancer-promoter interactions or other topological conformations of the genome. 3C has been extensively used in animal systems, among others providing insight into gene regulation by distant cis-regulatory elements. In recent years, the 3C technique has been applied in plant research. However, the complexity of plant tissues prevents direct application of existing protocols from animals. Here, we describe an adapted protocol suitable for plant tissues, especially Arabidopsis thaliana and Zea mays.",
+   "year": "2018"
+  },
+  {
+   "pmid": "17847323",
+   "title": "Zea mays.",
+   "abstract": "",
+   "year": "1978"
+  },
+  {
+   "pmid": "36844039",
+   "title": "Editorial: Model organisms in plant science: Maize.",
+   "abstract": "",
+   "year": "2023"
+  },
+  {
+   "pmid": "35071287",
+   "title": "Traditional Foods From Maize (Zea mays L.) in Europe.",
+   "abstract": "Maize (Zea mays L.) is one of the major crops of the world for feed, food, and industrial uses. It was originated in Central America and introduced into Europe and other continents after Columbus trips at the end of the 15th century. Due to the large adaptability of maize, farmers have originated a wide variability of genetic resources with wide diversity of adaptation, characteristics, and uses. Nowadays, in Europe, maize is mainly used for feed, but several food specialties were originated during these five centuries of maize history and became traditional food specialties. This review summarizes the state of the art of traditional foodstuffs made with maize in Southern, South-Western and South-Eastern Europe, from an historic evolution to the last research activities that focus on improving sustainability, quality and safety of food production.",
+   "year": "2021"
+  },
+  {
+   "pmid": "39049575",
+   "title": "Understanding the chemical language mediating maize immunity and environmental adaptation.",
+   "abstract": "Diverse networks of specialized metabolites promote plant fitness by mediating beneficial and antagonistic environmental interactions. In maize (Zea mays), constitutive and dynamically formed cocktails of terpenoids, benzoxazinoids, oxylipins, and phenylpropanoids contribute to plant defense and ecological adaptation. Recent research has highlighted the multifunctional nature of many specialized metabolites, serving not only as elaborate chemical defenses that safeguard against biotic and abiotic stress but also as regulators in adaptive developmental processes and microbiome interactions. Great strides have also been made in identifying the modular pathway networks that drive maize chemical diversity. Translating this knowledge into strategies for enhancing stress resilience traits has the potential to address climate-driven yield losses in one of the world's major food, feed, and bioenergy crops.",
+   "year": "2024"
+  },
+  {
+   "pmid": "40947432",
+   "title": "Flowering Initiation Genes Determine the Node for Inflorence-Ear in Zea Mays L.",
+   "abstract": "The expression profile of key genes regulating flowering initiation (ID1, DLF1, ZCN6, ZCN7, and ZCN8) of Zea mays L. was determined in the leaf axils of the reproductive and adjacent nodes during the flowering initiation. The similarity of the inter-node dynamics of the ID1, DLF1, ZCN7, and ZCN8 gene expression was shown throughout the entire measurement period. It was determined that ~10 days before visual detection of the inflorescence meristem, the expression of the flowering activator genes ID1, DLF1, ZCN7, and ZCN8 significantly increased in the reproductive node compared to the adjacent nodes, while the flowering inhibitor gene ZCN6 expression decreased to trace values at all nodes.",
+   "year": "2025"
+  },
+  {
+   "pmid": "39766873",
+   "title": "Mechanisms, Machinery, and Dynamics of Chromosome Segregation in Zea mays.",
+   "abstract": "Zea mays (maize) is both an agronomically important crop and a powerful genetic model system with an extensive molecular toolkit and genomic resources. With these tools, maize is an optimal system for cytogenetic study, particularly in the investigation of chromosome segregation. Here, we review the advances made in maize chromosome segregation, specifically in the regulation and dynamic assembly of the mitotic and meiotic spindle, the inheritance and mechanisms of the abnormal chromosome variant Ab10, the regulation of chromosome-spindle interactions via the spindle assembly checkpoint, and the function of kinetochore proteins that bridge chromosomes and spindles. In this review, we discuss these processes in a species-specific context including features that are both conserved and unique to Z. mays. Additionally, we highlight new protein structure prediction tools and make use of these tools to identify several novel kinetochore and spindle assembly checkpoint proteins in Z. mays.",
+   "year": "2024"
+  },
+  {
+   "pmid": "17760028",
+   "title": "CHROMOSOME MORPHOLOGY IN ZEA MAYS.",
+   "abstract": "",
+   "year": "1929"
+  },
+  {
+   "pmid": "36721262",
+   "title": "By-Products of Zea mays L.: A Promising Source of Medicinal Properties with Phytochemistry and Pharmacological Activities: A Comprehensive Review.",
+   "abstract": "Zea mays (Z. mays) is one of the main cereal crops in the world, and it's by-products have exhibited medicinal properties to explore. This article intends to review the chemical compositions and pharmacological activities of by-products of Z. mays (corn silks, roots, bract, stems, bran, and leaves) which support the therapeutic potential in the treatment of different diseases, with emphasis on the natural occurring compounds and detailed pharmacological developments. Based on this review, 231 natural compounds are presented. Among them, flavonoids, terpenes, phenylpropanoids, and alkaloids are the most frequently reported. The by-products of Z. mays possess diuretic effects, hepatoprotective, anti-diabetic, antioxidant, neuroprotective, anti-inflammatory, anti-cancer, plant protection activity, and other activities. This article reviewed the phytochemistry and pharmacological activities of Z. mays for comprehensive quality control and the safety and effectiveness to enhance future application.",
+   "year": "2023"
+  },
+  {
+   "pmid": "37945529",
+   "title": "Roots of Zea mays L.: As a Potential Source to Treat Sodium Oxalate-Induced Renal Cell Injury.",
+   "abstract": "Zea mays L. is an annual grass of the Gramineae family and is known as one of the cereal crops. Its by-products exhibited significant medicinal properties. In some regions of China, water extracts of Z. mays roots (RM) are utilized to treat kidney stones, but no research has been reported. In our present study, a bioassay-guided isolation method was used to yield five new lignans (1-5) as well as 15 known components, among which 8-15 and 17-20 were first identified from the genus. The fractions and all components were evaluated for their abilities to inhibit sodium oxalate-induced injury to human proximal tubular HK-2 cells. Fraction 50W and compounds 3, 4, and 11 exhibited the most potent activities. Further investigation indicated that these potential agents inhibited the LDH release, decreased the MDA and H2O2 concentrations, and increased the level of SOD2 in HK-2 cells. These results indicated that RM is a promising and valuable crop waste for further development and utilization in nephrolithiasis pharmaceutical research.",
+   "year": "2023"
+  },
+  {
+   "pmid": "35960639",
+   "title": "Dedicated farnesyl diphosphate synthases circumvent isoprenoid-derived growth-defense tradeoffs in Zea mays.",
+   "abstract": "Zea mays (maize) makes phytoalexins such as sesquiterpenoid zealexins, to combat invading pathogens. Zealexins are produced from farnesyl diphosphate in microgram per gram fresh weight quantities. As farnesyl diphosphate is also a precursor for many compounds essential for plant growth, the question arises as to how Z. mays produces high levels of zealexins without negatively affecting vital plant systems. To examine if specific pools of farnesyl diphosphate are made for zealexin synthesis we made CRISPR/Cas9 knockouts of each of the three farnesyl diphosphate synthases (FPS) in Z. mays and examined the resultant impacts on different farnesyl diphosphate-derived metabolites. We found that FPS3 (GRMZM2G098569) produced most of the farnesyl diphosphate for zealexins, while FPS1 (GRMZM2G168681) made most of the farnesyl diphosphate for the vital respiratory co-factor ubiquinone. Indeed, fps1 mutants had strong developmental phenotypes such as reduced stature and development of chlorosis. The replication and evolution of the fps gene family in Z. mays enabled it to produce dedicated FPSs for developmentally related ubiquinone production (FPS1) or defense-related zealexin production (FPS3). This partitioning of farnesyl diphosphate production between growth and defense could contribute to the ability of Z. mays to produce high levels of phytoalexins without negatively impacting its growth.",
+   "year": "2022"
+  },
+  {
+   "pmid": "37254357",
+   "title": "Revalorization of Colombian purple corn Zea mays L. by-products using two-step column chromatography.",
+   "abstract": "Colombian purple corn Zea mays L. by-products have been chemically characterized. To achieve this, after Amberlite XAD-7 purification and Sephadex LH-20 fractionation, the accurate anthocyanin and flavonol profile using UHPL-DAD-ESI-MS, total monomeric anthocyanin (TMA), polyphenols using Folin-Ciocalteau reduction capacity (FCRC), and antioxidant activity (DPPH and TEAC) of each fraction were performed. Cob and leaves illustrated a more complete flavonoid profile and a higher content of anthocyanins and flavonols, strongly related to the highest reducing power and radical scavenging activity compared to grains. Furthermore, the most antioxidant fractions corresponded to the higher molecular weight compounds. The cob and leaves were enriched in cyanidin-3-O-glucoside, cyanidin-3-O-malonyl-hexoside, and peonidin-3-O-glucoside, peonidin-3-O-(6''-malonyl-glucoside). The purification and fractionation allowed us to establish the chemical and antioxidant characterization, and the resulting revalorization, of purple corn by-products for the first time, and to have available pure fractions of Zea mays L. for a wide diversity of industries.",
+   "year": "2023"
+  },
+  {
+   "pmid": "42739336",
+   "title": "Physiological Ecology and Regulation of High-Yield Maize Cultivation.",
+   "abstract": "Maize (Zea mays L [...].",
+   "year": "2026"
+  },
+  {
+   "pmid": "38599297",
+   "title": "The discovery of an anti-inflammatory monoterpenoid, neoroseoside from the Zea mays.",
+   "abstract": "A new monoterpenoid, neoroseoside (1), along with two previously reported compounds, 2″-O-α-l-rhamnosyl-6-C-fucosylluteolin (2) and farobin A (3) were isolated from the Zea mays. The structure of compound 1 was determined through the analysis spectroscopic data, including mass spectrometry (MS), infrared (IR) spectroscopy, and nuclear magnetic resonance (NMR) data. The absolute configurations of 1 were deduced from the comparing the values of optical rotations and from the interpretation of electronic circular dichroism (ECD) spectra. Compounds 2 and 3 displayed moderate antibacterial activity against Streptococcus mutans ATCC 25175 (inhibition rates 24 % and 28 %, respectively) and Streptococcus sobrinus ATCC 33478 (inhibition rate of 26 %), at a concentration of 100 μg/mL, whereas compound 1 did not have any significant antibacterial activities. The compounds 1-3 also showed anti-inflammatory activity on cytokine IL-6 and TNF-α.",
+   "year": "2024"
+  },
+  {
+   "pmid": "35977055",
+   "title": "Uncovering natural genetic variants of the SOS pathway to improve salinity tolerance in maize.",
+   "abstract": "",
+   "year": "2022"
+  },
+  {
+   "pmid": "41083634",
+   "title": "Expression Level of Carotenoid Biosynthesis Genes in Leaves Is Associated with Cold Tolerance of Zea mays L. Plants.",
+   "abstract": "The expression profile of the key carotenoid biosynthesis genes (ZmPSY1, ZmPSY2, ZmLcyE) was determined in the dynamics of cold stress and post-stress recovery in the leaves of Zea mays L. plants of four cold-tolerant (breeders' data) inbred lines (L-5580-1, L-6097-1, L-5254-3, and L-5272-6). It was shown that, under normal growing conditions, the expression level of all three genes in the L-5580-1 line was significantly higher compared to other lines. It was revealed that low-temperature exposure affects the trends of gene expression fluctuations in a similar way between the lines. It was determined that, in the stress dynamics, the co-expression pattern of the ZmPSY1 and ZmPSY2 genes in the leaves of L-5580-1 plants is coordinated with changes in the carotenoid content.",
+   "year": "2025"
+  },
+  {
+   "pmid": "35209184",
+   "title": "Promoting Effect of Soluble Polysaccharides Extracted from Ulva spp. on Zea mays L. Growth.",
+   "abstract": "Seaweeds can play a vital role in plant growth promotion. Two concentrations (5 and 10 mg/mL) of soluble polysaccharides extracted from the green macroalgae Ulva fasciata and Ulva lactuca were tested on Zea mays L. The carbohydrate and protein contents, and antioxidant activities (phenols, ascorbic, peroxidase, and catalase) were measured, as well as the protein banding patterns. The soluble polysaccharides at 5 mg/mL had the greatest effect on the base of all of the parameters. The highest effects of soluble polysaccharides on the Zea mays were 38.453, 96.76, 4, 835, 1.658, 7.462, and 38615.19, mg/mL for carbohydrates, proteins, phenol, µg ascorbic/mL, mg peroxidase/g dry tissue, and units/g tissue of catalase, respectively. The total number of protein bands (as determined by SDS PAGE) was not changed, but the density of the bands was correlated to the treatments. The highest band density and promoting effect were correlated to 5 mg/mL soluble polysaccharide treatments extracted from Ulva fasciata in Zea mays, which can be used as a biofertilizer.",
+   "year": "2022"
+  },
+  {
+   "pmid": "37905975",
+   "title": "Two New Alkaloids from Roots of Zea mays and Their Cytotoxic Activity against Hep3B and SW480 Cells.",
+   "abstract": "Two undescribed alkaloids, along with seven known compounds, were isolated from the roots of Zea mays (RM). Their chemical structures were elucidated based on extensive analyses of HR-ESI-MS, 1D and 2D NMR, and CD spectra. Two new alkaloids exhibited moderate inhibition of Hep3B (IC50 values of 11.7±2.4 and 14.2±3.6 μM) and SW480 cells (IC50 values of 33.4±8.2 and 47.3±5.8 μM) compared to that of the positive control compound, Oxaliplatin, IC50 value of 8.4±1.7 and 45.8±5.6 μM, respectively.",
+   "year": "2023"
+  },
+  {
+   "pmid": "38085691",
+   "title": "Application of CRISPR/Cas9 for targeted mutagenesis in teosinte Zea mays ssp. parviglumis.",
+   "abstract": "",
+   "year": "2024"
+  },
+  {
+   "pmid": "26042133",
+   "title": "The maize (Zea mays ssp. mays var. B73) genome encodes 33 members of the purple acid phosphatase family.",
+   "abstract": "Purple acid phosphatases (PAPs) play an important role in plant phosphorus nutrition, both by liberating phosphorus from organic sources in the soil and by modulating distribution within the plant throughout growth and development. Furthermore, members of the PAP protein family have been implicated in a broader role in plant mineral homeostasis, stress responses and development. We have identified 33 candidate PAP encoding gene models in the maize (Zea mays ssp. mays var. B73) reference genome. The maize Pap family includes a clear single-copy ortholog of the Arabidopsis gene AtPAP26, shown previously to encode both major intracellular and secreted acid phosphatase activities. Certain groups of PAPs present in Arabidopsis, however, are absent in maize, while the maize family contains a number of expansions, including a distinct radiation not present in Arabidopsis. Analysis of RNA-sequencing based transcriptome data revealed accumulation of maize Pap transcripts in multiple plant tissues at multiple stages of development, and increased accumulation of specific transcripts under low phosphorus availability. These data suggest the maize PAP family as a whole to have broad significance throughout the plant life cycle, while highlighting potential functional specialization of individual family members.",
+   "year": "2015"
+  },
+  {
+   "pmid": "24576457",
+   "title": "Targeted mutagenesis in Zea mays using TALENs and the CRISPR/Cas system.",
+   "abstract": "Transcription activator-like effector nucleases (TALENs) and clustered regularly interspaced short palindromic repeats (CRISPR)/CRISPR-associated (Cas) systems have emerged as powerful tools for genome editing in a variety of species. Here, we report, for the first time, targeted mutagenesis in Zea mays using TALENs and the CRISPR/Cas system. We designed five TALENs targeting 4 genes, namely ZmPDS, ZmIPK1A, ZmIPK, ZmMRP4, and obtained targeting efficiencies of up to 23.1% in protoplasts, and about 13.3% to 39.1% of the transgenic plants were somatic mutations. Also, we constructed two gRNAs targeting the ZmIPK gene in maize protoplasts, at frequencies of 16.4% and 19.1%, respectively. In addition, the CRISPR/Cas system induced targeted mutations in Z. mays protoplasts with efficiencies (13.1%) similar to those obtained with TALENs (9.1%). Our results show that both TALENs and the CRISPR/Cas system can be used for genome modification in maize.",
+   "year": "2014"
+  },
+  {
+   "pmid": "39179323",
+   "title": "Genome-wide characterization and expression profiling of FARL (FHY3/FAR1) family genes in Zea mays.",
+   "abstract": "A significant role of the plant is played by the transcription factor FARL, which is light signal transduction as well as plant growth and development. Despite being transposases, FARL has developed a variety of dominant biological actions in evolution and speciation. On the other hand, little is known about the Zea mays FARL protein family. This study identifies and characterizes fifteen ZmFARL genes genome-wide, and RNA sequencing data was used to profile their expression. 105 FARL proteins from five plant species were classified into five groups based on sequence alignment and phylogeny. The ZmFARL genes' exon-intron and motif distribution were conserved based on their evolutionary group. The fifteen ZmFARL genes were distributed over seven of the ten Z. mays chromosomes, although no duplication was discovered. Cis-element analysis reveals that ZmFARL genes play a variety of activities, including tissue-specific, stress- and hormone-responsive expressions. Furthermore, the results of the RNA sequencing used to profile expression showed that the genes ZmFARL2 and ZmFARL5 were much more expressed than other genes in various tissues, particularly in leaf characteristics. The identification of likely genes involved in cellular activity in Z. mays and related species will be aided by the characterization of the FARL genes.",
+   "year": "2024"
+  },
+  {
+   "pmid": "35720532",
+   "title": "Molybdenum Foliar Fertilization Improves Photosynthetic Metabolism and Grain Yields of Field-Grown Soybean and Maize.",
+   "abstract": "Foliar fertilization has been used as a supplemental strategy to plant nutrition especially in crops with high yield potential. Applying nutrients in small doses stimulates photosynthesis and increases yield performance. The aim of this study was to evaluate the efficiency of foliar application of molybdenum (Mo) to soybean and maize. The treatments consisted of the presence (+Mo) and absence (-Mo) of supplementation. Plant nutritional status, nitrate reductase (NR) activity, gas exchange parameters, photosynthetic enzyme activity (Rubisco in soybean and maize and PEPcase in maize), total soluble sugar concentration, leaf protein content, shoot dry matter, shoot nitrogen accumulated, number of grains per plant, mass of 100 grains, and grain yield were evaluated. For soybean and maize, application of Mo increased leaf NR activity, nitrogen and protein content, Rubisco activity, net photosynthesis, and grain yield. These results indicate that foliar fertilization with Mo can efficiently enhance nitrogen metabolism and the plant’s response to carbon fixation, resulting in improved crop yields.",
+   "year": "2022"
+  },
+  {
+   "pmid": "19279847",
+   "title": "Resistance in Zea mays to Heterodera zeae.",
+   "abstract": "Twenty-three precommercial field corn lines (Zea mays) were screened in the greenhouse and in vitro for the ability to support reproduction of Heterodera zeae. Although H. zeae reproduced on all corn lines, reproduction was only 0.4 to 4.5% on the five least suitable corn lines in greenhouse tests compared with the susceptible check line Pioneer brand 3184. The least suitable experimental line supported an average of 30 cysts plus females after 8 weeks growth, whereas the susceptible check, Pioneer brand 3184, averaged 8,183 cysts plus females per pot. Reproduction of H. zeae in in vitro root cultures of the 23 lines and susceptible check cultivar, Iochief, was too low to be of any value in detecting resistance to this nematode under the conditions of these tests.",
+   "year": "1993"
+  },
+  {
+   "pmid": "31792004",
+   "title": "Tripsazea, a Novel Trihybrid of Zea mays, Tripsacum dactyloides, and Zeaperennis.",
+   "abstract": "A trispecific hybrid, MTP (hereafter called tripsazea), was developed from intergeneric crosses involving tetraploid Zea mays (2n = 4x = 40, genome: MMMM), tetraploid Tripsacum dactyloides (2n = 4x = 72, TTTT), and tetraploid Zperennis (2n = 4x = 40, PPPP). On crossing maize-Tripsacum (2n = 4x = 56, MMTT) with Zperennis, 37 progenies with varying chromosome numbers (36-74) were obtained, and a special one (i.e., tripsazea) possessing 2n = 74 chromosomes was generated. Tripsazea is perennial and expresses phenotypic characteristics affected by its progenitor parent. Flow cytometry analysis of tripsazea and its parents showed that tripsazea underwent DNA sequence elimination during allohexaploidization. Of all the chromosomes in diakinesis I, 18.42% participated in heterogenetic pairing, including 16.43% between the M- and P-genomes, 1.59% between the M- and T-genomes, and 0.39% in T- and P-genome pairing. Tripsazea is male sterile and partly female fertile. In comparison with previously synthesized trihybrids containing maize, Tripsacum and teosinte, tripsazea has a higher chromosome number, higher seed setting rate, and vegetative propagation ability of stand and stem. However, few trihybrids possess these valuable traits at the same time. The potential of tripsazea is discussed with respect to the deployment of the genetic bridge for maize improvement and forage breeding.",
+   "year": "2020"
+  },
+  {
+   "pmid": "39065719",
+   "title": "Research on the Mechanism and Material Basis of Corn (Zea mays L.) Waste Regulating Dyslipidemia.",
+   "abstract": "Corn (Zea mays L.) is an essential gramineous food crop. Traditionally, corn wastes have primarily been used in feed, harmless processing, and industrial applications. Except for corn silk, these wastes have had limited medicinal uses. However, in recent years, scholars have increasingly studied the medicinal value of corn wastes, including corn silk, bracts, husks, stalks, leaves, and cobs. Hyperlipidemia, characterized by abnormal lipid and/or lipoprotein levels in the blood, is the most common form of dyslipidemia today. It is a significant risk factor for atherosclerosis and can lead to cardiovascular and cerebrovascular diseases if severe. According to the authors' literature survey, corn wastes play a promising role in regulating glucose and lipid metabolism. This article reviews the mechanisms and material basis of six different corn wastes in regulating dyslipidemia, aiming to provide a foundation for the research and development of these substances.",
+   "year": "2024"
+  },
+  {
+   "pmid": "17821141",
+   "title": "MASS MUTATION IN ZEA MAYS.",
+   "abstract": "",
+   "year": "1918"
+  },
+  {
+   "pmid": "33660393",
+   "title": "Seeing is believing: a visualization toolbox to enhance selection efficiency in maize genome editing.",
+   "abstract": "",
+   "year": "2021"
+  },
+  {
+   "pmid": "31725957",
+   "title": "Preparation of Chromosomes from Zea mays.",
+   "abstract": "High-quality preparations of chromosomes are useful for many purposes. To prepare metaphase chromosome spreads in maize, root tips are harvested and treated with nitrous oxide to stop cell division at metaphase before being fixed in acetic acid. This process allows a high number of condensed chromosome spreads to be obtained at the end of the procedure. To prepare chromosome spreads from various stages of meiosis, anthers are first fixed before being examined for developmental stage. Cells are digested with a mixture of enzymes before the chromosomes are dropped onto glass sides and fixed under UV light. © 2016 by John Wiley & Sons, Inc.",
+   "year": "2016"
+  },
+  {
+   "pmid": "37602279",
+   "title": "Stomatal pore width and area measurements in Zea mays.",
+   "abstract": "Stomatal pores are adjustable microscopic holes on the surface of photosynthetic tissues that help regulate multiple aspects of plant physiology. Stomatal pores facilitate gas exchange necessary for photosynthesis, water transport, and temperature regulation. Pore size is influenced by many intertwined environmental, molecular, cellular, and physiological cues. Accurate and precise measurements of pore size is important for understanding the mechanisms that adjust pores and plant physiology. Here we investigate whether conventional pore measurements of width are appropriate for the economically important crop plant Zea mays . Our studies demonstrate that pore area is a more sensitive measurement than width in this plant.",
+   "year": "2023"
+  },
+  {
+   "pmid": "28204583",
+   "title": "An evo-devo perspective on root genetic variation in cereals.",
+   "abstract": "",
+   "year": "2017"
+  },
+  {
+   "pmid": "1333722",
+   "title": "The Mu elements of Zea mays.",
+   "abstract": "",
+   "year": "1992"
+  },
+  {
+   "pmid": "39522176",
+   "title": "Powerful combination: a genome editing system to improve efficiency of breeding inducer and haploid sorting in maize.",
+   "abstract": "",
+   "year": "2025"
+  },
+  {
+   "pmid": "38705046",
+   "title": "Regulatory mechanisms used by ZmMYB39 to enhance drought tolerance in maize (Zea mays) seedlings.",
+   "abstract": "Drought is a significant abiotic stressor that limits maize (Zea mays L.) growth and development. Thus, enhancing drought tolerance is critical for promoting maize production. Our findings demonstrated that ZmMYB39 is an MYB transcription factor with transcriptional activation activity. Drought stress experiments involving ZmMYB39 overexpression and knockout lines indicated that ZmMYB39 positively regulated drought stress tolerance in maize. DAP-Seq, EMSA, dual-LUC, and RT-qPCR provided initial insights into the molecular regulatory mechanisms by which ZmMYB39 enhances drought tolerance in maize. ZmMYB39 directly promoted the expression of ZmP5CS1, ZmPOX1, ZmSOD2, ZmRD22, ZmNAC49, and ZmDREB2A, which are involved in stress resistance. ZmMYB39 enhanced drought tolerance by interacting with and promoting the expression of ZmFNR1, ZmHSP20, and ZmDOF6. Our study offers a theoretical basis for understanding the molecular regulatory networks involved in maize drought stress response. Furthermore, ZmMYB39 serves as a valuable genetic resource for breeding drought-resistant maize.",
+   "year": "2024"
+  },
+  {
+   "pmid": "34832655",
+   "title": "Hitching a Ride: Examining the Ability of a Specialist Baculovirus to Translocate through Its Insect Host's Food Plant.",
+   "abstract": "Plant vascular systems can translocate the entomopathogen Bacillus thuringiensis from the soil into plant tissues. However, whether other soil dwelling entomopathogens utilize plant vascular tissue for movement has not yet been fully explored. We used Spodoptera frugiperda multiple nucleopolyhedrovirus (SfMNPV) to evaluate whether baculoviruses, a common entomopathogen and bioinsecticide, can be transported through the plant vascular pathways of Zea mays. We found that our treatments did not allow a sufficient virus translocation into the plant to induce a lethal infection in insects, which was confirmed by a molecular analysis. While other entomopathogens translocate, baculoviruses may not be one of them.",
+   "year": "2021"
+  },
+  {
+   "pmid": "34205845",
+   "title": "Endophytic Bacteria Bacillus subtilis, Isolated from Zea mays, as Potential Biocontrol Agent against Botrytis cinerea.",
+   "abstract": "Plant diseases are one of the main factors responsible for food loss in the world, and 20-40% of such loss is caused by pathogenic infections. Botrytis cinerea is the most widely studied necrotrophic phytopathogenic fungus. It is responsible for incalculable economic losses due to the large number of host plants affected. Today, B. cinerea is controlled mainly by synthetic fungicides whose frequent application increases risk of resistance, thus making them unsustainable in terms of the environment and human health. In the search for new alternatives for the biocontrol of this pathogen, the use of endophytic microorganisms and their metabolites has gained momentum in recent years. In this work, we isolated endophytic bacteria from Zea mays cultivated in Colombia. Several strains of Bacillus subtilis, isolated and characterized in this work, exhibited growth inhibition against B. cinerea of more than 40% in in vitro cultures. These strains were characterized by studying several of their biochemical properties, such as production of lipopeptides, potassium solubilization, proteolytic and amylolytic capacity, production of siderophores, biofilm assays, and so on. We also analyzed: (i) its capacity to promote maize growth (Zea mays) in vivo, and (ii) its capacity to biocontrol B. cinerea during in vivo infection in plants (Phaseolus vulgaris).",
+   "year": "2021"
+  },
+  {
+   "pmid": "29601632",
+   "title": "Green leaf volatiles protect maize (Zea mays) seedlings against damage from cold stress.",
+   "abstract": "Although considerable evidence has accumulated on the defensive activity of plant volatile organic compounds against pathogens and insect herbivores, less is known about the significance of volatile organic compounds emitted by plants under abiotic stress. Here, we report that green leaf volatiles (GLVs), which were previously shown to prime plant defences against insect herbivore attack, also protect plants against cold stress (4 °C). We show that the expression levels of several cold stress-related genes are significantly up-regulated in maize (Zea mays) seedlings treated with physiological concentrations of the GLV, (Z)-3-hexen-1-yl acetate (Z-3-HAC), and that seedlings primed with Z-3-HAC exhibit increased growth and reduced damage after cold stress relative to unprimed seedlings. Together, these data demonstrate the protective and priming effect of GLVs against cold stress and suggest an activity of GLVs beyond the activation of typical plant defence responses against herbivores and pathogens.",
+   "year": "2018"
+  },
+  {
+   "pmid": "39300652",
+   "title": "In vitro assay and inhibition of 9-cis-epoxycarotenoid dioxygenase (NCED) from Solanum lycopersicum and Zea mays.",
+   "abstract": "The article reports methods for the expression and assay of 9-cis-epoxycarotenoid cleavage dioxygenase (NCED), an enzyme involved in the biosynthesis of phytohormone abscisic acid in plants. A method for the preparation of the unstable substrate 9'-cis-neoxanthin from fresh spinach is described. The inhibition of Solanum lycopersicum NCED by a series of aryl hydroxamic acid inhibitors is illustrated, and inhibitors D2 and D4 are assayed against NCED isozymes from Zea mays.",
+   "year": "2024"
+  }
+ ]
+}

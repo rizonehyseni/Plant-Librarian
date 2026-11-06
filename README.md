@@ -23,9 +23,16 @@ make eval                   # accuracy against eval/gold.csv
 No `make` (Windows)? Run the commands from the Makefile directly, e.g. `python -m pipeline.build`.
 
 The repo includes a **synthetic test fixture** and one real, open-access Sharr Mountains
-study (`data/raw/cross_cultural_sharr_2015.pdf`). The real study currently has three
-manually checked records in `data/cache/extract/cross_cultural_sharr_2015.json`; they are
-not Claude-generated output. The app hides the synthetic fixture from the demo.
+study (`data/raw/cross_cultural_sharr_2015.pdf`). The committed extraction cache contains
+74 Albanian-labelled medicinal-use rows across 51 plant taxa from Table 1. Each row is
+matched to its source PDF page; these are table-derived records, not Claude output. The
+paper reports 114 medicinal taxa across Albanian, Bosniak/Gorani, and Turkish communities,
+so the current dataset is still a subset. Other community rows and the separate food and
+handicraft tables are not loaded in the app. The app hides the synthetic fixture.
+
+Regenerate the Sharr table cache without an API key with `python -m pipeline.extract_sharr_table`.
+The script reads the committed article XML and PDF, keeps ALB-labelled plant rows, excludes
+fungi, and requires each record's table text to match a unique PDF page.
 
 ### What needs an API key
 

@@ -1,0 +1,26 @@
+{
+ "key": "Veratrum album L.",
+ "value": {
+  "usageKey": 2742119,
+  "scientificName": "Veratrum album L.",
+  "canonicalName": "Veratrum album",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Liliales",
+  "family": "Melanthiaceae",
+  "genus": "Veratrum",
+  "species": "Veratrum album",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 196,
+  "orderKey": 1172,
+  "familyKey": 7700,
+  "genusKey": 2742049,
+  "speciesKey": 2742119,
+  "class": "Liliopsida"
+ }
+}

@@ -1,0 +1,269 @@
+{
+ "key": "Robinia pseudoacacia",
+ "value": [
+  {
+   "compound": "robinetin",
+   "smiles": "C1=CC2=C(C=C1O)OC(=C(C2=O)O)C3=CC(=C(C(=C3)O)O)O"
+  },
+  {
+   "compound": "liquiritigenin",
+   "smiles": "C1C(OC2=C(C1=O)C=CC(=C2)O)C3=CC=C(C=C3)O"
+  },
+  {
+   "compound": "3,7,4'-trihydroxyflavone",
+   "smiles": "C1=CC(=CC=C1C2=C(C(=O)C3=C(O2)C=C(C=C3)O)O)O"
+  },
+  {
+   "compound": "isovestitol",
+   "smiles": "COC1=C(C=CC(=C1)O)C2CC3=C(C=C(C=C3)O)OC2"
+  },
+  {
+   "compound": "2-Aminobenzaldehyde",
+   "smiles": "C1=CC=C(C(=C1)C=O)N"
+  },
+  {
+   "compound": "butin",
+   "smiles": "C1C(OC2=C(C1=O)C=CC(=C2)O)C3=CC(=C(C=C3)O)O"
+  },
+  {
+   "compound": "typhasterol",
+   "smiles": "CC(C)C(C)C(C(C(C)C1CCC2C1(CCC3C2CC(=O)C4C3(CCC(C4)O)C)C)O)O"
+  },
+  {
+   "compound": "kaempferol-7-rhamnoside",
+   "smiles": "CC1C(C(C(C(O1)OC2=CC(=C3C(=C2)OC(=C(C3=O)O)C4=CC=C(C=C4)O)O)O)O)O"
+  },
+  {
+   "compound": "7,2'-Dihydroxy-3',4'-dimethoxyisoflavan",
+   "smiles": "OC1=CC=C2C(OCC(C3=CC=C(OC)C(OC)=C3O)C2)=C1"
+  },
+  {
+   "compound": "dihydrorobinetin",
+   "smiles": "O=C1C2=CC=C(O)C=C2OC(C3=CC(O)=C(O)C(O)=C3)C1O"
+  },
+  {
+   "compound": "Robtein",
+   "smiles": "O=C(C=CC1=CC(O)=C(O)C(O)=C1)C2=CC=C(O)C=C2O"
+  },
+  {
+   "compound": "Dihydrorobinetin",
+   "smiles": "O=C1C2=CC=C(O)C=C2OC(C3=CC(O)=C(O)C(O)=C3)C1O"
+  },
+  {
+   "compound": "2-(4-Methoxyphenyl)-4-oxo-5-hydroxy-4H-1-benzopyran-7-yl 2-O-(6-oxo-beta-D-glucopyranosyl)-6-O-(alpha-L-rhamnopyranosyl)-beta-D-glucopyranoside",
+   "smiles": "O=C(O)C1OC(OC2C(O)C(O)C(OC2OC3=CC(O)=C4C(=O)C=C(OC4=C3)C=5C=CC(OC)=CC5)COC6OC(C)C(O)C(O)C6O)C(O)C(O)C1O"
+  },
+  {
+   "compound": "Secundiflorol I",
+   "smiles": "OC1=CC=C2C(OCC3C4=CC(OC)=C(OC)C=C4OC23)=C1"
+  },
+  {
+   "compound": "Q105002498",
+   "smiles": "O=C(OC)C1OC(OC2CCC3(C)C(CCC4(C)C3CC=C5C6CC(C(=O)OC)(C)CC(O)C6(C)CCC54C)C2(C)CO)C(OC7OC(CO)C(O)C(O)C7OC8OC(C)C(O)C(O)C8O)C(O)C1O"
+  },
+  {
+   "compound": "Q105002499",
+   "smiles": "O=C(OC)C1OC(OC2CCC3(C)C(CCC4(C)C3CC=C5C6CC(C(=O)OC)(C)CC(O)C6(C)CCC54C)C2(C)CO)C(OC7OC(CO)C(O)C(O)C7OC8OC(C)C(O)C(O)C8O)C(O)C1O"
+  },
+  {
+   "compound": "Q104993690",
+   "smiles": "O=C(OC)C1OC(OC2CCC3(C)C4CC=C5C6CC(C)(COC7OC(COC8OCC(O)(CO)C8O)C(O)C(O)C7O)CC(O)C6(C)CCC5(C)C4(C)CCC3C2(C)CO)C(OC9OC(CO)C(O)C(O)C9OC%10OC(C)C(O)C(O)C%10O)C(O)C1O"
+  },
+  {
+   "compound": "Q104993691",
+   "smiles": "O=C(OC)C1OC(OC2CCC3(C)C4CC=C5C6CC(C)(COC7OC(COC8OCC(O)(CO)C8O)C(O)C(O)C7O)CC(O)C6(C)CCC5(C)C4(C)CCC3C2(C)CO)C(OC9OC(CO)C(O)C(O)C9OC%10OC(C)C(O)C(O)C%10O)C(O)C1O"
+  },
+  {
+   "compound": "Q105021452",
+   "smiles": "O=C(OC)C1OC(OC2CCC3(C)C(CCC4(C)C3CC=C5C6CC(C)(CO)CC(O)C6(C)CCC54C)C2(C)CO)C(OC7OC(CO)C(O)C(O)C7OC8OC(C)C(O)C(O)C8O)C(O)C1O"
+  },
+  {
+   "compound": "Q105021454",
+   "smiles": "O=C(OC)C1OC(OC2CCC3(C)C(CCC4(C)C3CC=C5C6CC(C)(CO)CC(O)C6(C)CCC54C)C2(C)CO)C(OC7OC(CO)C(O)C(O)C7OC8OC(C)C(O)C(O)C8O)C(O)C1O"
+  },
+  {
+   "compound": "Q105114961",
+   "smiles": "O=C(OC)C1OC(OC2CCC3(C)C(CCC4(C)C3CC=C5C6CC(C(=O)OC)(C)CC(O)C6(C)CCC54C)C2(C)C)C(OC7OC(CO)C(O)C(O)C7OC8OC(C)C(O)C(O)C8O)C(O)C1O"
+  },
+  {
+   "compound": "Q105114962",
+   "smiles": "O=C(OC)C1OC(OC2CCC3(C)C(CCC4(C)C3CC=C5C6CC(C(=O)OC)(C)CC(O)C6(C)CCC54C)C2(C)C)C(OC7OC(CO)C(O)C(O)C7OC8OC(C)C(O)C(O)C8O)C(O)C1O"
+  },
+  {
+   "compound": "Q105251001",
+   "smiles": "O=C(OC)C1OC(OC2CCC3(C)C(CCC4(C)C3CC=C5C6CC(C)(CO)CC(OC7OC(C)C(O)C(O)C7O)C6(C)CCC54C)C2(C)CO)C(OC8OC(CO)C(O)C(O)C8OC9OC(C)C(O)C(O)C9O)C(O)C1O"
+  },
+  {
+   "compound": "Q105251004",
+   "smiles": "O=C(OC)C1OC(OC2CCC3(C)C(CCC4(C)C3CC=C5C6CC(C)(CO)CC(OC7OC(C)C(O)C(O)C7O)C6(C)CCC54C)C2(C)CO)C(OC8OC(CO)C(O)C(O)C8OC9OC(C)C(O)C(O)C9O)C(O)C1O"
+  },
+  {
+   "compound": "Q105382914",
+   "smiles": "O=C(OC)C1OC(OC2CCC3(C)C(CCC4(C)C3CC=C5C6CC(C(=O)OC)(C)CC(OC7OC(C)C(O)C(O)C7O)C6(C)CCC54C)C2(C)CO)C(OC8OC(CO)C(O)C(O)C8OC9OC(C)C(O)C(O)C9O)C(O)C1O"
+  },
+  {
+   "compound": "Q105382915",
+   "smiles": "O=C(OC)C1OC(OC2CCC3(C)C(CCC4(C)C3CC=C5C6CC(C(=O)OC)(C)CC(OC7OC(C)C(O)C(O)C7O)C6(C)CCC54C)C2(C)CO)C(OC8OC(CO)C(O)C(O)C8OC9OC(C)C(O)C(O)C9O)C(O)C1O"
+  },
+  {
+   "compound": "3-[(2S,3R,4S,5S)-3,4-dihydroxy-5-[(1R)-1-hydroxy-2-[(2S,3S,4S,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyethyl]oxolan-2-yl]oxy-2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(C(O)COC3OC(C)C(O)C(O)C3O)C(O)C2O)=C(OC=4C=C(O)C=C(O)C14)C=5C=CC(O)=C(O)C5"
+  },
+  {
+   "compound": "3-[(2S,3S,4S,5R)-3,4-dihydroxy-5-[(1R)-1-hydroxy-2-[(2S,3S,4S,5S,6R)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyethyl]oxolan-2-yl]oxy-2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(C(O)COC3OC(C)C(O)C(O)C3O)C(O)C2O)=C(OC=4C=C(O)C=C(O)C14)C=5C=CC(O)=C(O)C5"
+  },
+  {
+   "compound": "p-anisaldehyde",
+   "smiles": "COC1=CC=C(C=C1)C=O"
+  },
+  {
+   "compound": "2-(4-Hydroxyphenyl)-4-oxo-5-hydroxy-4H-1-benzopyran-7-yl 2-O-(6-oxo-beta-D-glucopyranosyl)-6-O-(alpha-L-rhamnopyranosyl)-beta-D-glucopyranoside",
+   "smiles": "O=C(O)C1OC(OC2C(O)C(O)C(OC2OC3=CC(O)=C4C(=O)C=C(OC4=C3)C=5C=CC(O)=CC5)COC6OC(C)C(O)C(O)C6O)C(O)C(O)C1O"
+  },
+  {
+   "compound": "(3S)-5-[[(1R,2R)-2-[(1E,3Z)-4-carboxy-3-methylbuta-1,3-dienyl]-2-hydroxy-1-methyl-5-oxocyclohex-3-en-1-yl]methoxy]-3-hydroxy-3-methyl-5-oxopentanoic acid",
+   "smiles": "O=C(O)C=C(C=CC1(O)C=CC(=O)CC1(C)COC(=O)CC(O)(C)CC(=O)O)C"
+  },
+  {
+   "compound": "2-(3,4-Dihydroxyphenyl)-4-oxo-5-hydroxy-4H-1-benzopyran-7-yl 2-O-(6-oxo-beta-D-glucopyranosyl)-6-O-(alpha-L-rhamnopyranosyl)-beta-D-glucopyranoside",
+   "smiles": "O=C(O)C1OC(OC2C(O)C(O)C(OC2OC3=CC(O)=C4C(=O)C=C(OC4=C3)C=5C=CC(O)=C(O)C5)COC6OC(C)C(O)C(O)C6O)C(O)C(O)C1O"
+  },
+  {
+   "compound": "2-(4-Methoxyphenyl)-4-oxo-5-hydroxy-4H-1-benzopyran-7-yl 2-O-(beta-D-glucopyranosyl)-6-O-(alpha-L-rhamnopyranosyl)-beta-D-glucopyranoside",
+   "smiles": "O=C1C=C(OC2=CC(OC3OC(COC4OC(C)C(O)C(O)C4O)C(O)C(O)C3OC5OC(CO)C(O)C(O)C5O)=CC(O)=C12)C=6C=CC(OC)=CC6"
+  },
+  {
+   "compound": "1-O-(22beta-Hydroxyolean-12-en-3beta-yl)-2-O-[2-O-(6-deoxy-alpha-L-mannopyranosyl)-beta-D-galactopyranosyl]-beta-D-glucopyranuronic acid methyl ester",
+   "smiles": "O=C(OC)C1OC(OC2CCC3(C)C(CCC4(C)C3CC=C5C6CC(C)(C)CC(O)C6(C)CCC54C)C2(C)C)C(OC7OC(CO)C(O)C(O)C7OC8OC(C)C(O)C(O)C8O)C(O)C1O"
+  },
+  {
+   "compound": "3,4,5,2',4'-Pentahydroxychalcone",
+   "smiles": "O=C(C=CC1=CC(O)=C(O)C(O)=C1)C2=CC=C(O)C=C2O"
+  },
+  {
+   "compound": "2-(4-Methoxyphenyl)-4-oxo-5-hydroxy-4H-1-benzopyran-7-yl 2-O-(beta-D-xylopyranosyl)-6-O-(alpha-L-rhamnopyranosyl)-beta-D-glucopyranoside",
+   "smiles": "O=C1C=C(OC2=CC(OC3OC(COC4OC(C)C(O)C(O)C4O)C(O)C(O)C3OC5OCC(O)C(O)C5O)=CC(O)=C12)C=6C=CC(OC)=CC6"
+  },
+  {
+   "compound": "Robinlin",
+   "smiles": "O=C1C(=C(CCO)C(C)(C)CC1O)C"
+  },
+  {
+   "compound": "(2S)-7-hydroxy-2-(3,4,5-trihydroxyphenyl)-2,3-dihydro-1-benzopyran-4-one",
+   "smiles": "O=C1C2=CC=C(O)C=C2OC(C3=CC(O)=C(O)C(O)=C3)C1"
+  },
+  {
+   "compound": "1,1,4-Tris(5-acetyl-6-hydroxybenzofuran-2-yl)-7-hydroxy-8-acetyl-1,2,3,9bbeta-tetrahydrodibenzofuran",
+   "smiles": "O=C(C1=CC=2C=C(OC2C=C1O)C3=C4OC5=CC(O)=C(C=C5C4C(C=6OC=7C=C(O)C(=CC7C6)C(=O)C)(C=8OC=9C=C(O)C(=CC9C8)C(=O)C)CC3)C(=O)C)C"
+  },
+  {
+   "compound": "2-(3-Hydroxy-4-methoxyphenyl)-4-oxo-5-hydroxy-4H-1-benzopyran-7-yl 2-O-(6-oxo-beta-D-glucopyranosyl)-6-O-(alpha-L-rhamnopyranosyl)-beta-D-glucopyranoside",
+   "smiles": "O=C(O)C1OC(OC2C(O)C(O)C(OC2OC3=CC(O)=C4C(=O)C=C(OC4=C3)C=5C=CC(OC)=C(O)C5)COC6OC(C)C(O)C(O)C6O)C(O)C(O)C1O"
+  },
+  {
+   "compound": "(2S,3R)-3,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)-2,3-dihydrochromen-4-one",
+   "smiles": "O=C1C2=CC=C(O)C=C2OC(C3=CC(O)=C(O)C(O)=C3)C1O"
+  },
+  {
+   "compound": "5-Hydroxy-2-(4-methoxyphenyl)-7-[3,4,5-trihydroxy-6-[(3,4,5-trihydroxy-6-methyloxan-2-yl)oxymethyl]oxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C=C(OC2=CC(OC3OC(COC4OC(C)C(O)C(O)C4O)C(O)C(O)C3O)=CC(O)=C12)C=5C=CC(OC)=CC5"
+  },
+  {
+   "compound": "fustin",
+   "smiles": "C1=CC(=C(C=C1C2C(C(=O)C3=C(O2)C=C(C=C3)O)O)O)O"
+  },
+  {
+   "compound": "2-Hexenal",
+   "smiles": "O=CC=CCCC"
+  },
+  {
+   "compound": "(2E)-2-hexenal",
+   "smiles": "CCCC=CC=O"
+  },
+  {
+   "compound": "(±)-β-citronellol",
+   "smiles": "CC(CCC=C(C)C)CCO"
+  },
+  {
+   "compound": "1-(2,4-Dihydroxyphenyl)-3-(3,4-dihydroxyphenyl)-2-propen-1-one",
+   "smiles": "C1=CC(=C(C=C1C=CC(=O)C2=C(C=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "GU17;ISL;Isoliquiritigen",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)C2=C(C=C(C=C2)O)O)O"
+  },
+  {
+   "compound": "nerol",
+   "smiles": "CC(=CCCC(=CCO)C)C"
+  },
+  {
+   "compound": "linalool",
+   "smiles": "CC(=CCCC(C)(C=C)O)C"
+  },
+  {
+   "compound": "isoliquiritigenin",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)C2=C(C=C(C=C2)O)O)O"
+  },
+  {
+   "compound": "acacetin",
+   "smiles": "COC1=CC=C(C=C1)C2=CC(=O)C3=C(C=C(C=C3O2)O)O"
+  },
+  {
+   "compound": "6-deoxocastasterone",
+   "smiles": "CC(C)C(C)C(C(C(C)C1CCC2C1(CCC3C2CCC4C3(CC(C(C4)O)O)C)C)O)O"
+  },
+  {
+   "compound": "castasterone",
+   "smiles": "CC(C)C(C)C(C(C(C)C1CCC2C1(CCC3C2CC(=O)C4C3(CC(C(C4)O)O)C)C)O)O"
+  },
+  {
+   "compound": "linarin",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=CC(=C4C(=C3)OC(=CC4=O)C5=CC=C(C=C5)OC)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "phenylethyl alcohol",
+   "smiles": "C1=CC=C(C=C1)CCO"
+  },
+  {
+   "compound": "benzaldehyde",
+   "smiles": "C1=CC=C(C=C1)C=O"
+  },
+  {
+   "compound": "(±)-limonene",
+   "smiles": "CC1=CCC(CC1)C(=C)C"
+  },
+  {
+   "compound": "geraniol",
+   "smiles": "CC(=CCCC(=CCO)C)C"
+  },
+  {
+   "compound": "benzyl alcohol",
+   "smiles": "C1=CC=C(C=C1)CO"
+  },
+  {
+   "compound": "butein",
+   "smiles": "C1=CC(=C(C=C1C=CC(=O)C2=C(C=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "alpha-pinene",
+   "smiles": "CC1=CCC2CC1C2(C)C"
+  },
+  {
+   "compound": "alpha-terpineol",
+   "smiles": "CC1=CCC(CC1)C(C)(C)O"
+  },
+  {
+   "compound": "mucronulatol",
+   "smiles": "COC1=C(C(=C(C=C1)C2CC3=C(C=C(C=C3)O)OC2)OC)O"
+  },
+  {
+   "compound": "canavanine",
+   "smiles": "C(CON=C(N)N)C(C(=O)O)N"
+  },
+  {
+   "compound": "abscisic acid",
+   "smiles": "CC1=CC(=O)CC(C1(C=CC(=CC(=O)O)C)O)(C)C"
+  }
+ ]
+}

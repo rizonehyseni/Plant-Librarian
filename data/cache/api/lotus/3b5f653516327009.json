@@ -1,0 +1,237 @@
+{
+ "key": "Lycopodium clavatum",
+ "value": [
+  {
+   "compound": "9'-cis-neoxanthin",
+   "smiles": "CC(=C(C(=C(C(=C(C)C(=C(C(=C(C)C(=C(C12C(C)(C)CC(CC1(C)O2)(O)[H])[H])[H])[H])[H])[H])[H])[H])[H])[H])C(=C(C(=C(C)C(=C=C3C(C)(C)CC(CC3(C)O)(O)[H])[H])[H])[H])[H]"
+  },
+  {
+   "compound": "neoxanthin",
+   "smiles": "OC1CC(O)(C(=C=CC(=CC=CC(=CC=CC=C(C=CC=C(C=CC23OC3(C)CC(O)CC2(C)C)C)C)C)C)C(C)(C)C1)C"
+  },
+  {
+   "compound": "lycopodine",
+   "smiles": "CC1CC2CC(=O)C3CCCN4C3(C1)C2CCC4"
+  },
+  {
+   "compound": "rhodoxanthin",
+   "smiles": "CC1=CC(=O)CC(C1=CC=C(C)C=CC=C(C)C=CC=CC(=CC=CC(=CC=C2C(=CC(=O)CC2(C)C)C)C)C)(C)C"
+  },
+  {
+   "compound": "lutein",
+   "smiles": "CC1=C(C(CC(C1)O)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2C(=CC(CC2(C)C)O)C)C)C"
+  },
+  {
+   "compound": "12-Epilycopodine",
+   "smiles": "O=C1CC2CC(C)CC34N(CCCC13)CCCC24"
+  },
+  {
+   "compound": "(1S,6R,8R,11R,12S,15S,16R,19R,20S,21R)-20-(hydroxymethyl)-1,7,7,11,16,20-hexamethylpentacyclo[13.8.0.0³,¹².0⁶,¹¹.0¹⁶,²¹]tricos-3-ene-8,19-diol",
+   "smiles": "OCC1(C)C(O)CCC2(C)C3CCC4C(=CCC5C(C)(C)C(O)CCC45C)CC3(C)CCC12"
+  },
+  {
+   "compound": "(6S,7Ar)-2-[(2E,4E,6E,8E,10E,12E,14E,16E)-17-[(4R)-4-hydroxy-2,6,6-trimethylcyclohexen-1-yl]-6,11,15-trimethylheptadeca-2,4,6,8,10,12,14,16-octaen-2-yl]-4,4,7a-trimethyl-2,5,6,7-tetrahydro-1-benzofuran-6-ol",
+   "smiles": "OC1CC(=C(C=CC(=CC=CC(=CC=CC=C(C=CC=C(C)C2OC3(C(=C2)C(C)(C)CC(O)C3)C)C)C)C)C(C)(C)C1)C"
+  },
+  {
+   "compound": "(1S,6R,8S,11R,12S,15S,16R,19S,20S,21R)-20-(hydroxymethyl)-1,7,7,11,16,20-hexamethylpentacyclo[13.8.0.0³,¹².0⁶,¹¹.0¹⁶,²¹]tricos-3-ene-8,19-diol",
+   "smiles": "OCC1(C)C(O)CCC2(C)C3CCC4C(=CCC5C(C)(C)C(O)CCC45C)CC3(C)CCC12"
+  },
+  {
+   "compound": "15-Methyl-6-azatetracyclo[8.6.0.01,6.02,13]hexadecan-11-ol",
+   "smiles": "OC1CC2CC(C)CC34N(CCCC13)CCCC24"
+  },
+  {
+   "compound": "alpha-Onocerol",
+   "smiles": "OC1CCC2(C)C(C(=C)CCC2C1(C)C)CCC3C(=C)CCC4C(C)(C)C(O)CCC34C"
+  },
+  {
+   "compound": "(1R,2R,10R,13S,15R)-15-methyl-6-azatetracyclo[8.6.0.01,6.02,13]hexadecan-11-one",
+   "smiles": "O=C1CC2CC(C)CC34N(CCCC13)CCCC24"
+  },
+  {
+   "compound": "10-Hydroxy-15-methyl-6-azatetracyclo[8.6.0.01,6.02,13]hexadecan-11-one",
+   "smiles": "O=C1CC2CC(C)CC34N(CCCC23)CCCC14O"
+  },
+  {
+   "compound": "Apigenin 4'-O-(2'',6''-di-O-E-p-coumaroyl)glucoside",
+   "smiles": "O=C(OCC1OC(OC=2C=CC(=CC2)C=3OC=4C=C(O)C=C(O)C4C(=O)C3)C(OC(=O)C=CC5=CC=C(O)C=C5)C(O)C1O)C=CC6=CC=C(O)C=C6"
+  },
+  {
+   "compound": "1,9-Ethanobenzo[i]quinolizin-14-one, dodecahydro-8a-hydroxy-11-methyl-, (1S,8aR,9S,11R,12aS)-",
+   "smiles": "O=C1CC2CC(C)CC34N(CCCC13)CCCC24O"
+  },
+  {
+   "compound": "(1S,6R,8R,11R,12S,15S,16R,19S,21R)-1,7,7,11,16,20,20-heptamethylpentacyclo[13.8.0.0³,¹².0⁶,¹¹.0¹⁶,²¹]tricos-3-ene-8,19-diol",
+   "smiles": "OC1CCC2(C)C3C(=CCC2C1(C)C)CC4(C)CCC5C(C)(C)C(O)CCC5(C)C4CC3"
+  },
+  {
+   "compound": "Diepiserratenediol",
+   "smiles": "OC1CCC2(C)C3C(=CCC2C1(C)C)CC4(C)CCC5C(C)(C)C(O)CCC5(C)C4CC3"
+  },
+  {
+   "compound": "(14-Acetyloxy-15-methyl-6-azatetracyclo[8.6.0.01,6.02,13]hexadecan-11-yl) acetate",
+   "smiles": "O=C(OC1CC2C(OC(=O)C)C(C)CC34N(CCCC13)CCCC24)C"
+  },
+  {
+   "compound": "(14-Hydroxy-15-methyl-6-azatetracyclo[8.6.0.01,6.02,13]hexadecan-11-yl) acetate",
+   "smiles": "O=C(OC1CC2C(O)C(C)CC34N(CCCC13)CCCC24)C"
+  },
+  {
+   "compound": "(1R,4aR,6S,8aS)-1-{2-[(1S,4aR,6S,8aR)-6-hydroxy-5,5,8a-trimethyl-2-methylidene-hexahydro-1H-naphthalen-1-yl]ethyl}-6-hydroxy-5,5,8a-trimethyl-hexahydro-1H-naphthalen-2-one",
+   "smiles": "O=C1CCC2C(C)(C)C(O)CCC2(C)C1CCC3C(=C)CCC4C(C)(C)C(O)CCC34C"
+  },
+  {
+   "compound": "[(1R,2R,10S,11R,13S,14R,15S)-14-acetyloxy-15-methyl-6-azatetracyclo[8.6.0.01,6.02,13]hexadecan-11-yl] acetate",
+   "smiles": "O=C(OC1CC2C(OC(=O)C)C(C)CC34N(CCCC13)CCCC24)C"
+  },
+  {
+   "compound": "[(1R,2R,10S,11R,13S,14R,15S)-14-hydroxy-15-methyl-6-azatetracyclo[8.6.0.01,6.02,13]hexadecan-11-yl] acetate",
+   "smiles": "O=C(OC1CC2C(O)C(C)CC34N(CCCC13)CCCC24)C"
+  },
+  {
+   "compound": "[(1S,2R,10R,11R,13R,14R,15S)-14-hydroxy-15-methyl-6-azatetracyclo[8.6.0.01,6.02,13]hexadecan-11-yl] acetate",
+   "smiles": "O=C(OC1CC2C(O)C(C)CC34N(CCCC13)CCCC24)C"
+  },
+  {
+   "compound": "(1S,2R,4S,6S)-2-hydroxy-4-methyl-13-azatetracyclo[7.7.0.01,6.02,13]hexadec-9-en-8-one",
+   "smiles": "O=C1C2=CCCN3CCCC24C(C1)CC(C)CC34O"
+  },
+  {
+   "compound": "(1S,2S,5R,6R,9S)-2-hydroxy-5-methyl-13-azatetracyclo[7.7.0.01,6.02,13]hexadecan-8-one",
+   "smiles": "O=C1CC2C(C)CCC3(O)N4CCCC1C23CCC4"
+  },
+  {
+   "compound": "7-[[2-O,6-O-Bis(4-hydroxy-trans-cinnamoyl)-beta-D-glucopyranosyl]oxy]-4',5-dihydroxyflavone",
+   "smiles": "O=C(OCC1OC(OC2=CC(O)=C3C(=O)C=C(OC3=C2)C=4C=CC(O)=CC4)C(OC(=O)C=CC5=CC=C(O)C=C5)C(O)C1O)C=CC6=CC=C(O)C=C6"
+  },
+  {
+   "compound": "(1S,9R,10S,16S)-14,16-dimethyl-6,14-diazatetracyclo[7.5.3.01,10.02,7]heptadec-2(7)-en-5-one",
+   "smiles": "CC1CC2CC3=C(CCC(=O)N3)C3(C1)C2CCCN3C"
+  },
+  {
+   "compound": "14,16-Dimethyl-6,14-diazatetracyclo[7.5.3.01,10.02,7]heptadec-2(7)-en-5-one",
+   "smiles": "CC1CC2CC3=C(CCC(=O)N3)C3(C1)C2CCCN3C"
+  },
+  {
+   "compound": "(1S,2S,10R,11R,13R,15S)-15-methyl-6-azatetracyclo[8.6.0.01,6.02,13]hexadecan-11-ol",
+   "smiles": "OC1CC2CC(C)CC34N(CCCC13)CCCC24"
+  },
+  {
+   "compound": "(1R,2R,10S,13S,14S,15S)-14-hydroxy-15-methyl-6-azatetracyclo[8.6.0.01,6.02,13]hexadecan-11-one",
+   "smiles": "O=C1CC2C(O)C(C)CC34N(CCCC13)CCCC24"
+  },
+  {
+   "compound": "(1S,2R,10R,13R,14S,15R)-14-hydroxy-15-methyl-6-azatetracyclo[8.6.0.01,6.02,13]hexadecan-11-one",
+   "smiles": "O=C1CC2C(O)C(C)CC34N(CCCC13)CCCC24"
+  },
+  {
+   "compound": "14-Hydroxy-15-methyl-6-azatetracyclo[8.6.0.01,6.02,13]hexadecan-11-one",
+   "smiles": "O=C1CC2C(O)C(C)CC34N(CCCC13)CCCC24"
+  },
+  {
+   "compound": "4-Hydroxybenzoic acid 2-O-[(E)-3-(3-methoxy-4-hydroxyphenyl)acryloyl]-6-O-[(E)-3-(4-hydroxyphenyl)acryloyl]-beta-D-glucopyranosyl ester",
+   "smiles": "O=C(OCC1OC(OC(=O)C2=CC=C(O)C=C2)C(OC(=O)C=CC3=CC=C(O)C(OC)=C3)C(O)C1O)C=CC4=CC=C(O)C=C4"
+  },
+  {
+   "compound": "alpha-onocerin",
+   "smiles": "OC1CCC2(C)C(C(=C)CCC2C1(C)C)CCC3C(=C)CCC4C(C)(C)C(O)CCC34C"
+  },
+  {
+   "compound": "(1S,2R,4S,6S)-2,4-dihydroxy-4-methyl-13-azatetracyclo[7.7.0.01,6.02,13]hexadec-9-en-8-one",
+   "smiles": "O=C1C2=CCCN3CCCC24C(C1)CC(O)(C)CC34O"
+  },
+  {
+   "compound": "16-Oxoserratriol",
+   "smiles": "O=C1C=C2CC3(C)CCC4C(C)(CO)C(O)CCC4(C)C3CCC2C5(C)CCC(O)C(C)(C)C15"
+  },
+  {
+   "compound": "(1S,6R,8S,9R,11R,12S,15S,16R,19R,20S,21R)-8,9,19-trihydroxy-20-(hydroxymethyl)-1,7,7,11,16,20-hexamethylpentacyclo[13.8.0.03,12.06,11.016,21]tricos-3-en-5-one",
+   "smiles": "O=C1C=C2CC3(C)CCC4C(C)(CO)C(O)CCC4(C)C3CCC2C5(C)CC(O)C(O)C(C)(C)C15"
+  },
+  {
+   "compound": "(1R,2R,10S,11R,13S,14R,15S)-15-methyl-6-azatetracyclo[8.6.0.01,6.02,13]hexadecane-11,14-diol",
+   "smiles": "OC1CC2C(O)C(C)CC34N(CCCC13)CCCC24"
+  },
+  {
+   "compound": "(1S,9R,10S,16S)-16-methyl-6,14-diazatetracyclo[7.5.3.01,10.02,7]heptadec-2(7)-en-5-one",
+   "smiles": "CC1CC2CC3=C(CCC(=O)N3)C3(C1)NCCCC23"
+  },
+  {
+   "compound": "(1S,4R,6R,9R)-6-methyl-13-azatetracyclo[11.3.1.01,9.04,9]heptadecane-2,8-dione",
+   "smiles": "O=C1CC2CC(C)CC(=O)C32CCCN4CCCC13C4"
+  },
+  {
+   "compound": "14,16-Dimethyl-6,14-diazatetracyclo[7.5.3.01,10.02,7]heptadeca-2(7),3-dien-5-one",
+   "smiles": "OC=1N=C2C(=CC1)C34N(C)CCCC4C(C2)CC(C)C3"
+  },
+  {
+   "compound": "3-exo-Methyl-2-norbornanon",
+   "smiles": "OCC1(C)C(O)CCC2(C)C3CCC4C(=CCC5C(C)(C)C(O)CCC45C)CC3(C)CCC12"
+  },
+  {
+   "compound": "(1S,6R,8R,11R,12S,15S,16R,19R,21R)-8,19-dihydroxy-1,7,7,11,16,20,20-heptamethylpentacyclo[13.8.0.0³,¹².0⁶,¹¹.0¹⁶,²¹]tricos-3-en-5-one",
+   "smiles": "O=C1C=C2CC3(C)CCC4C(C)(C)C(O)CCC4(C)C3CCC2C5(C)CCC(O)C(C)(C)C15"
+  },
+  {
+   "compound": "(1S,6R,8S,11R,12S,15S,16R,19S,21R)-8,19-dihydroxy-1,7,7,11,16,20,20-heptamethylpentacyclo[13.8.0.03,12.06,11.016,21]tricos-3-en-5-one",
+   "smiles": "O=C1C=C2CC3(C)CCC4C(C)(C)C(O)CCC4(C)C3CCC2C5(C)CCC(O)C(C)(C)C15"
+  },
+  {
+   "compound": "16-Oxo-21-episerratenediol",
+   "smiles": "O=C1C=C2CC3(C)CCC4C(C)(C)C(O)CCC4(C)C3CCC2C5(C)CCC(O)C(C)(C)C15"
+  },
+  {
+   "compound": "21beta-Hydroxy-beta-serrata-14-ene-3-one",
+   "smiles": "O=C1CCC2(C)C(CCC3(C)CC4=CCC5C(C)(C)C(O)CCC5(C)C4CCC32)C1(C)C"
+  },
+  {
+   "compound": "2-[3-Methoxy-4-[[2-O-[(E)-3-(4-hydroxyphenyl)acryloyl]-6-O-[(Z)-3-(4-hydroxyphenyl)acryloyl]-beta-D-glucopyranosyl]oxy]phenyl]-5,7-dihydroxy-4H-1-benzopyran-4-one",
+   "smiles": "O=C(OCC1OC(OC=2C=CC(=CC2OC)C=3OC=4C=C(O)C=C(O)C4C(=O)C3)C(OC(=O)C=CC5=CC=C(O)C=C5)C(O)C1O)C=CC6=CC=C(O)C=C6"
+  },
+  {
+   "compound": "2-[3-Methoxy-4-[[2-O,6-O-bis[(E)-3-(4-hydroxyphenyl)acryloyl]-beta-D-glucopyranosyl]oxy]phenyl]-5,7-dihydroxy-4H-1-benzopyran-4-one",
+   "smiles": "O=C(OCC1OC(OC=2C=CC(=CC2OC)C=3OC=4C=C(O)C=C(O)C4C(=O)C3)C(OC(=O)C=CC5=CC=C(O)C=C5)C(O)C1O)C=CC6=CC=C(O)C=C6"
+  },
+  {
+   "compound": "taraxanthin",
+   "smiles": "CC1=CC(CC(C1C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC23C(CC(CC2(O3)C)O)(C)C)C)C)(C)C)O"
+  },
+  {
+   "compound": "violaxanthin",
+   "smiles": "CC(=CC=CC=C(C)C=CC=C(C)C=CC12C(CC(CC1(O2)C)O)(C)C)C=CC=C(C)C=CC34C(CC(CC3(O4)C)O)(C)C"
+  },
+  {
+   "compound": "9'-cis-neoxanthin",
+   "smiles": "OC1CC(O)(C(=C=CC(=CC=CC(=CC=CC=C(C=CC=C(C=CC23OC3(C)CC(O)CC2(C)C)C)C)C)C)C(C)(C)C1)C"
+  },
+  {
+   "compound": "Fawcettimine",
+   "smiles": "CC1CC2CC(=O)C3C24CCCN(C4(C1)O)CCC3"
+  },
+  {
+   "compound": "3-(3,4-dihydroxyphenyl) propionic acid",
+   "smiles": "C1=CC(=C(C=C1CCC(=O)O)O)O"
+  },
+  {
+   "compound": "cryptoxanthin",
+   "smiles": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CC(CC2(C)C)O)C)C)C"
+  },
+  {
+   "compound": "serratenediol",
+   "smiles": "OC1CCC2(C)C3C(=CCC2C1(C)C)CC4(C)CCC5C(C)(C)C(O)CCC5(C)C4CC3"
+  },
+  {
+   "compound": "cholesterol",
+   "smiles": "CC(C)CCCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C"
+  },
+  {
+   "compound": "zeaxanthin",
+   "smiles": "CC1=C(C(CC(C1)O)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CC(CC2(C)C)O)C)C)C"
+  },
+  {
+   "compound": "β-carotene",
+   "smiles": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C"
+  }
+ ]
+}

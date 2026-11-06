@@ -1,0 +1,26 @@
+{
+ "key": "Pinus nigra J.F. Arnold.",
+ "value": {
+  "usageKey": 5284809,
+  "scientificName": "Pinus nigra J.F.Arnold",
+  "canonicalName": "Pinus nigra",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Pinales",
+  "family": "Pinaceae",
+  "genus": "Pinus",
+  "species": "Pinus nigra",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 194,
+  "orderKey": 640,
+  "familyKey": 3925,
+  "genusKey": 2684241,
+  "speciesKey": 5284809,
+  "class": "Pinopsida"
+ }
+}

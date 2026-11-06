@@ -1,0 +1,26 @@
+{
+ "key": "Ulmus minor Mill.",
+ "value": {
+  "usageKey": 5361865,
+  "scientificName": "Ulmus minor Mill.",
+  "canonicalName": "Ulmus minor",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Rosales",
+  "family": "Ulmaceae",
+  "genus": "Ulmus",
+  "species": "Ulmus minor",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 691,
+  "familyKey": 2382,
+  "genusKey": 2984510,
+  "speciesKey": 5361865,
+  "class": "Magnoliopsida"
+ }
+}

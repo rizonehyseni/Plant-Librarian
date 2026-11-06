@@ -1,0 +1,245 @@
+{
+ "key": "Avena sativa",
+ "value": [
+  {
+   "pmid": "37492342",
+   "title": "Nutritional and Phytochemical Composition and Associated Health Benefits of Oat (Avena sativa) Grains and Oat-Based Fermented Food Products.",
+   "abstract": "Oats (Avena sativa L.) are a popular functional cereal grain due to their numerous health benefits. This review article summarized the information on the chemical composition and phytonutrients of oats grown in different countries. It also reviewed recently developed fermented oat products to highlight their potential for human health. Oats have an interesting nutritional profile that includes high-quality protein, unsaturated fats, soluble fiber, polyphenolic compounds, and micronutrients. Oat grain has a unique protein composition, with globulins serving as the primary storage protein, in contrast to other cereals, where prolamins are the main storage proteins. Oats have the highest fat content of any cereal, with low saturated fatty acids and high essential unsaturated fatty acid content, which can help reduce the risk of cardiovascular diseases. Oats are a good source of soluble dietary fiber, particularly β-glucan, which has outstanding functional properties and is extremely important in human nutrition. β-Glucan has been shown to lower blood cholesterol and glucose absorption in the intestine, thereby preventing diseases such as cardiovascular injury, dyslipidemia, hypertension, inflammatory state, and type 2 diabetes. Oats also contain high concentration of antioxidant compounds. Avenanthramides, which are unique to oats, are powerful antioxidants with high antioxidative activity in humans. Recognizing the nutritional benefits of oats, oat-based fermented food products are gaining popularity as functional foods with high probiotic potential.",
+   "year": "2023"
+  },
+  {
+   "pmid": "25607907",
+   "title": "Anti-inflammatory activities of colloidal oatmeal (Avena sativa) contribute to the effectiveness of oats in treatment of itch associated with dry, irritated skin.",
+   "abstract": "Oat (Avena sativa) in colloidal form is a centuries-old topical treatment for a variety of skin conditions, including skin rashes, erythema, burns, itch, and eczema; however, few studies have investigated the exact mechanism of action for the anti-inflammatory activity of colloidal oatmeal. Four extracts of colloidal oatmeal were made with various solvents and tested in anti-inflammatory and antioxidant assays. In addition, an investigator blind study was performed with twenty-nine healthy female subjects who exhibited bilateral mild to moderate itch with moderate to severe dry skin on their lower legs. Subjects were treated with a colloidal oatmeal skin protectant lotion. Extracts of colloidal oatmeal diminished pro-inflammatory cytokines in vitro and the colloidal oat skin protectant lotion showed significant clinical improvements in skin dryness, scaling, roughness, and itch intensity. These results demonstrate that colloidal oat extracts exhibit direct anti-oxidant and anti-inflammatory activities, which may provide the mechanisms for observed dermatological benefits while using the colloidal oatmeal skin protectant lotion.",
+   "year": "2015"
+  },
+  {
+   "pmid": "41741944",
+   "title": "In-planta Agrobacterium-mediated cereal transformation-InPACT.",
+   "abstract": "We present a simple, efficient, and genotype-flexible method for transformation of small grain cereals. The method is named In-planta Agrobacterium-mediated cereal transformation, or InPACT. We demonstrate the genotype flexibility of InPACT through successful transformation of 32 different wheat genotypes: 29 hexaploid (Triticum aestivum) and 3 tetraploid durum (Triticum durum) wheat accessions showing global adaptation. Experiments performed by experienced users and learners demonstrate that InPACT is highly reproducible, as both groups were able to generate transgenic wheat without difficulty. We further explored the utility of InPACT in other cereal crops and successfully transformed 3 barley (Hordeum vulgare), 2 oat (Avena sativa), and 1 rice (Oryza sativa) germplasms.",
+   "year": "2026"
+  },
+  {
+   "pmid": "34270039",
+   "title": "Oat (Avena sativa L.) Anther Culture.",
+   "abstract": "Production of doubled haploids (DHs) by androgenesis is a promising and convenient alternative to traditionally used breeding techniques. Low response of anther culture and strong genotype dependency in the development of embryo-like structures (ELS) was reported for oat (Avena sativa L.). Total homozygosity has been reached in one generation. This chapter describes a step-by-step protocol that can be useful for androgenesis studies and oat DH line production through anther culture.",
+   "year": "2021"
+  },
+  {
+   "pmid": "27511162",
+   "title": "C-Banding of Plant Chromosomes.",
+   "abstract": "C-banding is used to differentially stain metaphase chromosomes in organisms having appreciable amounts of constitutive heterochromatin. Its primary benefits are that it is an inexpensive and a relatively fast method of identifying individual chromosomes and morphological or karyotypic variation, including large chromosomal rearrangements and aneuploidies. We currently employ this technique with considerable effect in genome analysis of oat (Avena sativa) and related grass species, though it has been most extensively used for chromosome analysis of wheat (Triticum aestivum) and its relatives of the Triticeae.",
+   "year": "2016"
+  },
+  {
+   "pmid": "26513473",
+   "title": "Optical Control of Peroxisomal Trafficking.",
+   "abstract": "The blue-light-responsive LOV2 domain of Avena sativa phototropin1 (AsLOV2) has been used to regulate activity and binding of diverse protein targets with light. Here, we used AsLOV2 to photocage a peroxisomal targeting sequence, allowing light regulation of peroxisomal protein import. We generated a protein tag, LOV-PTS1, that can be appended to proteins of interest to direct their import to the peroxisome with light. This method provides a means to inducibly trigger peroxisomal protein trafficking in specific cells at user-defined times.",
+   "year": "2016"
+  },
+  {
+   "pmid": "37069607",
+   "title": "The convergent application of metabolites from Avena sativa and gut microbiota to ameliorate non-alcoholic fatty liver disease: a network pharmacology study.",
+   "abstract": "Non-alcoholic fatty liver disease (NAFLD) is a serious public health issue globally, currently, the treatment of NAFLD lies still in the labyrinth. In the inchoate stage, the combinatorial application of food regimen and favorable gut microbiota (GM) are considered as an alternative therapeutic. Accordingly, we integrated secondary metabolites (SMs) from GM and Avena sativa (AS) known as potent dietary grain to identify the combinatorial efficacy through network pharmacology. We browsed the SMs of AS via Natural Product Activity & Species Source (NPASS) database and SMs of GM were retrieved by gutMGene database. Then, specific intersecting targets were identified from targets related to SMs of AS and GM. The final targets were selected on NAFLD-related targets, which was considered as crucial targets. The protein-protein interaction (PPI) networks and bubble chart analysis to identify a hub target and a key signaling pathway were conducted, respectively. In parallel, we analyzed the relationship of GM or AS─a key signaling pathway─targets─SMs (GASTM) by merging the five components via RPackage. We identified key SMs on a key signaling pathway via molecular docking assay (MDA). Finally, the identified key SMs were verified the physicochemical properties and toxicity in silico platform. The final 16 targets were regarded as critical proteins against NAFLD, and Vascular Endothelial Growth Factor A (VEGFA) was a key target in PPI network analysis. The PI3K-Akt signaling pathway was the uppermost mechanism associated with VEGFA as an antagonistic mode. GASTM networks represented 122 nodes (60 GM, AS, PI3K-Akt signaling pathway, 4 targets, and 56 SMs) and 154 edges. The VEGFA-myricetin, or quercetin, GSK3B-myricetin, IL2-diosgenin complexes formed the most stable conformation, the three ligands were derived from GM. Conversely, NR4A1-vestitol formed stable conformation with the highest affinity, and the vestitol was obtained from AS. The given four SMs were no hurdles to develop into drugs devoid of its toxicity. In conclusion, we show that combinatorial application of AS and GM might be exerted to the potent synergistic effects against NAFLD, dampening PI3K-Akt signaling pathway. This work provides the importance of dietary strategy and beneficial GM on NAFLD, a data mining basis for further explicating the SMs and pharmacological mechanisms of combinatorial application (AS and GM) against NAFLD.",
+   "year": "2023"
+  },
+  {
+   "pmid": "38258524",
+   "title": "Phenolic amides (avenanthramides) in oats - an update review.",
+   "abstract": "Oats (Avena sativa L.) are one of the worldwide cereal crops. Avenanthramides (AVNs), the unique plant alkaloids of secondary metabolites found in oats, are nutritionally important for humans and animals. Numerous bioactivities of AVNs have been investigated and demonstrated in vivo and in vitro. Despite all these, researchers from all over the world are taking efforts to learn more knowledge about AVNs. In this work, we highlighted the recent updated findings that have increased our understanding of AVNs bioactivity, distribution, and especially the AVNs biosynthesis. Since the limits content of AVNs in oats strictly hinders the demand, understanding the mechanisms underlying AVN biosynthesis is important not only for developing a renewable, sustainable, and environmentally friendly source in both plants and microorganisms but also for designing effective strategies for enhancing their production via induction and metabolic engineering. Future directions for improving AVN production in native producers and heterologous systems for food and feed use are also discussed. This summary will provide a broad view of these specific natural products from oats. • Avenanthramides are unique nutritional alkaloids in oats• AVN bioactivity, distribution, and the potential AVNs biosynthesis are discussed• AVNs can be produced via induction and metabolic engineering.",
+   "year": "2024"
+  },
+  {
+   "pmid": "38312573",
+   "title": "Macromolecular characterization of high β-glucan oat lines.",
+   "abstract": "Oat (Avena sativa) is a cereal grain rich in fibers, proteins, vitamins and minerals. Oats have been linked to several health benefits, such as lowering blood cholesterol levels, counteracting cardiovascular disease and regulating blood sugar levels. This study aimed to characterize two new oat lines with high β-glucan content emanating from ethyl methyl sulphonate mutagenesis on the Lantmännen elite variety Belinda. Two of the mutated lines, and the mother variety Belinda, were profiled for β-glucan, arabinoxylan, total dietary fiber and starch composition. In addition, total lipid and protein content, amino acid composition and β-glucan molecular weights were analyzed. The high levels of β-glucan resulted in a significant increase in total dietary fiber, but no correlation could be established between higher or lower levels of the assayed macromolecules, i.e., between arabinoxylan-, starch-, lipid- or protein levels in the mutated lines compared to the reference. The results indicate separate biosynthetic pathways for β-glucans and other macromolecules and an independent regulation of the different polysaccharides studied. Therefore, ethyl methyl sulphonate mutagenesis can be used to increase levels of multiple macromolecules in the same line.",
+   "year": "2024"
+  },
+  {
+   "pmid": "237083",
+   "title": "The pharmacology of Avena sativa.",
+   "abstract": "The pharmacology of Avena sativa has been investigated in laboratory animals following a report that tincture of Avena sativa reduced the craying for cigarettes in man. The tincture, evaporated to dryness, craving for cigarettes in man. The tincture, evaporated to dryness, re-constituted in an equal volume of water and administered by stomach tube or intraperitoneal injection, antagonized the antinociceptive effect of morphine in two separate test (hot-plate and tail flick). Compared with animals made depedent on morphine alone, mice pretreated with repeated injections of morphine plus extract passed a smaller number of stools and tended to jump less after administration of nalorphine. The pressor response to intravenously administered nicotine in urethane-anaesthetized rats was also antagonized by prior administration of Avena sativa. However, the aqueous extract prepared from the tincture did not affect the seizure threshold to bemegride or nicotine or the sleeping time induced by barbitone sodium.",
+   "year": "1975"
+  },
+  {
+   "pmid": "37810776",
+   "title": "Genome-wide identification and characterization of ABA receptor pyrabactin resistance 1-like protein (PYL) family in oat.",
+   "abstract": "Abscisic acid (ABA) is a phytohormone that plays an important role in plant growth and development. Meanwhile, ABA also plays a key role in the plant response to abiotic stressors such as drought and high salinity. The pyrabactin resistance 1-like (PYR/PYL) protein family of ABA receptors is involved in the initial step of ABA signal transduction. However, no systematic studies of the PYL family in \"Avena sativa, a genus Avena in the grass family Poaceae,\" have been conducted to date. Thus, in this study, we performed a genome-wide screening to identify PYL genes in oat and characterized their responses to drought stress. A total of 12 AsPYL genes distributed on nine chromosomes were identified. The phylogenetic analysis divided these AsPYLs into three subfamilies, based on structural and functional similarities. Gene and motif structure analysis of AsPYLs revealed that members of each subfamily share similar gene and motif structure. Segmental duplication appears to be the driving force for the expansion of PYLs, Furthermore, stress-responsive AsPYLs were detected through RNA-seq analysis. The qRT-PCR analysis of 10 AsPYL genes under drought, salt, and ABA stress revealed that AsPYL genes play an important role in stress response. These data provide a reference for further studies on the oat PYL gene family and its function.",
+   "year": "2023"
+  },
+  {
+   "pmid": "28132140",
+   "title": "Oat Doubled Haploids Following Maize Pollination.",
+   "abstract": "Doubled haploids (DHs) are an important tool for the accelerated production of new crop varieties. In oat, DHs were first produced by pollinating oat florets with maize pollen. The resultant embryos spontaneously eliminate the maize chromosomes leaving a haploid complement of oat chromosomes. These embryos can be cultured in vitro using the \"embryo rescue\" technique to produce haploid plants whose chromosome number can be doubled with colchicine to produce homozygous DH oat plants.",
+   "year": "2017"
+  },
+  {
+   "pmid": "20562867",
+   "title": "Rationally improving LOV domain-based photoswitches.",
+   "abstract": "Genetically encoded protein photosensors are promising tools for engineering optical control of cellular behavior; we are only beginning to understand how to couple these light detectors to effectors of choice. Here we report a method that increases the dynamic range of an artificial photoswitch based on the LOV2 domain of Avena sativa phototropin 1 (AsLOV2). This approach can potentially be used to improve many AsLOV2-based photoswitches.",
+   "year": "2010"
+  },
+  {
+   "pmid": "39634271",
+   "title": "Genome-wide identification and expression analysis of phosphate-sensing SPX proteins in oats.",
+   "abstract": "Phosphorus is indispensable to plant growth and development. Soil phosphorus deficiency poses a substantial constraint on crop yield. SPXs play pivotal roles in phosphate transport and absorption in plants. Yet, the functions of SPXs of oat (Avena sativa L.) under abiotic stresses remain unclear. In this study, we conducted a genome-wide analysis of 169 SPXs from hexaploid oat and five closely related plant species. All homologous AsSPXs were found to arise from duplication events and depict a strong purifying selection. Subcellular localization prediction revealed that AsSPXs were mainly located on the plasma membrane. Seventeen cis-acting elements, predominantly comprising light-, low temperature-, abscisic acid-, and drought-responsive elements, were dispersed in the promoter regions of AsSPXs. Analysis of cis-regulatory elements, protein-protein interaction networks, and qRT-PCR showed that AsSPXs are not solely involved in phosphorus starvation response but also in various stress responses. Notably, AsSPX18-5D (AVESA.00001b.r3.5Dg0002895) exerted pivotal roles in conferring resistance against low phosphorus, salt, and ABA treatments. Our study aimed to explore important stress-resistant genes in oat. Our results could provide a basis for future studies on the evolution and functions of the AsSPX gene family and a crucial foundation for comprehending how oat responds to environmental stresses.",
+   "year": "2024"
+  },
+  {
+   "pmid": "16869494",
+   "title": "Senescence-promoting effect of arabidopside A.",
+   "abstract": "Arabidopside A isolated from Arabidopsis thaliana is a rare oxylipin, containing 12-oxophytodienoic acid (OPDA) and dinor-oxophytodienoic acid (dn-OPDA) which are known as precursors of jasmonic acid (JA) and methyl jasmonate (MeJA). The senescence-promoting effect of arabidopside A was examined by an oat (Avena sativa) leaf assay under dark or continuous light condition. Arabidopside A promoted senescence of oat leaves, and the promoting activity was more effective than for JA and OPDA, and as strong as for MeJA, which was well known to be a senescence promoter. These results suggest that arabidopside A plays important roles in leaf senescence.",
+   "year": "2006"
+  },
+  {
+   "pmid": "39321029",
+   "title": "Metabolic engineering-induced transcriptome reprogramming of lipid biosynthesis enhances oil composition in oat.",
+   "abstract": "The endeavour to elevate the nutritional value of oat (Avena sativa) by altering the oil composition and content positions it as an optimal crop for fostering human health and animal feed. However, optimization of oil traits on oat through conventional breeding is challenging due to its quantitative nature and complexity of the oat genome. We introduced two constructs containing three key genes integral to lipid biosynthesis and/or regulatory pathways from Arabidopsis (AtWRI1 and AtDGAT1) and Sesame (SiOLEOSIN) into the oat cultivar 'Park' to modify the fatty acid composition. Four homozygous transgenic lines were generated with a transformation frequency of 7%. The expression of these introduced genes initiated a comprehensive transcriptional reprogramming in oat grains and leaves. Notably, endogenous DGAT, WRI1 and OLEOSIN genes experienced upregulation, while genes associated with fatty acid biosynthesis, such as KASII, SACPD and FAD2, displayed antagonistic expression patterns between oat grains and leaves. Transcriptomic analyses highlighted significant differential gene expression, particularly enriched in lipid metabolism. Comparing the transgenic oat plants with the wild type, we observed a remarkable increase of up to 34% in oleic acid content in oat grains. Furthermore, there were marked improvements in the total oil content in oat leaves, as well as primary metabolites changes in both oat grains and leaves, while maintaining homeostasis in the transgenic oat plants. These findings underscore the effectiveness of genetic engineering in manipulating oat oil composition and content, offering promising implications for human consumption and animal feeding through oat crop improvement programmes.",
+   "year": "2024"
+  },
+  {
+   "pmid": "37799209",
+   "title": "Brace roots in C 3 Poaceae: where have they gone?",
+   "abstract": "Brace roots are common in large C 4 Poaceae species, such as maize and sorghum. However, in other species, these roots were either never reported, or the existence of the trait was neglected. Here we report the presence of brace roots in a high-performing Avena sativa L. (oat) line.",
+   "year": "2023"
+  },
+  {
+   "pmid": "38790649",
+   "title": "Inhibitory Effects of Fermented Sprouted Oat Extracts on Oxidative Stress and Melanin Overproduction.",
+   "abstract": "Hyperpigmentation occurs due to irregular secretion of melanin pigment in the skin. This can affect quality of life depending on its severity, so prevention and management are essential. Oats (Avena sativa L.), a grain consumed worldwide, are known to offer improved health benefits upon germination and fermentation. This study is aimed to investigate the protective effects of lactobacilli-fermented sprouted oat extracts on oxidative stress and melanin overproduction in vitro. The anti-melanogenic effect was investigated using melanin content and tyrosinase activity assays in B16F10 cells, as well as a mushroom tyrosinase-based enzyme inhibition assay. The results showed that L. casei-fermented oat extracts were the most effective for reducing melanin formation by reducing the mRNA expression of microphthalmia-associated transcription factor, tyrosinase, and tyrosinase-related protein 2. Furthermore, L. casei fermentation was effective in improving the total phenolic, flavonoid, and avenanthramide A contents of sprouted oat extracts. The results also demonstrated the antioxidant effects of L. casei-fermented sprouted oat extracts in promoting DPPH radical-scavenging activity, superoxide dismutase-like activity, and reduction in reactive oxygen species levels. Overall, the findings indicate that fermented sprouted oat extracts are promising candidates for antioxidant and anti-hyperpigmentation treatments.",
+   "year": "2024"
+  },
+  {
+   "pmid": "39724346",
+   "title": "Design and Use of AsLOV2-Based Optogenetic Tools for Actin Imaging.",
+   "abstract": "We present protocols for using an optogenetic tool called LILAC for actin imaging. LILAC is a light-controlled version of Lifeact that uses the Avena sativa LOV2 (AsLOV2) domain. By significantly reducing Lifeact's affinity for the cytoskeleton in the dark, LILAC reduces concentration-dependent negative side effects while enabling new image processing methods. We discuss the considerations for using this probe of live-cell actin dynamics, including fluorescent protein selection, cell maintenance, microscopy protocols, and image processing. Our work highlights the potential of AsLOV2-based optogenetics for novel imaging and control tools in cell biology.",
+   "year": "2025"
+  },
+  {
+   "pmid": "16660959",
+   "title": "Phytochrome immunoaffinity purification.",
+   "abstract": "We have developed a phytochrome immunoaffinity purification procedure that yields undegraded oat (Avena sativa L., cv. Garry) phytochrome of greater than 98% purity within 2 hours when starting with a brushite-purified preparation. Immunoaffinity-purified phytochrome, except for its greater purity, is indistinguishable from conventionally purified phytochrome by gel exclusion chromatography, isoelectric focusing, and sodium dodecyl sulfate-polyacrylamide gel electrophoresis. We have also used the immunoaffinity technique to purify phytochrome from crude oat extracts, and from brushite-purified pea (Pisum sativum L., cv. Alaska) and rye (Secale cereale L., cv. Balbo) preparations.",
+   "year": "1979"
+  },
+  {
+   "pmid": "34270040",
+   "title": "Oat Doubled Haploid Production Through Wide Hybridization with Maize.",
+   "abstract": "Wide hybridization is one of the haploid-inducing techniques that can accelerate the breeding process. Obtaining new cultivars is crucial to solve the problem of the constantly growing world population and global increase in demand for food, feed and renewable energy under changing environmental conditions. Here, we present a detailed protocol for obtaining oat (Avena sativa L.) doubled haploids (DHs) by pollination with maize (Zea mays L.). After fertilization, not only oat homozygotes, but also oat × maize hybrid zygotes can be formed, and during early embryo development, maize chromosomes are preferentially eliminated, which ultimately results in haploid plant formation. This chapter describes a method to produce oat DHs by crossing oat with maize, covering all steps from crossings to haploid plant regeneration and chromosome doubling.",
+   "year": "2021"
+  },
+  {
+   "pmid": "33028627",
+   "title": "Genome-Wide Association Study Reveals the Genetic Architecture of Seed Vigor in Oats.",
+   "abstract": "Seed vigor is crucial for crop early establishment in the field and is particularly important for forage crop production. Oat (Avena sativa L.) is a nutritious food crop and also a valuable forage crop. However, little is known about the genetics of seed vigor in oats. To investigate seed vigor-related traits and their genetic architecture in oats, we developed an easy-to-implement image-based phenotyping pipeline and applied it to 650 elite oat lines from the Collaborative Oat Research Enterprise (CORE). Root number, root surface area, and shoot length were measured in two replicates. Variables such as growth rate were derived. Using a genome-wide association (GWA) approach, we identified 34 and 16 unique loci associated with root traits and shoot traits, respectively, which corresponded to 41 and 16 unique SNPs at a false discovery rate < 0.1. Nine root-associated loci were organized into four sets of homeologous regions, while nine shoot-associated loci were organized into three sets of homeologous regions. The context sequences of five trait-associated markers matched to the sequences of rice, Brachypodium and maize (E-value < 10-10), including three markers matched to known gene models with potential involvement in seed vigor. These were a glucuronosyltransferase, a mitochondrial carrier protein domain containing protein, and an iron-sulfur cluster protein. This study presents the first GWA study on oat seed vigor and data of this study can provide guidelines and foundation for further investigations.",
+   "year": "2020"
+  },
+  {
+   "pmid": "30377362",
+   "title": "Engineered anti-CRISPR proteins for optogenetic control of CRISPR-Cas9.",
+   "abstract": "Anti-CRISPR proteins are powerful tools for CRISPR-Cas9 regulation; the ability to precisely modulate their activity could facilitate spatiotemporally confined genome perturbations and uncover fundamental aspects of CRISPR biology. We engineered optogenetic anti-CRISPR variants comprising hybrids of AcrIIA4, a potent Streptococcus pyogenes Cas9 inhibitor, and the LOV2 photosensor from Avena sativa. Coexpression of these proteins with CRISPR-Cas9 effectors enabled light-mediated genome and epigenome editing, and revealed rapid Cas9 genome targeting in human cells.",
+   "year": "2018"
+  },
+  {
+   "pmid": "31751913",
+   "title": "Combined transcriptome sequencing reveals the photoperiod insensitivity mechanism of oats.",
+   "abstract": "Avena sativa L. is the most important cultivated oat species worldwide. Although photoperiod-insensitive oat varieties exist, the molecular mechanisms underlying their photoperiod sensitivity are poorly understood. This study investigated the effects of day length on the fioral transition of oats and the mechanisms underlying oat photoperiod insensitivity. Photoperiod-sensitive and photoperiod-insensitive varieties, including gp012, were used in shading experiments, and the developing leaves and main shoot apices (MSAs) of the HONGQI2 and gp012 varieties were used for sequencing. Leaves and MSAs were collected in 2016, and their transcriptomes were sequenced. The photoperiod-insensitive varieties headed under both short-day and long-day conditions, while the photoperiod-sensitive varieties headed only under long-day conditions. A total of 60673 transcript sequences were obtained, 7932 of which were differentially expressed; 3194 and 4738 transcripts were differentially expressed in the leaves and MSAs, respectively. A total of 25793 transcripts were classified into 123 pathways based on the Kyoto Encyclopedia of Genes and Genomes (KEGG) database. The carbon metabolism pathways were dominant, followed by ribosome and protein processing in the endoplasmic reticulum. In addition, 203 transcripts were classified into the circadian rhythm pathway. Compared with the expression of pseudo-response regulator protein 37 (PRR37) in photoperiod-sensitive varieties, that in photoperiod-insensitive varieties was upregulated. Among the differentially expressed transcripts (DETs), 8 MADS-box genes were identified. PRR37 is a key regulator of oat photoperiod insensitivity. The obtained transcriptome dataset may provide a reference for analyzing oat transcript expression, and the results should be used as a reference for oat breeding and production.",
+   "year": "2020"
+  },
+  {
+   "pmid": "15730266",
+   "title": "Flavonolignans from Avena sativa.",
+   "abstract": "Three flavonolignans derived from the flavone tricin were isolated from Avena sativa herb. This is the first report of the presence of flavonolignans in A. sativa. In the known compounds 1a and 1b, a coniferyl alcohol moiety is linked to the flavone by an ether bond; in the new natural product 2, it is linked by C-C bonds. Structure elucidation of compound 2 was performed by 1D and 2D NMR experiments, and the absolute configuration was determined from circular dichroic data.",
+   "year": "2005"
+  },
+  {
+   "pmid": "37565419",
+   "title": "The Effect of Dietary Oat Consumption and Its Constituents on Fat Storage and Obesity.",
+   "abstract": "This review is to summarize and analyze the currently available knowledge concerning the action of oat (Avena sativa L.) consumption on obesity, as well as possible constituents and extra- and intracellular mediators responsible for its anti-obesity effect. The oat constituents could reduce fat storage via several mediatory mechanisms - brain centers regulating appetite, gastrointestinal functions, gut bacteria, fat synthesis and metabolism and maybe via changes in oxidative processes, steroid hormones receptors and adipose tissue vascularization. Several oat constituents (starch, fiber and beta-glucan) could have anti-obesity properties, whilst one oat constituent (starch or fiber) could affect fat storage via several mechanisms of action.",
+   "year": "2023"
+  },
+  {
+   "pmid": "31787817",
+   "title": "Analysis of glycoside hydrolases from oat (Avena sativa) seedling extract.",
+   "abstract": "The abundance and the diversity of oligo- and polysaccharides provide a wide range of biological roles attributed either to these carbohydrates or to their relevant enzymes, i.e., the glycoside hydrolases (GHs). The biocatalysis by these families of enzymes is highly attractive for the generation of products used in potential applications, e.g., pharmaceuticals and food industries. It is thus very important to extract and characterize such enzymes, particularly from plant tissues. In this study, we characterized novel sequences of class I chitinases from seedlings extract of the common oat (Avena sativa L.) using proteomics and sequence-structure-function analysis. These enzymes, which belong to the GH19 family of protein, were extracted from oat and identified using SDS-PAGE, trypsin digestion, LC-MS-MS, and sequence-structure-function analysis. The amino acid sequences of the oat tryptic peptides were used to identify cDNAs from the Avena sativa databases of the expressed sequence tags (ESTs) and transcriptome shotgun assembly (TSA). Based upon the Avena sativa sequences of ESTs and TSA, at least 4 predicted genes that encoded oat class I chitinases were identified and reported. The structural characterization of the oat sequences of chitinases provided valuable insights to the context.",
+   "year": "2019"
+  },
+  {
+   "pmid": "31840550",
+   "title": "Safety Assessment of Avena sativa (Oat)-Derived Ingredients As Used in Cosmetics.",
+   "abstract": "This is a safety assessment of Avena sativa (oat)-derived ingredients. The reported functions of these ingredients in cosmetics include abrasives, antioxidant, skin conditioning agents, absorbents, and bulking agents. The Panel reviewed relevant animal and human data related to these ingredients. Because final product formulations may contain multiple botanicals, each containing the same constituents of concern, formulators are advised to be aware of these constituents and to avoid reaching levels that may lead to sensitization or other toxic effects. The Panel stated that industry should continue to use good manufacturing practices to limit impurities and concluded that all but one of the Avena sativa (oat)-derived ingredients are safe as cosmetic ingredients in the practices of use and concentration described in this safety assessment when formulated to be nonsensitizing; data are insufficient to come to a conclusion of safety for Avena Sativa (Oat) Meristem Cell Extract.",
+   "year": "2019"
+  },
+  {
+   "pmid": "37123120",
+   "title": "Effects of Avena sativa and Glycyrrhiza glabra Leaves Extracts on Immune Responses in Serum Cytokine and Liver Enzyme Levels in NIH Mice.",
+   "abstract": "In addition to their high quantities of active chemicals, medicinal plants are well-known for their pharmacological qualities, which include immunological modulation. T Consequently, this study aimed to examine the effects of Avena sativa and Glycyrrhiza glabra leaf extracts on immunological responses as measured by blood cytokine and liver enzyme levels. The phytochemical analysis of Avena sativa crude leaf extracts revealed the presence of alkaloids,flavonoids, tannins, phenolic compounds, and saponins but the absence of resins and violet oils. On the other hand, violet oils, flavonoids, tannins, saponins, and glycosides were detected in significant concentration in Glycyrrhiza glabra ethanolic extract, although resins and phenolic compounds were not present. Fifty male NIH mice were randomly divided into five groups: Except for the control group, all animals were given subcutaneously and orally with extracts (50 mg/kg) for 14 days prior to LPS-induced (1 mg/kg body weight) liver injury. LPS-induced liver damage was induced on day 15, and mice were starved.Group 1 was injected subcutaneously with normal saline as a control. Group 2 received an injection of 100 l of crude oat extract subcutaneously. Group 3 was administered 100 l (50 mg/kg) of crude Oat extract orally. Group 4: administered 100 l (50 mg/kg) of crude Licorice extract subcutaneously. Group 5 ingested 100 l (50 mg/kg) of crude Licorice extract orally. IL-4 levels were significantly elevated (P< 0.05) in the subcutaneously and orally treated groups compared to the control group (12.3 0.23 pg/ml). IL-6 was significantly elevated (P<0.05) in mice given subcutaneously or orally with Avena sativa or Glycyrrhiza glabra extracts compared to mice treated subcutaneously or orally with a control substance (44 0.57 pg/ml). The concentration of TNF- was significantly elevated (P<0.05) in subcutaneous and oral treated groups (283.6 1.7 and 280.6 12.2; 233.9 0.6 and 241.2 2.8) compared with the control group (130 0.42) pg/ml. When mice were exposed to LPS-containing extracts, both GOT, and GPT levels fell relative to the control group.",
+   "year": "2022"
+  },
+  {
+   "pmid": "36657906",
+   "title": "Effect of Avena sativa (Oats) on cognitive function: A systematic review of randomized controlled trials.",
+   "abstract": "The effect of polyphenol-rich diets or supplements on cognitive function remains a contentious topic. The objective of this study was to investigate the effects of Avena sativa (oat extracts) on cognitive function among healthy adults. A structured literature search was undertaken using PubMed, Web of Science, and Scopus from the database's establishment until March 17, 2022. Data on cognitive function, regarding accuracy and speed of performance, were gathered from randomized controlled trials (RCTs) that investigated the acute or chronic effects of Avena sativa in healthy subjects. The Cochrane Collaboration risk-of-bias tool was used to assess the quality of included studies. We included six RCTs, of which three were crossover designs, with a total of 287 individuals. Four studies investigated the acute effect of Avena sativa, while two investigated its chronic effect. Acute ingestion of Avena sativa appeared to positively influence the accuracy and speed of performance. While short-term chronic supplementation resulted in a significant improvement in cognitive function, long-term chronic supplementation did not. Overall, the evidence was of average quality. Acute supplementation with Avena sativa may improve cognitive function in healthy volunteers. Given the small number of trials included and the disparity of the intervention dose, the conclusions of this study should be interpreted with caution. More high-quality, long-term studies are warranted.",
+   "year": "2023"
+  },
+  {
+   "pmid": "24481701",
+   "title": "Isolation of protoplasts from cereal leaves.",
+   "abstract": "Mature leaves of Secale cereale cut into narrow strips and incubated for 18 h in a mixture of cellulase (Meicelase) and pectinase (Pectinol R10) produced quantities of protoplasts. Under the same conditions leaves of Triticum aestivum, Hordeum vulgare and Avena sativa also produce protoplasts but in lower yields. The wheat and rye protoplasts in culture appear to regenerate a cell wall but only a very small proportion undergo cell division.",
+   "year": "1972"
+  },
+  {
+   "pmid": "37444345",
+   "title": "Nordic Crops as Alternatives to Soy-An Overview of Nutritional, Sensory, and Functional Properties.",
+   "abstract": "Soy (Glycine max) is used in a wide range of products and plays a major role in replacing animal-based products. Since the cultivation of soy is limited by cold climates, this review assessed the nutritional, sensory, and functional properties of three alternative cold-tolerant crops (faba bean (Vicia faba), yellow pea (Pisum sativum), and oat (Avena sativa)). Lower protein quality compared with soy and the presence of anti-nutrients are nutritional problems with all three crops, but different methods to adjust for these problems are available. Off-flavors in all pulses, including soy, and in cereals impair the sensory properties of the resulting food products, and few mitigation methods are successful. The functional properties of faba bean, pea, and oat are comparable to those of soy, which makes them usable for 3D printing, gelation, emulsification, and extrusion. Enzymatic treatment, fermentation, and fibrillation can be applied to improve the nutritional value, sensory attributes, and functional properties of all the three crops assessed, making them suitable for replacing soy in a broad range of products, although more research is needed on all attributes.",
+   "year": "2023"
+  },
+  {
+   "pmid": "37797345",
+   "title": "Impact of Oat (Avena sativa L.) on Metabolic Syndrome and Potential Physiological Mechanisms of Action: A Current Review.",
+   "abstract": "Oat (Avena sativa L.), an annual herbaceous plant belonging to the Gramineae family, is widely grown in various regions including EU, Canada, America, Australia, etc. Due to the nutritional and pharmacological values, oats have been developed into various functional food including fermented beverage, noodle, cookie, etc. Meanwhile, numerous studies have demonstrated that oats may effectively improve metabolic syndrome, such as dyslipidemia, hyperglycemia, atherosclerosis, hypertension, and obesity. However, the systematic pharmacological mechanisms of oats on metabolic syndrome have not been fully revealed. Therefore, in order to fully explore the benefits of oat in food industry and clinic, this review aims to provide up-to-date information on oat and its constituents, focusing on the effects on metabolic syndrome.",
+   "year": "2023"
+  },
+  {
+   "pmid": "36672905",
+   "title": "Genome-Wide Analysis and Expression of the GRAS Transcription Factor Family in Avena sativa.",
+   "abstract": "The GRAS transcription factor is an important transcription factor in plants. In recent years, more GRAS genes have been identified in many plant species. However, the GRAS gene family has not yet been studied in Avena sativa. We identified 100 members of the GRAS gene family in A. sativa (Avena sativa), named them AsGRAS1~AsGRAS100 according to the positions of 21 chromosomes, and classified them into 9 subfamilies. In this study, the motif and gene structures were also relatively conserved in the same subfamilies. At the same time, we found a great deal related to the stress of cis-acting promoter regulatory elements (MBS, ABRE, and TC-rich repeat elements). qRT-PCR suggested that the AsGRAS gene family (GRAS gene family in A. sativa) can regulate the response to salt, saline-alkali, and cold and freezing abiotic stresses. The current study provides original and detailed information about the AsGRAS gene family, which contributes to the functional characterization of GRAS proteins in other plants.",
+   "year": "2023"
+  },
+  {
+   "pmid": "31394723",
+   "title": "The Biosynthetic Pathway of Major Avenanthramides in Oat.",
+   "abstract": "Avenanthramides are a group of N-cinnamoylanthranilic acids, with health-promoting properties mainly found in oat (Avena sativa L.). However, the biosynthetic mechanism for the main three types of avenanthramides (Avn-A, Avn-B and Avn-C) is not completely understood. In the present study, we report molecular identification and functional characterization of three different types of genes from oat encoding 4-coumarate-CoA ligase (4CL), hydroxycinnamoyl-CoA:hydroxyanthranilate N-hydroxycinnamoyl transferase (HHT) and a caffeoyl-CoA O-methyltransferase (CCoAOMT) enzymes, all involved in the biosynthesis of these avenanthramides. In vitro enzymatic assays using the proteins expressed in Escherichia coli showed that oat 4CL could convert p-coumaric acid, caffeic acid and ferulic acid to their CoA thioesters. Oat HHTs were only responsible for the biosynthesis of Avn-A and Avn-C using hydroxyanthranilic acid as an acyl acceptor and p-coumaroyl-CoA and caffeoyl-CoA as an acyl donor, respectively. Avn-B was synthesized by a CCoAOMT enzyme through the methylation of Avn-C. Collectively, these results have elucidated the molecular mechanisms for the biosynthesis of three major avenanthramides in vitro and paved the way for metabolic engineering of the biosynthetic pathway in heterologous systems to produce nutraceutically important compounds and make possible genetic improvement of this nutritional trait in oat through marker-assisted breeding.",
+   "year": "2019"
+  },
+  {
+   "pmid": "28132142",
+   "title": "Protocol for Producing Synthetic Polyploid Oats.",
+   "abstract": "A protocol to produce synthetic oats by introducing alien genetic variations into cultivated oats is proposed based on suitable genetic relationships between Avena species. Furthermore, artificial hybridization procedures between different ploidy species are explained. Amphiploids can be produced by rescuing aborted embryos and treating the F1 hybrids with colchicine to overcome sterility between interspecific plants. Furthermore, I present the cytological methods for observing somatic and meiotic chromosomes in the treated hybrids.",
+   "year": "2017"
+  },
+  {
+   "pmid": "34130832",
+   "title": "Specific biotests to assess eco-toxicity of biodegradable polymer materials in soil.",
+   "abstract": "Eco-toxicity investigation of polymer materials was considered extremely necessary for their potential menace, which was widely use as mulching materials in agricultural. In this study, polyethylene (PE), polystyrene (PS) and synthetic biomaterials-Ecoflex and cellulose were applying into soil cultivated with two potential indicator plants species: oat (Avena sativa) and red radish (Raphanus sativum). Variety of chemical, biochemical parameters and enzyme activity in soil were proved as effective approach to evaluate polymers phytotoxicity in plant-soil mesocosm. The F-value of biomass, pH, heavy metal and electoral conductivity of Raphanus behaved significant different from T0. Significant analysis results indicated biodegradation was fast in PE than PS, besides, heavy metals were dramatically decrease in the end implied the plant absorption may help decrease heavy metal toxicity. The increase value at T2 of Dehydrogenase activity (0.84 higher than average value for Avena & 0.91 higher for Raphanus), Metabolic Index (3.12 higher than average value for Avena & 3.81 higher for Raphanus) means during soil enzyme activity was promoted by biodegradation for its heterotrophic organisms' energy transportation was stimulated. Statistics analysis was carried on Biplot PC1 (24.2% of the total variance), PC2 (23.2% of the total variance), versus PC3 (22.8% of the total variance), which indicated phosphatase activity and metabolic index was significant correlated, and high correlation of ammonium and protease activity. Furthermore, the effects were more evident in Raphanus treatments than in Avena, suggesting the higher sensitivity of Raphanus to polymers treatment, which indicate biodegradation of polymers in Raphanus treatment has produced intermediate phytotoxic compounds.",
+   "year": "2021"
+  },
+  {
+   "pmid": "41836056",
+   "title": "Editorial: Strategies for crops to confront extreme weather and pests/diseases.",
+   "abstract": "",
+   "year": "2026"
+  },
+  {
+   "pmid": "35585176",
+   "title": "Genome analysis in Avena sativa reveals hidden breeding barriers and opportunities for oat improvement.",
+   "abstract": "Oat (Avena sativa L.) is an important and nutritious cereal crop, and there is a growing need to identify genes that contribute to improved oat varieties. Here we utilize a newly sequenced and annotated oat reference genome to locate and characterize quantitative trait loci (QTLs) affecting agronomic and grain-quality traits in five oat populations. We find strong and significant associations between the positions of candidate genes and QTL that affect heading date, as well as those that influence the concentrations of oil and β-glucan in the grain. We examine genome-wide recombination profiles to confirm the presence of a large, unbalanced translocation from chromosome 1 C to 1 A, and a possible inversion on chromosome 7D. Such chromosome rearrangements appear to be common in oat, where they cause pseudo-linkage and recombination suppression, affecting the segregation, localization, and deployment of QTLs in breeding programs.",
+   "year": "2022"
+  },
+  {
+   "pmid": "22520749",
+   "title": "Designing chimeric LOV photoswitches.",
+   "abstract": "The LOV domain from Avena sativa has a C-terminal (Jα) helix that dissociates and unfolds when the protein is exposed to blue light. Using computational protein design methods, Lungu et al., in this issue of Chemistry & Biology, created chimeric Jα sequences that show photo-controlled interactions with chosen targets.",
+   "year": "2012"
+  }
+ ]
+}

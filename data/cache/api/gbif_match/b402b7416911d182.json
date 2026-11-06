@@ -1,0 +1,26 @@
+{
+ "key": "Helianthus annuus L.",
+ "value": {
+  "usageKey": 9206251,
+  "scientificName": "Helianthus annuus L.",
+  "canonicalName": "Helianthus annuus",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Asterales",
+  "family": "Asteraceae",
+  "genus": "Helianthus",
+  "species": "Helianthus annuus",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 414,
+  "familyKey": 3065,
+  "genusKey": 3119134,
+  "speciesKey": 9206251,
+  "class": "Magnoliopsida"
+ }
+}
