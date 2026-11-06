@@ -19,6 +19,9 @@ ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 NCBI_API_KEY = os.getenv("NCBI_API_KEY", "")
 NCBI_EMAIL = os.getenv("NCBI_EMAIL", "")
 IUCN_TOKEN = os.getenv("IUCN_TOKEN", "")
+# Chat assistant (app page "Ask the librarian"); free key at https://console.groq.com/keys
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 
 # Set OFFLINE=1 to use only cached responses (e.g. during the live demo).
 OFFLINE = os.getenv("OFFLINE", "0") == "1"

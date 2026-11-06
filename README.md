@@ -43,6 +43,29 @@ fungi, and requires each record's table text to match a unique PDF page.
 - `OFFLINE=1` makes the build use saved API responses. It cannot fetch missing data; an
   uncached study with no Anthropic key will have no extracted records.
 - IUCN conservation lookups need the separate optional `IUCN_TOKEN`.
+- The chat page (**Ask the librarian**) needs `GROQ_API_KEY` (free at https://console.groq.com/keys).
+  `GROQ_MODEL` picks the model (default `openai/gpt-oss-120b`).
+
+## Chat assistant
+
+`app/pages/3_Ask_the_Librarian.py` answers questions in Albanian or English **only from the
+fact sheets**, with sources. `pipeline/chat.py` finds the plants named in the question
+(scientific, genus or local/dialect name, fuzzy) without AI, builds their fact sheets as numbered
+lines and sends only those lines to the Groq model:
+
+| Id | What it cites |
+| --- | --- |
+| `R12` | Traditional use record (study, page) |
+| `E1` | Manually reviewed modern study (`reviewed_evidence.csv`) |
+| `P123456` | PubMed candidate, unreviewed keyword match |
+| `F1` | Safety or conservation flag |
+
+The model must cite every claim, say when the data does not contain the answer, and never give
+doses. The page lists the cited sources under each answer. A question that names no plant
+("which plants were used for coughs?") gets a compact index of all records and all flags.
+Follow-up questions ("is it safe?") reuse the plant from the earlier question. Each fact sheet
+also counts how many PubMed candidates carry the same preparation tag as the traditional use
+(the "was the same tea tested?" check). These tags are keyword rules, not a review.
 
 The cached API searches are candidates, not a reviewed scientific conclusion. The app
 labels the PubMed keyword tags as preliminary. Manually reviewed comparisons are kept
