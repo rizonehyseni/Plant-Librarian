@@ -29,7 +29,10 @@ CREATE TABLE IF NOT EXISTS uses (
     lat REAL,
     lon REAL,
     geo_precision TEXT,      -- record | study | NULL (not on the map)
-    quote TEXT
+    quote TEXT,
+    review_status TEXT NOT NULL DEFAULT 'Needs Review',
+    reviewer_note TEXT,
+    record_origin TEXT NOT NULL DEFAULT 'AI Extracted'
 );
 CREATE TABLE IF NOT EXISTS evidence (
     species TEXT, pmid TEXT, title TEXT, year TEXT, prep_class TEXT, study_type TEXT,
@@ -44,6 +47,17 @@ CREATE TABLE IF NOT EXISTS occurrences (
 CREATE TABLE IF NOT EXISTS compounds (
     species TEXT, compound TEXT, smiles TEXT, logp REAL, water_soluble INTEGER
 );
+CREATE TABLE IF NOT EXISTS audit_log (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    record_id INTEGER NOT NULL REFERENCES uses(id),
+    changed_field TEXT,
+    previous_value TEXT,
+    new_value TEXT,
+    timestamp TEXT NOT NULL,
+    action TEXT NOT NULL,
+    reviewer TEXT NOT NULL,
+    reviewer_note TEXT
+);
 """
 
 
@@ -53,9 +67,28 @@ def connect(path=DB_PATH) -> sqlite3.Connection:
     return conn
 
 
+def initialize(conn: sqlite3.Connection) -> None:
+    """Create dashboard tables and safely migrate a database from older versions."""
+    conn.executescript(SCHEMA)
+    columns = {row["name"] for row in conn.execute("PRAGMA table_info(uses)")}
+    additions = {
+        "review_status": "TEXT NOT NULL DEFAULT 'Needs Review'",
+        "reviewer_note": "TEXT",
+        "record_origin": "TEXT NOT NULL DEFAULT 'AI Extracted'",
+    }
+    for column, definition in additions.items():
+        if column not in columns:
+            conn.execute(f"ALTER TABLE uses ADD COLUMN {column} {definition}")
+    conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_uses_review_status ON uses(review_status)"
+    )
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_audit_log_record_id ON audit_log(record_id)")
+    conn.commit()
+
+
 def reset(path=DB_PATH) -> sqlite3.Connection:
     if path.exists():
         path.unlink()
     conn = connect(path)
-    conn.executescript(SCHEMA)
+    initialize(conn)
     return conn
