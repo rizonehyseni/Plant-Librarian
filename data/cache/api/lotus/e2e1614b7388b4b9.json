@@ -1,0 +1,405 @@
+{
+ "key": "Avena sativa",
+ "value": [
+  {
+   "compound": "2-carboxy-D-arabinitol",
+   "smiles": "C(C(C(C(CO)(C(=O)O)O)O)O)O"
+  },
+  {
+   "compound": "cycloartenol",
+   "smiles": "CC(CCC=C(C)C)C1CCC2(C1(CCC34C2CCC5C3(C4)CCC(C5(C)C)O)C)C"
+  },
+  {
+   "compound": "(E/Z)-ferulic acid",
+   "smiles": "COC1=C(C=CC(=C1)C=CC(=O)O)O"
+  },
+  {
+   "compound": "caprylaldehyde",
+   "smiles": "CCCCCCCC=O"
+  },
+  {
+   "compound": "(-)-(7''R,8''S)-4'',5,7-trihydroxy-3',3'',5'-trimethoxy-4',8''-oxyflavonolignan-7'',9''-diol",
+   "smiles": "COC1=CC(=CC(=C1OC(CO)C(C2=CC(=C(C=C2)O)OC)O)OC)C3=CC(=O)C4=C(C=C(C=C4O3)O)O"
+  },
+  {
+   "compound": "vanillic acid",
+   "smiles": "COC1=C(C=CC(=C1)C(=O)O)O"
+  },
+  {
+   "compound": "avenacoside A",
+   "smiles": "CC1C2C(CC3C2(CCC4C3CC=C5C4(CCC(C5)OC6C(C(C(C(O6)CO)OC7C(C(C(C(O7)CO)O)O)O)O)OC8C(C(C(C(O8)C)O)O)O)C)C)OC19CCC(O9)(C)COC1C(C(C(C(O1)CO)O)O)O"
+  },
+  {
+   "compound": "Avenanthramide E",
+   "smiles": "COc1cc(C=CC(=O)Nc2ccccc2C(=O)O)ccc1O"
+  },
+  {
+   "compound": "Avenanthramide G",
+   "smiles": "O=C(C=Cc1ccc(O)cc1)Nc1cc(O)ccc1C(=O)O"
+  },
+  {
+   "compound": "(E)-sinapic acid",
+   "smiles": "COC1=CC(=CC(=C1O)OC)C=CC(=O)O"
+  },
+  {
+   "compound": "heptanal",
+   "smiles": "CCCCCCC=O"
+  },
+  {
+   "compound": "Gibberellic acid",
+   "smiles": "O=C(O)C1C2C3(OC(=O)C2(C)C(O)C=C3)C4CCC5(O)C(=C)CC14C5"
+  },
+  {
+   "compound": "(2E)-2-heptenal",
+   "smiles": "CCCCC=CC=O"
+  },
+  {
+   "compound": "furfural",
+   "smiles": "C1=COC(=C1)C=O"
+  },
+  {
+   "compound": "hexyl acetate",
+   "smiles": "CCCCCCOC(=O)C"
+  },
+  {
+   "compound": "myrcene",
+   "smiles": "CC(=CCCC(=C)C=C)C"
+  },
+  {
+   "compound": "Avenanthramide L",
+   "smiles": "O=C(C=CC=Cc1ccc(O)cc1)Nc1ccc(O)cc1C(=O)O"
+  },
+  {
+   "compound": "syringic acid",
+   "smiles": "COC1=CC(=CC(=C1O)OC)C(=O)O"
+  },
+  {
+   "compound": "beta-sitosterol",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "5-heptadecylresorcinol",
+   "smiles": "CCCCCCCCCCCCCCCCCC1=CC(=CC(=C1)O)O"
+  },
+  {
+   "compound": "(+)-pinoresinol",
+   "smiles": "OC1=CC=C(C=C1OC)C2OCC3C(OCC23)C4=CC=C(O)C(OC)=C4"
+  },
+  {
+   "compound": "Isowertin 2''-rhamnoside",
+   "smiles": "O=C1C=C(OC=2C1=C(O)C=C(OC)C2C3OC(CO)C(O)C(O)C3OC4OC(C)C(O)C(O)C4O)C=5C=CC(O)=CC5"
+  },
+  {
+   "compound": "(3S,5S,8S,9S,10S,13R,14S,17R)-10,13-dimethyl-17-[(2R)-6-methylheptan-2-yl]-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-3-ol",
+   "smiles": "OC1CCC2(C)C(CCC3C4CCC(C(C)CCCC(C)C)C4(C)CCC32)C1"
+  },
+  {
+   "compound": "(3S,5S,9S,10S,13R,17R)-17-[(2R)-5-ethyl-6-methylheptan-2-yl]-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-3-ol",
+   "smiles": "OC1CCC2(C)C(CCC3C4CCC(C(C)CCC(CC)C(C)C)C4(C)CCC32)C1"
+  },
+  {
+   "compound": "avenoleic acid",
+   "smiles": "O=C(O)CCCCCCCC=CCC=CCC(O)CCC"
+  },
+  {
+   "compound": "CID 101526842",
+   "smiles": "OC1CC(O)(C(=C=CC(=CC=CC(=CC=CC=C(C=CC=C(C)C2OC3(C(=C2)C(C)(C)CC(O)C3)C)C)C)C)C(C)(C)C1)C"
+  },
+  {
+   "compound": "inositol hexaphosphate",
+   "smiles": "O=P(O)(O)OC1C(OP(=O)(O)O)C(OP(=O)(O)O)C(OP(=O)(O)O)C(OP(=O)(O)O)C1OP(=O)(O)O"
+  },
+  {
+   "compound": "4-[(3S,3aR,6aR)-3-(4-hydroxy-3-methoxyphenyl)-1,3,3a,4,6,6a-hexahydrofuro[3,4-c]furan-6-yl]-2,6-dimethoxyphenol",
+   "smiles": "OC1=CC=C(C=C1OC)C2OCC3C(OCC23)C4=CC(OC)=C(O)C(OC)=C4"
+  },
+  {
+   "compound": "avenacin A-2",
+   "smiles": "O=CC1(C)CC2C34OC4CC5C6(C)CCC(OC7OCC(OC8OC(CO)C(O)C(O)C8O)C(O)C7OC9OC(CO)C(O)C(O)C9O)C(C)(CO)C6CCC5(C)C3(C)CC(O)C2(C)CC1OC(=O)C=%10C=CC=CC%10"
+  },
+  {
+   "compound": "avenacin B-1",
+   "smiles": "O=CC1(C)CC2C34OC4CC5C6(C)CCC(OC7OCC(OC8OC(CO)C(O)C(O)C8O)C(O)C7OC9OC(CO)C(O)C(O)C9O)C(C)(C)C6CCC5(C)C3(C)CC(O)C2(C)CC1OC(=O)C=%10C=CC=CC%10NC"
+  },
+  {
+   "compound": "matairesinol",
+   "smiles": "COC1=C(C=CC(=C1)CC2COC(=O)C2CC3=CC(=C(C=C3)O)OC)O"
+  },
+  {
+   "compound": "6-methyl-5-hepten-2-one",
+   "smiles": "CC(=CCCC(=O)C)C"
+  },
+  {
+   "compound": "6-[(2S,3R,4S,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-[(2S,3R,4R,5R)-3,4,5-trihydroxyoxan-2-yl]oxyoxan-2-yl]-5,7-dihydroxy-2-(4-hydroxyphenyl)chromen-4-one",
+   "smiles": "O=C1C=C(OC2=CC(O)=C(C(O)=C12)C3OC(CO)C(O)C(O)C3OC4OCC(O)C(O)C4O)C=5C=CC(O)=CC5"
+  },
+  {
+   "compound": "stigmastan-29-ol",
+   "smiles": "OCCC(CCC(C)C1CCC2C3CCC4CCCCC4(C)C3CCC12C)C(C)C"
+  },
+  {
+   "compound": "syringaresinol",
+   "smiles": "COC1=CC(=CC(=C1O)OC)C2C3COC(C3CO2)C4=CC(=C(C(=C4)OC)O)OC"
+  },
+  {
+   "compound": "formaldehyde",
+   "smiles": "C=O"
+  },
+  {
+   "compound": "phytic acid",
+   "smiles": "C1(C(C(C(C(C1OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O"
+  },
+  {
+   "compound": "(S,S,S)-nicotianamine",
+   "smiles": "C1CN(C1C(=O)O)CCC(C(=O)O)NCCC(C(=O)O)N"
+  },
+  {
+   "compound": "ferulic acid",
+   "smiles": "COC1=C(C=CC(=C1)C=CC(=O)O)O"
+  },
+  {
+   "compound": "Avenanthramide D",
+   "smiles": "O=C(C=Cc1ccc(O)cc1)Nc1ccccc1C(=O)O"
+  },
+  {
+   "compound": "4-coumaric acid",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)O)O"
+  },
+  {
+   "compound": "(2E)-2-nonenal",
+   "smiles": "CCCCCCC=CC=O"
+  },
+  {
+   "compound": "β-cyclocitral",
+   "smiles": "CC1=C(C(CCC1)(C)C)C=O"
+  },
+  {
+   "compound": "avenacin B-2",
+   "smiles": "CC1(C2CCC3(C(C2(CCC1OC4C(C(C(CO4)OC5C(C(C(C(O5)CO)O)O)O)O)OC6C(C(C(C(O6)CO)O)O)O)C)CC7C8(C3(CC(C9(C8CC(C(C9)OC(=O)C1=CC=CC=C1)(C)C=O)C)O)C)O7)C)C"
+  },
+  {
+   "compound": "beta Glucan",
+   "smiles": "OCC1OC(OC2C(O)C(OC(CO)C2O)OC3C(O)COC(CO)C3O)C(O)CC1O"
+  },
+  {
+   "compound": "trans-β-ionone",
+   "smiles": "CC1=C(C(CCC1)(C)C)C=CC(=O)C"
+  },
+  {
+   "compound": "5-Pentacosylresorcinol",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCC1=CC(=CC(=C1)O)O"
+  },
+  {
+   "compound": "(EZ)-sinapic acid",
+   "smiles": "COC1=CC(=CC(=C1O)OC)C=CC(=O)O"
+  },
+  {
+   "compound": "trans-caffeic acid",
+   "smiles": "C1=CC(=C(C=C1C=CC(=O)O)O)O"
+  },
+  {
+   "compound": "5-Tricosyl-1,3-benzenediol",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCC1=CC(=CC(=C1)O)O"
+  },
+  {
+   "compound": "4-hydroxybenzaldehyde",
+   "smiles": "C1=CC(=CC=C1C=O)O"
+  },
+  {
+   "compound": "4-hydroxybenzoic acid",
+   "smiles": "C1=CC(=CC=C1C(=O)O)O"
+  },
+  {
+   "compound": "avenanthramide a",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)NC2=C(C=C(C=C2)O)C(=O)O)O"
+  },
+  {
+   "compound": "avenasterol",
+   "smiles": "OC1CCC2(C)C3C(=CCC2C1)C4CCC(C(C)CCC(=CC)C(C)C)C4(C)CC3"
+  },
+  {
+   "compound": "naringenin",
+   "smiles": "C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC=C(C=C3)O"
+  },
+  {
+   "compound": "3,4-dihydroxybenzoic acid",
+   "smiles": "C1=CC(=C(C=C1C(=O)O)O)O"
+  },
+  {
+   "compound": "3,4-dihydroxybenzoic acid",
+   "smiles": "c1cc(c(cc1C(=O)O)O)O"
+  },
+  {
+   "compound": "spermine",
+   "smiles": "C(CCNCCCN)CNCCCN"
+  },
+  {
+   "compound": "propionaldehyde",
+   "smiles": "CCC=O"
+  },
+  {
+   "compound": "avenacin A-1",
+   "smiles": "CC12CCC(C(C1CCC3(C2CC4C5(C3(CC(C6(C5CC(C(C6)OC(=O)C7=CC=CC=C7NC)(C)C=O)C)O)C)O4)C)(C)CO)OC8C(C(C(CO8)OC9C(C(C(C(O9)CO)O)O)O)O)OC1C(C(C(C(O1)CO)O)O)O"
+  },
+  {
+   "compound": "spermidine",
+   "smiles": "C(CCNCCCN)CN"
+  },
+  {
+   "compound": "caryophyllene",
+   "smiles": "CC1=CCCC(=C)C2CC(C2CC1)(C)C"
+  },
+  {
+   "compound": "avenic acid B",
+   "smiles": "C(CNC(CCO)C(=O)O)C(C(=O)O)O"
+  },
+  {
+   "compound": "putrescine",
+   "smiles": "C(CCN)CN"
+  },
+  {
+   "compound": "gamma-muurolene",
+   "smiles": "CC1=CC2C(CC1)C(=C)CCC2C(C)C"
+  },
+  {
+   "compound": "(R)-naringenin",
+   "smiles": "C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC=C(C=C3)O"
+  },
+  {
+   "compound": "hexanal",
+   "smiles": "CCCCCC=O"
+  },
+  {
+   "compound": "2-methoxy-4-vinylphenol",
+   "smiles": "COC1=C(C=CC(=C1)C=C)O"
+  },
+  {
+   "compound": "campestanol",
+   "smiles": "CC(C)C(C)CCC(C)C1CCC2C1(CCC3C2CCC4C3(CCC(C4)O)C)C"
+  },
+  {
+   "compound": "nonanal",
+   "smiles": "CCCCCCCCC=O"
+  },
+  {
+   "compound": "4-hydroxyphenylacetic acid",
+   "smiles": "C1=CC(=CC=C1CC(=O)O)O"
+  },
+  {
+   "compound": "(-)-(7''S,8''S)-4'',5,7-trihydroxy-3',3'',5'-trimethoxy-4',8''-oxyflavonolignan-7'',9''-diol",
+   "smiles": "COC1=CC(=CC(=C1OC(CO)C(C2=CC(=C(C=C2)O)OC)O)OC)C3=CC(=O)C4=C(C=C(C=C4O3)O)O"
+  },
+  {
+   "compound": "1-nonanol",
+   "smiles": "CCCCCCCCCO"
+  },
+  {
+   "compound": "(3E)-β-ocimene",
+   "smiles": "CC(=CCC=C(C)C=C)C"
+  },
+  {
+   "compound": "2,2-propanediamine",
+   "smiles": "CC(C)(N)N"
+  },
+  {
+   "compound": "avenic acid A",
+   "smiles": "C(CNC(CCO)C(=O)O)C(C(=O)O)NCCC(C(=O)O)O"
+  },
+  {
+   "compound": "lariciresinol",
+   "smiles": "COC1=C(C=CC(=C1)CC2COC(C2CO)C3=CC(=C(C=C3)O)OC)O"
+  },
+  {
+   "compound": "5-(n-Nonadecyl)resorcinol",
+   "smiles": "CCCCCCCCCCCCCCCCCCCC1=CC(=CC(=C1)O)O"
+  },
+  {
+   "compound": "benzaldehyde",
+   "smiles": "C1=CC=C(C=C1)C=O"
+  },
+  {
+   "compound": "campesterol",
+   "smiles": "CC(C)C(C)CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C"
+  },
+  {
+   "compound": "(±)-limonene",
+   "smiles": "CC1=CCC(CC1)C(=C)C"
+  },
+  {
+   "compound": "β-amyrin",
+   "smiles": "CC1(CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1)C)C)C"
+  },
+  {
+   "compound": "squalene",
+   "smiles": "CC(=CCCC(=CCCC(=CCCC=C(C)CCC=C(C)CCC=C(C)C)C)C)C"
+  },
+  {
+   "compound": "rutin",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "vanillin",
+   "smiles": "COC1=C(C=CC(=C1)C=O)O"
+  },
+  {
+   "compound": "5-n-heneicosylresorcinol",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCC1=CC(=CC(=C1)O)O"
+  },
+  {
+   "compound": "24-Methylenecycloartanol",
+   "smiles": "CC(C)C(=C)CCC(C)C1CCC2(C1(CCC34C2CCC5C3(C4)CCC(C5(C)C)O)C)C"
+  },
+  {
+   "compound": "methyl salicylate",
+   "smiles": "COC(=O)C1=CC=CC=C1O"
+  },
+  {
+   "compound": "2'-deoxymugineic acid",
+   "smiles": "C1CN(C1C(=O)O)CCC(C(=O)O)NCCC(C(=O)O)O"
+  },
+  {
+   "compound": "lophenol",
+   "smiles": "CC1C(CCC2(C1CC=C3C2CCC4(C3CCC4C(C)CCCC(C)C)C)C)O"
+  },
+  {
+   "compound": "oct-1-en-3-ol",
+   "smiles": "CCCCCC(C=C)O"
+  },
+  {
+   "compound": "(E)-p-coumaric acid",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)O)O"
+  },
+  {
+   "compound": "avenanthramide b",
+   "smiles": "COC1=C(C=CC(=C1)C=CC(=O)NC2=C(C=C(C=C2)O)C(=O)O)O"
+  },
+  {
+   "compound": "avenanthramide c",
+   "smiles": "C1=CC(=C(C=C1C=CC(=O)NC2=C(C=C(C=C2)O)C(=O)O)O)O"
+  },
+  {
+   "compound": "stigmasterol",
+   "smiles": "CCC(C=CC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "avenacoside B",
+   "smiles": "CC1C2C(CC3C2(CCC4C3CC=C5C4(CCC(C5)OC6C(C(C(C(O6)CO)OC7C(C(C(C(O7)CO)O)OC8C(C(C(C(O8)CO)O)O)O)O)O)OC9C(C(C(C(O9)C)O)O)O)C)C)OC11CCC(O1)(C)COC1C(C(C(C(O1)CO)O)O)O"
+  },
+  {
+   "compound": "cholesterol",
+   "smiles": "CC(C)CCCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C"
+  },
+  {
+   "compound": "1-octanol",
+   "smiles": "CCCCCCCCO"
+  },
+  {
+   "compound": "geranylacetone",
+   "smiles": "CC(=CCCC(=CCCC(=O)C)C)C"
+  },
+  {
+   "compound": "secoisolariciresinol",
+   "smiles": "COC1=C(C=CC(=C1)CC(CO)C(CC2=CC(=C(C=C2)O)OC)CO)O"
+  }
+ ]
+}

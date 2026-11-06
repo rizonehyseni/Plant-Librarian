@@ -1,0 +1,26 @@
+{
+ "key": "Hordeum vulgare Jess.",
+ "value": {
+  "usageKey": 2706056,
+  "scientificName": "Hordeum vulgare L.",
+  "canonicalName": "Hordeum vulgare",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 88,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Poales",
+  "family": "Poaceae",
+  "genus": "Hordeum",
+  "species": "Hordeum vulgare",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 196,
+  "orderKey": 1369,
+  "familyKey": 3073,
+  "genusKey": 2706050,
+  "speciesKey": 2706056,
+  "class": "Liliopsida"
+ }
+}

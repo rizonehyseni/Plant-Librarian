@@ -1,0 +1,26 @@
+{
+ "key": "Juglans regia L.",
+ "value": {
+  "usageKey": 3054368,
+  "scientificName": "Juglans regia L.",
+  "canonicalName": "Juglans regia",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Fagales",
+  "family": "Juglandaceae",
+  "genus": "Juglans",
+  "species": "Juglans regia",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 1354,
+  "familyKey": 2499,
+  "genusKey": 3054350,
+  "speciesKey": 3054368,
+  "class": "Magnoliopsida"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "key": "Melissa officinalis L.",
+ "value": {
+  "usageKey": 5341501,
+  "scientificName": "Melissa officinalis L.",
+  "canonicalName": "Melissa officinalis",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "genus": "Melissa",
+  "species": "Melissa officinalis",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 408,
+  "familyKey": 2497,
+  "genusKey": 2927330,
+  "speciesKey": 5341501,
+  "class": "Magnoliopsida"
+ }
+}

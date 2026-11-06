@@ -1,0 +1,225 @@
+{
+ "key": "Abies alba",
+ "value": [
+  {
+   "compound": "(-)-β-phellandrene",
+   "smiles": "CC(C)C1CCC(=C)C=C1"
+  },
+  {
+   "compound": "(3Z)-β-ocimene",
+   "smiles": "CC(=CCC=C(C)C=C)C"
+  },
+  {
+   "compound": "(+)-3-carene",
+   "smiles": "CC1=CCC2C(C1)C2(C)C"
+  },
+  {
+   "compound": "(+)-camphene",
+   "smiles": "CC1(C2CCC(C2)C1=C)C"
+  },
+  {
+   "compound": "(1S,6R)-alpha-himachalene",
+   "smiles": "CC1=CC2C(CC1)C(=C)CCCC2(C)C"
+  },
+  {
+   "compound": "(-)-beta-pinene",
+   "smiles": "CC1(C2CCC(=C)C1C2)C"
+  },
+  {
+   "compound": "α-terpinene",
+   "smiles": "CC1=CC=C(CC1)C(C)C"
+  },
+  {
+   "compound": "Covi-ox",
+   "smiles": "OC=1C(=C(C=2OC(C)(CCC2C1C)CCCC(C)CCCC(C)CCCC(C)C)C)C"
+  },
+  {
+   "compound": "(-)-bornyl acetate",
+   "smiles": "O=C(OC1CC2CCC1(C)C2(C)C)C"
+  },
+  {
+   "compound": "Intermedeol",
+   "smiles": "OC1(C)CCCC2(C)CCC(C(=C)C)CC12"
+  },
+  {
+   "compound": "Abiesonic acid",
+   "smiles": "O=C(O)C(=CC(=O)CCC1(C)CCC(=C)C21C3=CCC(C(=C)C)C(CCC(=O)OC)C3CC2)C"
+  },
+  {
+   "compound": "(+)-α-fenchene",
+   "smiles": "CC1(C2CCC1C(=C)C2)C"
+  },
+  {
+   "compound": "CID 162982961",
+   "smiles": "O=C1OC2(OC3(CCC4(C)C5CCC6C(C)(C)C(OC)CCC76CC57CCC34C)C(C)C2)CC1C"
+  },
+  {
+   "compound": "1-Cyclohexene-1-carboxylic acid, 4-(1,5-dimethyl-3-oxo-4-hexenyl)-, methyl ester",
+   "smiles": "O=C(OC)C1=CCC(CC1)C(C)CC(=O)C=C(C)C"
+  },
+  {
+   "compound": "(1S,2E,8E)-1,4,4,8-tetramethylcycloundeca-2,8-dien-1-ol",
+   "smiles": "OC1(C=CC(C)(C)CCCC(=CCC1)C)C"
+  },
+  {
+   "compound": "(4aR,10aS)-1,1,4a-trimethyl-7-propan-2-yl-3,4,10,10a-tetrahydro-2H-phenanthren-9-one",
+   "smiles": "O=C1C2=CC(=CC=C2C3(C)CCCC(C)(C)C3C1)C(C)C"
+  },
+  {
+   "compound": "1-Cyclohexene-1-carboxylic acid, 4-((1R)-1,5-dimethyl-3-oxohexyl)-, methyl ester, (4R)-",
+   "smiles": "O=C(OC)C1=CCC(CC1)C(C)CC(=O)CC(C)C"
+  },
+  {
+   "compound": "(1R,4S)-2,3-dimethylbicyclo[2.2.1]hept-2-ene",
+   "smiles": "C1(=C(C)C2CCC1C2)C"
+  },
+  {
+   "compound": "(9S,9aS)-3,5,5,9-tetramethyl-1,6,7,8,9,9a-hexahydrobenzo[7]annulene",
+   "smiles": "C=1C(=CCC2C1C(C)(C)CCCC2C)C"
+  },
+  {
+   "compound": "(3S,8aR)-8a-methyl-5-methylidene-3-propan-2-yl-1,2,3,6,7,8-hexahydronaphthalene",
+   "smiles": "C=C1C2=CC(CCC2(C)CCC1)C(C)C"
+  },
+  {
+   "compound": "1,2,3,4,4a,5,6,8abeta-Octahydro-1,4aalpha-dimethyl-7-isopropylnaphthalen-1beta-ol",
+   "smiles": "OC1(C)CCCC2(C)CCC(=CC12)C(C)C"
+  },
+  {
+   "compound": "(2R,6R)-6-[(1'S,2R,3aR,4S,5S)-4-(2-carboxyethyl)-1',4-dimethyl-3'-methylidene-5-prop-1-en-2-ylspiro[3,3a,5,6-tetrahydro-1H-indene-2,2'-cyclopentane]-1'-yl]-2-methyl-4-oxoheptanoic acid",
+   "smiles": "O=C(O)CCC1(C)C(C(=C)C)CC=C2CC3(C(=C)CCC3(C)C(C)CC(=O)CC(C(=O)O)C)CC21"
+  },
+  {
+   "compound": "(4aR,10aS)-1,1,4a-trimethyl-7-propan-2-yl-2,3,4,9,10,10a-hexahydrophenanthrene",
+   "smiles": "C=1C=C2C(=CC1C(C)C)CCC3C2(C)CCCC3(C)C"
+  },
+  {
+   "compound": "(1S,2R,4r,6S)-1,7,7-trimethyltricyclo[2.2.1.0²,⁶]heptane",
+   "smiles": "CC1(C)C2CC3C(C2)C31C"
+  },
+  {
+   "compound": "1,4a-dimethyl-7-propan-2-yl-2,3,4,4b,5,9,10,10a-octahydrophenanthrene-1-carboxylic acid",
+   "smiles": "O=C(O)C1(C)CCCC2(C)C3C(=CC(=CC3)C(C)C)CCC12"
+  },
+  {
+   "compound": "10s,11s-Himachala-3(12),4-diene",
+   "smiles": "C=C1C=C2C(CC1)C(C)CCCC2(C)C"
+  },
+  {
+   "compound": "(2R,6R)-6-[(3R,3aR,5aS,6S,7S,9bR)-6-(2-carboxyethyl)-3a,6,9b-trimethyl-7-prop-1-en-2-yl-1,2,3,4,5,5a,7,8-octahydrocyclopenta[a]naphthalen-3-yl]-2-methyl-4-oxoheptanoic acid",
+   "smiles": "O=C(O)CCC1(C)C(C(=C)C)CC=C2C1CCC3(C)C(CCC23C)C(C)CC(=O)CC(C(=O)O)C"
+  },
+  {
+   "compound": "2,5,5,8a-tetramethyl-1-(3-methylpenta-2,4-dienyl)-3,4,4a,6,7,8-hexahydro-1H-naphthalen-2-ol",
+   "smiles": "OC1(C)CCC2C(C)(C)CCCC2(C)C1CC=C(C=C)C"
+  },
+  {
+   "compound": "salicylic acid",
+   "smiles": "C1=CC=C(C(=C1)C(=O)O)O"
+  },
+  {
+   "compound": "(R)-camphor",
+   "smiles": "CC1(C2CCC1(C(=O)C2)C)C"
+  },
+  {
+   "compound": "5,10-Pentadecadienal, (E,Z)-",
+   "smiles": "O=CCCCC=CCCCC=CCCCC"
+  },
+  {
+   "compound": "camphene",
+   "smiles": "CC1(C2CCC(C2)C1=C)C"
+  },
+  {
+   "compound": "himachalol",
+   "smiles": "CC1=CC2C(CC1)C(CCCC2(C)C)(C)O"
+  },
+  {
+   "compound": "(-)-camphene",
+   "smiles": "CC1(C2CCC(C2)C1=C)C"
+  },
+  {
+   "compound": "(S)-β-himachalene",
+   "smiles": "CC1=CC2C(=C(CCCC2(C)C)C)CC1"
+  },
+  {
+   "compound": "(-)-alpha-pinene",
+   "smiles": "CC1=CCC2CC1C2(C)C"
+  },
+  {
+   "compound": "(R)-(+)-alpha-terpineol",
+   "smiles": "CC1=CCC(CC1)C(C)(C)O"
+  },
+  {
+   "compound": "(+)-sabinene",
+   "smiles": "CC(C)C12CCC(=C)C1C2"
+  },
+  {
+   "compound": "caryophyllene",
+   "smiles": "CC1=CCCC(=C)C2CC(C2CC1)(C)C"
+  },
+  {
+   "compound": "(-)-limonene",
+   "smiles": "CC1=CCC(CC1)C(=C)C"
+  },
+  {
+   "compound": "3-octanol",
+   "smiles": "CCCCCC(CC)O"
+  },
+  {
+   "compound": "(+)-β-phellandrene",
+   "smiles": "CC(C)C1CCC(=C)C=C1"
+  },
+  {
+   "compound": "(+)-fenchone",
+   "smiles": "CC1(C2CCC(C2)(C1=O)C)C"
+  },
+  {
+   "compound": "abietic acid",
+   "smiles": "CC(C)C1=CC2=CCC3C(C2CC1)(CCCC3(C)C(=O)O)C"
+  },
+  {
+   "compound": "bornyl acetate",
+   "smiles": "CC(=O)OC1CC2CCC1(C)C2(C)C"
+  },
+  {
+   "compound": "(±)-limonene",
+   "smiles": "CC1=CCC(CC1)C(=C)C"
+  },
+  {
+   "compound": "(+)-β-pinene",
+   "smiles": "CC1(C2CCC(=C)C1C2)C"
+  },
+  {
+   "compound": "benzyl alcohol",
+   "smiles": "C1=CC=C(C=C1)CO"
+  },
+  {
+   "compound": "(+)-α-phellandrene",
+   "smiles": "CC1=CCC(C=C1)C(C)C"
+  },
+  {
+   "compound": "oct-1-en-3-ol",
+   "smiles": "CCCCCC(C=C)O"
+  },
+  {
+   "compound": "(+)-α-pinene",
+   "smiles": "CC1=CCC2CC1C2(C)C"
+  },
+  {
+   "compound": "(+)-limonene",
+   "smiles": "CC1=CCC(CC1)C(=C)C"
+  },
+  {
+   "compound": "β-bisabolene",
+   "smiles": "CC1=CCC(CC1)C(=C)CCC=C(C)C"
+  },
+  {
+   "compound": "1-hexanol",
+   "smiles": "CCCCCCO"
+  },
+  {
+   "compound": "(+)-beta-caryophyllene",
+   "smiles": "CC1=CCCC(=C)C2CC(C2CC1)(C)C"
+  }
+ ]
+}

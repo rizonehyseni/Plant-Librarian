@@ -1,0 +1,26 @@
+{
+ "key": "Vitis vinifera L.",
+ "value": {
+  "usageKey": 5372392,
+  "scientificName": "Vitis vinifera L.",
+  "canonicalName": "Vitis vinifera",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Vitales",
+  "family": "Vitaceae",
+  "genus": "Vitis",
+  "species": "Vitis vinifera",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 7222050,
+  "familyKey": 6672,
+  "genusKey": 7467468,
+  "speciesKey": 5372392,
+  "class": "Magnoliopsida"
+ }
+}

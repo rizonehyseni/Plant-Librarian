@@ -1,0 +1,26 @@
+{
+ "key": "Juniperus communis L.",
+ "value": {
+  "usageKey": 2684709,
+  "scientificName": "Juniperus communis L.",
+  "canonicalName": "Juniperus communis",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Pinales",
+  "family": "Cupressaceae",
+  "genus": "Juniperus",
+  "species": "Juniperus communis",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 194,
+  "orderKey": 640,
+  "familyKey": 8144,
+  "genusKey": 2684359,
+  "speciesKey": 2684709,
+  "class": "Pinopsida"
+ }
+}

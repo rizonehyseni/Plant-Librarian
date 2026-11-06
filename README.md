@@ -22,8 +22,31 @@ make eval                   # accuracy against eval/gold.csv
 
 No `make` (Windows)? Run the commands from the Makefile directly, e.g. `python -m pipeline.build`.
 
-The repo ships with one **synthetic** fixture (`data/raw/sample_fixture.txt`) and its cached
-extraction so the whole pipeline runs without an API key. Replace it with real studies.
+The repo includes a **synthetic test fixture** and one real, open-access Sharr Mountains
+study (`data/raw/cross_cultural_sharr_2015.pdf`). The committed extraction cache contains
+74 Albanian-labelled medicinal-use rows across 51 plant taxa from Table 1. Each row is
+matched to its source PDF page; these are table-derived records, not Claude output. The
+paper reports 114 medicinal taxa across Albanian, Bosniak/Gorani, and Turkish communities,
+so the current dataset is still a subset. Other community rows and the separate food and
+handicraft tables are not loaded in the app. The app hides the synthetic fixture.
+
+Regenerate the Sharr table cache without an API key with `python -m pipeline.extract_sharr_table`.
+The script reads the committed article XML and PDF, keeps ALB-labelled plant rows, excludes
+fungi, and requires each record's table text to match a unique PDF page.
+
+### What needs an API key
+
+- The Anthropic key is used only to extract plant-use records from a study that has no
+  cached extraction. Without the key, that study is skipped by extraction.
+- The GBIF, PubMed and Wikidata lookups run during a normal online build and do not use
+  the Anthropic key. Their responses are cached under `data/cache/api/`.
+- `OFFLINE=1` makes the build use saved API responses. It cannot fetch missing data; an
+  uncached study with no Anthropic key will have no extracted records.
+- IUCN conservation lookups need the separate optional `IUCN_TOKEN`.
+
+The cached API searches are candidates, not a reviewed scientific conclusion. The app
+labels the PubMed keyword tags as preliminary. Manually reviewed comparisons are kept
+separate in `data/seed/reviewed_evidence.csv`.
 
 ## How it works
 
@@ -48,8 +71,12 @@ level come from written rules and open databases. Every API and LLM response is 
 2. Add a row to `data/seed/sources.csv` with title, citation, URL, licence and `study_area`
    (the region the study covers, e.g. `Malet e Sharrit`; it must be a place or alias in
    `data/seed/places.csv`). Records that name no village are located there (`geo_precision = study`).
-3. Run `make build`. The extraction is cached in `data/cache/extract/<name>.json`.
-4. Hand-check some records and add them to `eval/gold.csv`, then run `make eval`.
+3. Set `ANTHROPIC_API_KEY` in `.env` before the first build if you want Claude to extract
+   this study. Otherwise, provide a checked extraction cache at
+   `data/cache/extract/<name>.json`. A cached extraction is used before any API call.
+4. Run `make build`. Network lookup responses are cached under `data/cache/api/`.
+5. Hand-check extracted records against the paper and add verified examples to
+   `eval/gold.csv`, then run `make eval`.
 
 ## Where each use was recorded
 

@@ -1,0 +1,153 @@
+{
+ "key": "Pinus nigra",
+ "value": [
+  {
+   "compound": "sandaracopimaric acid",
+   "smiles": "CC1(CCC2C(=C1)CCC3C2(CCCC3(C)C(=O)O)C)C=C"
+  },
+  {
+   "compound": "isopimaric acid",
+   "smiles": "CC1(CCC2C(=CCC3C2(CCCC3(C)C(=O)O)C)C1)C=C"
+  },
+  {
+   "compound": "rhodoxanthin",
+   "smiles": "CC1=CC(=O)CC(C1=CC=C(C)C=CC=C(C)C=CC=CC(=CC=CC(=CC=C2C(=CC(=O)CC2(C)C)C)C)C)(C)C"
+  },
+  {
+   "compound": "sandaracopimarinol",
+   "smiles": "OCC1(C)CCCC2(C)C3C(=CC(C=C)(C)CC3)CCC12"
+  },
+  {
+   "compound": "Pimarol",
+   "smiles": "OCC1(C)CCCC2(C)C3C(=CC(C=C)(C)CC3)CCC12"
+  },
+  {
+   "compound": "(1R,4aR,5R,8aR)-1,4a-dimethyl-6-methylidene-5-(3-methylpenta-2,4-dienyl)-3,4,5,7,8,8a-hexahydro-2H-naphthalene-1-carboxylic acid",
+   "smiles": "O=C(O)C1(C)CCCC2(C)C(C(=C)CCC12)CC=C(C=C)C"
+  },
+  {
+   "compound": "(1R,4aS,10aR)-7-Isopropyl-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthrene-1-carboxylic acid",
+   "smiles": "O=C(O)C1(C)CCCC2(C3=CC=C(C=C3CCC12)C(C)C)C"
+  },
+  {
+   "compound": "(3Z,6Z,10Z)-3,7,11-trimethyl-14-propan-2-ylcyclotetradeca-1,3,6,10-tetraene",
+   "smiles": "C1=CC(CCC(=CCCC(=CCC=C1C)C)C)C(C)C"
+  },
+  {
+   "compound": "Labd-14-ene, 8,13-epoxy-, (13S)-",
+   "smiles": "O1C(C=C)(C)CCC2C1(C)CCC3C(C)(C)CCCC23C"
+  },
+  {
+   "compound": "Pinifolic Acid",
+   "smiles": "O=C(O)CC(C)CCC1C(=C)CCC2C(C(=O)O)(C)CCCC12C"
+  },
+  {
+   "compound": "Isoabienol",
+   "smiles": "OC1(C)CCC2C(C)(C)CCCC2(C)C1CCC(=C)C=C"
+  },
+  {
+   "compound": "(S,1Z,6Z)-8-Isopropyl-1-methyl-5-methylenecyclodeca-1,6-diene",
+   "smiles": "C=C1C=CC(CCC(=CCC1)C)C(C)C"
+  },
+  {
+   "compound": "(2R,4aR,4bS,10aR)-2-ethenyl-2,4a,8,8-tetramethyl-3,4,4b,5,6,7,10,10a-octahydro-1H-phenanthrene",
+   "smiles": "C=CC1(C)CCC2(C)C3C(=CCC2C1)C(C)(C)CCC3"
+  },
+  {
+   "compound": "(+)-1,2-Didehydropinidinol",
+   "smiles": "OC(C)CC1N=C(C)CCC1"
+  },
+  {
+   "compound": "(1S,5S)-1-methyl-9-azabicyclo[3.3.1]nonan-3-one",
+   "smiles": "O=C1CC2NC(C)(C1)CCC2"
+  },
+  {
+   "compound": "1-Methyl-9-azabicyclo[3.3.1]nonan-3-one",
+   "smiles": "O=C1CC2NC(C)(C1)CCC2"
+  },
+  {
+   "compound": "1-[(2,3,4,5-Tetrahydro-6-methylpyridin)-2beta-yl]propan-2-one",
+   "smiles": "O=C(C)CC1N=C(C)CCC1"
+  },
+  {
+   "compound": "methyl (3R)-5-[(1S,4aR,5R,8aR)-5-(acetyloxymethyl)-5,8a-dimethyl-2-methylidene-3,4,4a,6,7,8-hexahydro-1H-naphthalen-1-yl]-3-methylpentanoate",
+   "smiles": "O=C(OCC1(C)CCCC2(C)C(C(=C)CCC12)CCC(C)CC(=O)OC)C"
+  },
+  {
+   "compound": "(1E,3Z,6E,10E)-3,7,11-trimethyl-14-propan-2-ylcyclotetradeca-1,3,6,10-tetraene",
+   "smiles": "C1=CC(CCC(=CCCC(=CCC=C1C)C)C)C(C)C"
+  },
+  {
+   "compound": "Q104252257",
+   "smiles": "O=C(OCC=C(C)CCCC(C)CCCC(C)CCCC(C)C)CCC1C=2N=C(C=C3NC(=CC=4NC(C=C5N=C6C(C(=O)C(C(=O)OC)C62)=C5C)=C(C4C)CC)C(C=C)=C3C)C1C"
+  },
+  {
+   "compound": "(1R,2R,4aR,8aS)-2,5,5,8a-tetramethyl-1-(3-methylidenepent-4-enyl)-3,4,4a,6,7,8-hexahydro-1H-naphthalen-2-ol",
+   "smiles": "OC1(C)CCC2C(C)(C)CCCC2(C)C1CCC(=C)C=C"
+  },
+  {
+   "compound": "(1R,4aR,4bS,7R,10aR)-7-ethenyl-1,4a,7-trimethyl-3,4,4b,5,6,9,10,10a-octahydro-2H-phenanthrene-1-carbaldehyde",
+   "smiles": "O=CC1(C)CCCC2(C)C3C(=CC(C=C)(C)CC3)CCC12"
+  },
+  {
+   "compound": "dextropimarinal",
+   "smiles": "O=CC1(C)CCCC2(C)C3C(=CC(C=C)(C)CC3)CCC12"
+  },
+  {
+   "compound": "methyl (1R,4aR,5S,8aR)-5-[(3R)-5-methoxy-3-methyl-5-oxopentyl]-1,4a-dimethyl-6-methylidene-3,4,5,7,8,8a-hexahydro-2H-naphthalene-1-carboxylate",
+   "smiles": "O=C(OC)CC(C)CCC1C(=C)CCC2C(C(=O)OC)(C)CCCC12C"
+  },
+  {
+   "compound": "(3R,4aR,6aR,7S,10aS,10bR)-3-ethenyl-3,4a,7,10a-tetramethyl-2,5,6,6a,8,9,10,10b-octahydro-1H-benzo[f]chromene-7-carboxylic acid",
+   "smiles": "O=C(O)C1(C)CCCC2(C)C3CCC(OC3(C)CCC12)(C=C)C"
+  },
+  {
+   "compound": "(1R,4aR,5S,8aR)-1,4a-dimethyl-6-methylidene-5-[(2E)-3-methylpenta-2,4-dien-1-yl]-hexahydro-2H-naphthalene-1-carboxylic acid",
+   "smiles": "O=C(O)C1(C)CCCC2(C)C(C(=C)CCC12)CC=C(C=C)C"
+  },
+  {
+   "compound": "(3S)-5-[(1S,4aR,5R,8aR)-5-methoxycarbonyl-5,8a-dimethyl-2-methylidene-3,4,4a,6,7,8-hexahydro-1H-naphthalen-1-yl]-3-methylpentanoic acid",
+   "smiles": "O=C(O)CC(C)CCC1C(=C)CCC2C(C(=O)OC)(C)CCCC12C"
+  },
+  {
+   "compound": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-6-methylidene-5-[(3S)-3-methyl-5-oxopentyl]-3,4,5,7,8,8a-hexahydro-2H-naphthalene-1-carboxylate",
+   "smiles": "O=CCC(C)CCC1C(=C)CCC2C(C(=O)OC)(C)CCCC12C"
+  },
+  {
+   "compound": "Q110184368",
+   "smiles": "O=C(OCC=C(C)CCCC(C)CCCC(C)CCCC(C)C)CCC1C2=NC(=CC3=NC(=CC4=NC(=CC=5NC=6C(=C(O)C(C(=O)OC)C26)C5C)C(=C4C)CC)C(C=C)=C3C)C1C"
+  },
+  {
+   "compound": "(R)-10-nonacosanol",
+   "smiles": "CCCCCCCCCCCCCCCCCCCC(CCCCCCCCC)O"
+  },
+  {
+   "compound": "(R/S)-cembrene",
+   "smiles": "CC1=CCCC(=CCC=C(C=CC(CC1)C(C)C)C)C"
+  },
+  {
+   "compound": "palustric acid",
+   "smiles": "CC(C)C1=CC2=C(CC1)C3(CCCC(C3CC2)(C)C(=O)O)C"
+  },
+  {
+   "compound": "(-)-sandaracopimaradiene",
+   "smiles": "CC1(CCCC2(C1CCC3=CC(CCC32)(C)C=C)C)C"
+  },
+  {
+   "compound": "Pinosylvin methyl ether",
+   "smiles": "COC1=CC(=CC(=C1)O)C=CC2=CC=CC=C2"
+  },
+  {
+   "compound": "abietic acid",
+   "smiles": "CC(C)C1=CC2=CCC3C(C2CC1)(CCCC3(C)C(=O)O)C"
+  },
+  {
+   "compound": "neoabietic acid",
+   "smiles": "CC(=C1CCC2C(=C1)CCC3C2(CCCC3(C)C(=O)O)C)C"
+  },
+  {
+   "compound": "pimaric acid",
+   "smiles": "CC1(CCC2C(=C1)CCC3C2(CCCC3(C)C(=O)O)C)C=C"
+  }
+ ]
+}

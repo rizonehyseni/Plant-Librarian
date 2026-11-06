@@ -1,0 +1,405 @@
+{
+ "key": "Artemisia absinthium",
+ "value": [
+  {
+   "compound": "(E)-β-ocimene epoxide",
+   "smiles": "CC(=CCC1C(O1)(C)C)C=C"
+  },
+  {
+   "compound": "vanillic acid",
+   "smiles": "COC1=C(C=CC(=C1)C(=O)O)O"
+  },
+  {
+   "compound": "nonacosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "(-)-germacrene D",
+   "smiles": "CC1=CCCC(=C)C=CC(CC1)C(C)C"
+  },
+  {
+   "compound": "(3Z)-β-ocimene",
+   "smiles": "CC(=CCC=C(C)C=C)C"
+  },
+  {
+   "compound": "kaempferol 3,7,4'-trimethyl ether",
+   "smiles": "COC1=CC=C(C=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)OC)O)OC"
+  },
+  {
+   "compound": "matricin",
+   "smiles": "CC1C2C(CC(=C3C=CC(C3C2OC1=O)(C)O)C)OC(=O)C"
+  },
+  {
+   "compound": "achillin",
+   "smiles": "CC1C2CCC(=C3C(C2OC1=O)C(=CC3=O)C)C"
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[[3,4,5-trihydroxy-6-[(3,4,5-trihydroxy-6-methyl-2-oxanyl)oxymethyl]-2-oxanyl]oxy]-1-benzopyran-4-one",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "ketopelenolide a",
+   "smiles": "CC1CC2C(CCC(=CCC1=O)C)C(C(=O)O2)C"
+  },
+  {
+   "compound": "eupatilin",
+   "smiles": "COC1=C(C=C(C=C1)C2=CC(=O)C3=C(C(=C(C=C3O2)O)OC)O)OC"
+  },
+  {
+   "compound": "neryl isovalerate",
+   "smiles": "CC(C)CC(=O)OCC=C(C)CCC=C(C)C"
+  },
+  {
+   "compound": "matricarin",
+   "smiles": "CC1C2C(CC(=C3C(C2OC1=O)C(=CC3=O)C)C)OC(=O)C"
+  },
+  {
+   "compound": "Catechin (no stereochemistry defined)",
+   "smiles": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O"
+  },
+  {
+   "compound": "myrcene",
+   "smiles": "CC(=CCCC(=C)C=C)C"
+  },
+  {
+   "compound": "α-terpinene",
+   "smiles": "CC1=CC=C(CC1)C(C)C"
+  },
+  {
+   "compound": "artemisinin",
+   "smiles": "O=C1OC2OC3(OOC24C(CCC(C)C4CC3)C1C)C"
+  },
+  {
+   "compound": "chamazulene",
+   "smiles": "CCC1=CC2=C(C=CC2=C(C=C1)C)C"
+  },
+  {
+   "compound": "(−)-α-thujone",
+   "smiles": "CC1C2CC2(CC1=O)C(C)C"
+  },
+  {
+   "compound": "(E)-chlorogenic acid",
+   "smiles": "C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "(R)-lavandulol",
+   "smiles": "CC(=CCC(CO)C(=C)C)C"
+  },
+  {
+   "compound": "Artabsinolide A",
+   "smiles": "O=C1C2=C(C3OC(=O)C(C)C3CCC2(O)C)C(O)(C)C1"
+  },
+  {
+   "compound": "γ‑terpinene",
+   "smiles": "CC1=CCC(=CC1)C(C)C"
+  },
+  {
+   "compound": "(1R,2S,7S,8S)-1,3-dimethyl-8-propan-2-yltricyclo[4.4.0.02,7]dec-3-ene",
+   "smiles": "C1=C(C)C2C3C(CCC2(C)C3C1)C(C)C"
+  },
+  {
+   "compound": "(2R)-6-methyl-2-(4-methylcyclohex-3-en-1-yl)hept-5-en-2-ol",
+   "smiles": "OC(C)(CCC=C(C)C)C1CC=C(C)CC1"
+  },
+  {
+   "compound": "(-)-3,5-Dicaffeoyl quinic acid",
+   "smiles": "O=C(OC1CC(O)(C(=O)O)CC(OC(=O)C=CC2=CC=C(O)C(O)=C2)C1O)C=CC3=CC=C(O)C(O)=C3"
+  },
+  {
+   "compound": "7,7-dimethyl-2-methylenebicyclo[2.2.1]heptane",
+   "smiles": "CC1(C2CCC1C(=C)C2)C"
+  },
+  {
+   "compound": "6-methyl-5-hepten-2-one",
+   "smiles": "CC(=CCCC(=O)C)C"
+  },
+  {
+   "compound": "cis-chrysanthenol",
+   "smiles": "CC1=CCC2C(C1C2(C)C)O"
+  },
+  {
+   "compound": "trans-epoxyocimene",
+   "smiles": "O1C(CC=C(C)C)C1(C=C)C"
+  },
+  {
+   "compound": "(S,1Z,6Z)-8-Isopropyl-1-methyl-5-methylenecyclodeca-1,6-diene",
+   "smiles": "C=C1C=CC(CCC(=CCC1)C)C(C)C"
+  },
+  {
+   "compound": "Diayangambin",
+   "smiles": "O(C=1C=C(C=C(OC)C1OC)C2OCC3C(OCC23)C4=CC(OC)=C(OC)C(OC)=C4)C"
+  },
+  {
+   "compound": "Aschantin",
+   "smiles": "O(C=1C=C(C=C(OC)C1OC)C2OCC3C(OCC23)C4=CC=C5OCOC5=C4)C"
+  },
+  {
+   "compound": "Kobusin",
+   "smiles": "O(C1=CC=C(C=C1OC)C2OCC3C(OCC23)C4=CC=C5OCOC5=C4)C"
+  },
+  {
+   "compound": "(+/-)-naringenin",
+   "smiles": "Oc1ccc(cc1)C1CC(=O)c2c(O)cc(O)cc2O1"
+  },
+  {
+   "compound": "(R)-beta-bisabolene",
+   "smiles": "CC1=CCC(CC1)C(=C)CCC=C(C)C"
+  },
+  {
+   "compound": "neryl butyrate",
+   "smiles": "CCCC(=O)OCC=C(C)CCC=C(C)C"
+  },
+  {
+   "compound": "Fargesin",
+   "smiles": "O(C1=CC=C(C=C1OC)C2OCC3C(OCC23)C4=CC=C5OCOC5=C4)C"
+  },
+  {
+   "compound": "L-proline",
+   "smiles": "C1CC(NC1)C(=O)O"
+  },
+  {
+   "compound": "(-)-borneol",
+   "smiles": "CC1(C2CCC1(C(C2)O)C)C"
+  },
+  {
+   "compound": "(−)-methyl jasmonate",
+   "smiles": "CCC=CCC1C(CCC1=O)CC(=O)OC"
+  },
+  {
+   "compound": "D-Alanine",
+   "smiles": "CC(C(=O)O)N"
+  },
+  {
+   "compound": "Austricin",
+   "smiles": "CC1C2C(CC(=C3C(C2OC1=O)C(=CC3=O)C)C)O"
+  },
+  {
+   "compound": "Parishin B",
+   "smiles": "C1=CC(=CC=C1COC(=O)CC(CC(=O)O)(C(=O)OCC2=CC=C(C=C2)OC3C(C(C(C(O3)CO)O)O)O)O)OC4C(C(C(C(O4)CO)O)O)O"
+  },
+  {
+   "compound": "artabsin",
+   "smiles": "CC1C2CCC(C3=CCC(=C3C2OC1=O)C)(C)O"
+  },
+  {
+   "compound": "camphene",
+   "smiles": "CC1(C2CCC(C2)C1=C)C"
+  },
+  {
+   "compound": "ferulic acid",
+   "smiles": "COC1=C(C=CC(=C1)C=CC(=O)O)O"
+  },
+  {
+   "compound": "borneol",
+   "smiles": "CC1(C2CCC1(C(C2)O)C)C"
+  },
+  {
+   "compound": "Sesartemin",
+   "smiles": "COC1=CC(=CC2=C1OCO2)C3C4COC(C4CO3)C5=CC(=C(C(=C5)OC)OC)OC"
+  },
+  {
+   "compound": "neryl acetate",
+   "smiles": "CC(=CCCC(=CCOC(=O)C)C)C"
+  },
+  {
+   "compound": "D-aspartic acid",
+   "smiles": "C(C(C(=O)O)N)C(=O)O"
+  },
+  {
+   "compound": "L-aspartic acid",
+   "smiles": "C(C(C(=O)O)N)C(=O)O"
+  },
+  {
+   "compound": "Yangambin",
+   "smiles": "COC1=CC(=CC(=C1OC)OC)C2C3COC(C3CO2)C4=CC(=C(C(=C4)OC)OC)OC"
+  },
+  {
+   "compound": "trans-caffeic acid",
+   "smiles": "C1=CC(=C(C=C1C=CC(=O)O)O)O"
+  },
+  {
+   "compound": "nerol",
+   "smiles": "CC(=CCCC(=CCO)C)C"
+  },
+  {
+   "compound": "4-hydroxybenzoic acid",
+   "smiles": "C1=CC(=CC=C1C(=O)O)O"
+  },
+  {
+   "compound": "L-glutamic acid",
+   "smiles": "C(CC(=O)O)C(C(=O)O)N"
+  },
+  {
+   "compound": "isorhamnetin",
+   "smiles": "COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "(-)-cis-sabinol",
+   "smiles": "CC(C)C12CC1C(=C)C(C2)O"
+  },
+  {
+   "compound": "L-Asparagine",
+   "smiles": "C(C(C(=O)O)N)C(=O)N"
+  },
+  {
+   "compound": "esculin",
+   "smiles": "C1=CC(=O)OC2=CC(=C(C=C21)OC3C(C(C(C(O3)CO)O)O)O)O"
+  },
+  {
+   "compound": "(+)-Epieudesmine",
+   "smiles": "COC1=C(C=C(C=C1)C2C3COC(C3CO2)C4=CC(=C(C=C4)OC)OC)OC"
+  },
+  {
+   "compound": "L-alanine",
+   "smiles": "CC(C(=O)O)N"
+  },
+  {
+   "compound": "Absinthin (van)",
+   "smiles": "O=C1OC2C3=C(C)C4C(C5C=C(C)C64C7OC(=O)C(C)C7CCC(O)(C)C56)C3C(O)(C)CCC2C1C"
+  },
+  {
+   "compound": "caryophyllene",
+   "smiles": "CC1=CCCC(=C)C2CC(C2CC1)(C)C"
+  },
+  {
+   "compound": "(+)-beta-selinene",
+   "smiles": "CC(=C)C1CCC2(CCCC(=C)C2C1)C"
+  },
+  {
+   "compound": "L-leucine",
+   "smiles": "CC(C)CC(C(=O)O)N"
+  },
+  {
+   "compound": "p-cymene",
+   "smiles": "CC1=CC=C(C=C1)C(C)C"
+  },
+  {
+   "compound": "tryptophan",
+   "smiles": "C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N"
+  },
+  {
+   "compound": "β-caryophyllene oxide",
+   "smiles": "CC1(CC2C1CCC3(C(O3)CCC2=C)C)C"
+  },
+  {
+   "compound": "sabinene",
+   "smiles": "CC(C)C12CCC(=C)C1C2"
+  },
+  {
+   "compound": "terpinolene",
+   "smiles": "CC1=CCC(=C(C)C)CC1"
+  },
+  {
+   "compound": "linalool",
+   "smiles": "CC(=CCCC(C)(C=C)O)C"
+  },
+  {
+   "compound": "L-valine",
+   "smiles": "CC(C)C(C(=O)O)N"
+  },
+  {
+   "compound": "2-Acetyl-3-methoxy-5-(1-propynyl)thiophene",
+   "smiles": "CC#CC1=CC(=C(S1)C(=O)C)OC"
+  },
+  {
+   "compound": "Absintholide",
+   "smiles": "O=C1OC2C3=C(C4C(=O)C3(C)C5C(O)C6=C(C7OC(=O)C(C)C7CCC6(O)C)C45C)C(O)(C)CCC2C1C"
+  },
+  {
+   "compound": "artemetin",
+   "smiles": "COC1=C(C=C(C=C1)C2=C(C(=O)C3=C(C(=C(C=C3O2)OC)OC)O)OC)OC"
+  },
+  {
+   "compound": "3,4,5-trimethoxybenzoic acid",
+   "smiles": "COC1=CC(=CC(=C1OC)OC)C(=O)O"
+  },
+  {
+   "compound": "beta-pinene",
+   "smiles": "CC1(C2CCC(=C)C1C2)C"
+  },
+  {
+   "compound": "(3E)-β-ocimene",
+   "smiles": "CC(=CCC=C(C)C=C)C"
+  },
+  {
+   "compound": "umbelliferone",
+   "smiles": "C1=CC(=CC2=C1C=CC(=O)O2)O"
+  },
+  {
+   "compound": "geranyl propionate",
+   "smiles": "CCC(=O)OCC=C(C)CCC=C(C)C"
+  },
+  {
+   "compound": "5-Hydroxy-3',4',6,7-tetramethoxyflavone",
+   "smiles": "COC1=C(C=C(C=C1)C2=CC(=O)C3=C(C(=C(C=C3O2)OC)OC)O)OC"
+  },
+  {
+   "compound": "bornyl acetate",
+   "smiles": "CC(=O)OC1CC2CCC1(C)C2(C)C"
+  },
+  {
+   "compound": "anabsinthin",
+   "smiles": "CC1C2CCC(C3C4C5CC6(C7(C4C(=C3C2OC1=O)C)C5C(O6)(CCC8C7OC(=O)C8C)C)C)(C)O"
+  },
+  {
+   "compound": "(+)-cis-sabinol",
+   "smiles": "CC(C)C12CC1C(=C)C(C2)O"
+  },
+  {
+   "compound": "(±)-limonene",
+   "smiles": "CC1=CCC(CC1)C(=C)C"
+  },
+  {
+   "compound": "β-thujone",
+   "smiles": "CC1C2CC2(CC1=O)C(C)C"
+  },
+  {
+   "compound": "(+)-sesamin",
+   "smiles": "C1C2C(COC2C3=CC4=C(C=C3)OCO4)C(O1)C5=CC6=C(C=C5)OCO6"
+  },
+  {
+   "compound": "geraniol",
+   "smiles": "CC(=CCCC(=CCO)C)C"
+  },
+  {
+   "compound": "scopoletin",
+   "smiles": "COC1=C(C=C2C(=C1)C=CC(=O)O2)O"
+  },
+  {
+   "compound": "esculetin",
+   "smiles": "C1=CC(=O)OC2=CC(=C(C=C21)O)O"
+  },
+  {
+   "compound": "α-phellandrene",
+   "smiles": "CC1=CCC(C=C1)C(C)C"
+  },
+  {
+   "compound": "camphor",
+   "smiles": "CC1(C2CCC1(C(=O)C2)C)C"
+  },
+  {
+   "compound": "alpha-pinene",
+   "smiles": "CC1=CCC2CC1C2(C)C"
+  },
+  {
+   "compound": "(+/-)-4-terpineol",
+   "smiles": "CC1=CCC(CC1)(C(C)C)O"
+  },
+  {
+   "compound": "β-bisabolene",
+   "smiles": "CC1=CCC(CC1)C(=C)CCC=C(C)C"
+  },
+  {
+   "compound": "β-phellandrene",
+   "smiles": "CC(C)C1CCC(=C)C=C1"
+  },
+  {
+   "compound": "absinthin",
+   "smiles": "CC1C2CCC(C3C4C5C=C(C6(C4C(=C3C2OC1=O)C)C5C(CCC7C6OC(=O)C7C)(C)O)C)(C)O"
+  },
+  {
+   "compound": "dehydromatricaria ester",
+   "smiles": "CC#CC#CC#CC=CC(=O)OC"
+  }
+ ]
+}

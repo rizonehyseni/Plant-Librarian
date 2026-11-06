@@ -1,0 +1,285 @@
+{
+ "key": "Chelidonium majus",
+ "value": [
+  {
+   "compound": "Angoline",
+   "smiles": "CN1C(C2=C(C=CC(=C2OC)OC)C3=C1C4=CC5=C(C=C4C=C3)OCO5)OC"
+  },
+  {
+   "compound": "ukrain cation",
+   "smiles": "C[N+]1(CC2=C(C=CC3=C2OCO3)C4C1C5=CC6=C(C=C5CC4O)OCO6)CCNP(=S)(NCC[N+]7(CC8=C(C=CC9=C8OCO9)C1C7C2=CC3=C(C=C2CC1O)OCO3)C)NCC[N+]1(CC2=C(C=CC3=C2OCO3)C2C1C1=CC3=C(C=C1CC2O)OCO3)C"
+  },
+  {
+   "compound": "protopine",
+   "smiles": "CN1CCC2=CC3=C(C=C2C(=O)CC4=C(C1)C5=C(C=C4)OCO5)OCO3"
+  },
+  {
+   "compound": "homochelidonine",
+   "smiles": "CN1CC2=C(C=CC(=C2OC)OC)C3C1C4=CC5=C(C=C4CC3O)OCO5"
+  },
+  {
+   "compound": "(2S,3R,4R,5R,6S)-2-[[3,5-dihydroxy-2-(4-hydroxyphenyl)-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2,4-dihydrochromen-7-yl]oxy]-6-methyloxane-3,4,5-triol",
+   "smiles": "OC1=CC=C(C=C1)C2OC3=CC(OC4OC(C)C(O)C(O)C4O)=CC(O)=C3CC2(O)OC5OC(CO)C(O)C(O)C5O"
+  },
+  {
+   "compound": "methyl 2-[(23R)-24-methyl-5,7,18,20-tetraoxa-24-azahexacyclo[11.11.0.02,10.04,8.014,22.017,21]tetracosa-1(13),2,4(8),9,11,14(22),15,17(21)-octaen-23-yl]acetate",
+   "smiles": "O=C(OC)CC1C=2C=3OCOC3C=CC2C4=CC=C5C=C6OCOC6=CC5=C4N1C"
+  },
+  {
+   "compound": "(−)-sparteine",
+   "smiles": "N12CCCCC1C3CN4CCCCC4C(C2)C3"
+  },
+  {
+   "compound": "chelidonic acid",
+   "smiles": "C1=C(OC(=CC1=O)C(=O)O)C(=O)O"
+  },
+  {
+   "compound": "berberine",
+   "smiles": "O1c2c(OC1)cc5c(c2)c4cc3ccc(OC)c(OC)c3c[n+]4CC5"
+  },
+  {
+   "compound": "1-(1,2-Dimethoxy-12-methyl-[1,3]benzodioxolo[5,6-c]phenanthridin-12-ium-6-yl)propan-2-one",
+   "smiles": "O=C(C)CC1=CC2=C3C=CC(OC)=C(OC)C3=C[N+](=C2C=4C=C5OCOC5=CC41)C"
+  },
+  {
+   "compound": "6-Methoxy Dihydrosanguinarine",
+   "smiles": "O1C=2C=C3C=CC=4C5=CC=6OCOC6C=C5C(OC)N(C4C3=CC2OC1)C"
+  },
+  {
+   "compound": "Chelidimerine",
+   "smiles": "O=C(CC1C2=C3OCOC3=CC=C2C=4C=CC5=CC=6OCOC6C=C5C4N1C)CC7C8=C9OCOC9=CC=C8C=%10C=CC%11=CC=%12OCOC%12C=C%11C%10N7C"
+  },
+  {
+   "compound": "Methoxychelidonine",
+   "smiles": "OC=1C=C2C=C3OCOC3=C(OC)C2=C4NCC=5C=6OCOC6C=CC5C14"
+  },
+  {
+   "compound": "2-[(E)-3-(3,4-dihydroxyphenyl)prop-2-enoyl]-2-hydroxybutanedioic acid",
+   "smiles": "O=C(O)CC(O)(C(=O)O)C(=O)C=CC1=CC=C(O)C(O)=C1"
+  },
+  {
+   "compound": "Caffeoyl-l-malic acid",
+   "smiles": "O=C(O)CC(O)(C(=O)O)C(=O)C=CC1=CC=C(O)C(O)=C1"
+  },
+  {
+   "compound": "(23S)-11,12-dimethoxy-24-methyl-5,7,18,20-tetraoxa-24-azahexacyclo[11.11.0.02,10.04,8.014,22.017,21]tetracosa-1(13),2,4(8),9,11,14(22),15,17(21)-octaen-23-ol",
+   "smiles": "OC1C=2C=3OCOC3C=CC2C4=C(OC)C(OC)=C5C=C6OCOC6=CC5=C4N1C"
+  },
+  {
+   "compound": "12-Methoxy-24-methyl-5,7,18,20-tetraoxa-24-azahexacyclo[11.11.0.02,10.04,8.014,22.017,21]tetracosa-1(13),2,4(8),9,11,14(22),15,17(21)-octaene",
+   "smiles": "O(C=1C=C2C=C3OCOC3=CC2=C4C1C=5C=CC=6OCOC6C5CN4C)C"
+  },
+  {
+   "compound": "Isochelidonine",
+   "smiles": "OC1CC2=CC=3OCOC3C=C2C4N(C)CC5=CC=6OCOC6C=C5C14"
+  },
+  {
+   "compound": "(1R,12R,13S)-5,7,18,20-tetraoxa-24-azahexacyclo[11.11.0.02,10.04,8.014,22.017,21]tetracosa-2,4(8),9,14(22),15,17(21)-hexaen-12-ol",
+   "smiles": "OC1CC2=CC=3OCOC3C=C2C4NCC5=C6OCOC6=CC=C5C14"
+  },
+  {
+   "compound": "(1S,12S,13R)-5,7,18,20-tetraoxa-24-azahexacyclo[11.11.0.02,10.04,8.014,22.017,21]tetracosa-2,4(8),9,14(22),15,17(21)-hexaen-12-ol",
+   "smiles": "OC1CC2=CC=3OCOC3C=C2C4NCC5=C6OCOC6=CC=C5C14"
+  },
+  {
+   "compound": "5,7,18,20-Tetraoxa-24-azahexacyclo[11.11.0.02,10.04,8.014,22.017,21]tetracosa-2,4(8),9,14(22),15,17(21)-hexaen-12-ol",
+   "smiles": "OC1CC2=CC=3OCOC3C=C2C4NCC5=C6OCOC6=CC=C5C14"
+  },
+  {
+   "compound": "(1R,12S,13S)-3-methoxy-24-methyl-5,7,18,20-tetraoxa-24-azahexacyclo[11.11.0.02,10.04,8.014,22.017,21]tetracosa-2,4(8),9,14(22),15,17(21)-hexaen-12-ol",
+   "smiles": "OC1CC2=CC=3OCOC3C(OC)=C2C4N(C)CC5=C6OCOC6=CC=C5C14"
+  },
+  {
+   "compound": "3-Methoxy-24-methyl-5,7,18,20-tetraoxa-24-azahexacyclo[11.11.0.02,10.04,8.014,22.017,21]tetracosa-2,4(8),9,14(22),15,17(21)-hexaen-12-ol",
+   "smiles": "OC1CC2=CC=3OCOC3C(OC)=C2C4N(C)CC5=C6OCOC6=CC=C5C14"
+  },
+  {
+   "compound": "Chelidonine (+)",
+   "smiles": "OC1CC2=CC=3OCOC3C=C2C4N(C)CC5=C6OCOC6=CC=C5C14"
+  },
+  {
+   "compound": "(1R,17S)-15-methyl-7,9,19,21-tetraoxa-15-azapentacyclo[15.7.0.04,12.06,10.018,22]tetracosa-4,6(10),11,18(22),23-pentaen-3-one",
+   "smiles": "O=C1C2=CC=3OCOC3C=C2CCN(C)CC4C=5OCOC5C=CC4C1"
+  },
+  {
+   "compound": "Norcorydine",
+   "smiles": "OC1=C(OC)C=C2C3=C1C4=C(OC)C(OC)=CC=C4CC3NCC2"
+  },
+  {
+   "compound": "Astragalin",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=CC(O)=CC4"
+  },
+  {
+   "compound": "(13R)-13-ethoxy-1,2,4-trimethoxy-12-methyl-13H-[1,3]benzodioxolo[5,6-c]phenanthridine",
+   "smiles": "O(C1=CC(OC)=C2C=3C=CC4=CC=5OCOC5C=C4C3N(C)C(OCC)C2=C1OC)C"
+  },
+  {
+   "compound": "1,2,4-Trimethoxy-12,13-dihydro-12-methyl[1,3]benzodioxolo[5,6-c]phenanthridine",
+   "smiles": "O(C1=CC(OC)=C2C=3C=CC4=CC=5OCOC5C=C4C3N(C)CC2=C1OC)C"
+  },
+  {
+   "compound": "(4bS,5S,11bS)-1,2-dimethoxy-12-methyl-5,6,11b,13-tetrahydro-4bH-[1,3]benzodioxolo[5,6-c]phenanthridin-5-ol",
+   "smiles": "OC1CC2=CC=3OCOC3C=C2C4N(C)CC5=C(OC)C(OC)=CC=C5C14"
+  },
+  {
+   "compound": "(6R)-7'-methylspiro[7H-furo[3,2-g][1,3]benzodioxole-6,6'-[1,3]dioxolo[4,5-h][3]benzazepine]-5'-one",
+   "smiles": "O=C1C=2C=C3OCOC3=CC2C=CN(C)C14C5=CC=C6OCOC6=C5OC4"
+  },
+  {
+   "compound": "(23S)-12-methoxy-24-methyl-5,7,18,20-tetraoxa-24-azahexacyclo[11.11.0.02,10.04,8.014,22.017,21]tetracosa-1(13),2,4(8),9,11,14(22),15,17(21)-octaen-23-ol",
+   "smiles": "OC1C=2C=3OCOC3C=CC2C4=C(OC)C=C5C=C6OCOC6=CC5=C4N1C"
+  },
+  {
+   "compound": "(13S)-1,2-dimethoxy-12-methyl-13H-[1,3]benzodioxolo[5,6-c]phenanthridin-13-ol",
+   "smiles": "OC1C=2C(OC)=C(OC)C=CC2C3=CC=C4C=C5OCOC5=CC4=C3N1C"
+  },
+  {
+   "compound": "(1R,13S,24S)-12-methyl-5,7,17,19-tetraoxa-12-azahexacyclo[11.11.0.02,10.04,8.014,22.016,20]tetracosa-2,4(8),9,14,16(20),21-hexaen-24-ol",
+   "smiles": "OC1CC2=CC=3OCOC3C=C2C4N(C)CC5=CC=6OCOC6C=C5C14"
+  },
+  {
+   "compound": "(1R,12R,13S)-12-hydroxy-24-methyl-5,7,18,20-tetraoxa-24-azahexacyclo[11.11.0.02,10.04,8.014,22.017,21]tetracosa-2,4(8),9,14(22),15,17(21)-hexaen-23-one",
+   "smiles": "O=C1C2=C3OCOC3=CC=C2C4C(O)CC5=CC=6OCOC6C=C5C4N1C"
+  },
+  {
+   "compound": "(4bR,5S,11bS)-1,2-dimethoxy-12-methyl-13-methylidene-4b,5,6,11b-tetrahydro-[1,3]benzodioxolo[5,6-c]phenanthridin-5-ol",
+   "smiles": "OC1CC2=CC=3OCOC3C=C2C4N(C(=C)C5=C(OC)C(OC)=CC=C5C14)C"
+  },
+  {
+   "compound": "chelidonine",
+   "smiles": "CN1CC2=C(C=CC3=C2OCO3)C4C1C5=CC6=C(C=C5CC4O)OCO6"
+  },
+  {
+   "compound": "5,7,18,20-Tetraoxa-24-azahexacyclo[11.11.0.02,10.04,8.014,22.017,21]tetracosa-1(13),2,4(8),9,14(22),15,17(21)-heptaen-23-one",
+   "smiles": "OC=1N=C2C=3C=C4OCOC4=CC3CCC2=C5C=CC=6OCOC6C15"
+  },
+  {
+   "compound": "1,3-Bis(24-methyl-5,7,18,20-tetraoxa-24-azoniahexacyclo[11.11.0.02,10.04,8.014,22.017,21]tetracosa-1(13),2,4(8),9,11,14(22),15,17(21)-octaen-24-yl)propan-2-one",
+   "smiles": "O=C(C[N+]1(C2=C(C=CC3=CC=4OCOC4C=C32)C5=CC=C6OCOC6=C5C1)C)C[N+]7(C8=C(C=CC9=CC=%10OCOC%10C=C98)C%11=CC=C%12OCOC%12=C%11C7)C"
+  },
+  {
+   "compound": "(23S)-24-methyl-5,7,18,20-tetraoxa-24-azahexacyclo[11.11.0.02,10.04,8.014,22.017,21]tetracosa-1(13),2,4(8),9,11,14(22),15,17(21)-octaen-23-ol",
+   "smiles": "OC1C=2C=3OCOC3C=CC2C4=CC=C5C=C6OCOC6=CC5=C4N1C"
+  },
+  {
+   "compound": "Sanguinarine pseudobase",
+   "smiles": "OC1C=2C=3OCOC3C=CC2C4=CC=C5C=C6OCOC6=CC5=C4N1C"
+  },
+  {
+   "compound": "(-)-chelidonine",
+   "smiles": "CN1CC2=C(C=CC3=C2OCO3)C4C1C5=CC6=C(C=C5CC4O)OCO6"
+  },
+  {
+   "compound": "succinic acid",
+   "smiles": "C(CC(=O)O)C(=O)O"
+  },
+  {
+   "compound": "ferulic acid",
+   "smiles": "COC1=C(C=CC(=C1)C=CC(=O)O)O"
+  },
+  {
+   "compound": "Tetrahydrocoptisine",
+   "smiles": "C1CN2CC3=C(CC2C4=CC5=C(C=C41)OCO5)C=CC6=C3OCO6"
+  },
+  {
+   "compound": "Dihydrochelerythrine",
+   "smiles": "CN1CC2=C(C=CC(=C2OC)OC)C3=C1C4=CC5=C(C=C4C=C3)OCO5"
+  },
+  {
+   "compound": "Dihydroumbellatine",
+   "smiles": "COC1=C(C2=C(C=C1)C=C3C4=CC5=C(C=C4CCN3C2)OCO5)OC"
+  },
+  {
+   "compound": "Noroxyhydrastinine",
+   "smiles": "C1CNC(=O)C2=CC3=C(C=C21)OCO3"
+  },
+  {
+   "compound": "trans-caffeic acid",
+   "smiles": "C1=CC(=C(C=C1C=CC(=O)O)O)O"
+  },
+  {
+   "compound": "dihydrosanguinarine",
+   "smiles": "CN1CC2=C(C=CC3=C2OCO3)C4=C1C5=CC6=C(C=C5C=C4)OCO6"
+  },
+  {
+   "compound": "4-hydroxybenzoic acid",
+   "smiles": "C1=CC(=CC=C1C(=O)O)O"
+  },
+  {
+   "compound": "Hydroxysanguinarine",
+   "smiles": "CN1C2=C(C=CC3=CC4=C(C=C32)OCO4)C5=C(C1=O)C6=C(C=C5)OCO6"
+  },
+  {
+   "compound": "coptisine",
+   "smiles": "C1C[N+]2=C(C=C3C=CC4=C(C3=C2)OCO4)C5=CC6=C(C=C51)OCO6"
+  },
+  {
+   "compound": "allocryptopine",
+   "smiles": "CN1CCC2=CC3=C(C=C2C(=O)CC4=C(C1)C(=C(C=C4)OC)OC)OCO3"
+  },
+  {
+   "compound": "allocryptopine",
+   "smiles": "COc1ccc2c(c1OC)CN(C)CCc1cc3c(cc1C(=O)C2)OCO3"
+  },
+  {
+   "compound": "chelirubine",
+   "smiles": "C[N+]1=CC2=C3C(=CC(=C2C4=C1C5=CC6=C(C=C5C=C4)OCO6)OC)OCO3"
+  },
+  {
+   "compound": "Norsanguinarine",
+   "smiles": "C1OC2=C(O1)C3=CN=C4C(=C3C=C2)C=CC5=CC6=C(C=C54)OCO6"
+  },
+  {
+   "compound": "gentisic acid",
+   "smiles": "C1=CC(=C(C=C1O)C(=O)O)O"
+  },
+  {
+   "compound": "Bis(1,3)benzodioxolo(5,6-a:4',5'-g)quinolizinium, 6,7-dihydro-13-methyl-",
+   "smiles": "CC1=C2C=CC3=C(C2=C[N+]4=C1C5=CC6=C(C=C5CC4)OCO6)OCO3"
+  },
+  {
+   "compound": "(S)-stylopine",
+   "smiles": "C1CN2CC3=C(CC2C4=CC5=C(C=C41)OCO5)C=CC6=C3OCO6"
+  },
+  {
+   "compound": "histamine",
+   "smiles": "C1=C(NC=N1)CCN"
+  },
+  {
+   "compound": "chelerythrine",
+   "smiles": "C[N+]1=C2C(=C3C=CC(=C(C3=C1)OC)OC)C=CC4=CC5=C(C=C42)OCO5"
+  },
+  {
+   "compound": "Chelilutine",
+   "smiles": "C[N+]1=C2C(=C3C(=CC(=C(C3=C1)OC)OC)OC)C=CC4=CC5=C(C=C42)OCO5"
+  },
+  {
+   "compound": "(+/-)-6-Acetonyldihydrochelerythrine",
+   "smiles": "CC(=O)CC1C2=C(C=CC(=C2OC)OC)C3=C(N1C)C4=CC5=C(C=C4C=C3)OCO5"
+  },
+  {
+   "compound": "(+/-)-6-Acetonyldihydrosanguinarine",
+   "smiles": "CC(=O)CC1C2=C(C=CC3=C2OCO3)C4=C(N1C)C5=CC6=C(C=C5C=C4)OCO6"
+  },
+  {
+   "compound": "corydine",
+   "smiles": "CN1CCC2=CC(=C(C3=C2C1CC4=C3C(=C(C=C4)OC)OC)O)OC"
+  },
+  {
+   "compound": "hydrastinine",
+   "smiles": "CN1CCC2=CC3=C(C=C2C1O)OCO3"
+  },
+  {
+   "compound": "(E)-p-coumaric acid",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)O)O"
+  },
+  {
+   "compound": "choline",
+   "smiles": "C[N+](C)(C)CCO"
+  },
+  {
+   "compound": "sanguinarine",
+   "smiles": "C[N+]1=C2C(=C3C=CC4=C(C3=C1)OCO4)C=CC5=CC6=C(C=C52)OCO6"
+  }
+ ]
+}

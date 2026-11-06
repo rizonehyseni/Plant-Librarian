@@ -1,0 +1,26 @@
+{
+ "key": "Salvia officinalis",
+ "value": {
+  "usageKey": 2927004,
+  "scientificName": "Salvia officinalis L.",
+  "canonicalName": "Salvia officinalis",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 99,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "genus": "Salvia",
+  "species": "Salvia officinalis",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 408,
+  "familyKey": 2497,
+  "genusKey": 2926981,
+  "speciesKey": 2927004,
+  "class": "Magnoliopsida"
+ }
+}

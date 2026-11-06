@@ -1,0 +1,69 @@
+{
+ "key": "Elymus repens",
+ "value": [
+  {
+   "compound": "chrysophanol",
+   "smiles": "CC1=CC(=C2C(=C1)C(=O)C3=C(C2=O)C(=CC=C3)O)O"
+  },
+  {
+   "compound": "(E/Z)-ferulic acid",
+   "smiles": "COC1=C(C=CC(=C1)C=CC(=O)O)O"
+  },
+  {
+   "compound": "emodin",
+   "smiles": "CC1=CC(=C2C(=C1)C(=O)C3=CC(=CC(=C3C2=O)O)O)O"
+  },
+  {
+   "compound": "HBOA",
+   "smiles": "C1=CC=C2C(=C1)NC(=O)C(O2)O"
+  },
+  {
+   "compound": "vanillic acid",
+   "smiles": "COC1=C(C=CC(=C1)C(=O)O)O"
+  },
+  {
+   "compound": "(2R)-2,4-dihydroxy-2H-1,4-benzoxazin-3-one",
+   "smiles": "O=C1N(O)C=2C=CC=CC2OC1O"
+  },
+  {
+   "compound": "16-[3-(4-Hydroxyphenyl)prop-2-enoyloxy]hexadecyl 16-[3-(4-hydroxyphenyl)prop-2-enoyloxy]hexadecanoate",
+   "smiles": "O=C(OCCCCCCCCCCCCCCCC(=O)OCCCCCCCCCCCCCCCCOC(=O)C=CC1=CC=C(O)C=C1)C=CC2=CC=C(O)C=C2"
+  },
+  {
+   "compound": "16-[3-(4-Methoxyphenyl)prop-2-enoyloxy]hexadecyl 16-[3-(4-methoxyphenyl)prop-2-enoyloxy]hexadecanoate",
+   "smiles": "O=C(OCCCCCCCCCCCCCCCC(=O)OCCCCCCCCCCCCCCCCOC(=O)C=CC1=CC=C(OC)C=C1)C=CC2=CC=C(OC)C=C2"
+  },
+  {
+   "compound": "(2s)-2,4-Dihydroxy-7-Methoxy-2h-1,4-Benzoxazin-3(4h)-One",
+   "smiles": "COC1=CC2=C(C=C1)N(C(=O)C(O2)O)O"
+  },
+  {
+   "compound": "2,4-Dihydroxy-7,8-dimethoxy-2H-1,4-benzoxazin-3(4H)-one",
+   "smiles": "O=C1N(O)C2=CC=C(OC)C(OC)=C2OC1O"
+  },
+  {
+   "compound": "3-hydroxybutyric acid",
+   "smiles": "CC(CC(=O)O)O"
+  },
+  {
+   "compound": "tricin",
+   "smiles": "COC1=CC(=CC(=C1O)OC)C2=CC(=O)C3=C(C=C(C=C3O2)O)O"
+  },
+  {
+   "compound": "alpha-linolenic acid",
+   "smiles": "CCC=CCC=CCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "elaidolinolenic acid",
+   "smiles": "CCC=CCC=CCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "parietin",
+   "smiles": "CC1=CC(=C2C(=C1)C(=O)C3=CC(=CC(=C3C2=O)O)OC)O"
+  },
+  {
+   "compound": "indole-3-acetic acid",
+   "smiles": "C1=CC=C2C(=C1)C(=CN2)CC(=O)O"
+  }
+ ]
+}

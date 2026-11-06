@@ -1,0 +1,245 @@
+{
+ "key": "Hordeum vulgare",
+ "value": [
+  {
+   "pmid": "30156019",
+   "title": "Corrigendum.",
+   "abstract": "",
+   "year": "2018"
+  },
+  {
+   "pmid": "38454479",
+   "title": "A guide to barley mutants.",
+   "abstract": "Mutants have had a fundamental impact upon scientific and applied genetics. They have paved the way for the molecular and genomic era, and most of today's crop plants are derived from breeding programs involving mutagenic treatments. Barley (Hordeum vulgare L.) is one of the most widely grown cereals in the world and has a long history as a crop plant. Barley breeding started more than 100 years ago and large breeding programs have collected and generated a wide range of natural and induced mutants, which often were deposited in genebanks around the world. In recent years, an increased interest in genetic diversity has brought many historic mutants into focus because the collections are regarded as valuable resources for understanding the genetic control of barley biology and barley breeding. The increased interest has been fueled also by recent advances in genomic research, which provided new tools and possibilities to analyze and reveal the genetic diversity of mutant collections. Since detailed knowledge about phenotypic characters of the mutants is the key to success of genetic and genomic studies, we here provide a comprehensive description of mostly morphological barley mutants. The review is closely linked to the International Database for Barley Genes and Barley Genetic Stocks ( bgs.nordgen.org ) where further details and additional images of each mutant described in this review can be found.",
+   "year": "2024"
+  },
+  {
+   "pmid": "26047566",
+   "title": "Leaf rust of cultivated barley: pathology and control.",
+   "abstract": "Leaf rust of barley is caused by the macrocyclic, heteroecious rust pathogen Puccinia hordei, with aecia reported from selected species of the genera Ornithogalum, Leopoldia, and Dipcadi, and uredinia and telia occurring on Hordeum vulgare, H. vulgare ssp. spontaneum, Hordeum bulbosum, and Hordeum murinum, on which distinct parasitic specialization occurs. Although Puccinia hordei is sporadic in its occurrence, it is probably the most common and widely distributed rust disease of barley. Leaf rust has increased in importance in recent decades in temperate barley-growing regions, presumably because of more intensive agricultural practices. Although total crop loss does not occur, under epidemic conditions yield reductions of up to 62% have been reported in susceptible varieties. Leaf rust is primarily controlled by the use of resistant cultivars, and, to date, 21 seedling resistance genes and two adult plant resistance (APR) genes have been identified. Virulence has been detected for most seedling resistance genes but is unknown for the APR genes Rph20 and Rph23. Other potentially new sources of APR have been reported, and additivity has been described for some of these resistances. Approaches to achieving durable resistance to leaf rust in barley are discussed.",
+   "year": "2015"
+  },
+  {
+   "pmid": "38366881",
+   "title": "Redirecting barley breeding for grass production through genome editing of Photoperiod-H1.",
+   "abstract": "Genome editing enables precise modification to harness an elite grain-producing barley (Hordeum vulgare L.) cultivar for grass production.",
+   "year": "2024"
+  },
+  {
+   "pmid": "32979265",
+   "title": "History and future perspectives of barley genomics.",
+   "abstract": "Barley (Hordeum vulgare), one of the most widely cultivated cereal crops, possesses a large genome of 5.1 Gbp. Through various international collaborations, the genome has recently been sequenced and assembled at the chromosome-scale by exploiting available genetic and genomic resources. Many wild and cultivated barley accessions have been collected and preserved around the world. These accessions are crucial to obtain diverse natural and induced barley variants. The barley bioresource project aims to investigate the diversity of this crop based on purified seed and DNA samples of a large number of collected accessions. The long-term goal of this project is to analyse the genome sequences of major barley accessions worldwide. In view of technical limitations, a strategy has been employed to establish the exome structure of a selected number of accessions and to perform high-quality chromosome-scale assembly of the genomes of several major representative accessions. For the future project, an efficient annotation pipeline is essential for establishing the function of genomes and genes as well as for using this information for sequence-based digital barley breeding. In this article, the author reviews the existing barley resources along with their applications and discuss possible future directions of research in barley genomics.",
+   "year": "2020"
+  },
+  {
+   "pmid": "36628413",
+   "title": "CRISPR/Cas9-guided knockout of eIF4E improves Wheat yellow mosaic virus resistance without yield penalty.",
+   "abstract": "",
+   "year": "2023"
+  },
+  {
+   "pmid": "40585572",
+   "title": "Genetic resources and pangenome analysis of barley.",
+   "abstract": "Barley (Hordeum vulgare) is widely cultivated, ranking fourth in cultivation area among cereal crops worldwide. Many wild and cultivated barley accessions have been collected and preserved in crop genebanks throughout the world. Barley has a large genome (~5 Gbp) that has recently been sequenced and assembled at the chromosome level by the international research community. The community also is sequencing accessions representing the diversity of both domesticated and wild barley to provide genome-wide genotyping information for pangenome analysis. Given that the pangenome represents the universe of genome sequences existing in a species, the long-term goal of this project is to obtain high-quality genome sequences of the major barley accessions worldwide. As each accession is annotated, the capacity to explore structural differences is enhanced by the increased understanding of the diversity of the barley genome, which will facilitate efficient development of cultivars for human consumption. This review describes our current knowledge of barley genome diversity and proposes future directions for basic and applied research of the barley pangenome.",
+   "year": "2025"
+  },
+  {
+   "pmid": "37100757",
+   "title": "The inability of barley to germinate after submergence depends on hypoxia-induced secondary dormancy.",
+   "abstract": "Global climate change has dramatically increased flooding events, which have a strong impact on crop production. Barley (Hordeum vulgare) is one of the most important cereals and its cultivation includes a broad range of different environments. We tested the capacity to germinate of a large barley panel after a short period of submergence followed by a period of recovery. We demonstrate that sensitive barley varieties activate underwater secondary dormancy because of a lower permeability to oxygen dissolved in water. In sensitive barley accessions, secondary dormancy is removed by nitric oxide donors. The results of a genome-wide association study uncovered a Laccase gene located in a region of significant marker-trait association that is differently regulated during grain development and plays a key role in this process. Our findings will help breeders to improve the genetics of barley, thereby increasing the capacity of seeds to germinate after a short period of flooding.",
+   "year": "2023"
+  },
+  {
+   "pmid": "39116935",
+   "title": "Do nanoplastics impact Pb up-taking by Hordeum vulgare L.?",
+   "abstract": "Most studies on nanoplastics (NPs) focus on aquatic environments, overlooking their combined bioaccumulation with pollutants in terrestrial ecosystems. This study addresses a part of this gap by investigating how polystyrene nanoplastics (PS-NPs) affect the bioaccumulation and translocation of lead (Pb) in Hordeum vulgare L. plants. Using the RHIZOtest device for precise soil contamination control, we quantified PS-NPs (50 nm) in plant shoots via pyrolysis-gas chromatography/mass spectrometry (Py-GCMS) after plant KOH digestion. Our findings revealed that PS-NPs reduce Pb bioaccumulation and make adsorbed Pb onto PS-NPs less bioavailable to plants. For the highest Pb concentration, the Pb uptake index (PUI) followed the trend: Free Pb > NPs + Pb > Pb primary adsorbed by NPs, showing reduced Pb translocation to shoots in the presence of PS-NPs. Moreover, the presence of Pb decreased the bioavailability of PS-NPs probably in response to PS-NPs aggregation or modified charge. The PS-NPs concentrations in shoots range from 275.2 to 400 μg g-1, representing 3.9 to 5.75% of the total PS-NPs. This study highlights the intricate interactions between nanoplastics and metals in soil-plant systems and emphasizes the need for further research on their combined effects and potential risks to food safety.",
+   "year": "2024"
+  },
+  {
+   "pmid": "38518397",
+   "title": "Unravelling the combined impacts of drought and Cu in barley plants - double trouble?",
+   "abstract": "The occurrence of drought in soils, particularly in those contaminated by metals, poses a current threat to crops, as these factors can interact and induce unique stress responses. Therefore, this study mainly focused on understanding the crosstalk between drought and copper (Cu) stress in the physiology of the barley (Hordeum vulgare L.) plant. Using a bifactorial experimental design, seedlings were grown in a natural soil under the following treatments: plants continuously irrigated in uncontaminated soil for 14 days (control); plants continuously irrigated in Cu-contaminated soil (115 mg Cu kg-1) for 14 days (Cu); plants only irrigated during the initials 7 days of growth in uncontaminated soil (drought); plants co-exposed to Cu and drought (combined). After 14 days of growth, the results revealed that drought prevented Cu bioaccumulation in barley roots, which were still severely affected by the metal, both individually and in combination with the water deficit. Furthermore, individual and combined exposure to these stressors resulted in impaired photosynthetic performance in barley plants. Despite the increased activation of enzymatic and non-enzymatic antioxidant defence mechanisms, particularly in the green organs, the plants co-exposed to both stress factors still showed higher oxidative damage, severely impacting biomass production.",
+   "year": "2024"
+  },
+  {
+   "pmid": "39438353",
+   "title": "BW312 Hordeum vulgare semi-dwarf mutant exhibits a shifted metabolic profile towards pathogen resistance.",
+   "abstract": "Plant hormonal mutants, which do not produce or are insensitive to hormones, are often affected in their growth and development, but other metabolic rearrangements might be involved. A trade-off between growth and stress response is necessary for the plant survival. Here, we explore the metabolic profile and the pathogen resistance of a brassinosteroid-insensitive Hordeum vulgare L. semi-dwarf mutant, BW312. We investigate BW312 metabolism through a chemical enrichment analysis, confirming a shifted metabolic profile towards pathogen resistance. The effective pathogen resistance of the mutant was tested in presence of Pyrenophora teres and Fusarium graminearum. Four compound families were increased in the mutant (pyrrolidines, basic amino acids, alkaloids, monounsaturated fatty acids), while two compound families were decreased (pyrrolidinones, anthocyanins). Dipeptides were also altered (increased and decreased). BW312 displayed a better resistance to Pyrenophora teres in the earliest stage of infection with a 21.5% decrease of the lesion length 10 days after infection. BW312 also exhibited a reduced lesion length (43.3%) and a reduced browning of the lesions (55.5%) when exposed to Fusarium graminearum at the seedling stage. The observed metabolomic shift strongly suggests that the BW312 semi-dwarf mutant is in a primed state, resulting in a standby state of alertness to pathogens.",
+   "year": "2024"
+  },
+  {
+   "pmid": "31907626",
+   "title": "MicroRNA-mediated responses to colchicine treatment in barley.",
+   "abstract": "In Hordeum vulgare, nine differentially expressed novel miRNAs were induced by colchicine. Five novel miRNA in colchicine solution showed the opposite expression patterns as those in water. Colchicine is a commonly used agent for plant chromosome set doubling. MicroRNA-mediated responses to colchicine treatment in plants have not been characterized. Here, we characterized new microRNAs induced by colchicine treatment in Hordeum vulgare using high-throughput sequencing. Our results showed that 39 differentially expressed miRNAs were affected by water treatment, including 34 novel miRNAs and 5 known miRNAs; 42 miRNAs, including 37 novel miRNAs and 5 known miRNAs, were synergistically affected by colchicine and water, and 9 differentially expressed novel miRNAs were induced by colchicine. The novel_mir69, novel_mir57, novel_mir75, novel_mir38, and novel_mir56 in colchicine treatment showed the opposite expression patterns as those in water. By analyzing these 9 differentially expressed novel miRNAs and their targets, we found that novel_mir69, novel_mir56 and novel_mir25 co-target the genes involving the DNA repair pathway. Based on our results, microRNA-target regulation network under colchicine treatment was proposed, which involves actin, cell cycle regulation, cell wall synthesis, and the regulation of oxidative stress. Overall, the results demonstrated the critical role of microRNAs mediated responses to colchicine treatment in plants.",
+   "year": "2020"
+  },
+  {
+   "pmid": "32825722",
+   "title": "Specific Resistance of Barley to Powdery Mildew, Its Use and Beyond. A Concise Critical Review.",
+   "abstract": "Powdery mildew caused by the airborne ascomycete fungus Blumeria graminis f. sp. hordei (Bgh) is one of most common diseases of barley (Hordeum vulgare). This, as with many other plant pathogens, can be efficiently controlled by inexpensive and environmentally-friendly genetic resistance. General requirements for resistance to the pathogens are effectiveness and durability. Resistance of barley to Bgh has been studied intensively, and this review describes recent research and summarizes the specific resistance genes found in barley varieties since the last conspectus. Bgh is extraordinarily adaptable, and some commonly recommended strategies for using genetic resistance, including pyramiding of specific genes, may not be effective because they can only contribute to a limited extent to obtain sufficient resistance durability of widely-grown cultivars. In spring barley, breeding the nonspecific mlo gene is a valuable source of durable resistance. Pyramiding of nonspecific quantitative resistance genes or using introgressions derived from bulbous barley (Hordeum bulbosum) are promising ways for breeding future winter barley cultivars. The utilization of a wide spectrum of nonhost resistances can also be adopted once practical methods have been developed.",
+   "year": "2020"
+  },
+  {
+   "pmid": "35175125",
+   "title": "Genome-Annotated Bacterial Collection of the Barley Rhizosphere Microbiota.",
+   "abstract": "A culture collection of 41 bacteria isolated from the rhizosphere of cultivated barley (Hordeum vulgare subsp. vulgare) is available at the Division of Plant Sciences, University of Dundee (UK). The data include information on genes putatively implicated in nitrogen fixation, HCN channels, phosphate solubilization, and linked whole-genome sequences.",
+   "year": "2022"
+  },
+  {
+   "pmid": "35218012",
+   "title": "A crucial role for a node-localized transporter, HvSPDT, in loading phosphorus into barley grains.",
+   "abstract": "Grains are the major sink of phosphorus (P) in cereal crops, accounting for 60-85% of total plant P, but the mechanisms underlying P loading into the grains are poorly understood. We functionally characterized a transporter gene required for the distribution of P to the grains in barley (Hordeum vulgare), HvSPDT (SULTR-like phosphorus distribution transporter). HvSPDT encoded a plasma membrane-localized Pi/H+ cotransporter. It was mainly expressed in the nodes at both the vegetative and reproductive stages. Furthermore, its expression was induced by inorganic phosphate (Pi) deficiency. In the nodes, HvSPDT was expressed in both the xylem and phloem region of enlarged and diffuse vascular bundles. Knockout of HvSPDT decreased the distribution of P to new leaves, but increased the distribution to old leaves at the vegetative growth stage under low P supply. However, knockout of HvSPDT did not alter the redistribution of P from old to young organs. At the reproductive stage, knockout of HvSPDT significantly decreased P allocation to the grains, resulting in a considerable reduction in grain yield, especially under P-limited conditions. Our results indicate that node-based HvSPDT plays a crucial role in loading P into barley grains through preferentially distributing P from the xylem and further to the phloem.",
+   "year": "2022"
+  },
+  {
+   "pmid": "38577688",
+   "title": "Transcriptome analysis of Bipolaris sorokiniana - Hordeum vulgare provides insights into mechanisms of host-pathogen interaction.",
+   "abstract": "Spot blotch disease incited by Bipolaris sorokiniana severely affects the cultivation of barley. The resistance to B. sorokiniana is quantitative in nature and its interaction with the host is highly complex which necessitates in-depth molecular analysis. Thus, the study aimed to conduct the transcriptome analysis to decipher the mechanisms and pathways involved in interactions between barley and B. sorokiniana in both the resistant (EC0328964) and susceptible (EC0578292) genotypes using the RNA Seq approach. In the resistant genotype, 6,283 genes of Hordeum vulgare were differentially expressed out of which 5,567 genes were upregulated and 716 genes were downregulated. 1,158 genes of Hordeum vulgare were differentially expressed in the susceptible genotype, out of which 654 genes were upregulated and 504 genes were downregulated. Several defense-related genes like resistant gene analogs (RGAs), disease resistance protein RPM1, pathogenesis-related protein PRB1-2-like, pathogenesis-related protein 1, thaumatin-like protein PWIR2 and defensin Tm-AMP-D1.2 were highly expressed exclusively in resistant genotype only. The pathways involved in the metabolism and biosynthesis of secondary metabolites were the most prominently represented pathways in both the resistant and susceptible genotypes. However, pathways involved in MAPK signaling, plant-pathogen interaction, and plant hormone signal transduction were highly enriched in resistant genotype. Further, a higher number of pathogenicity genes of B. sorokiniana was found in response to the susceptible genotype. The pathways encoding for metabolism, biosynthesis of secondary metabolites, ABC transporters, and ubiquitin-mediated proteolysis were highly expressed in susceptible genotype in response to the pathogen. 14 and 11 genes of B. sorokiniana were identified as candidate effectors from susceptible and resistant host backgrounds, respectively. This investigation will offer valuable insights in unraveling the complex mechanisms involved in barley- B. sorokiniana interaction.",
+   "year": "2024"
+  },
+  {
+   "pmid": "30276910",
+   "title": "High intraspecific diversity of Restorer-of-fertility-like genes in barley.",
+   "abstract": "Nuclear restorer of fertility (Rf) genes suppress the effects of mitochondrial genes causing cytoplasmic male sterility (CMS), a condition in which plants fail to produce viable pollen. Rf genes, many of which encode RNA-binding pentatricopeptide repeat (PPR) proteins, are applied in hybrid breeding to overcome CMS used to block self-pollination of the seed parent. Here, we characterise the repertoire of restorer-of-fertility-like (RFL) PPR genes in barley (Hordeum vulgare). We found 26 RFL genes in the reference genome ('Morex') and an additional 51 putative orthogroups (POGs) in a re-sequencing data set from 262 barley genotypes and landraces. Whereas the sequences of some POGs are highly conserved across hundreds of barley accessions, the sequences of others are much more variable. High sequence variation strongly correlates with genomic location - the most variable genes are found in a cluster on chromosome 1H. A much higher likelihood of diversifying selection was found for genes within this cluster than for genes present as singlets. This work includes a comprehensive analysis of the patterns of intraspecific variation of RFL genes. The RFL sequences characterised in this study will be useful for the development of new markers for fertility restoration loci.",
+   "year": "2019"
+  },
+  {
+   "pmid": "34279634",
+   "title": "Inoculation of barley with Trichoderma harzianum T-22 modifies lipids and metabolites to improve salt tolerance.",
+   "abstract": "Soil salinity has a serious impact on plant growth and agricultural yield. Inoculation of crop plants with fungal endophytes is a cost-effective way to improve salt tolerance. We used metabolomics to study how Trichoderma harzianum T-22 alleviates NaCl-induced stress in two barley (Hordeum vulgare L.) cultivars, Gairdner and Vlamingh, with contrasting salinity tolerance. GC-MS was used to analyse polar metabolites and LC-MS to analyse lipids in roots during the early stages of interaction with Trichoderma. Inoculation reversed the severe effects of salt on root length in sensitive cv. Gairdner and, to a lesser extent, improved root growth in more tolerance cv. Vlamingh. Biochemical changes showed a similar pattern in inoculated roots after salt treatment. Sugars increased in both cultivars, with ribulose, ribose, and rhamnose specifically increased by inoculation. Salt stress caused large changes in lipids in roots but inoculation with fungus greatly reduced the extent of these changes. Many of the metabolic changes in inoculated cv. Gairdner after salt treatment mirror the response of uninoculated cv. Vlamingh, but there are some metabolites that changed in both cultivars only after fungal inoculation. Further study is required to determine how these metabolic changes are induced by fungal inoculation.",
+   "year": "2021"
+  },
+  {
+   "pmid": "38977576",
+   "title": "Targeted Modification of Grain Dormancy Genes in Barley.",
+   "abstract": "Transgenesis technologies, such as overexpression or RNA interference-mediated suppression, have often been used to alter the activity of target genes. More recently developed targeted genome modification methods using customizable endonucleases allow for the regulation or knockout mutation of target genes without the necessity of integrating recombinant DNA. Such approaches make it possible to create novel alleles of target genes, thereby significantly contributing to crop improvement. Among these technologies, the Cas9 endonuclease-based method is widely applied to several crops, including barley (Hordeum vulgare). In this chapter, we describe an Agrobacterium-based approach to the targeted modification of grain dormancy genes in barley using RNA-guided Cas9 nuclease.",
+   "year": "2024"
+  },
+  {
+   "pmid": "24481701",
+   "title": "Isolation of protoplasts from cereal leaves.",
+   "abstract": "Mature leaves of Secale cereale cut into narrow strips and incubated for 18 h in a mixture of cellulase (Meicelase) and pectinase (Pectinol R10) produced quantities of protoplasts. Under the same conditions leaves of Triticum aestivum, Hordeum vulgare and Avena sativa also produce protoplasts but in lower yields. The wheat and rye protoplasts in culture appear to regenerate a cell wall but only a very small proportion undergo cell division.",
+   "year": "1972"
+  },
+  {
+   "pmid": "34879391",
+   "title": "Architecture of the chloroplast PSI-NDH supercomplex in Hordeum vulgare.",
+   "abstract": "The chloroplast NADH dehydrogenase-like (NDH) complex is composed of at least 29 subunits and has an important role in mediating photosystem I (PSI) cyclic electron transport (CET)1-3. The NDH complex associates with PSI to form the PSI-NDH supercomplex and fulfil its function. Here, we report cryo-electron microscopy structures of a PSI-NDH supercomplex from barley (Hordeum vulgare). The structures reveal that PSI-NDH is composed of two copies of the PSI-light-harvesting complex I (LHCI) subcomplex and one NDH complex. Two monomeric LHCI proteins, Lhca5 and Lhca6, mediate the binding of two PSI complexes to NDH. Ten plant chloroplast-specific NDH subunits are presented and their exact positions as well as their interactions with other subunits in NDH are elucidated. In all, this study provides a structural basis for further investigations on the functions and regulation of PSI-NDH-dependent CET.",
+   "year": "2022"
+  },
+  {
+   "pmid": "33371568",
+   "title": "Barley Starch: Composition, Structure, Properties, and Modifications.",
+   "abstract": "Barley (Hordeum vulgare L.) is mainly used as animal feed and in malting. In recent years, there has been growing interest in using barley for food production. Starch is the major component of the kernel and may amount up to over 70% of the dry weight. The quality of barley products is much determined by its starch properties such as gelatinization and retrogradation. Starch is also a by-product of the barley fractionation industry and can be utilized for value-added products. This review summarizes the recent developments in our understanding of the isolation, chemical composition, granular structure, chemical structure of starch components, physicochemical properties, and various modifications of barley starch. The structure-function relationships of starch are discussed. This review provides a basis for better utilizing barley starch, as well as the further development of barley as a sustainable crop.",
+   "year": "2017"
+  },
+  {
+   "pmid": "39100885",
+   "title": "Acanthamoeba castellanii alone is not a growth promoter for Hordeum vulgare.",
+   "abstract": "Protists are important key players in the microbial loop and influence their environment by grazing, which leads to the return of nutrients into the soil and reduces pathogen pressure on plants. Specifically, protists on and around plant roots are important for plants' development and growth. For this study, the fourth most important crop in the world, Hordeum vulgare, was selected. Seeds of H. vulgare were inoculated with Acanthamoeba castellanii alone or with additional soil bacteria at the beginning and during the experiment. The germination of the seeds and the growth of the plants in pouches were monitored over 3 weeks. No differences were found in leaf growth, root growth, root and leaf nitrogen content or ammonia content of the liquid from the pouches. In contrast, the relative increase in root and leaf dry weight showed a small difference compared to the controls. The results of this experiment demonstrated that seed inoculation with A. castellanii alone or with additional unidentified soil bacteria did not have a major effect on the growth and development of barley. Nevertheless, small changes in plant development were detected, indicating that A. castellanii should be considered for further investigation of co-inoculations with plant growth-promoting bacteria and additional nutrients.",
+   "year": "2024"
+  },
+  {
+   "pmid": "38687561",
+   "title": "A consortium of Hordeum vulgare and gut microbiota against non-alcoholic fatty liver disease via data-driven analysis.",
+   "abstract": "Despite many recent studies on non-alcoholic fatty liver disease (NAFLD) therapeutics, the optimal treatment has yet to be determined. In this unfinished project, we combined secondary metabolites (SMs) from the gut microbiota (GM) and Hordeum vulgare (HV) to investigate their combinatorial effects via network pharmacology (NP). Additionally, we analyzed GM or barley - signalling pathways - targets - metabolites (GBSTMs) in combinatorial perspectives (HV, and GM). A total of 31 key targets were analysed via a protein-protein interaction (PPI) network, and JUN was identified as the uppermost target in NAFLD. On a bubble plot, we revealed that apelin signalling pathway, which had the lowest enrichment factor antagonize NAFLD. Holistically, we scrutinized GBSTM to identify key components (GM, signalling pathways, targets, and metabolites) associated with the Apelin signalling pathway. Consequently, we found that the primary GMs (Eubacterium limosum, Eggerthella sp. SDG-2, Alistipes indistinctus YIT 12060, Odoribacter laneus YIT 12061, Paraprevotella clara YIT 11840, Paraprevotella xylaniphila YIT 11841) to ameliorate NAFLD. The molecular docking test (MDT) suggested that tryptanthrin-JUN is an agonist, conversely, dihydroglycitein-HDAC5, 1,3-diphenylpropan-2-ol-NOS1, and (10[(Acetyloxy)methyl]-9-anthryl)methyl acetate-NOS2, which are antagonistic conformers in the apelin signalling pathway. Overall, these results suggest that combination therapy could be an effective strategy for treating NAFLD.",
+   "year": "2024"
+  },
+  {
+   "pmid": "30633425",
+   "title": "Creating highly efficient resistance against wheat dwarf virus in barley by employing CRISPR/Cas9 system.",
+   "abstract": "",
+   "year": "2019"
+  },
+  {
+   "pmid": "40997767",
+   "title": "Analysis of Anthocyanin-Less 2 Diversity in Barley Reveals a Specific Allele to Cause Purple-Colored Grains.",
+   "abstract": "The purple color of the barley (Hordeum vulgare L.) grain is attributed to anthocyanins which are beneficial for human health. Synthesis of these pigments in both grain and vegetative tissues is controlled by ANT1 and ANT2 that belong to the families R2R3-MYB and bHLH of transcription factors, respectively. Here, we investigated the role of the Ant2 gene in pigmentation of grains compared to vegetative tissue. After screening of 504 barley accessions, six relevant alleles of Ant2 were identified. These involve distinct insertions in the promoter and/or in intron 6. Allele Ant2.l was found in all purple-grained barley accessions and was more strongly expressed compared to the alleles present in the other lines. The crucial role of Ant2.l in grain pigmentation was validated by targeted mutagenesis using RNA-guided endonuclease Cas9. It is further shown that the other Ant2 alleles do not affect grain pigmentation while being essential for pigmentation of vegetative tissues.",
+   "year": "2025"
+  },
+  {
+   "pmid": "38790207",
+   "title": "Systematic Analysis of Zinc Finger-Homeodomain Transcription Factors (ZF-HDs) in Barley (Hordeum vulgare L.).",
+   "abstract": "Zinc finger-homeodomain transcription factors (ZF-HDs) are pivotal in regulating plant growth, development, and diverse stress responses. In this study, we found 8 ZF-HD genes in barley genome. Theses eight HvZF-HD genes were located on five chromosomes, and classified into ZHD and MIF subfamily. The collinearity, gene structure, conserved motif, and cis-elements of HvZF-HD genes were also analyzed. Real-time PCR results suggested that the expression of HvZF-HD4, HvZF-HD6, HvZF-HD7 and HvZF-HD8 were up-regulated after hormones (ABA, GA3 and MeJA) or PEG treatments, especially HvZF-HD6 was significantly induced. These results provide useful information of ZF-HD genes to future study aimed at barley breeding.",
+   "year": "2024"
+  },
+  {
+   "pmid": "33263570",
+   "title": "Crystal structure of barley agmatine coumaroyltransferase, an N-acyltransferase from the BAHD superfamily.",
+   "abstract": "The enzymes of the BAHD superfamily, a large group of acyl-CoA-dependent acyltransferases in plants, are involved in the biosynthesis of diverse secondary metabolites. While the structures of several O-acyltransferases from the BAHD superfamily, such as hydroxycinnamoyl-CoA shikimate hydroxycinnamoyl transferase, have been elucidated, no structural information on N-acyltransferases is available. Hordeum vulgare agmatine coumaroyltransferase (HvACT) is an N-acyltransferase from the BAHD superfamily and is one of the most important enzymes in the secondary metabolism of barley. Here, an apo-form structure of HvACT is reported as the first structure of an N-acyltransferase from the BAHD superfamily. HvACT crystals diffracted to 1.8 Å resolution and belonged to the monoclinic space group P21, with unit-cell parameters a = 57.6, b = 59.5, c = 73.6 Å, α = 90, β = 91.3 , γ = 90°. Like other known BAHD superfamily structures, HvACT contains two domains that adopt a two-layer αβ-sandwich architecture and a solvent-exposed channel that penetrates the enzyme core.",
+   "year": "2020"
+  },
+  {
+   "pmid": "34394154",
+   "title": "Barley Nepenthesin-Like Aspartic Protease HvNEP-1 Degrades Fusarium Phytase, Impairs Toxin Production, and Suppresses the Fungal Growth.",
+   "abstract": "Nepenthesins are categorized under the subfamily of the nepenthesin-like plant aspartic proteases (PAPs) that form a distinct group of atypical PAPs. This study describes the effect of nepenthesin 1 (HvNEP-1) protease from barley (Hordeum vulgare L.) on fungal histidine acid phosphatase (HAP) phytase activity. Signal peptide lacking HvNEP-1 was expressed in Pichia pastoris and biochemically characterized. Recombinant HvNEP-1 (rHvNEP-1) strongly inhibited the activity of Aspergillus and Fusarium phytases, which are enzymes that release inorganic phosphorous from phytic acid. Moreover, rHvNEP-1 suppressed in vitro fungal growth and strongly reduced the production of mycotoxin, 15-acetyldeoxynivalenol (15-ADON), from Fusarium graminearum. The quantitative PCR analysis of trichothecene biosynthesis genes (TRI) confirmed that rHvNEP-1 strongly repressed the expression of TRI4, TRI5, TRI6, and TRI12 in F. graminearum. The co-incubation of rHvNEP-1 with recombinant F. graminearum (rFgPHY1) and Fusarium culmorum (FcPHY1) phytases induced substantial degradation of both Fusarium phytases, indicating that HvNEP-1-mediated proteolysis of the fungal phytases contributes to the HvNEP-1-based suppression of Fusarium.",
+   "year": "2021"
+  },
+  {
+   "pmid": "41761683",
+   "title": "Safety Assessment of Barley-Derived Ingredients as Used in Cosmetics.",
+   "abstract": "The Expert Panel for Cosmetic Ingredient Safety (Panel) assessed the safety of 16 barley-derived ingredients, most of which are reported to function as skin-conditioning agents in cosmetic products. Industry should continue to use good manufacturing practices to minimize impurities that could be present in botanical ingredients. The Panel reviewed the available data to determine the safety of these ingredients. The Panel concluded that 5 barley-ingredients (i.e., the seed- and sprout-derived ingredients) are safe in cosmetics in the practices of use and concentration described in this safety assessment. However, the Panel also concluded that the available data are insufficient to make a determination of safety for the remaining 11 barley-derived ingredients under the intended conditions of use in cosmetic formulations.",
+   "year": "2026"
+  },
+  {
+   "pmid": "24607574",
+   "title": "Reduced chlorophyll biosynthesis in heterozygous barley magnesium chelatase mutants.",
+   "abstract": "Chlorophyll biosynthesis is initiated by magnesium chelatase, an enzyme composed of three proteins, which catalyzes the insertion of Mg2+ into protoporphyrin IX to produce Mg-protoporphyrin IX. In barley (Hordeum vulgare L.) the three proteins are encoded by Xantha-f, Xantha-g and Xantha-h. Two of the gene products, XanH and XanG, belong to the structurally conserved family of AAA+ proteins (ATPases associated with various cellular activities) and form a complex involving six subunits of each protein. The complex functions as an ATP-fueled motor of the magnesium chelatase that uses XanF as substrate, which is the catalytic subunit responsible for the insertion of Mg2+ into protoporphyrin IX. Previous studies have shown that semi-dominant Xantha-h mutations result in non-functional XanH subunits that participate in the formation of inactive AAA complexes. In the present study, we identify severe mutations in the barley mutants xantha-h.38, -h.56 and -h.57. A truncated form of the protein is seen in xantha-h.38, whereas no XanH is detected in xantha-h.56 and -h.57. Heterozygous mutants show a reduction in chlorophyll content by 14-18% suggesting a slight semi-dominance of xantha-h.38, -h.56 and -h.57, which otherwise have been regarded as recessive mutations.",
+   "year": "2014"
+  },
+  {
+   "pmid": "31583671",
+   "title": "Analysis of Pollen Grains by Immunostaining and FISH in Triticeae Species.",
+   "abstract": "In this chapter we describe protocols for immunolabeling and FISH of pollen grains undergoing postmeiotic mitosis using Aegilops speltoides, Secale cereale, and Hordeum vulgare as models. Tissue sectioning of pollen overcomes the problem of the pollen grain wall impermeability that interferes with immunolocalization and in situ hybridization. The crucial element of the protocol is the generation and immobilization of tissue sections. Our method facilitates the investigation of the microspore cell divisions and pollen grain maturation.",
+   "year": "2020"
+  },
+  {
+   "pmid": "25033083",
+   "title": "Population genetics and phylogenetic analysis of the vrs1 nucleotide sequence in wild and cultivated barley.",
+   "abstract": "Spike morphology is a key characteristic in the study of barley genetics, breeding, and domestication. Variation at the six-rowed spike 1 (vrs1) locus is sufficient to control the development and fertility of the lateral spikelet of barley. To study the genetic variation of vrs1 in wild barley (Hordeum vulgare subsp. spontaneum) and cultivated barley (Hordeum vulgare subsp. vulgare), nucleotide sequences of vrs1 were examined in 84 wild barleys (including 10 six-rowed) and 20 cultivated barleys (including 10 six-rowed) from four populations. The length of the vrs1 sequence amplified was 1536 bp. A total of 40 haplotypes were identified in the four populations. The highest nucleotide diversity, haplotype diversity, and per-site nucleotide diversity were observed in the Southwest Asian wild barley population. The nucleotide diversity, number of haplotypes, haplotype diversity, and per-site nucleotide diversity in two-rowed barley were higher than those in six-rowed barley. The phylogenetic analysis of the vrs1 sequences partially separated the six-rowed and the two-rowed barley. The six-rowed barleys were divided into four groups.",
+   "year": "2014"
+  },
+  {
+   "pmid": "21897660",
+   "title": "Hordeum vulgare hull in the design of fast disintegrating tablets.",
+   "abstract": "In the present study, fast disintegrating tablets were designed with a view to enhance patient compliance. In this method, the hull of Hordeum vulgare, cross carmellose sodium, and sodium starch glycolate were used as superdisintegrants (4 and 6%), along with microcrystalline cellulose and mannitol, to enhance mouth feel. The prepared batches of tablets were evaluated for hardness, friability, drug content uniformity, wetting time, water absorption ratio and in vitro dispersion time. Based on the in vitro dispersion time, the formulations were tested for the in vitro drug release pattern. Tablets having H. vulgare hull showed the release profile comparable to those tablets having sodium starch glycolate and cross carmellose sodium.",
+   "year": "2011"
+  },
+  {
+   "pmid": "27776481",
+   "title": "Mitochondrial genome sequences from wild and cultivated barley (Hordeum vulgare).",
+   "abstract": "Sequencing analysis of mitochondrial genomes is important for understanding the evolution and genome structures of various plant species. Barley is a self-pollinated diploid plant with seven chromosomes comprising a large haploid genome of 5.1 Gbp. Wild barley (Hordeum vulgare ssp. spontaneum) and cultivated barley (H. vulgare ssp. vulgare) have cross compatibility and closely related genomes, although a significant number of nucleotide polymorphisms have been reported between their genomes. We determined the complete nucleotide sequences of the mitochondrial genomes of wild and cultivated barley. Two independent circular maps of the 525,599 bp barley mitochondrial genome were constructed by de novo assembly of high-throughput sequencing reads of barley lines H602 and Haruna Nijo, with only three SNPs detected between haplotypes. These mitochondrial genomes contained 33 protein-coding genes, three ribosomal RNAs, 16 transfer RNAs, 188 new ORFs, six major repeat sequences and several types of transposable elements. Of the barley mitochondrial genome-encoded proteins, NAD6, NAD9 and RPS4 had unique structures among grass species. The mitochondrial genome of barley was similar to those of other grass species in terms of gene content, but the configuration of the genes was highly differentiated from that of other grass species. Mitochondrial genome sequencing is essential for annotating the barley nuclear genome; our mitochondrial sequencing identified a significant number of fragmented mitochondrial sequences in the reported nuclear genome sequences. Little polymorphism was detected in the barley mitochondrial genome sequences, which should be explored further to elucidate the evolution of barley.",
+   "year": "2016"
+  },
+  {
+   "pmid": "34826400",
+   "title": "Ice structuring protein extract of Hordeum vulgare var. dolma grain reduces drip loss and loss of soluble vitamin content in peas during frozen storage.",
+   "abstract": "The Himalayan plants face low temperature during their life cycle and are expected to possess antifreeze proteins. The present work describes screening of six plant species that grow in Himalayas, for their ice structuring properties with an aim to provide a vegetarian source of ice structuring proteins. The ice-structuring protein extract of barley [Hordeum vulgare; variety Dolma (HvISE)] and wheat [Triticum aestivum; variety Him Pratham DH 114 (TaISE) ]showed inhibition of growth of ice crystals during the process of recrystallization. This property was analyzed for its application in frozen peas by pretreatment with HvISE before freezing. The drip loss was measured in frozen peas after thawing. Further, the water-soluble vitamins; thiamine, pyridoxine, riboflavin, and ascorbic acid were quantified before and after freezing of green peas by UHPLC-PDA. The pretreatment with HvISE reduced the loss of ascorbic acid, riboflavin, and pyridoxine during their frozen storage. The present study identified barley as a remarkable source of ice structuring proteins and validated its potential for frozen peas. The work has enormous implications in frozen food industry, in general.",
+   "year": "2022"
+  },
+  {
+   "pmid": "37760082",
+   "title": "Seed Priming with Salicylic Acid Alleviates Salt Stress Toxicity in Barley by Suppressing ROS Accumulation and Improving Antioxidant Defense Systems, Compared to Halo- and Gibberellin Priming.",
+   "abstract": "Plants are highly sensitive to various environmental stresses, which can hinder their growth and reduce yields. In this study, we investigated the potential of seed priming with salicylic acid (SA), gibberellic acid (GA3), and sodium chloride (NaCl) to mitigate the adverse effects of salinity stress in Hordeum vulgare at the germination and early seedling stages. Exposing H. vulgare seeds to salt stress reduced the final germination percentage and seedling shoot and root growth. Interestingly, all seed treatments significantly improved salt-induced responses, with GA3 being more effective in terms of germination performance, plant growth, and photosynthesis. SA priming exhibited promising effects on antioxidant defense mechanisms, proline, sugar, and ascorbic acid production. Notably, SA priming also suppressed reactive oxygen species accumulation and prevented lipid peroxidation. These findings highlight the ability of SA to manage crosstalk within the seed, coordinating many regulatory processes to support plant adaptation to salinity stress.",
+   "year": "2023"
+  },
+  {
+   "pmid": "39568451",
+   "title": "Corrigendum: 5-azacytidine promotes microspore embryogenesis initiation by decreasing global DNA methylation, but prevents subsequent embryo development in rapeseed and barley.",
+   "abstract": "[This corrects the article DOI: 10.3389/fpls.2015.00472.].",
+   "year": "2024"
+  },
+  {
+   "pmid": "33322721",
+   "title": "Peptide-Based Identification of Phytophthora Isolates and Phytophthora Detection in Planta.",
+   "abstract": "Phytophthora is arguably one of the most damaging genera of plant pathogens. This pathogen is well suited to transmission via the international plant trade, and globalization has been promoting its spread since the 19th century. Early detection is essential for reducing its economic and ecological impact. Here, a shotgun proteomics approach was utilized for Phytophthora analysis. The collection of 37 Phytophthora isolates representing 12 different species was screened for species-specific peptide patterns. Next, Phytophthora proteins were detected in planta, employing model plants Solanum tuberosum and Hordeum vulgare. Although the evolutionarily conserved sequences represented more than 10% of the host proteome and limited the pathogen detection, the comparison between qPCR and protein data highlighted more than 300 protein markers, which correlated positively with the amount of P. infestans DNA. Finally, the analysis of P. palmivora response in barley revealed significant alterations in plant metabolism. These changes included enzymes of cell wall metabolism, ROS production, and proteins involved in trafficking. The observed root-specific attenuation in stress-response mechanisms, including the biosynthesis of jasmonates, ethylene and polyamines, and an accumulation of serotonin, provided the first insight into molecular mechanisms behind this particular biotic interaction.",
+   "year": "2020"
+  },
+  {
+   "pmid": "33617364",
+   "title": "Emblica officinalis and Hordeum vulgare L. Mixture Regulates Lipolytic Activity in Differentiated 3T3-L1 Cells.",
+   "abstract": "In this study, we investigated the lipolytic effects of an Emblica officinalis (Indian gooseberry [IG]) and Hordeum vulgare L. (barley sprout [BP]) mixture on differentiated 3T3-L1 cells. On the ninth day of differentiation, Oil red O staining and Western blotting were performed; additionally, glycerol release and triglyceride (TG), fatty acid (FA), and cyclic adenosine monophosphate (cAMP) levels were measured. Compared to the differentiation-induced control (C) group, the IG and BP mixture inhibited intracellular TG and FA levels by 61.7% and 48.9%, respectively, at a concentration of 200 μg/mL. Moreover, the mixture increased glycerol release and cAMP levels by more than twofold more than those in the C group. Western blotting was performed to confirm the protein expression involved in lipolysis, and the IG and BP mixture was found to significantly increase the protein activities of AMP-activated protein kinase, protein kinase A, and hormone-sensitive lipase compared to those of the C group. Furthermore, the mixture significantly inhibited the protein activities of phosphodiesterase 3B, adipose TG lipase, and perilipin compared to those of the C group at a concentration of 200 μg/mL. We found that the IG and BP mixture activates the cAMP pathway and regulates lipolytic enzymes, which are necessary for lipolysis. In conclusion, our findings suggest that the IG and BP mixture can be potentially developed as a new material for targeting mechanisms underlying lipolysis.",
+   "year": "2021"
+  }
+ ]
+}

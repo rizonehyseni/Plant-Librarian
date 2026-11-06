@@ -1,0 +1,405 @@
+{
+ "key": "Melissa officinalis",
+ "value": [
+  {
+   "compound": "(6E)-(-)-nerolidol",
+   "smiles": "CC(=CCCC(=CCCC(C)(C=C)O)C)C"
+  },
+  {
+   "compound": "(E/Z)-ferulic acid",
+   "smiles": "COC1=C(C=CC(=C1)C=CC(=O)O)O"
+  },
+  {
+   "compound": "citral",
+   "smiles": "CC(=CCCC(=CC=O)C)C"
+  },
+  {
+   "compound": "vanillic acid",
+   "smiles": "COC1=C(C=CC(=C1)C(=O)O)O"
+  },
+  {
+   "compound": "(-)-germacrene D",
+   "smiles": "CC1=CCCC(=C)C=CC(CC1)C(C)C"
+  },
+  {
+   "compound": "(3Z)-β-ocimene",
+   "smiles": "CC(=CCC=C(C)C=C)C"
+  },
+  {
+   "compound": "(1E,4E)-germacrene B",
+   "smiles": "CC1=CCCC(=CCC(=C(C)C)CC1)C"
+  },
+  {
+   "compound": "γ-elemene",
+   "smiles": "C=CC1(C)CCC(=C(C)C)CC1C(=C)C"
+  },
+  {
+   "compound": "(3E,5E)-3,7-dimethylocta-1,3,5-triene",
+   "smiles": "C=CC(=CC=CC(C)C)C"
+  },
+  {
+   "compound": "δ-octalactone",
+   "smiles": "CCCC1CCCC(=O)O1"
+  },
+  {
+   "compound": "caffeic acid methyl ester",
+   "smiles": "COC(=O)C=CC1=CC(=C(C=C1)O)O"
+  },
+  {
+   "compound": "kaempferol",
+   "smiles": "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "furfural",
+   "smiles": "C1=COC(=C1)C=O"
+  },
+  {
+   "compound": "caprylic acid",
+   "smiles": "CCCCCCCC(=O)O"
+  },
+  {
+   "compound": "syringic acid",
+   "smiles": "COC1=CC(=CC(=C1O)OC)C(=O)O"
+  },
+  {
+   "compound": "beta-sitosterol",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "10-epi-alpha-cadinol",
+   "smiles": "OC1(C)CCC(C(C)C)C2C=C(C)CCC21"
+  },
+  {
+   "compound": "(R)-β-citronellol",
+   "smiles": "CC(CCC=C(C)C)CCO"
+  },
+  {
+   "compound": "(R)-lavandulol",
+   "smiles": "CC(=CCC(CO)C(=C)C)C"
+  },
+  {
+   "compound": "(1R,2S,7S,8S)-1,3-dimethyl-8-propan-2-yltricyclo[4.4.0.02,7]dec-3-ene",
+   "smiles": "C1=C(C)C2C3C(CCC2(C)C3C1)C(C)C"
+  },
+  {
+   "compound": "Bicyclo[3.1.1]Heptan-3-One, 2,6,6-Trimethyl-, [1S-(1a,2ss,5a)]-",
+   "smiles": "O=C1CC2CC(C1C)C2(C)C"
+  },
+  {
+   "compound": "CID 15560278",
+   "smiles": "C1=C2CCC3C(C2(C)C(C)CC1)C3(C)C"
+  },
+  {
+   "compound": "Rosmarinic Acid Methyl Ester",
+   "smiles": "O=C(OC(C(=O)OC)CC1=CC=C(O)C(O)=C1)C=CC2=CC=C(O)C(O)=C2"
+  },
+  {
+   "compound": "(S,1Z,6Z)-8-Isopropyl-1-methyl-5-methylenecyclodeca-1,6-diene",
+   "smiles": "C=C1C=CC(CCC(=CCC1)C)C(C)C"
+  },
+  {
+   "compound": "heptadecane",
+   "smiles": "CCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "pentadecane",
+   "smiles": "CCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "tetradecane",
+   "smiles": "CCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "nonadecane",
+   "smiles": "CCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "octadecane",
+   "smiles": "CCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "heneicosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "apigetrin",
+   "smiles": "C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O"
+  },
+  {
+   "compound": "trans-(-)-carveol",
+   "smiles": "CC1=CCC(CC1O)C(=C)C"
+  },
+  {
+   "compound": "danshensu",
+   "smiles": "C1=CC(=C(C=C1CC(C(=O)O)O)O)O"
+  },
+  {
+   "compound": "hexadecane",
+   "smiles": "CCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "docosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "(RS)-citronellal",
+   "smiles": "CC(CCC=C(C)C)CC=O"
+  },
+  {
+   "compound": "ferulic acid",
+   "smiles": "COC1=C(C=CC(=C1)C=CC(=O)O)O"
+  },
+  {
+   "compound": "(+)-beta-cedrene",
+   "smiles": "C=C1CCC23CC1C(C)(C)C3CCC2C"
+  },
+  {
+   "compound": "4-coumaric acid",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)O)O"
+  },
+  {
+   "compound": "salvianolic acid A",
+   "smiles": "C1=CC(=C(C=C1CC(C(=O)O)OC(=O)C=CC2=C(C(=C(C=C2)O)O)C=CC3=CC(=C(C=C3)O)O)O)O"
+  },
+  {
+   "compound": "(1S,2S,4R)-β-elemene",
+   "smiles": "CC(=C)C1CCC(C(C1)C(=C)C)(C)C=C"
+  },
+  {
+   "compound": "Clinopodic acid A",
+   "smiles": "O=C(OC(C(=O)O)CC1=CC=C(O)C(O)=C1)C=CC2=CC=C(O)C=C2"
+  },
+  {
+   "compound": "trans-caffeic acid",
+   "smiles": "C1=CC(=C(C=C1C=CC(=O)O)O)O"
+  },
+  {
+   "compound": "nerol",
+   "smiles": "CC(=CCCC(=CCO)C)C"
+  },
+  {
+   "compound": "4-hydroxybenzoic acid",
+   "smiles": "C1=CC(=CC=C1C(=O)O)O"
+  },
+  {
+   "compound": "2-hydroxy-3-(3,4-dihydroxyphenyl)propanoic acid",
+   "smiles": "C1=CC(=C(C=C1CC(C(=O)O)O)O)O"
+  },
+  {
+   "compound": "eriodictyol",
+   "smiles": "C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC(=C(C=C3)O)O"
+  },
+  {
+   "compound": "icosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "naringenin",
+   "smiles": "C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC=C(C=C3)O"
+  },
+  {
+   "compound": "isorhamnetin",
+   "smiles": "COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "(E)-alpha-bisabolene",
+   "smiles": "CC1=CCC(CC1)C(=CCC=C(C)C)C"
+  },
+  {
+   "compound": "3,4-dihydroxybenzoic acid",
+   "smiles": "C1=CC(=C(C=C1C(=O)O)O)O"
+  },
+  {
+   "compound": "3,4-dihydroxybenzoic acid",
+   "smiles": "c1cc(c(cc1C(=O)O)O)O"
+  },
+  {
+   "compound": "apigenin",
+   "smiles": "C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "quercetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O"
+  },
+  {
+   "compound": "salvianolic acid B",
+   "smiles": "C1=CC(=C(C=C1CC(C(=O)O)OC(=O)C=CC2=C3C(C(OC3=C(C=C2)O)C4=CC(=C(C=C4)O)O)C(=O)OC(CC5=CC(=C(C=C5)O)O)C(=O)O)O)O"
+  },
+  {
+   "compound": "(E)-3-pinanone",
+   "smiles": "CC1C2CC(C2(C)C)CC1=O"
+  },
+  {
+   "compound": "(S)-rosmarinic acid",
+   "smiles": "C1=CC(=C(C=C1CC(C(=O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "(S)-(-)-citronellal",
+   "smiles": "CC(CCC=C(C)C)CC=O"
+  },
+  {
+   "compound": "carvacrol",
+   "smiles": "CC1=C(C=C(C=C1)C(C)C)O"
+  },
+  {
+   "compound": "caryophyllene",
+   "smiles": "CC1=CCCC(=C)C2CC(C2CC1)(C)C"
+  },
+  {
+   "compound": "β-caryophyllene oxide",
+   "smiles": "CC1(CC2C1CCC3(C(O3)CCC2=C)C)C"
+  },
+  {
+   "compound": "nonanal",
+   "smiles": "CCCCCCCCC=O"
+  },
+  {
+   "compound": "linalool",
+   "smiles": "CC(=CCCC(C)(C=C)O)C"
+  },
+  {
+   "compound": "neral",
+   "smiles": "CC(=CCCC(=CC=O)C)C"
+  },
+  {
+   "compound": "L-tyrosine",
+   "smiles": "C1=CC(=CC=C1CC(C(=O)O)N)O"
+  },
+  {
+   "compound": "3-(4-hydroxyphenyl)pyruvic acid",
+   "smiles": "C1=CC(=CC=C1CC(=O)C(=O)O)O"
+  },
+  {
+   "compound": "luteoloside",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O)O"
+  },
+  {
+   "compound": "(3E)-β-ocimene",
+   "smiles": "CC(=CCC=C(C)C=C)C"
+  },
+  {
+   "compound": "Citrusin C",
+   "smiles": "OCC1OC(OC2=CC=C(C=C2OC)CC=C)C(O)C(O)C1O"
+  },
+  {
+   "compound": "gentisic acid",
+   "smiles": "C1=CC(=C(C=C1O)C(=O)O)O"
+  },
+  {
+   "compound": "geranial",
+   "smiles": "CC(=CCCC(=CC=O)C)C"
+  },
+  {
+   "compound": "gallic acid",
+   "smiles": "C1=C(C=C(C(=C1O)O)O)C(=O)O"
+  },
+  {
+   "compound": "(-)-α-cadinol",
+   "smiles": "CC1=CC2C(CCC(C2CC1)(C)O)C(C)C"
+  },
+  {
+   "compound": "phenylethyl alcohol",
+   "smiles": "C1=CC=C(C=C1)CCO"
+  },
+  {
+   "compound": "1-hepten-3-ol",
+   "smiles": "CCCCC(C=C)O"
+  },
+  {
+   "compound": "Benzenepropanoic acid, alpha,3,4-trihydroxy-, (aS)-",
+   "smiles": "O=C(O)C(O)CC1=CC=C(O)C(O)=C1"
+  },
+  {
+   "compound": "benzaldehyde",
+   "smiles": "C1=CC=C(C=C1)C=O"
+  },
+  {
+   "compound": "campesterol",
+   "smiles": "CC(C)C(C)CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C"
+  },
+  {
+   "compound": "beta-cubebene",
+   "smiles": "CC1CCC(C2C13C2C(=C)CC3)C(C)C"
+  },
+  {
+   "compound": "geraniol",
+   "smiles": "CC(=CCCC(=CCO)C)C"
+  },
+  {
+   "compound": "hesperetin",
+   "smiles": "COC1=C(C=C(C=C1)C2CC(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "phenylalanine",
+   "smiles": "C1=CC=C(C=C1)CC(C(=O)O)N"
+  },
+  {
+   "compound": "(Z)-alpha-bisabolene",
+   "smiles": "CC1=CCC(CC1)C(=CCC=C(C)C)C"
+  },
+  {
+   "compound": "(R)-rosmarinic acid",
+   "smiles": "C1=CC(=C(C=C1CC(C(=O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "caproic acid",
+   "smiles": "CCCCCC(=O)O"
+  },
+  {
+   "compound": "(E)-cinnamic acid",
+   "smiles": "C1=CC=C(C=C1)C=CC(=O)O"
+  },
+  {
+   "compound": "caffeic acid",
+   "smiles": "OC(=O)C=Cc1ccc(O)c(O)c1"
+  },
+  {
+   "compound": "α-ionol",
+   "smiles": "CC1=CCCC(C1C=CC(C)O)(C)C"
+  },
+  {
+   "compound": "luteolin",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "luteolin 3'-O-glucuronide",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)C(=O)O)O)O)O)O"
+  },
+  {
+   "compound": "(E)-p-coumaric acid",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)O)O"
+  },
+  {
+   "compound": "(+)-1-octen-3-ol",
+   "smiles": "CCCCCC(C=C)O"
+  },
+  {
+   "compound": "(+/-)-4-terpineol",
+   "smiles": "CC1=CCC(CC1)(C(C)C)O"
+  },
+  {
+   "compound": "β-cadinene",
+   "smiles": "CC1=CCC2C(C1)C(CC=C2C)C(C)C"
+  },
+  {
+   "compound": "(-)-car-3-ene",
+   "smiles": "CC1=CCC2C(C1)C2(C)C"
+  },
+  {
+   "compound": "alpha-terpineol",
+   "smiles": "CC1=CCC(CC1)C(C)(C)O"
+  },
+  {
+   "compound": "(-)-α-cubebene",
+   "smiles": "CC1CCC(C2C13C2C(=CC3)C)C(C)C"
+  },
+  {
+   "compound": "beta-copaene",
+   "smiles": "CC(C)C1CCC2(C3C1C2C(=C)CC3)C"
+  },
+  {
+   "compound": "tridecane",
+   "smiles": "CCCCCCCCCCCCC"
+  }
+ ]
+}

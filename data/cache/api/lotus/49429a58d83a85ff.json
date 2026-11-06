@@ -1,0 +1,405 @@
+{
+ "key": "Allium sativum",
+ "value": [
+  {
+   "compound": "allyl trisulfide",
+   "smiles": "C=CCSSSCC=C"
+  },
+  {
+   "compound": "monoethanolamine",
+   "smiles": "C(CO)N"
+  },
+  {
+   "compound": "(+)-catechin",
+   "smiles": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O"
+  },
+  {
+   "compound": "formononetin",
+   "smiles": "COC1=CC=C(C=C1)C2=COC3=C(C2=O)C=CC(=C3)O"
+  },
+  {
+   "compound": "vanillic acid",
+   "smiles": "COC1=C(C=CC(=C1)C(=O)O)O"
+  },
+  {
+   "compound": "allyl disulfide",
+   "smiles": "C=CCSSCC=C"
+  },
+  {
+   "compound": "(E)-sinapic acid",
+   "smiles": "COC1=CC(=CC(=C1O)OC)C=CC(=O)O"
+  },
+  {
+   "compound": "myricetin",
+   "smiles": "C1=C(C=C(C(=C1O)O)O)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "kaempferol",
+   "smiles": "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "syringic acid",
+   "smiles": "COC1=CC(=CC(=C1O)OC)C(=O)O"
+  },
+  {
+   "compound": "S-allylcysteine",
+   "smiles": "C=CCSCC(C(=O)O)N"
+  },
+  {
+   "compound": "(−)-epicatechin",
+   "smiles": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O"
+  },
+  {
+   "compound": "(±)-L-alliin",
+   "smiles": "C=CCS(=O)CC(C(=O)O)N"
+  },
+  {
+   "compound": "eicosapentaenoic acid",
+   "smiles": "CCC=CCC=CCC=CCC=CCC=CCCCC(=O)O"
+  },
+  {
+   "compound": "manganese dioxide",
+   "smiles": "O=[Mn]=O"
+  },
+  {
+   "compound": "(E)-chlorogenic acid",
+   "smiles": "C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "(+)-pinoresinol",
+   "smiles": "OC1=CC=C(C=C1OC)C2OCC3C(OCC23)C4=CC=C(O)C(OC)=C4"
+  },
+  {
+   "compound": "γ‑terpinene",
+   "smiles": "CC1=CCC(=CC1)C(C)C"
+  },
+  {
+   "compound": "matairesinol",
+   "smiles": "COC1=C(C=CC(=C1)CC2COC(=O)C2CC3=CC(=C(C=C3)O)OC)O"
+  },
+  {
+   "compound": "RRR-alpha-tocopherol",
+   "smiles": "OC=1C(=C(C=2OC(C)(CCC2C1C)CCCC(C)CCCC(C)CCCC(C)C)C)C"
+  },
+  {
+   "compound": "inulin",
+   "smiles": "OCC1OC(OC2(OC(CO)C(O)C2O)COC3(OC(CO)C(O)C3O)COC4(OC(CO)C(O)C4O)COC5(OC(CO)C(O)C5O)COC6(OC(CO)C(O)C6O)COC7(OC(CO)C(O)C7O)COC8(OC(CO)C(O)C8O)COC9(OC(CO)C(O)C9O)COC%10(OC(CO)C(O)C%10O)COC%11(OC(CO)C(O)C%11O)COC%12(OC(CO)C(O)C%12O)COC%13(OC(CO)C(O)C%13O)COC%14(OC(CO)C(O)C%14O)COC%15(OC(CO)C(O)C%15O)COC%16(OC(CO)C(O)C%16O)COC%17(OC(CO)C(O)C%17O)COC%18(OC(CO)C(O)C%18O)COC%19(OC(CO)C(O)C%19O)COC%20(OC(CO)C(O)C%20O)COC%21(OC(CO)C(O)C%21O)COC%22(OC(CO)C(O)C%22O)COC%23(OC(CO)C(O)C%23O)COC%24(OC(CO)C(O)C%24O)COC%25(OC(CO)C(O)C%25O)COC%26(OC(CO)C(O)C%26O)COC%27(OC(CO)C(O)C%27O)COC%28(OC(CO)C(O)C%28O)COC%29(OC(CO)C(O)C%29O)COC%30(OC(CO)C(O)C%30O)COC%31(OC(CO)C(O)C%31O)COC%32(OC(CO)C(O)C%32O)COC%33(OC(CO)C(O)C%33O)COC%34(OC(CO)C(O)C%34O)COC%35(OC(CO)C(O)C%35O)COC%36(OC(CO)C(O)C%36O)COC%37(OC(CO)C(O)C%37O)COC%38(OC(CO)C(O)C%38O)CO)C(O)C(O)C1O"
+  },
+  {
+   "compound": "linoleic acid",
+   "smiles": "CCCCCC=CCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "(5S)-5-methyl-1-oxidanylidene-1,4-thiazinane-2-carboxylic acid",
+   "smiles": "CC1CS(=O)C(CN1)C(=O)O"
+  },
+  {
+   "compound": "phytol",
+   "smiles": "CC(C)CCCC(C)CCCC(C)CCCC(=CCO)C"
+  },
+  {
+   "compound": "glutathione",
+   "smiles": "C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N"
+  },
+  {
+   "compound": "propyl mercaptan",
+   "smiles": "CCCS"
+  },
+  {
+   "compound": "diallyl sulfide",
+   "smiles": "C=CCSCC=C"
+  },
+  {
+   "compound": "salicylic acid",
+   "smiles": "C1=CC=C(C(=C1)C(=O)O)O"
+  },
+  {
+   "compound": "L-proline",
+   "smiles": "C1CC(NC1)C(=O)O"
+  },
+  {
+   "compound": "L-glutamine",
+   "smiles": "C(CC(=O)N)C(C(=O)O)N"
+  },
+  {
+   "compound": "D-phenylalanine",
+   "smiles": "C1=CC=C(C=C1)CC(C(=O)O)N"
+  },
+  {
+   "compound": "L-methionine",
+   "smiles": "CSCCC(C(=O)O)N"
+  },
+  {
+   "compound": "dimethyl sulfide",
+   "smiles": "CSC"
+  },
+  {
+   "compound": "stachyose",
+   "smiles": "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OCC3C(C(C(C(O3)OC4(C(C(C(O4)CO)O)O)CO)O)O)O)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "L-citrulline",
+   "smiles": "C(CC(C(=O)O)N)CNC(=O)N"
+  },
+  {
+   "compound": "L-ornithine",
+   "smiles": "C(CC(C(=O)O)N)CN"
+  },
+  {
+   "compound": "ferulic acid",
+   "smiles": "COC1=C(C=CC(=C1)C=CC(=O)O)O"
+  },
+  {
+   "compound": "L-threonine",
+   "smiles": "CC(C(C(=O)O)N)O"
+  },
+  {
+   "compound": "L-aspartic acid",
+   "smiles": "C(C(C(=O)O)N)C(=O)O"
+  },
+  {
+   "compound": "arachidonic acid",
+   "smiles": "CCCCCC=CCC=CCC=CCC=CCCCC(=O)O"
+  },
+  {
+   "compound": "guanosine",
+   "smiles": "C1=NC2=C(N1C3C(C(C(O3)CO)O)O)NC(=NC2=O)N"
+  },
+  {
+   "compound": "trans-caffeic acid",
+   "smiles": "C1=CC(=C(C=C1C=CC(=O)O)O)O"
+  },
+  {
+   "compound": "4-hydroxybenzoic acid",
+   "smiles": "C1=CC(=CC=C1C(=O)O)O"
+  },
+  {
+   "compound": "L-arginine",
+   "smiles": "C(CC(C(=O)O)N)CN=C(N)N"
+  },
+  {
+   "compound": "(-)-alpha-pinene",
+   "smiles": "CC1=CCC2CC1C2(C)C"
+  },
+  {
+   "compound": "naringenin",
+   "smiles": "C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC=C(C=C3)O"
+  },
+  {
+   "compound": "L-selenocysteine",
+   "smiles": "C(C(C(=O)O)N)[SeH]"
+  },
+  {
+   "compound": "3,4-dihydroxybenzoic acid",
+   "smiles": "C1=CC(=C(C=C1C(=O)O)O)O"
+  },
+  {
+   "compound": "3,4-dihydroxybenzoic acid",
+   "smiles": "c1cc(c(cc1C(=O)O)O)O"
+  },
+  {
+   "compound": "apigenin",
+   "smiles": "C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "myristic acid",
+   "smiles": "CCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "quercetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O"
+  },
+  {
+   "compound": "L-serine",
+   "smiles": "C(C(C(=O)O)N)O"
+  },
+  {
+   "compound": "raffinose",
+   "smiles": "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3(C(C(C(O3)CO)O)O)CO)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "L-alanine",
+   "smiles": "CC(C(=O)O)N"
+  },
+  {
+   "compound": "L-lysine",
+   "smiles": "C(CCN)CC(C(=O)O)N"
+  },
+  {
+   "compound": "adenosine",
+   "smiles": "C1=NC2=C(C(=N1)N)N=CN2C3C(C(C(O3)CO)O)O"
+  },
+  {
+   "compound": "allyl isothiocyanate",
+   "smiles": "C=CCN=C=S"
+  },
+  {
+   "compound": "allyl methyl sulfide",
+   "smiles": "CSCC=C"
+  },
+  {
+   "compound": "tetraethylammonium",
+   "smiles": "CC[N+](CC)(CC)CC"
+  },
+  {
+   "compound": "L-leucine",
+   "smiles": "CC(C)CC(C(=O)O)N"
+  },
+  {
+   "compound": "tryptophan",
+   "smiles": "C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N"
+  },
+  {
+   "compound": "L-isoleucine",
+   "smiles": "CCC(C)C(C(=O)O)N"
+  },
+  {
+   "compound": "pyrogallol",
+   "smiles": "C1=CC(=C(C(=C1)O)O)O"
+  },
+  {
+   "compound": "terpinolene",
+   "smiles": "CC1=CCC(=C(C)C)CC1"
+  },
+  {
+   "compound": "Allyl mercaptan",
+   "smiles": "C=CCS"
+  },
+  {
+   "compound": "L-histidine",
+   "smiles": "C1=C(NC=N1)CC(C(=O)O)N"
+  },
+  {
+   "compound": "L-valine",
+   "smiles": "CC(C)C(C(=O)O)N"
+  },
+  {
+   "compound": "taurine",
+   "smiles": "C(CS(=O)(=O)O)N"
+  },
+  {
+   "compound": "L-tyrosine",
+   "smiles": "C1=CC(=CC=C1CC(C(=O)O)N)O"
+  },
+  {
+   "compound": "nonadecanoic acid",
+   "smiles": "CCCCCCCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "acetaldehyde",
+   "smiles": "CC=O"
+  },
+  {
+   "compound": "(E)-ajoene",
+   "smiles": "C=CCSSC=CCS(=O)CC=C"
+  },
+  {
+   "compound": "DL-α-aminobutyric acid",
+   "smiles": "CCC(C(=O)O)N"
+  },
+  {
+   "compound": "gentisic acid",
+   "smiles": "C1=CC(=C(C=C1O)C(=O)O)O"
+  },
+  {
+   "compound": "gallic acid",
+   "smiles": "C1=C(C=C(C(=C1O)O)O)C(=O)O"
+  },
+  {
+   "compound": "2,4-dihydroxybenzoic acid",
+   "smiles": "C1=CC(=C(C=C1O)O)C(=O)O"
+  },
+  {
+   "compound": "lariciresinol",
+   "smiles": "COC1=C(C=CC(=C1)CC2COC(C2CO)C3=CC(=C(C=C3)O)OC)O"
+  },
+  {
+   "compound": "L-cystine",
+   "smiles": "C(C(C(=O)O)N)SSCC(C(=O)O)N"
+  },
+  {
+   "compound": "dimethyl disulfide",
+   "smiles": "CSSC"
+  },
+  {
+   "compound": "dimethyl trisulfide",
+   "smiles": "CSSSC"
+  },
+  {
+   "compound": "squalene",
+   "smiles": "CC(=CCCC(=CCCC(=CCCC=C(C)CCC=C(C)CCC=C(C)C)C)C)C"
+  },
+  {
+   "compound": "Dipropyl disulfide",
+   "smiles": "CCCSSCCC"
+  },
+  {
+   "compound": "resveratrol",
+   "smiles": "C1=CC(=CC=C1C=CC2=CC(=CC(=C2)O)O)O"
+  },
+  {
+   "compound": "3'-hydroxycinnamic acid",
+   "smiles": "C1=CC(=CC(=C1)O)C=CC(=O)O"
+  },
+  {
+   "compound": "allyl alcohol",
+   "smiles": "C=CCO"
+  },
+  {
+   "compound": "vanillin",
+   "smiles": "COC1=C(C=CC(=C1)C=O)O"
+  },
+  {
+   "compound": "(2E)-2-hydroxycinnamic acid",
+   "smiles": "C1=CC=C(C(=C1)C=CC(=O)O)O"
+  },
+  {
+   "compound": "allyl propyl disulfide",
+   "smiles": "CCCSSCC=C"
+  },
+  {
+   "compound": "luteolin",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "veratric acid",
+   "smiles": "COC1=C(C=C(C=C1)C(=O)O)OC"
+  },
+  {
+   "compound": "(E)-p-coumaric acid",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)O)O"
+  },
+  {
+   "compound": "allicin",
+   "smiles": "C=CCSS(=O)CC=C"
+  },
+  {
+   "compound": "biochanin A",
+   "smiles": "COC1=CC=C(C=C1)C2=COC3=CC(=CC(=C3C2=O)O)O"
+  },
+  {
+   "compound": "isoalliin",
+   "smiles": "CC=CS(=O)CC(C(=O)O)N"
+  },
+  {
+   "compound": "glycine",
+   "smiles": "C(C(=O)O)N"
+  },
+  {
+   "compound": "allixin",
+   "smiles": "CCCCCC1=C(C(=O)C(=C(O1)C)OC)O"
+  },
+  {
+   "compound": "sucrose",
+   "smiles": "C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O"
+  },
+  {
+   "compound": "flavone",
+   "smiles": "C1=CC=C(C=C1)C2=CC(=O)C3=CC=CC=C3O2"
+  },
+  {
+   "compound": "secoisolariciresinol",
+   "smiles": "COC1=C(C=CC(=C1)CC(CO)C(CC2=CC(=C(C=C2)O)OC)CO)O"
+  }
+ ]
+}

@@ -1,0 +1,405 @@
+{
+ "key": "Gentiana lutea",
+ "value": [
+  {
+   "compound": "4,4,6a,6b,8a,11,12,14b-octamethyl-2,3,4a,5,6,6a,7,8,9,10,11,12,12a,14a-tetradecahydro-1H-picen-3-ol",
+   "smiles": "OC1CCC2(C)C3C=CC4C5C(C)C(C)CCC5(C)CCC4(C)C3(C)CCC2C1(C)C"
+  },
+  {
+   "compound": "4,4,6a,6b,8a,11,11,14b-Octamethyl-1,2,3,4a,5,6,6a,7,8,9,10,12,12a,14a-tetradecahydropicen-3-ol",
+   "smiles": "OC1CCC2(C)C3C=CC4C5CC(C)(C)CCC5(C)CCC4(C)C3(C)CCC2C1(C)C"
+  },
+  {
+   "compound": "Betulin 3-O-palmitate",
+   "smiles": "O=C(OC1CCC2(C)C(CCC3(C)C2CCC4C5C(C(=C)C)CCC5(CO)CCC43C)C1(C)C)CCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "2-hydroxy-6-methoxyxanthen-9-one",
+   "smiles": "O=C1C2=CC=C(OC)C=C2OC3=CC=C(O)C=C31"
+  },
+  {
+   "compound": "[2-[(4-Ethenyl-4a-hydroxy-8-oxo-3,4,5,6-tetrahydropyrano[3,4-c]pyran-3-yl)oxy]-4,5-dihydroxy-6-(hydroxymethyl)oxan-3-yl] 2,4-dihydroxy-6-(3-hydroxyphenyl)benzoate",
+   "smiles": "O=C1OCCC2(O)C1=COC(OC3OC(CO)C(O)C(O)C3OC(=O)C4=C(O)C=C(O)C=C4C5=CC=CC(O)=C5)C2C=C"
+  },
+  {
+   "compound": "Urs-12-ene-3beta,28-diol 3-palmitate",
+   "smiles": "O=C(OC1CCC2(C)C3CC=C4C5C(C)C(C)CCC5(CO)CCC4(C)C3(C)CCC2C1(C)C)CCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "(4R)-4-ethyl-4-hydroxy-5,6-dihydro-1H-pyrano[3,4-c]pyran-3,8-dione",
+   "smiles": "O=C1OCCC2=C1COC(=O)C2(O)CC"
+  },
+  {
+   "compound": "(2S,3R,4S)-2-(3,4,5-trihydroxyphenyl)-3,4-dihydro-2H-chromene-3,4,5,7-tetrol",
+   "smiles": "OC=1C=C(O)C2=C(OC(C3=CC(O)=C(O)C(O)=C3)C(O)C2O)C1"
+  },
+  {
+   "compound": "(3S,4aR,6aR,6bS,8aS,12aS,14aR,14bR)-8a-(hydroxymethyl)-4,4,6a,6b,11,11,14b-heptamethyl-1,2,3,4a,5,6,7,8,9,10,12,12a,14,14a-tetradecahydropicen-3-yl hexadecanoate",
+   "smiles": "O=C(OC1CCC2(C)C3CC=C4C5CC(C)(C)CCC5(CO)CCC4(C)C3(C)CCC2C1(C)C)CCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "Erythrodiol 3-O-palmitate",
+   "smiles": "O=C(OC1CCC2(C)C3CC=C4C5CC(C)(C)CCC5(CO)CCC4(C)C3(C)CCC2C1(C)C)CCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "Q115950878",
+   "smiles": "O=C(OCC1OC(OC2=CC=3C(OC4OC(CO)C(O)C(O)C4O)=CC(O)=CC3[O+]=C2C=5C=CC(O)=CC5)C(OC6OC(COC(=O)C=CC7=CC=C(O)C(OC)=C7)C(O)C(O)C6O)C(O)C1O)C=CC8=CC=C(O)C(O)=C8"
+  },
+  {
+   "compound": "Q115950883",
+   "smiles": "O=C(OCC1OC(OC2=CC=3C(OC4OC(CO)C(O)C(O)C4O)=CC(O)=CC3[O+]=C2C=5C=CC(O)=CC5)C(OC6OC(COC(=O)C=CC7=CC=C(O)C(OC)=C7)C(O)C(O)C6O)C(O)C1O)C=CC8=CC=C(O)C=C8"
+  },
+  {
+   "compound": "sitogluside",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)OC5C(C(C(C(O5)CO)O)O)O)C)C)C(C)C"
+  },
+  {
+   "compound": "isogentisin",
+   "smiles": "COC1=CC2=C(C=C1)OC3=CC(=CC(=C3C2=O)O)O"
+  },
+  {
+   "compound": "swertianolin",
+   "smiles": "COC1=CC(=C2C(=C1)OC3=C(C=CC(=C3C2=O)OC4C(C(C(C(O4)CO)O)O)O)O)O"
+  },
+  {
+   "compound": "gentisin",
+   "smiles": "COC1=CC(=C2C(=C1)OC3=C(C2=O)C=C(C=C3)O)O"
+  },
+  {
+   "compound": "amarogentin",
+   "smiles": "C=CC1C2CCOC(=O)C2=COC1OC3C(C(C(C(O3)CO)O)O)OC(=O)C4=C(C=C(C=C4C5=CC(=CC=C5)O)O)O"
+  },
+  {
+   "compound": "D-fructopyranose",
+   "smiles": "C1C(C(C(C(O1)(CO)O)O)O)O"
+  },
+  {
+   "compound": "(E,E,E,E)-Squalene",
+   "smiles": "C(=C(C)C)CCC(=CCCC(=CCCC=C(C)CCC=C(C)CCC=C(C)C)C)C"
+  },
+  {
+   "compound": "2,3',4,6-tetrahydroxybenzophenone",
+   "smiles": "C1=CC(=CC(=C1)O)C(C2=C(C=C(C=C2O)O)O)=O"
+  },
+  {
+   "compound": "(+)-taxifolin",
+   "smiles": "O=C1C=2C(O)=CC(O)=CC2OC(C3=CC=C(O)C(O)=C3)C1O"
+  },
+  {
+   "compound": "primeverose",
+   "smiles": "C1C(C(C(C(O1)OCC(C(C(C(C=O)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "ampelopsin",
+   "smiles": "O=C1C=2C(O)=CC(O)=CC2OC(C3=CC(O)=C(O)C(O)=C3)C1O"
+  },
+  {
+   "compound": "beta-sitosterol",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "Anofinic acid",
+   "smiles": "O=C(O)C=1C=CC=2OC(C=CC2C1)(C)C"
+  },
+  {
+   "compound": "β-gentiobiose (closed ring)",
+   "smiles": "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)O)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "1,3,6,7-Tetrahydroxy-2-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]xanthen-9-one",
+   "smiles": "O=C1C2=CC(O)=C(O)C=C2OC3=CC(O)=C(C(O)=C13)C4OC(CO)C(O)C(O)C4O"
+  },
+  {
+   "compound": "4-ethenyl-3-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4,4a,5,6-tetrahydro-3H-pyrano[3,4-c]pyran-8-one",
+   "smiles": "O=C1OCCC2C1=COC(OC3OC(CO)C(O)C(O)C3O)C2C=C"
+  },
+  {
+   "compound": "Flavonoid LP",
+   "smiles": "O=C1C=C(OC2=CC(O)=C(C(O)=C12)C3OC(CO)C(O)C(O)C3O)C=4C=CC(OC5OC(CO)C(O)C(O)C5O)=CC4"
+  },
+  {
+   "compound": "1,3,8-trihydroxy-5-methoxyxanthen-9-one",
+   "smiles": "O=C1C=2C(O)=CC(O)=CC2OC=3C(OC)=CC=C(O)C13"
+  },
+  {
+   "compound": "1,6-dihydroxy-2,8-dimethoxyxanthen-9-one",
+   "smiles": "O=C1C2=C(O)C(OC)=CC=C2OC3=CC(O)=CC(OC)=C13"
+  },
+  {
+   "compound": "3,6-Bis(4-hydroxy-3-methoxyphenyl)-3,4,6,6a-tetrahydro-1H-furo[3,4-c]furan-3a-ol",
+   "smiles": "OC1=CC=C(C=C1OC)C2OCC3(O)C(OCC23)C4=CC=C(O)C(OC)=C4"
+  },
+  {
+   "compound": "7-methoxy-2,2-dimethylchromene-6-carboxylic acid",
+   "smiles": "O=C(O)C1=CC=2C=CC(OC2C=C1OC)(C)C"
+  },
+  {
+   "compound": "Berchemol",
+   "smiles": "OC1=CC=C(C=C1OC)CC2COC(C3=CC=C(O)C(OC)=C3)C2(O)CO"
+  },
+  {
+   "compound": "Fraxiresinol",
+   "smiles": "OC1=CC=C(C=C1OC)C2OCC3(O)C(OCC23)C4=CC(OC)=C(O)C(OC)=C4"
+  },
+  {
+   "compound": "Trifloroside",
+   "smiles": "O=C1OCCC2C1=COC(OC3OC(COC(=O)C)C(OC(=O)C=4C=CC=C(OC5OC(CO)C(O)C(O)C5O)C4O)C(OC(=O)C)C3OC(=O)C)C2C=C"
+  },
+  {
+   "compound": "(3S,8S,9S,10R,13R,14S,17R)-17-[(E,2S,5S)-5-Ethyl-6-methylhept-3-en-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol",
+   "smiles": "OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C=CC(CC)C(C)C)C)C2(C)CC1"
+  },
+  {
+   "compound": "(3S,4R,4aS)-4-ethenyl-3-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4,4a,5,6-tetrahydro-3H-pyrano[3,4-c]pyran-8-one",
+   "smiles": "O=C1OCCC2C1=COC(OC3OC(CO)C(O)C(O)C3O)C2C=C"
+  },
+  {
+   "compound": "1-methyl-3H,4H,9H-pyrido[3,4-b]indole",
+   "smiles": "N1=C(C=2NC=3C=CC=CC3C2CC1)C"
+  },
+  {
+   "compound": "harmol (tautomer)",
+   "smiles": "OC=1C=CC2=C(C1)NC3=C2C=CN=C3C"
+  },
+  {
+   "compound": "2,3-Seco-3-oxooleana-12-ene-2-oic acid",
+   "smiles": "O=CC(C)(C)C1CCC2(C)C(CC=C3C4CC(C)(C)CCC4(C)CCC32C)C1(C)CC(=O)O"
+  },
+  {
+   "compound": "2,3-Seco-3-oxours-12-ene-2-oic acid",
+   "smiles": "O=CC(C)(C)C1CCC2(C)C(CC=C3C4C(C)C(C)CCC4(C)CCC32C)C1(C)CC(=O)O"
+  },
+  {
+   "compound": "S-[2-[3-[[(2S)-4-[[[(2S,3S,4R,5S)-5-(6-aminopurin-9-yl)-4-hydroxy-3-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl]oxy-hydroxyphosphoryl]oxy-2-hydroxy-3,3-dimethylbutanoyl]amino]propanoylamino]ethyl] (E)-3-(4-hydroxyphenyl)prop-2-enethioate",
+   "smiles": "CC(C)(COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O)C(O)C(=O)NCCC(=O)NCCSC(=O)C=Cc1ccc(O)cc1"
+  },
+  {
+   "compound": "swertisin",
+   "smiles": "O=C1C=C(OC=2C=C(OC)C(=C(O)C12)C3OC(CO)C(O)C(O)C3O)C=4C=CC(O)=CC4"
+  },
+  {
+   "compound": "5beta-Ethenyl-6alpha-(beta-D-glucopyranosyloxy)-4a-hydroxy-4,4a,5,6-tetrahydro-1H,3H-pyrano[3,4-c]pyran-1-one",
+   "smiles": "O=C1OCCC2(O)C1=COC(OC3OC(CO)C(O)C(O)C3O)C2C=C"
+  },
+  {
+   "compound": "Swertiamaroside",
+   "smiles": "O=C1OCCC2(O)C1=COC(OC3OC(CO)C(O)C(O)C3O)C2C=C"
+  },
+  {
+   "compound": "7-methyl-5H,6H,7H-cyclopenta[c]pyridin-6-ol",
+   "smiles": "OC1CC=2C=CN=CC2C1C"
+  },
+  {
+   "compound": "Q105032305",
+   "smiles": "O=C(OCC1OC(OC2=CC=3C(OC2=C4C=CC(=O)C=C4)=CC(O)=CC3OC5OC(CO)C(O)C(O)C5O)C(OC6OC(COC(=O)C=CC7=CC=C(O)C(OC)=C7)C(O)C(O)C6O)C(O)C1O)C=CC8=CC=C(O)C(O)=C8"
+  },
+  {
+   "compound": "Q105211853",
+   "smiles": "O=C(OCC1OC(OC2=CC=3C(OC2=C4C=CC(=O)C=C4)=CC(O)=CC3OC5OC(CO)C(O)C(O)C5O)C(OC6OC(COC(=O)C=CC7=CC=C(O)C(OC)=C7)C(O)C(O)C6O)C(O)C1O)C=CC8=CC=C(O)C=C8"
+  },
+  {
+   "compound": "1-Hydroxy-3-methoxy-7-primeverosyloxyxanthone",
+   "smiles": "O=C1C2=CC(OC3OC(COC4OCC(O)C(O)C4O)C(O)C(O)C3O)=CC=C2OC5=CC(OC)=CC(O)=C15"
+  },
+  {
+   "compound": "6-Hydroxy-7-methyl-1-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-1,4a,5,6,7,7a-hexahydrocyclopenta[c]pyran-4-carboxylic acid",
+   "smiles": "O=C(O)C1=COC(OC2OC(CO)C(O)C(O)C2O)C3C1CC(O)C3C"
+  },
+  {
+   "compound": "Gentioluteol",
+   "smiles": "OC1=CC=C(C=C1OC)CC2COC(C3=CC(OC)=C(O)C(OC)=C3)C2(O)CO"
+  },
+  {
+   "compound": "(1R,3aS,5aR,5bR,7aR,9S,11aR,11bR,13aR,13bR)-3a-(hydroxymethyl)-5a,5b,8,8,11a-pentamethyl-1-(prop-1-en-2-yl)-hexadecahydrocyclopenta[a]chrysen-9-yl hexadecanoate",
+   "smiles": "O=C(OC1CCC2(C)C(CCC3(C)C2CCC4C5C(C(=C)C)CCC5(CO)CCC43C)C1(C)C)CCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "3-[2-[3-[[(2S)-4-[[[(2S,3S,4R,5S)-5-(6-aminopurin-9-yl)-4-hydroxy-3-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl]oxy-hydroxyphosphoryl]oxy-2-hydroxy-3,3-dimethylbutanoyl]amino]propanoylamino]ethylsulfanyl]-3-oxopropanoic acid",
+   "smiles": "CC(C)(COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O)C(O)C(=O)NCCC(=O)NCCSC(=O)CC(=O)O"
+  },
+  {
+   "compound": "Gentiolutelin",
+   "smiles": "O=CCC1CC(O)C(C)C1C(=O)OC"
+  },
+  {
+   "compound": "(2R,3R,4S,5S,6S)-2-[[(3S,8S,9S,10R,13R,14S,17R)-17-[(2R,5R)-5-ethyl-6-methylheptan-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "smiles": "OCC1OC(OC2CC3=CCC4C(CCC5(C)C(CCC45)C(C)CCC(CC)C(C)C)C3(C)CC2)C(O)C(O)C1O"
+  },
+  {
+   "compound": "7-hydroxy-3-methoxy-1-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2S,3R,4S,5R)-3,4,5-trihydroxyoxan-2-yl]oxymethyl]oxan-2-yl]oxyxanthen-9-one",
+   "smiles": "O=C1C2=CC(O)=CC=C2OC3=CC(OC)=CC(OC4OC(COC5OCC(O)C(O)C5O)C(O)C(O)C4O)=C13"
+  },
+  {
+   "compound": "7-Hydroxy-3-methoxy-1-[(6-O-beta-D-xylopyranosyl-beta-D-glucopyranosyl)oxy]-9H-xanthen-9-one",
+   "smiles": "O=C1C2=CC(O)=CC=C2OC3=CC(OC)=CC(OC4OC(COC5OCC(O)C(O)C5O)C(O)C(O)C4O)=C13"
+  },
+  {
+   "compound": "(+)-Epiaromadendrin",
+   "smiles": "O=C1C=2C(O)=CC(O)=CC2OC(C3=CC=C(O)C=C3)C1O"
+  },
+  {
+   "compound": "Urs-12-ene-3beta,11alpha-diol 3-palmitate",
+   "smiles": "O=C(OC1CCC2(C)C(CCC3(C)C2C(O)C=C4C5C(C)C(C)CCC5(C)CCC43C)C1(C)C)CCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "2-(4-Hydroxyphenyl)-5,7-dihydroxy-6-(beta-D-glucopyranosyloxy)-4H-1-benzopyran-4-one",
+   "smiles": "O=C1C=C(OC2=CC(O)=C(OC3OC(CO)C(O)C(O)C3O)C(O)=C12)C=4C=CC(O)=CC4"
+  },
+  {
+   "compound": "2,3,6-trihydroxy-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyxanthen-9-one",
+   "smiles": "O=C1C2=CC(O)=C(O)C=C2OC3=CC(O)=C(OC4OC(CO)C(O)C(O)C4O)C=C13"
+  },
+  {
+   "compound": "6-O-(beta-D-xylopyranosyl)-D-glucopyranose",
+   "smiles": "OC1OC(COC2OCC(O)C(O)C2O)C(O)C(O)C1O"
+  },
+  {
+   "compound": "(2S,3S,4S)-2-(3,4-dihydroxyphenyl)-3,4-dihydro-2H-chromene-3,4,5,7-tetrol",
+   "smiles": "OC=1C=C(O)C2=C(OC(C3=CC=C(O)C(O)=C3)C(O)C2O)C1"
+  },
+  {
+   "compound": "keto-D-fructose",
+   "smiles": "C(C(C(C(C(=O)CO)O)O)O)O"
+  },
+  {
+   "compound": "isovitexin",
+   "smiles": "O=C1C=C(OC2=CC(O)=C(C(O)=C12)C3OC(CO)C(O)C(O)C3O)C=4C=CC(O)=CC4"
+  },
+  {
+   "compound": "(+)-syringaresinol",
+   "smiles": "COC1=CC(=CC(=C1O)OC)C2C3COC(C3CO2)C4=CC(=C(C(=C4)OC)O)OC"
+  },
+  {
+   "compound": "harmol",
+   "smiles": "CC1=C2C(=C3C=CC(=O)C=C3N2)C=CN1"
+  },
+  {
+   "compound": "aldehydo-D-glucose",
+   "smiles": "C(C(C(C(C(C=O)O)O)O)O)O"
+  },
+  {
+   "compound": "pelargonidin",
+   "smiles": "C1=CC(=CC=C1C2=C(C=C3C(=CC(=CC3=[O+]2)O)O)O)O"
+  },
+  {
+   "compound": "gentisein",
+   "smiles": "C1=CC2=C(C=C1O)C(=O)C3=C(C=C(C=C3O2)O)O"
+  },
+  {
+   "compound": "17-(5-ethyl-6-methylheptan-2-yl)-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol",
+   "smiles": "OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C)CCC(CC)C(C)C)C2(C)CC1"
+  },
+  {
+   "compound": "bellidifolin",
+   "smiles": "COC1=CC(=C2C(=C1)OC3=C(C=CC(=C3C2=O)O)O)O"
+  },
+  {
+   "compound": "gentianose",
+   "smiles": "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3(C(C(C(O3)CO)O)O)CO)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "Gentianine",
+   "smiles": "C=CC1=C2CCOC(=O)C2=CN=C1"
+  },
+  {
+   "compound": "1,3,5,8-tetrahydroxyxanthone",
+   "smiles": "C1=CC(=C2C(=C1O)C(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "naringenin",
+   "smiles": "C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC=C(C=C3)O"
+  },
+  {
+   "compound": "naringenin chalcone",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)C2=C(C=C(C=C2O)O)O)O"
+  },
+  {
+   "compound": "raffinose",
+   "smiles": "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3(C(C(C(O3)CO)O)O)CO)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "swerchirin",
+   "smiles": "COC1=C2C(=C(C=C1)O)C(=O)C3=C(C=C(C=C3O2)OC)O"
+  },
+  {
+   "compound": "Gentioside",
+   "smiles": "O=C1C2=CC(OC)=CC=C2OC3=CC(OC4OC(COC5OCC(O)C(O)C5O)C(O)C(O)C4O)=CC(O)=C13"
+  },
+  {
+   "compound": "decussatin",
+   "smiles": "COC1=C(C2=C(C=C1)OC3=CC(=CC(=C3C2=O)O)OC)OC"
+  },
+  {
+   "compound": "isoorientin",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C(=C(C=C3O2)O)C4C(C(C(C(O4)CO)O)O)O)O)O)O"
+  },
+  {
+   "compound": "isovitexin",
+   "smiles": "C1=CC(=CC=C1C2=CC(=O)C3=C(C(=C(C=C3O2)O)C4C(C(C(C(O4)CO)O)O)O)O)O"
+  },
+  {
+   "compound": "carvacrol",
+   "smiles": "CC1=C(C=C(C=C1)C(C)C)O"
+  },
+  {
+   "compound": "lupeol",
+   "smiles": "CC(=C)C1CCC2(C1C3CCC4C5(CCC(C(C5CCC4(C3(CC2)C)C)(C)C)O)C)C"
+  },
+  {
+   "compound": "norharman",
+   "smiles": "C1=CC=C2C(=C1)C3=C(N2)C=NC=C3"
+  },
+  {
+   "compound": "linalool",
+   "smiles": "CC(=CCCC(C)(C=C)O)C"
+  },
+  {
+   "compound": "D-glucopyranose",
+   "smiles": "C(C1C(C(C(C(O1)O)O)O)O)O"
+  },
+  {
+   "compound": "1,3,8-trihydroxy-4,5-dimethoxy-9H-xanthen-9-one",
+   "smiles": "COC1=C2C(=C(C=C1)O)C(=O)C3=C(O2)C(=C(C=C3O)O)OC"
+  },
+  {
+   "compound": "(-)-pinoresinol",
+   "smiles": "COC1=C(C=CC(=C1)C2C3COC(C3CO2)C4=CC(=C(C=C4)O)OC)O"
+  },
+  {
+   "compound": "2-O-methylswertianin",
+   "smiles": "COC1=C(C2=C(C=C1)OC3=CC(=CC(=C3C2=O)O)OC)O"
+  },
+  {
+   "compound": "swertianin",
+   "smiles": "COC1=CC(=C2C(=C1)OC3=C(C2=O)C(=C(C=C3)O)O)O"
+  },
+  {
+   "compound": "Xanthen-9-one, 1-hydroxy-3-methoxy-",
+   "smiles": "COC1=CC(=C2C(=C1)OC3=CC=CC=C3C2=O)O"
+  },
+  {
+   "compound": "campesterol",
+   "smiles": "CC(C)C(C)CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C"
+  },
+  {
+   "compound": "(±)-limonene",
+   "smiles": "CC1=CCC(CC1)C(=C)C"
+  },
+  {
+   "compound": "sweroside",
+   "smiles": "C=CC1C2CCOC(=O)C2=COC1OC3C(C(C(C(O3)CO)O)O)O"
+  },
+  {
+   "compound": "β-amyrin",
+   "smiles": "CC1(CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1)C)C)C"
+  },
+  {
+   "compound": "squalene",
+   "smiles": "CC(=CCCC(=CCCC(=CCCC=C(C)CCC=C(C)CCC=C(C)C)C)C)C"
+  },
+  {
+   "compound": "2-hydroxyterephthalic acid",
+   "smiles": "C1=CC(=C(C=C1C(=O)O)O)C(=O)O"
+  }
+ ]
+}

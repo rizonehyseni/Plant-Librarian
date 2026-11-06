@@ -1,0 +1,26 @@
+{
+ "key": "Matricaria chamomilla",
+ "value": {
+  "usageKey": 8370958,
+  "scientificName": "Matricaria chamomilla L.",
+  "canonicalName": "Matricaria chamomilla",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 99,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Asterales",
+  "family": "Asteraceae",
+  "genus": "Matricaria",
+  "species": "Matricaria chamomilla",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 414,
+  "familyKey": 3065,
+  "genusKey": 3103757,
+  "speciesKey": 8370958,
+  "class": "Magnoliopsida"
+ }
+}

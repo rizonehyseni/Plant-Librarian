@@ -1,0 +1,26 @@
+{
+ "key": "Castanea sativa Mill.",
+ "value": {
+  "usageKey": 5333294,
+  "scientificName": "Castanea sativa Mill.",
+  "canonicalName": "Castanea sativa",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Fagales",
+  "family": "Fagaceae",
+  "genus": "Castanea",
+  "species": "Castanea sativa",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 1354,
+  "familyKey": 4689,
+  "genusKey": 2882140,
+  "speciesKey": 5333294,
+  "class": "Magnoliopsida"
+ }
+}
