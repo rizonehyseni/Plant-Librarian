@@ -98,7 +98,10 @@ with search_col:
         placeholder="Try Mullaga, Lule qeni, or Origanum vulgare",
         help="You can search by the local name printed in the study or by scientific name.",
     )
-if query:
+requested_species = st.query_params.get("species")
+if requested_species in species_list:
+    default = requested_species
+elif query:
     hit = process.extractOne(normalize(query), choices.keys(), scorer=fuzz.WRatio)
     default = choices[hit[0]] if hit and hit[1] >= 70 else species_list[0]
 else:
