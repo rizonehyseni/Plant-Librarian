@@ -5,12 +5,13 @@ The synthetic test fixture is excluded.
 
 | Number | Value |
 | --- | --- |
-| Studies | 1 |
-| Use records | 569 |
-| Plants (accepted species) | 108 |
+| Studies | 2 |
+| Use records | 689 |
+| Plants (accepted species) | 145 |
 | Records, Albanian | 167 |
 | Records, Bosniak/Gorani | 252 |
 | Records, Turkish | 150 |
+| Records, not stated | 120 |
 | Plants used by Albanian | 60 |
 | Plants used by Bosniak/Gorani | 66 |
 | Plants used by Turkish | 55 |
@@ -20,22 +21,22 @@ The synthetic test fixture is excluded.
 | Plants used only by Bosniak/Gorani | 24 |
 | Plants used only by Turkish | 18 |
 | Verdict: Manually reviewed | 3 |
-| Verdict: Same preparation, human study tagged | 18 |
-| Verdict: Same preparation, lab/animal only | 50 |
-| Verdict: Only other preparations | 11 |
-| Verdict: No studies found | 0 |
-| Verdict: Not comparable by keywords | 26 |
-| Research gaps (only other preparations + no studies) | 11 |
-| Plants with PubMed candidates | 108 / 108 |
-| Plants with GBIF occurrences | 96 / 108 |
-| Plants with compounds (Wikidata/LOTUS) | 102 / 108 |
-| Plants with a safety flag | 20 |
-| Flags, risk / caution | 16 |
+| Verdict: Same preparation, human study tagged | 23 |
+| Verdict: Same preparation, lab/animal only | 71 |
+| Verdict: Only other preparations | 14 |
+| Verdict: No studies found | 3 |
+| Verdict: Not comparable by keywords | 31 |
+| Research gaps (only other preparations + no studies) | 17 |
+| Plants with PubMed candidates | 141 / 145 |
+| Plants with GBIF occurrences | 126 / 145 |
+| Plants with compounds (Wikidata/LOTUS) | 131 / 145 |
+| Plants with a safety flag | 21 |
+| Flags, risk / caution | 17 |
 | Flags, risk / warning | 4 |
-| Records Needs Review | 569 |
+| Records Needs Review | 689 |
 | Verified records | 0 |
-| Eval recall (hand-checked gold rows) | 23/23 = 100% |
-| Eval local name -> plant | 23/23 |
+| Eval recall (hand-checked gold rows) | 40/42 = 95% |
+| Eval local name -> plant | 40/40 |
 
 Plants used by all communities: *Achillea millefolium*, *Allium cepa*, *Allium sativum*, *Althaea officinalis*, *Cornus mas*, *Crataegus monogyna*, *Foeniculum vulgare*, *Juniperus communis*, *Malva sylvestris*, *Matricaria chamomilla*, *Origanum vulgare*, *Primula veris*, *Prunus spinosa*, *Sambucus nigra*, *Taraxacum officinale*, *Tilia platyphyllos*, *Urtica dioica*, *Vitis vinifera*.
 

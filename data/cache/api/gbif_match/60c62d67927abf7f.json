@@ -1,0 +1,26 @@
+{
+ "key": "Aristolochia clematitis L.",
+ "value": {
+  "usageKey": 2873991,
+  "scientificName": "Aristolochia clematitis L.",
+  "canonicalName": "Aristolochia clematitis",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Piperales",
+  "family": "Aristolochiaceae",
+  "genus": "Aristolochia",
+  "species": "Aristolochia clematitis",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 404,
+  "familyKey": 3066,
+  "genusKey": 2873978,
+  "speciesKey": 2873991,
+  "class": "Magnoliopsida"
+ }
+}

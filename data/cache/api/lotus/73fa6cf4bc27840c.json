@@ -1,0 +1,13 @@
+{
+ "key": "Echinops bannaticus",
+ "value": [
+  {
+   "compound": "5,5''-[[(1S)-Cyclobutane-1alpha,2beta-diyl]bisethynylene]bis(2,2'-bithiophene)",
+   "smiles": "C(#CC1CCC1C#CC=2SC(=CC2)C=3SC=CC3)C=4SC(=CC4)C=5SC=CC5"
+  },
+  {
+   "compound": "Isocardopatine",
+   "smiles": "C(#CC1CCC1C#CC=2SC(=CC2)C=3SC=CC3)C=4SC(=CC4)C=5SC=CC5"
+  }
+ ]
+}

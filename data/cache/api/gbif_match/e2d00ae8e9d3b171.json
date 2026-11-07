@@ -1,0 +1,27 @@
+{
+ "key": "Matricaria recutita L.",
+ "value": {
+  "usageKey": 3103774,
+  "acceptedUsageKey": 8370958,
+  "scientificName": "Matricaria recutita L.",
+  "canonicalName": "Matricaria recutita",
+  "rank": "SPECIES",
+  "status": "SYNONYM",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Asterales",
+  "family": "Asteraceae",
+  "genus": "Matricaria",
+  "species": "Matricaria chamomilla",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 414,
+  "familyKey": 3065,
+  "genusKey": 3103757,
+  "speciesKey": 8370958,
+  "class": "Magnoliopsida"
+ }
+}

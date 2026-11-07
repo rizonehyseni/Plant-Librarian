@@ -1,0 +1,125 @@
+{
+ "key": "Euphorbia cyparissias",
+ "value": [
+  {
+   "compound": "cycloartenol",
+   "smiles": "CC(CCC=C(C)C)C1CCC2(C1(CCC34C2CCC5C3(C4)CCC(C5(C)C)O)C)C"
+  },
+  {
+   "compound": "Lupan-3-one",
+   "smiles": "O=C1CCC2(C)C(CCC3(C)C2CCC4C5C(CCC5(C)CCC43C)C(C)C)C1(C)C"
+  },
+  {
+   "compound": "beta-sitosterol",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "7,7,12,16-Tetramethyl-15-(6-methyl-5-methylideneheptan-2-yl)pentacyclo[9.7.0.01,3.03,8.012,16]octadec-8-en-6-ol",
+   "smiles": "OC1CCC23C(=CCC4C5(C)CCC(C(C)CCC(=C)C(C)C)C5(C)CCC43C2)C1(C)C"
+  },
+  {
+   "compound": "beta-Amyrone",
+   "smiles": "O=C1CCC2(C)C(CCC3(C)C2CC=C4C5CC(C)(C)CCC5(C)CCC43C)C1(C)C"
+  },
+  {
+   "compound": "(4aR,6aR,6aR,6bR,8aS,12aR,14aR,14bR)-4,4,6a,6b,8a,11,12,14b-octamethyl-2,3,4a,5,6,6a,7,8,9,12,12a,13,14,14a-tetradecahydro-1H-picen-3-ol",
+   "smiles": "OC1CCC2(C)C(CCC3(C)C2CCC4C5C(C(=CCC5(C)CCC43C)C)C)C1(C)C"
+  },
+  {
+   "compound": "beta-Fernenone",
+   "smiles": "O=C1CCC2(C3=C(CCC2C1(C)C)C4(C)CCC5(C)C(CCC5C4(C)CC3)C(C)C)C"
+  },
+  {
+   "compound": "gamma-Taraxasterone",
+   "smiles": "O=C1CCC2(C)C(CCC3(C)C2CCC4C5C(C(=CCC5(C)CCC43C)C)C)C1(C)C"
+  },
+  {
+   "compound": "(1S,3R,6S,8R,11R,12R,15S,16S)-7,7,12,16-tetramethyl-15-[(2R)-6-methyl-5-methylideneheptan-2-yl]pentacyclo[9.7.0.01,3.03,8.012,16]octadecan-6-ol",
+   "smiles": "OC1CCC23CC43CCC5(C)C(CCC5(C)C4CCC2C1(C)C)C(C)CCC(=C)C(C)C"
+  },
+  {
+   "compound": "(1S,3R,6S,8R,11R,12S,15R,16R)-7,7,12,16-tetramethyl-15-[(2R)-6-methyl-5-methylideneheptan-2-yl]pentacyclo[9.7.0.01,3.03,8.012,16]octadecan-6-ol",
+   "smiles": "OC1CCC23CC43CCC5(C)C(CCC5(C)C4CCC2C1(C)C)C(C)CCC(=C)C(C)C"
+  },
+  {
+   "compound": "[(1R,3S,6S,8S,11S,12R,15S,16R)-7,7,12,16-tetramethyl-15-[(2R)-6-methyl-5-methylideneheptan-2-yl]-6-pentacyclo[9.7.0.01,3.03,8.012,16]octadecanyl] acetate",
+   "smiles": "O=C(OC1CCC23CC43CCC5(C)C(CCC5(C)C4CCC2C1(C)C)C(C)CCC(=C)C(C)C)C"
+  },
+  {
+   "compound": "D-Friedoolean-14-en-3-one",
+   "smiles": "O=C1CCC2(C)C(CCC3(C4=CCC5(C)CCC(C)(C)CC5C4(C)CCC32)C)C1(C)C"
+  },
+  {
+   "compound": "[(3R,6aR,6aR,6bS,8aS,12aS,14aR,14bS)-4,4,6a,6b,8a,11,11,14a-octamethyl-1,2,3,6,6a,7,8,9,10,12,12a,13,14,14b-tetradecahydropicen-3-yl] acetate",
+   "smiles": "O=C(OC1CCC2C(=CCC3C2(C)CCC4(C)C5CC(C)(C)CCC5(C)CCC34C)C1(C)C)C"
+  },
+  {
+   "compound": "(1S,3R,6S,8R,11R,12S,15R,16R)-7,7,12,16-tetramethyl-15-[(2R)-6-methylhept-6-en-2-yl]pentacyclo[9.7.0.01,3.03,8.012,16]octadecan-6-ol",
+   "smiles": "OC1CCC23CC43CCC5(C)C(CCC5(C)C4CCC2C1(C)C)C(C)CCCC(=C)C"
+  },
+  {
+   "compound": "(1S,3R,6S,8S,11S,12R,15R,16R)-15-[(E,2S)-6-hydroxy-6-methylhept-4-en-2-yl]-7,7,12,16-tetramethylpentacyclo[9.7.0.01,3.03,8.012,16]octadecan-6-ol",
+   "smiles": "OC1CCC23CC43CCC5(C)C(CCC5(C)C4CCC2C1(C)C)C(C)CC=CC(O)(C)C"
+  },
+  {
+   "compound": "(6R)-6-[(1S,3R,6S,8R,11R,12S,15R,16R)-6-hydroxy-7,7,12,16-tetramethyl-15-pentacyclo[9.7.0.01,3.03,8.012,16]octadecanyl]-2-methylhept-1-en-3-one",
+   "smiles": "O=C(C(=C)C)CCC(C)C1CCC2(C)C3CCC4C(C)(C)C(O)CCC54CC35CCC12C"
+  },
+  {
+   "compound": "(1S,3R,6S,8R,11R,12S,15R,16R)-15-[(Z)-6-hydroxy-6-methylhept-2-en-2-yl]-7,7,12,16-tetramethylpentacyclo[9.7.0.01,3.03,8.012,16]octadecan-6-ol",
+   "smiles": "OC1CCC23CC43CCC5(C)C(C(=CCCC(O)(C)C)C)CCC5(C)C4CCC2C1(C)C"
+  },
+  {
+   "compound": "(1S,3R,6S,8R,11R,12S,15R,16R)-15-[(2R,5R)-5-hydroxy-6-methylhept-6-en-2-yl]-7,7,12,16-tetramethylpentacyclo[9.7.0.01,3.03,8.012,16]octadecan-6-ol",
+   "smiles": "OC(C(=C)C)CCC(C)C1CCC2(C)C3CCC4C(C)(C)C(O)CCC54CC35CCC12C"
+  },
+  {
+   "compound": "(1S,3R,6S,8R,11R,12S,15R,16R)-15-[(2R,5R)-5-hydroperoxy-6-methylhept-6-en-2-yl]-7,7,12,16-tetramethylpentacyclo[9.7.0.01,3.03,8.012,16]octadecan-6-ol",
+   "smiles": "OOC(C(=C)C)CCC(C)C1CCC2(C)C3CCC4C(C)(C)C(O)CCC54CC35CCC12C"
+  },
+  {
+   "compound": "[(3R,6aS,6aS,6bR,8aR,12aR,14aR,14bS)-4,4,6a,6b,8a,11,11,14a-octamethyl-1,2,3,6,6a,7,8,9,10,12,12a,13,14,14b-tetradecahydropicen-3-yl] (2R)-2-methylbutanoate",
+   "smiles": "O=C(OC1CCC2C(=CCC3C2(C)CCC4(C)C5CC(C)(C)CCC5(C)CCC34C)C1(C)C)C(C)CC"
+  },
+  {
+   "compound": "(6aS,6aS,6bS,8aR,12aR,14aS,14bS)-4,4,6a,6b,8a,11,11,14a-octamethyl-2,6,6a,7,8,9,10,12,12a,13,14,14b-dodecahydro-1H-picen-3-one",
+   "smiles": "O=C1CCC2C(=CCC3C2(C)CCC4(C)C5CC(C)(C)CCC5(C)CCC34C)C1(C)C"
+  },
+  {
+   "compound": "lupenone",
+   "smiles": "CC(=C)C1CCC2(C1C3CCC4C5(CCC(=O)C(C5CCC4(C3(CC2)C)C)(C)C)C)C"
+  },
+  {
+   "compound": "Glutinone",
+   "smiles": "CC1(CCC2(CCC3(C4CC=C5C(C4(CCC3(C2C1)C)C)CCC(=O)C5(C)C)C)C)C"
+  },
+  {
+   "compound": "alpha-glutinol",
+   "smiles": "CC1(CCC2(CCC3(C4CC=C5C(C4(CCC3(C2C1)C)C)CCC(C5(C)C)O)C)C)C"
+  },
+  {
+   "compound": "β-amyrin",
+   "smiles": "CC1(CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1)C)C)C"
+  },
+  {
+   "compound": "24-Methylenecycloartanol",
+   "smiles": "CC(C)C(=C)CCC(C)C1CCC2(C1(CCC34C2CCC5C3(C4)CCC(C5(C)C)O)C)C"
+  },
+  {
+   "compound": "taraxerone",
+   "smiles": "CC1(CCC2(CC=C3C4(CCC5C(C(=O)CCC5(C4CCC3(C2C1)C)C)(C)C)C)C)C"
+  },
+  {
+   "compound": "α-amyrin",
+   "smiles": "CC1CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1C)C)C"
+  },
+  {
+   "compound": "acetophenone",
+   "smiles": "CC(=O)C1=CC=CC=C1"
+  },
+  {
+   "compound": "glutinol",
+   "smiles": "CC1(CCC2(CCC3(C4CC=C5C(C4(CCC3(C2C1)C)C)CCC(C5(C)C)O)C)C)C"
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "key": "Adiantum capillus-veneris",
+ "value": [
+  {
+   "compound": "9'-cis-neoxanthin",
+   "smiles": "CC(=C(C(=C(C(=C(C)C(=C(C(=C(C)C(=C(C12C(C)(C)CC(CC1(C)O2)(O)[H])[H])[H])[H])[H])[H])[H])[H])[H])[H])C(=C(C(=C(C)C(=C=C3C(C)(C)CC(CC3(C)O)(O)[H])[H])[H])[H])[H]"
+  },
+  {
+   "compound": "neoxanthin",
+   "smiles": "OC1CC(O)(C(=C=CC(=CC=CC(=CC=CC=C(C=CC=C(C=CC23OC3(C)CC(O)CC2(C)C)C)C)C)C)C(C)(C)C1)C"
+  },
+  {
+   "compound": "Fern-7-ene",
+   "smiles": "C1=C2C(CCC3(C)C4CCC(C(C)C)C4(C)CCC23C)C5(C)CCCC(C)(C)C5C1"
+  },
+  {
+   "compound": "Fern-9(11)-en-12-one",
+   "smiles": "O=C1C=C2C(CCC3C2(C)CCCC3(C)C)C4(C)CCC5(C)C(CCC5C14C)C(C)C"
+  },
+  {
+   "compound": "kaempferol",
+   "smiles": "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "rhodoxanthin",
+   "smiles": "CC1=CC(=O)CC(C1=CC=C(C)C=CC=C(C)C=CC=CC(=CC=CC(=CC=C2C(=CC(=O)CC2(C)C)C)C)C)(C)C"
+  },
+  {
+   "compound": "lutein",
+   "smiles": "CC1=C(C(CC(C1)O)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2C(=CC(CC2(C)C)O)C)C)C"
+  },
+  {
+   "compound": "alpha carotene (stereochemistry specified)",
+   "smiles": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2C(=CCCC2(C)C)C)C)C"
+  },
+  {
+   "compound": "beta-Amyrone",
+   "smiles": "O=C1CCC2(C)C(CCC3(C)C2CC=C4C5CC(C)(C)CCC5(C)CCC43C)C1(C)C"
+  },
+  {
+   "compound": "(3R,3aR,5aS,7aS,11aS,11bR,13aS,13bR)-3a,5a,8,8,11a,13a-hexamethyl-3-propan-2-yl-1,2,3,4,5,7,7a,9,10,11,11b,12,13,13b-tetradecahydrocyclopenta[a]chrysene",
+   "smiles": "C1=C2C(CCC3(C)C4CCC(C(C)C)C4(C)CCC23C)C5(C)CCCC(C)(C)C5C1"
+  },
+  {
+   "compound": "(6S,7Ar)-2-[(2E,4E,6E,8E,10E,12E,14E,16E)-17-[(4R)-4-hydroxy-2,6,6-trimethylcyclohexen-1-yl]-6,11,15-trimethylheptadeca-2,4,6,8,10,12,14,16-octaen-2-yl]-4,4,7a-trimethyl-2,5,6,7-tetrahydro-1-benzofuran-6-ol",
+   "smiles": "OC1CC(=C(C=CC(=CC=CC(=CC=CC=C(C=CC=C(C)C2OC3(C(=C2)C(C)(C)CC(O)C3)C)C)C)C)C(C)(C)C1)C"
+  },
+  {
+   "compound": "Germanicone",
+   "smiles": "O=C1CCC2(C)C(CCC3(C)C2CCC4C5=CC(C)(C)CCC5(C)CCC43C)C1(C)C"
+  },
+  {
+   "compound": "(3R,3aR,5aR,5bR,7aS,11aS,13aS,13bR)-3a,5a,8,8,11a,13a-hexamethyl-3-propan-2-yl-2,3,4,5,5b,6,7,7a,9,10,11,13b-dodecahydro-1H-cyclopenta[a]chrysen-13-one",
+   "smiles": "O=C1C=C2C(CCC3C2(C)CCCC3(C)C)C4(C)CCC5(C)C(CCC5C14C)C(C)C"
+  },
+  {
+   "compound": "Neohop-12-ene",
+   "smiles": "C1=C2C3CCC(C(C)C)C3(C)CCC2(C)C4(C)CCC5C(C)(C)CCCC5(C)C4C1"
+  },
+  {
+   "compound": "5a,5b,8,8,11a,13b-hexamethyl-2,3a,4,5,6,7,7a,9,10,11,11b,12,13,13a-tetradecahydro-1H-cyclopenta[a]chrysen-3-one",
+   "smiles": "O=C1CCC2(C)C1CCC3(C)C2CCC4C5(C)CCCC(C)(C)C5CCC43C"
+  },
+  {
+   "compound": "Adiantone",
+   "smiles": "O=C(C)C1CCC2(C)C1CCC3(C)C2CCC4C5(C)CCCC(C)(C)C5CCC43C"
+  },
+  {
+   "compound": "Adipedatol",
+   "smiles": "OC1(OCC23CCC1C3CCC4(C)C2CCC5C6(C)CCCC(C)(C)C6CCC54C)C"
+  },
+  {
+   "compound": "Filic-3-ene",
+   "smiles": "C1=C(C)C2(C)CCC3C(C)(CCC4(C)C5CCC(C(C)C)C5(C)CCC34C)C2CC1"
+  },
+  {
+   "compound": "Hydroxyadiantone",
+   "smiles": "O=C(C)C1(O)CCC2(C)C1CCC3(C)C2CCC4C5(C)CCCC(C)(C)C5CCC43C"
+  },
+  {
+   "compound": "Isoadiantone",
+   "smiles": "O=C(C)C1CCC2(C)C1CCC3(C)C2CCC4C5(C)CCCC(C)(C)C5CCC43C"
+  },
+  {
+   "compound": "Ferna-9(11)-ene-28-ol",
+   "smiles": "OCC12CCC3(C)C4C(=CCC3(C)C2CCC1C(C)C)C5(C)CCCC(C)(C)C5CC4"
+  },
+  {
+   "compound": "Adiantoxide",
+   "smiles": "O1C2CCC3C4(C)CCC5(C)C6CCC(C(C)C)C6(C)CCC5(C)C4CCC3(C)C12C"
+  },
+  {
+   "compound": "4alpha-Hydroxyfilicane-3-one",
+   "smiles": "O=C1CCC2C3(C)CCC4(C)C5CCC(C(C)C)C5(C)CCC4(C)C3CCC2(C)C1(O)C"
+  },
+  {
+   "compound": "Quercetin 3-(6''-malonyl-glucoside)",
+   "smiles": "O=C(O)CC(=O)OCC1OC(OC=2C(=O)C=3C(O)=CC(O)=CC3OC2C=4C=CC(O)=C(O)C4)C(O)C(O)C1O"
+  },
+  {
+   "compound": "1-[(3R,3aS,5aR,5bR,7aS,11aS,11bR,13aS,13bR)-3a,5a,5b,8,8,11a,13b-heptamethyl-2,3,4,5,6,7,7a,9,10,11,11b,12,13,13a-tetradecahydro-1H-cyclopenta[a]chrysen-3-yl]ethanol",
+   "smiles": "OC(C)C1CCC2(C)C3CCC4C5(C)CCCC(C)(C)C5CCC4(C)C3(C)CCC12C"
+  },
+  {
+   "compound": "7,9(11)-Fernadiene",
+   "smiles": "C1=C2C(=CCC3(C)C4CCC(C(C)C)C4(C)CCC23C)C5(C)CCCC(C)(C)C5C1"
+  },
+  {
+   "compound": "Ferna-9(11)-ene-12beta-ol",
+   "smiles": "OC1C=C2C(CCC3C2(C)CCCC3(C)C)C4(C)CCC5(C)C(CCC5C14C)C(C)C"
+  },
+  {
+   "compound": "Pteron-14-ene-7alpha-ol",
+   "smiles": "OC1CC2C(C)(C)CCCC2(C)C3CCC4(C(=CCC5(C)C(CCC45)C(C)C)C13C)C"
+  },
+  {
+   "compound": "Fernan-7-ene-3alpha-ol",
+   "smiles": "OC1CCC2(C)C3C(=CCC2C1(C)C)C4(C)CCC5(C)C(CCC5C4(C)CC3)C(C)C"
+  },
+  {
+   "compound": "Fernan-9(11)-ene-3alpha-ol",
+   "smiles": "OC1CCC2(C3=CCC4(C)C5CCC(C(C)C)C5(C)CCC4(C)C3CCC2C1(C)C)C"
+  },
+  {
+   "compound": "(6aR,6aR,6bR,8aR,14aR,14bR)-4,4,6a,6b,8a,11,11,14b-octamethyl-2,4a,5,6,6a,7,8,9,10,12,12a,13,14,14a-tetradecahydro-1H-picen-3-one",
+   "smiles": "O=C1CCC2(C)C(CCC3(C)C2CCC4C5CC(C)(C)CCC5(C)CCC43C)C1(C)C"
+  },
+  {
+   "compound": "Adian-5(10)-ene-3alpha-ol",
+   "smiles": "OC1CCC2=C(CCC3C2(C)CCC4(C)C5CCC(C(C)C)C5(C)CCC34C)C1(C)C"
+  },
+  {
+   "compound": "kaempferol 3-O-sulfate",
+   "smiles": "O=C1C(OS(=O)(=O)O)=C(OC=2C=C(O)C=C(O)C12)C=3C=CC(O)=CC3"
+  },
+  {
+   "compound": "Adianene",
+   "smiles": "C1=C2C(CCCC2(C)C)C3(C)CCC4(C)C5CCC(C(C)C)C5(C)CCC4(C)C3C1"
+  },
+  {
+   "compound": "Adian-5-ene-3alpha-ol",
+   "smiles": "OC1CCC2C(=CCC3C2(C)CCC4(C)C5CCC(C(C)C)C5(C)CCC34C)C1(C)C"
+  },
+  {
+   "compound": "fernene",
+   "smiles": "CC(C)C1CCC2C1(CCC3(C2(CC=C4C3CCC5C4(CCCC5(C)C)C)C)C)C"
+  },
+  {
+   "compound": "doradexanthin",
+   "smiles": "CC1=C(C(CC(C1)O)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(C(=O)C(CC2(C)C)O)C)C)C"
+  },
+  {
+   "compound": "taraxanthin",
+   "smiles": "CC1=CC(CC(C1C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC23C(CC(CC2(O3)C)O)(C)C)C)C)(C)C)O"
+  },
+  {
+   "compound": "violaxanthin",
+   "smiles": "CC(=CC=CC=C(C)C=CC=C(C)C=CC12C(CC(CC1(O2)C)O)(C)C)C=CC=C(C)C=CC34C(CC(CC3(O4)C)O)(C)C"
+  },
+  {
+   "compound": "9'-cis-neoxanthin",
+   "smiles": "OC1CC(O)(C(=C=CC(=CC=CC(=CC=CC=C(C=CC=C(C=CC23OC3(C)CC(O)CC2(C)C)C)C)C)C)C(C)(C)C1)C"
+  },
+  {
+   "compound": "hop-22(29)-ene",
+   "smiles": "CC(=C)C1CCC2(C1CCC3(C2CCC4C3(CCC5C4(CCCC5(C)C)C)C)C)C"
+  },
+  {
+   "compound": "cryptoxanthin",
+   "smiles": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CC(CC2(C)C)O)C)C)C"
+  },
+  {
+   "compound": "citroxanthin",
+   "smiles": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C2C=C3C(CCCC3(O2)C)(C)C)C)C"
+  },
+  {
+   "compound": "zeaxanthin",
+   "smiles": "CC1=C(C(CC(C1)O)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CC(CC2(C)C)O)C)C)C"
+  },
+  {
+   "compound": "hopan-22-ol",
+   "smiles": "CC1(CCCC2(C1CCC3(C2CCC4C3(CCC5C4(CCC5C(C)(C)O)C)C)C)C)C"
+  },
+  {
+   "compound": "β-carotene",
+   "smiles": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C"
+  }
+ ]
+}

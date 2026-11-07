@@ -1,0 +1,26 @@
+{
+ "key": "Lagenaria siceraria (Molina) Standl.",
+ "value": {
+  "usageKey": 2874672,
+  "scientificName": "Lagenaria siceraria (Molina) Standl.",
+  "canonicalName": "Lagenaria siceraria",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Cucurbitales",
+  "family": "Cucurbitaceae",
+  "genus": "Lagenaria",
+  "species": "Lagenaria siceraria",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 7224005,
+  "familyKey": 6634,
+  "genusKey": 2874671,
+  "speciesKey": 2874672,
+  "class": "Magnoliopsida"
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "key": "Populus nigra",
+ "value": [
+  {
+   "compound": "chrysin",
+   "smiles": "C1=CC=C(C=C1)C2=CC(=O)C3=C(C=C(C=C3O2)O)O"
+  },
+  {
+   "compound": "(E)-3,4-dimethoxycinnamic acid",
+   "smiles": "COC1=C(C=C(C=C1)C=CC(=O)O)OC"
+  },
+  {
+   "compound": "nonacosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "kaempferol",
+   "smiles": "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "beta-sitosterol",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "pinobanksin",
+   "smiles": "C1=CC=C(C=C1)C2C(C(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "D-(−)-salicin",
+   "smiles": "C1=CC=C(C(=C1)CO)OC2C(C(C(C(O2)CO)O)O)O"
+  },
+  {
+   "compound": "pentacosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "heptacosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "3,7-Dimethoxy-2-(3,4,5-trihydroxyphenyl)chromen-4-one",
+   "smiles": "O=C1C(OC)=C(OC2=CC(OC)=CC=C12)C=3C=C(O)C(O)=C(O)C3"
+  },
+  {
+   "compound": "(E)-3-(3,4-dihydroxyphenyl)-2-methylbut-2-enoic acid",
+   "smiles": "O=C(O)C(=C(C1=CC=C(O)C(O)=C1)C)C"
+  },
+  {
+   "compound": "succinic acid",
+   "smiles": "C(CC(=O)O)C(=O)O"
+  },
+  {
+   "compound": "octadec-2-enoic acid",
+   "smiles": "CCCCCCCCCCCCCCCC=CC(=O)O"
+  },
+  {
+   "compound": "cis-caffeic acid",
+   "smiles": "C1=CC(=C(C=C1C=CC(=O)O)O)O"
+  },
+  {
+   "compound": "ferulic acid",
+   "smiles": "COC1=C(C=CC(=C1)C=CC(=O)O)O"
+  },
+  {
+   "compound": "galangin",
+   "smiles": "C1=CC=C(C=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "trans-caffeic acid",
+   "smiles": "C1=CC(=C(C=C1C=CC(=O)O)O)O"
+  },
+  {
+   "compound": "tectochrysin",
+   "smiles": "COC1=CC(=C2C(=C1)OC(=CC2=O)C3=CC=CC=C3)O"
+  },
+  {
+   "compound": "rhamnetin",
+   "smiles": "COC1=CC(=C2C(=C1)OC(=C(C2=O)O)C3=CC(=C(C=C3)O)O)O"
+  },
+  {
+   "compound": "benzoic acid",
+   "smiles": "C1=CC=C(C=C1)C(=O)O"
+  },
+  {
+   "compound": "apigenin",
+   "smiles": "C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "quercetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O"
+  },
+  {
+   "compound": "raffinose",
+   "smiles": "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3(C(C(C(O3)CO)O)O)CO)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "3-O-methylgalangin",
+   "smiles": "COC1=C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC=CC=C3"
+  },
+  {
+   "compound": "Prenyl caffeate",
+   "smiles": "CC(=CCOC(=O)C=CC1=CC(=C(C=C1)O)O)C"
+  },
+  {
+   "compound": "rhamnocitrin",
+   "smiles": "COC1=CC(=C2C(=C1)OC(=C(C2=O)O)C3=CC=C(C=C3)O)O"
+  },
+  {
+   "compound": "trans-octadec-2-enoic acid",
+   "smiles": "CCCCCCCCCCCCCCCC=CC(=O)O"
+  },
+  {
+   "compound": "(E)-cinnamic acid",
+   "smiles": "C1=CC=C(C=C1)C=CC(=O)O"
+  },
+  {
+   "compound": "(E)-p-coumaric acid",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)O)O"
+  },
+  {
+   "compound": "1-hexacosene",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCC=C"
+  },
+  {
+   "compound": "sucrose",
+   "smiles": "C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O"
+  },
+  {
+   "compound": "pinocembrin",
+   "smiles": "O=C1C=2C(O)=CC(O)=CC2OC(C=3C=CC=CC3)C1"
+  }
+ ]
+}

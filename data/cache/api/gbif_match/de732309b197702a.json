@@ -1,0 +1,26 @@
+{
+ "key": "Salix purpurea L.",
+ "value": {
+  "usageKey": 5372800,
+  "scientificName": "Salix purpurea L.",
+  "canonicalName": "Salix purpurea",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Malpighiales",
+  "family": "Salicaceae",
+  "genus": "Salix",
+  "species": "Salix purpurea",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 1414,
+  "familyKey": 6664,
+  "genusKey": 3039576,
+  "speciesKey": 5372800,
+  "class": "Magnoliopsida"
+ }
+}

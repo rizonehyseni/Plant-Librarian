@@ -1,0 +1,27 @@
+{
+ "key": "Helleborus odorus Waldst. et. Kit.",
+ "value": {
+  "usageKey": 8464206,
+  "acceptedUsageKey": 7277077,
+  "scientificName": "Helleborus odorus Waldst. & Kit.",
+  "canonicalName": "Helleborus odorus",
+  "rank": "SPECIES",
+  "status": "SYNONYM",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Ranunculales",
+  "family": "Ranunculaceae",
+  "genus": "Helleborus",
+  "species": "Helleborus odorus",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 399,
+  "familyKey": 2410,
+  "genusKey": 2741682,
+  "speciesKey": 7277077,
+  "class": "Magnoliopsida"
+ }
+}

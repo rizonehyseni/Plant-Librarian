@@ -1,0 +1,26 @@
+{
+ "key": "Daucus carota L.",
+ "value": {
+  "usageKey": 3034742,
+  "scientificName": "Daucus carota L.",
+  "canonicalName": "Daucus carota",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Apiales",
+  "family": "Apiaceae",
+  "genus": "Daucus",
+  "species": "Daucus carota",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 1351,
+  "familyKey": 6720,
+  "genusKey": 3034740,
+  "speciesKey": 3034742,
+  "class": "Magnoliopsida"
+ }
+}

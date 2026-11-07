@@ -56,8 +56,12 @@ per change.
   the preparation people use), 26 not comparable by keywords.
 - Communities: **18 plants are used by all three communities**; 11 only by Albanians, 24 only by
   Bosniaks/Gorani, 18 only by Turks (**Map of uses** page).
-- `make eval`: 23 hand-checked gold rows, recall 23/23, local name to plant 23/23 (this checks the
-  table parser; LLM extraction has no gold rows yet).
+- Second study: Mustafa et al. 2012, *Medical ethnobotany of the Albanian Alps in Kosovo* (CC BY 2.0),
+  extracted with Groq: **120 use records, 88 plants**, study area Rugovë. Together: 689 records,
+  145 plants (`make stats`).
+- `make eval`: 42 hand-checked gold rows, recall 40/42 (95%), local name to plant 40/40.
+  Per study: Sharr (table parser) 23/23, Albanian Alps (**Groq LLM extraction**) 17/19. The two
+  misses (*Beta vulgaris*, *Brassica oleracea*, p. 5) were not extracted.
 - App: the seven pages above. 46 tests pass (`make test`). `make stats` writes the slide numbers to `docs/numbers.md`; the demo walk-through is in `docs/demo-script.md`.
 
 ### Remaining, in order of priority
@@ -75,19 +79,21 @@ Tick a box in your PR when you finish an item.
 - [ ] Write the questions that worked into the demo script (item 8).
 
 **3. Add a second study, the "new study" demo (1-2 h, needs item 1)**
-- [ ] Download Mustafa et al. 2012, *Medical ethnobotany of the Albanian Alps in Kosovo*, J Ethnobiol
+- [x] Download Mustafa et al. 2012, *Medical ethnobotany of the Albanian Alps in Kosovo*, J Ethnobiol
   Ethnomed 8:6: PDF https://ethnobiomed.biomedcentral.com/track/pdf/10.1186/1746-4269-8-6 (PMC3285519).
   Confirm the licence on the article page.
-- [ ] `make app` → **Add a study**: short id `albanian_alps_2012`, study area **Rugovë** (Kosovo side;
+- [x] `make app` → **Add a study**: short id `albanian_alps_2012`, study area **Rugovë** (Kosovo side;
   `Bjeshkët e Nemuna` in `places.csv` sits on the Albanian/Montenegrin side). Groq's free rate limit can
   make this take a few minutes; the page waits and retries.
 - [ ] Spot-check 20 extracted records against the PDF (page and quote) on **Data quality review**.
-- [ ] Add 15-20 checked rows from this study to `eval/gold.csv`, run `make eval`, and write the recall
-  here. These are the first gold rows for LLM extraction.
+- [x] Add 15-20 checked rows from this study to `eval/gold.csv`, run `make eval`, and write the recall
+  here. These are the first gold rows for LLM extraction. **19 rows, recall 17/19.**
 - [ ] Commit `data/raw/albanian_alps_2012.pdf`, `data/cache/extract/albanian_alps_2012.json`,
   `data/seed/sources.csv` and the new files under `data/cache/api/`, so `OFFLINE=1 make build`
   reproduces the demo.
-- [ ] If Groq is not available on demo day, the cached extraction still works offline.
+- [x] If Groq is not available on demo day, the cached extraction still works offline.
+- [ ] The study's informants are ethnic Albanians (p. 3), but its 120 records have no `community`, so
+  the **Map of uses** community comparison leaves them out. Needs a `community` column in `sources.csv`.
 
 **4. Review records (1 h, no key)**
 - [ ] All 573 records are `Needs Review`. On **Data quality review**, verify at least 30 records against
@@ -157,7 +163,10 @@ Everything runs on free services. No paid key is needed.
   from a study that has no cached extraction, and by the chat page. Extraction uses
   `GROQ_EXTRACT_MODEL` (default `openai/gpt-oss-120b`) with a strict JSON schema, two pages per
   request (`GROQ_PAGES_PER_CALL`), and waits and retries when the free rate limit is hit.
-  Every extracted record must have its quote found on the cited page, or it is dropped.
+  Every extracted record must have its quote found on the cited page, or it is dropped. For a
+  table row the model joins the cells with "..."; each piece must then be on that page.
+  The build stores plain hyphens and replaces amounts in a study's table ("200-300 g",
+  "2-3 soup spoons") with `[amount]`, so no doses reach the app.
 - `ANTHROPIC_API_KEY` is optional (paid) and used only with `EXTRACT_PROVIDER=anthropic`.
 - The GBIF, PubMed and Wikidata lookups run during a normal online build and do not use
   an LLM key. Their responses are cached under `data/cache/api/`.

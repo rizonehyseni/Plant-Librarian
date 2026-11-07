@@ -1,0 +1,81 @@
+{
+ "key": "Gentiana asclepiadea",
+ "value": [
+  {
+   "compound": "isogentisin",
+   "smiles": "COC1=CC2=C(C=C1)OC3=CC(=CC(=C3C2=O)O)O"
+  },
+  {
+   "compound": "ursolic acid",
+   "smiles": "CC1CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1C)C)C(=O)O"
+  },
+  {
+   "compound": "3-epioleanolic acid",
+   "smiles": "CC1(CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1)C)C(=O)O)C"
+  },
+  {
+   "compound": "beta-sitosterol",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "(5R,6S)-5-ethenyl-6-{[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-({[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}methyl)oxan-2-yl]oxy}-3H,5H,6H-pyrano[3,4-c]pyran-1-one",
+   "smiles": "O=C1OCC=C2C1=COC(OC3OC(COC4OC(CO)C(O)C(O)C4O)C(O)C(O)C3O)C2C=C"
+  },
+  {
+   "compound": "[(2S,3R,4S,5S,6R)-2-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxochromen-6-yl]-4,5-dihydroxy-6-(hydroxymethyl)oxan-3-yl] 4-hydroxybenzoate",
+   "smiles": "O=C(OC1C(O)C(O)C(OC1C2=C(O)C=C3OC(=CC(=O)C3=C2O)C=4C=CC(O)=C(O)C4)CO)C5=CC=C(O)C=C5"
+  },
+  {
+   "compound": "2,4-dihydroxy-6-methoxyxanthen-9-one",
+   "smiles": "O=C1C2=CC=C(OC)C=C2OC=3C(O)=CC(O)=CC13"
+  },
+  {
+   "compound": "1,3,7-trihydroxy-2-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]-6-[(2R,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyxanthen-9-one",
+   "smiles": "O=C1C2=CC(O)=C(OC3OC(CO)C(O)C(O)C3O)C=C2OC4=CC(O)=C(C(O)=C14)C5OC(CO)C(O)C(O)C5O"
+  },
+  {
+   "compound": "[(2S,3R,4S,5S,6R)-2-[5,7-dihydroxy-2-[3-hydroxy-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]-4-oxochromen-6-yl]-4,5-dihydroxy-6-(hydroxymethyl)oxan-3-yl] 4-hydroxybenzoate",
+   "smiles": "O=C(OC1C(O)C(O)C(OC1C2=C(O)C=C3OC(=CC(=O)C3=C2O)C=4C=CC(OC5OC(CO)C(O)C(O)C5O)=C(O)C4)CO)C6=CC=C(O)C=C6"
+  },
+  {
+   "compound": "6-[(2S,3R,4S,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]-5,7-dihydroxy-2-[3-hydroxy-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]chromen-4-one",
+   "smiles": "O=C1C=C(OC2=CC(O)=C(C(O)=C12)C3OC(CO)C(O)C(O)C3OC4OC(CO)C(O)C(O)C4O)C=5C=CC(OC6OC(CO)C(O)C(O)C6O)=C(O)C5"
+  },
+  {
+   "compound": "(1S,2R,4aS,6aR,6aS,6bR,8aS,10S,12aR,14bR)-10-hydroxy-1,2,6a,6b,9,9,12a-heptamethyl-2,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydro-1H-picene-4a-carboxylic acid",
+   "smiles": "O=C(O)C12CCC(C)C(C)C2C3=CCC4C5(C)CCC(O)C(C)(C)C5CCC4(C)C3(C)CC1"
+  },
+  {
+   "compound": "1,3,6-trihydroxy-2-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]-7-[(2R,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyxanthen-9-one",
+   "smiles": "O=C1C2=CC(OC3OC(CO)C(O)C(O)C3O)=C(O)C=C2OC4=CC(O)=C(C(O)=C14)C5OC(CO)C(O)C(O)C5O"
+  },
+  {
+   "compound": "4,11-Dioxatetracyclo[7.7.1.02,7.013,17]heptadeca-1,7,9(17),13,15-pentaene-3,12-dione",
+   "smiles": "O=C1OCC2=CC3=C(C(=O)OCC3)C=4C=CC=C1C42"
+  },
+  {
+   "compound": "6-[(2S,3R,4S,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]-5,7-dihydroxy-2-[4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]chromen-4-one",
+   "smiles": "O=C1C=C(OC2=CC(O)=C(C(O)=C12)C3OC(CO)C(O)C(O)C3OC4OC(CO)C(O)C(O)C4O)C=5C=CC(OC6OC(CO)C(O)C(O)C6O)=CC5"
+  },
+  {
+   "compound": "Gentioside",
+   "smiles": "O=C1C2=CC(OC)=CC=C2OC3=CC(OC4OC(COC5OCC(O)C(O)C5O)C(O)C(O)C4O)=CC(O)=C13"
+  },
+  {
+   "compound": "isoorientin",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C(=C(C=C3O2)O)C4C(C(C(C(O4)CO)O)O)O)O)O)O"
+  },
+  {
+   "compound": "oleanolic acid",
+   "smiles": "CC1(CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1)C)C(=O)O)C"
+  },
+  {
+   "compound": "gentiopicrin",
+   "smiles": "C=CC1C(OC=C2C1=CCOC2=O)OC3C(C(C(C(O3)CO)O)O)O"
+  },
+  {
+   "compound": "mangiferin",
+   "smiles": "C1=C2C(=CC(=C1O)O)OC3=CC(=C(C(=C3C2=O)O)C4C(C(C(C(O4)CO)O)O)O)O"
+  }
+ ]
+}

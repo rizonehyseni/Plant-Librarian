@@ -1,0 +1,125 @@
+{
+ "key": "Alnus glutinosa",
+ "value": [
+  {
+   "compound": "3-methoxyapigenin",
+   "smiles": "COC1=C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC=C(C=C3)O"
+  },
+  {
+   "compound": "rhododendrin",
+   "smiles": "CC(CCC1=CC=C(C=C1)O)OC2C(C(C(C(O2)CO)O)O)O"
+  },
+  {
+   "compound": "centaureidin",
+   "smiles": "COC1=C(C=C(C=C1)C2=C(C(=O)C3=C(C(=C(C=C3O2)O)OC)O)OC)O"
+  },
+  {
+   "compound": "kaempferide",
+   "smiles": "COC1=CC=C(C=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "beta-sitosterol",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "(+)-cis,trans-Abscisic Acid",
+   "smiles": "O=C(O)C=C(C=CC1(O)C(=CC(=O)CC1(C)C)C)C"
+  },
+  {
+   "compound": "santin",
+   "smiles": "COC1=CC=C(C=C1)C2=C(C(=O)C3=C(C(=C(C=C3O2)O)OC)O)OC"
+  },
+  {
+   "compound": "Oregonin",
+   "smiles": "O=C(CCC1=CC=C(O)C(O)=C1)CC(OC2OCC(O)C(O)C2O)CCC3=CC=C(O)C(O)=C3"
+  },
+  {
+   "compound": "1,7-Bis(3,4-dihydroxyphenyl)-5-(3,4,5-trihydroxyoxan-2-yl)oxyheptan-3-one",
+   "smiles": "O=C(CCC1=CC=C(O)C(O)=C1)CC(OC2OCC(O)C(O)C2O)CCC3=CC=C(O)C(O)=C3"
+  },
+  {
+   "compound": "D-Friedoolean-14-en-3-one",
+   "smiles": "O=C1CCC2(C)C(CCC3(C4=CCC5(C)CCC(C)(C)CC5C4(C)CCC32)C)C1(C)C"
+  },
+  {
+   "compound": "(5R)-5-hydroxy-1,7-diphenylheptan-3-one",
+   "smiles": "O=C(CCC=1C=CC=CC1)CC(O)CCC=2C=CC=CC2"
+  },
+  {
+   "compound": "(1S,2R,4R,5S,7S,11R,12R,15S,16S)-15-[(2S,3R,4R,5S)-3,4-dihydroxy-5,6-dimethylheptan-2-yl]-4,5-dihydroxy-2,16-dimethyl-9-oxatetracyclo[9.7.0.02,7.012,16]octadecan-8-one",
+   "smiles": "O=C1OCC2C3CCC(C(C)C(O)C(O)C(C)C(C)C)C3(C)CCC2C4(C)CC(O)C(O)CC14"
+  },
+  {
+   "compound": "1,4-dihydroxy-2,5,6-trimethoxyxanthen-9-one",
+   "smiles": "O=C1C2=CC=C(OC)C(OC)=C2OC3=C(O)C=C(OC)C(O)=C13"
+  },
+  {
+   "compound": "(2R,3S,5S,8S,9S,10R,13R,14S,17R)-17-[(2S,3R,4R,5S)-3,4-dihydroxy-5,6-dimethylheptan-2-yl]-2,3-dihydroxy-10,13-dimethyl-1,2,3,4,5,7,8,9,11,12,14,15,16,17-tetradecahydrocyclopenta[a]phenanthren-6-one",
+   "smiles": "O=C1CC2C3CCC(C(C)C(O)C(O)C(C)C(C)C)C3(C)CCC2C4(C)CC(O)C(O)CC14"
+  },
+  {
+   "compound": "taraxerol",
+   "smiles": "CC1(CCC2(CC=C3C4(CCC5C(C(CCC5(C4CCC3(C2C1)C)C)O)(C)C)C)C)C"
+  },
+  {
+   "compound": "Pectolinarigenin",
+   "smiles": "COC1=CC=C(C=C1)C2=CC(=O)C3=C(C(=C(C=C3O2)O)OC)O"
+  },
+  {
+   "compound": "brassinolide",
+   "smiles": "CC(C)C(C)C(C(C(C)C1CCC2C1(CCC3C2COC(=O)C4C3(CC(C(C4)O)O)C)C)O)O"
+  },
+  {
+   "compound": "5,7,4'-Trihydroxy-3,6-dimethoxyflavone",
+   "smiles": "COC1=C(C2=C(C=C1O)OC(=C(C2=O)OC)C3=CC=C(C=C3)O)O"
+  },
+  {
+   "compound": "6-Hydroxykaempferol",
+   "smiles": "C1=CC(=CC=C1C2=C(C(=O)C3=C(O2)C=C(C(=C3O)O)O)O)O"
+  },
+  {
+   "compound": "Glutinone",
+   "smiles": "CC1(CCC2(CCC3(C4CC=C5C(C4(CCC3(C2C1)C)C)CCC(=O)C5(C)C)C)C)C"
+  },
+  {
+   "compound": "Betuletol",
+   "smiles": "COC1=CC=C(C=C1)C2=C(C(=O)C3=C(O2)C=C(C(=C3O)OC)O)O"
+  },
+  {
+   "compound": "tamarixetin",
+   "smiles": "COC1=C(C=C(C=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "4,6-Dihydroxy-1,3-dimethoxy-9H-xanthen-9-one",
+   "smiles": "COC1=CC(=C(C2=C1C(=O)C3=C(O2)C=C(C=C3)O)O)OC"
+  },
+  {
+   "compound": "diosmetin",
+   "smiles": "COC1=C(C=C(C=C1)C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "acacetin",
+   "smiles": "COC1=CC=C(C=C1)C2=CC(=O)C3=C(C=C(C=C3O2)O)O"
+  },
+  {
+   "compound": "castasterone",
+   "smiles": "CC(C)C(C)C(C(C(C)C1CCC2C1(CCC3C2CC(=O)C4C3(CC(C(C4)O)O)C)C)O)O"
+  },
+  {
+   "compound": "6-hydroxyluteolin",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C(=C(C=C3O2)O)O)O)O)O"
+  },
+  {
+   "compound": "taraxerone",
+   "smiles": "CC1(CCC2(CC=C3C4(CCC5C(C(=O)CCC5(C4CCC3(C2C1)C)C)(C)C)C)C)C"
+  },
+  {
+   "compound": "quercetagetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C(=C(C=C3O2)O)O)O)O)O)O"
+  },
+  {
+   "compound": "abscisic acid",
+   "smiles": "CC1=CC(=O)CC(C1(C=CC(=CC(=O)O)C)O)(C)C"
+  }
+ ]
+}

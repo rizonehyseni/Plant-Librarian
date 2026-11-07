@@ -1,0 +1,26 @@
+{
+ "key": "Euphorbia cyparissias L.",
+ "value": {
+  "usageKey": 3070106,
+  "scientificName": "Euphorbia cyparissias L.",
+  "canonicalName": "Euphorbia cyparissias",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Malpighiales",
+  "family": "Euphorbiaceae",
+  "genus": "Euphorbia",
+  "species": "Euphorbia cyparissias",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 1414,
+  "familyKey": 4691,
+  "genusKey": 11397237,
+  "speciesKey": 3070106,
+  "class": "Magnoliopsida"
+ }
+}

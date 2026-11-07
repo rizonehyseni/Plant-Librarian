@@ -1,0 +1,65 @@
+{
+ "key": "Bistorta officinalis",
+ "value": [
+  {
+   "compound": "sitogluside",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)OC5C(C(C(C(O5)CO)O)O)O)C)C)C(C)C"
+  },
+  {
+   "compound": "(E)-1-(2,4-dihydroxy-3,6-dimethoxyphenyl)-3-phenylprop-2-en-1-one",
+   "smiles": "O=C(C=CC=1C=CC=CC1)C=2C(OC)=CC(O)=C(OC)C2O"
+  },
+  {
+   "compound": "Catechin (no stereochemistry defined)",
+   "smiles": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O"
+  },
+  {
+   "compound": "flavokavain B",
+   "smiles": "COC1=CC(=C(C(=C1)OC)C(=O)C=CC2=CC=CC=C2)O"
+  },
+  {
+   "compound": "(3R,3aR,5aR,5bS,11aS,11bR,13aS,13bS)-3a,5a,8,8,11b,13a-hexamethyl-3-propan-2-yl-2,3,4,5,5b,6,10,11,11a,12,13,13b-dodecahydro-1H-cyclopenta[a]chrysen-9-one",
+   "smiles": "O=C1CCC2C(=CCC3C2(C)CCC4(C)C5CCC(C(C)C)C5(C)CCC34C)C1(C)C"
+  },
+  {
+   "compound": "Aborenone",
+   "smiles": "O=C1CCC2(C3=CCC4(C)C5CCC(C(C)C)C5(C)CCC4(C)C3CCC2C1(C)C)C"
+  },
+  {
+   "compound": "Dammara-20,24-dien-3-ol, 3-acetate, (3beta)-",
+   "smiles": "O=C(OC1CCC2(C)C(CCC3(C)C2CCC4C(C(=C)CCC=C(C)C)CCC43C)C1(C)C)C"
+  },
+  {
+   "compound": "arborinol",
+   "smiles": "OC1CCC2(C3=CCC4(C)C5CCC(C(C)C)C5(C)CCC4(C)C3CCC2C1(C)C)C"
+  },
+  {
+   "compound": "Cycloartane-3,24-dione",
+   "smiles": "O=C(CCC(C)C1CCC2(C)C3CCC4C(C(=O)CCC54CC35CCC12C)(C)C)C(C)C"
+  },
+  {
+   "compound": "(24E)-24-Ethylidenecycloartane-3alpha-ol",
+   "smiles": "OC1CCC23CC43CCC5(C)C(CCC5(C)C4CCC2C1(C)C)C(C)CCC(=CC)C(C)C"
+  },
+  {
+   "compound": "isoarborinol",
+   "smiles": "CC(C)C1CCC2C1(CCC3(C2(CC=C4C3CCC5C4(CCC(C5(C)C)O)C)C)C)C"
+  },
+  {
+   "compound": "3,4-dihydroxybenzoic acid",
+   "smiles": "C1=CC(=C(C=C1C(=O)O)O)O"
+  },
+  {
+   "compound": "3,4-dihydroxybenzoic acid",
+   "smiles": "c1cc(c(cc1C(=O)O)O)O"
+  },
+  {
+   "compound": "epi-Friedelanol",
+   "smiles": "CC1C(CCC2C1(CCC3C2(CCC4(C3(CCC5(C4CC(CC5)(C)C)C)C)C)C)C)O"
+  },
+  {
+   "compound": "6beta-hydroxystigmast-4-en-3-one",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC(C4=CC(=O)CCC34C)O)C)C(C)C"
+  }
+ ]
+}
