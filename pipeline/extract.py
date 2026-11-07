@@ -82,6 +82,43 @@ def _strict_schema() -> dict:
             "required": ["records"], "additionalProperties": False}
 
 
+class GroqChunkError(RuntimeError):
+    """Groq rejected one chunk (HTTP 400); the caller retries it page by page or skips it."""
+
+
+def _chunk(pages: list[str], start: int, size: int) -> str:
+    return "".join(f"\n[page {start + i + 1}]\n{p}" for i, p in enumerate(pages[start:start + size]))
+
+
+def _extract_groq_resumable(doc_id: str, pages: list[str]) -> list[dict]:
+    """Chunk by chunk, saving progress so a rate limit or crash does not lose finished pages.
+
+    A chunk Groq rejects is retried one page at a time; a single page it still rejects is skipped
+    and reported, so one hard table page never stops the whole study.
+    """
+    partial = CACHE / "extract" / f"{doc_id}.partial.json"
+    done = json.loads(partial.read_text(encoding="utf-8")) if partial.exists() else {}
+    for start in range(0, len(pages), GROQ_PAGES_PER_CALL):
+        if str(start) in done:
+            continue
+        try:
+            recs = _call_groq(_chunk(pages, start, GROQ_PAGES_PER_CALL))
+        except GroqChunkError as exc:
+            recs = []
+            for one in range(start, min(start + GROQ_PAGES_PER_CALL, len(pages))):
+                try:
+                    recs.extend(_call_groq(_chunk(pages, one, 1)))
+                except GroqChunkError:
+                    print(f"  extract: Groq could not read page {one + 1}, skipped ({str(exc)[:80]})")
+        done[str(start)] = recs
+        partial.parent.mkdir(parents=True, exist_ok=True)
+        partial.write_text(json.dumps(done, ensure_ascii=False), encoding="utf-8")
+        print(f"  extract: pages {start + 1}-{min(start + GROQ_PAGES_PER_CALL, len(pages))}: {len(recs)} records")
+    records = [r for start in sorted(done, key=int) for r in done[start]]
+    partial.unlink(missing_ok=True)
+    return records
+
+
 def _call_groq(text: str, retries: int = 6) -> list[dict]:
     body = {
         "model": GROQ_EXTRACT_MODEL,
@@ -101,6 +138,8 @@ def _call_groq(text: str, retries: int = 6) -> list[dict]:
             print(f"  extract: Groq {r.status_code}, waiting {wait:.0f}s")
             time.sleep(min(wait, 90))
             continue
+        if r.status_code == 400:  # e.g. the output did not fit the schema or the token limit
+            raise GroqChunkError(r.text[:300])
         r.raise_for_status()
         choice = r.json()["choices"][0]
         if choice.get("finish_reason") == "length":
@@ -179,8 +218,7 @@ def extract_doc(doc_id: str, pages: list[str]) -> list[dict]:
         return []
     records = []
     if which == "groq":
-        for chunk in _chunks(pages, GROQ_PAGES_PER_CALL):
-            records.extend(_call_groq(chunk))
+        records = _extract_groq_resumable(doc_id, pages)
     else:
         for chunk in _chunks(pages):
             records.extend(_call_llm(chunk))

@@ -166,3 +166,29 @@ def test_quote_piece_missing_from_page_is_rejected():
 def test_too_short_quote_is_rejected():
     assert not extract.quote_on_page("Decoction", TABLE_PAGE)
     assert not extract.quote_on_page("...", TABLE_PAGE)
+
+
+def test_groq_extraction_resumes_and_retries_rejected_chunks_page_by_page(tmp_path, monkeypatch):
+    calls = []
+
+    def fake_call(text):
+        calls.append(text)
+        if "[page 1]" in text and "[page 2]" in text:
+            raise extract.GroqChunkError("schema")  # the 2-page chunk is rejected
+        if "[page 2]" in text:
+            raise extract.GroqChunkError("schema")  # page 2 alone is rejected too: skipped
+        return [{"page": int(text.split("[page ")[1].split("]")[0])}]
+
+    monkeypatch.setattr(extract, "CACHE", tmp_path)
+    monkeypatch.setattr(extract, "GROQ_PAGES_PER_CALL", 2)
+    monkeypatch.setattr(extract, "_call_groq", fake_call)
+    records = extract._extract_groq_resumable("doc", ["a", "b", "c"])
+    assert [r["page"] for r in records] == [1, 3]
+    assert not (tmp_path / "extract" / "doc.partial.json").exists()
+
+    # a crash after the first chunk keeps its pages for the next run
+    (tmp_path / "extract").mkdir(exist_ok=True)
+    (tmp_path / "extract" / "doc2.partial.json").write_text('{"0": [{"page": 1}]}', encoding="utf-8")
+    calls.clear()
+    assert [r["page"] for r in extract._extract_groq_resumable("doc2", ["a", "b", "c"])] == [1, 3]
+    assert all("[page 1]" not in c for c in calls)
