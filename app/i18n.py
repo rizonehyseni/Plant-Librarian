@@ -406,6 +406,28 @@ SQ = {
     'Press the microphone, speak in Albanian or English, press again to stop.': 'Shtyp mikrofonin, fol në shqip ose anglisht, shtyp sërish për ta ndalur.',
     'Listening…': 'Po dëgjoj…',
     'I could not hear a question. Try again a little closer to the microphone.': 'Nuk e dëgjova pyetjen. Provo sërish pak më afër mikrofonit.',
+    # ---------------------------------------------------------------- photo identification
+    'Identify a plant from a photo': 'Njih bimën nga një foto',
+    'Pl@ntNet suggests the species from a photo of a leaf, flower, fruit or bark.': 'Pl@ntNet sugjeron llojin nga një foto e gjethes, lules, frutit ose lëvores.',
+    'Add a free `PLANTNET_API_KEY` to `.env` (account at https://my.plantnet.org/), then restart the app.': 'Shtoni një `PLANTNET_API_KEY` falas te `.env` (llogari te https://my.plantnet.org/), pastaj rinisni app-in.',
+    'Photo': 'Foto',
+    'Camera': 'Kamera',
+    'Upload': 'Ngarko',
+    'What is in the photo?': 'Çfarë ka në foto?',
+    'Not sure': 'Nuk e di',
+    'Leaf': 'Gjethe',
+    'Flower': 'Lule',
+    'Fruit': 'Fruti',
+    'Bark': 'Lëvorja',
+    'Take a photo': 'Bëj një foto',
+    'Upload a photo': 'Ngarko një foto',
+    'Pl@ntNet is looking at the photo…': 'Pl@ntNet po e shikon foton…',
+    'Pl@ntNet did not recognise a plant. Try a sharper photo of one leaf or flower.': 'Pl@ntNet nuk e njohu bimën. Provoni një foto më të qartë të një gjetheje ose luleje.',
+    'Pl@ntNet confidence: {p}%': 'Siguria e Pl@ntNet: {p}%',
+    'In the library': 'Në bibliotekë',
+    'Same genus in the library: {s}': 'E njëjta gjini në bibliotekë: {s}',
+    'Not in the library yet': 'Ende jo në bibliotekë',
+    'A suggestion from Pl@ntNet with its confidence, not a confirmed identification. Never collect or use a plant on the basis of a photo.': 'Sugjerim nga Pl@ntNet me shkallën e sigurisë, jo identifikim i konfirmuar. Asnjëherë mos mblidhni ose përdorni një bimë vetëm nga një foto.',
 }
 
 

@@ -1,4 +1,5 @@
 """Plant profile: a sourced fact sheet for one plant."""
+import hashlib
 import sys
 from pathlib import Path
 
@@ -8,11 +9,12 @@ from rapidfuzz import fuzz, process
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # app/ for ui.py
+from pipeline import photo  # noqa: E402
 from pipeline.compare import compare_species  # noqa: E402
 from pipeline.config import DB_PATH, IUCN_TOKEN, SEED  # noqa: E402
 from pipeline.db import connect  # noqa: E402
 from pipeline.names import normalize  # noqa: E402
-from i18n import summary_sentence, t  # noqa: E402
+from i18n import lang, summary_sentence, t  # noqa: E402
 from ui import hero, section  # noqa: E402
 
 VERDICT_BADGE = {  # verdict -> (badge colour, Material icon)
@@ -58,8 +60,59 @@ with search_col:
         help=t("Search by the local (Albanian) name printed in the study or by scientific name."),
         icon=":material/search:",
     )
+# Identify from a photo (Pl@ntNet). Behind a toggle so the browser asks for the camera only when wanted.
+if st.toggle(t("Identify a plant from a photo"), key="photo_on", help=t("Pl@ntNet suggests the species from a photo of a leaf, flower, fruit or bark.")):
+    with st.container(border=True):
+        if not photo.PLANTNET_API_KEY:
+            st.info(t("Add a free `PLANTNET_API_KEY` to `.env` (account at https://my.plantnet.org/), then restart the app."),
+                    icon=":material/key:")
+        else:
+            src_col, organ_col = st.columns([1, 1.4], vertical_alignment="bottom")
+            source = src_col.segmented_control(t("Photo"), ["camera", "upload"], default="upload", required=True,
+                                               format_func=lambda s: t("Camera") if s == "camera" else t("Upload"),
+                                               key="photo_source")
+            organ = organ_col.pills(t("What is in the photo?"), list(photo.ORGANS), default="auto", key="photo_organ",
+                                    format_func=lambda o: t({"auto": "Not sure", "leaf": "Leaf", "flower": "Flower",
+                                                             "fruit": "Fruit", "bark": "Bark"}[o]))
+            image = (st.camera_input(t("Take a photo"), key="photo_cam") if source == "camera"
+                     else st.file_uploader(t("Upload a photo"), type=["jpg", "jpeg", "png"], key="photo_file"))
+            if image is not None:
+                digest = hashlib.sha1(image.getvalue() + str(organ).encode()).hexdigest()
+                if st.session_state.get("photo_digest") != digest:  # each photo is sent once
+                    with st.spinner(t("Pl@ntNet is looking at the photo…")):
+                        try:
+                            found = photo.identify(image.getvalue(), organ=organ or "auto", lang=lang())
+                            st.session_state.photo_results = photo.match_library(found, species_list)
+                            st.session_state.photo_digest = digest
+                        except Exception as exc:  # noqa: BLE001
+                            st.session_state.photo_results = None
+                            st.error(str(exc), icon=":material/error:")
+                results = st.session_state.get("photo_results")
+                if results == []:
+                    st.warning(t("Pl@ntNet did not recognise a plant. Try a sharper photo of one leaf or flower."))
+                for n, r in enumerate((results or [])[:3]):
+                    with st.container(border=True):
+                        name_col, pick_col = st.columns([4, 1.3], vertical_alignment="center")
+                        common = f" · {', '.join(r['common_names'][:2])}" if r["common_names"] else ""
+                        name_col.markdown(f"**{n + 1}. *{r['species']}***{common}")
+                        name_col.progress(min(r["score"], 1.0), text=t("Pl@ntNet confidence: {p}%", p=round(r["score"] * 100)))
+                        if r["match"] == "species":
+                            name_col.markdown(":green-badge[:material/check_circle: " + t("In the library") + "]")
+                        elif r["match"] == "genus":
+                            name_col.markdown(":orange-badge[:material/account_tree: " + t("Same genus in the library: {s}",
+                                              s=", ".join(r["library_species"])) + "]")
+                        else:
+                            name_col.markdown(":gray-badge[" + t("Not in the library yet") + "]")
+                        if r["library_species"] and pick_col.button(t("Open profile"), key=f"photo-pick-{n}",
+                                                                     icon=":material/arrow_forward:", width="stretch"):
+                            st.session_state.photo_pick = r["library_species"][0]
+                st.caption(":material/info: " + t("A suggestion from Pl@ntNet with its confidence, not a confirmed "
+                                                  "identification. Never collect or use a plant on the basis of a photo."))
+
 requested_species = st.query_params.get("species")
-if requested_species in species_list:
+if st.session_state.get("photo_pick") in species_list:
+    default = st.session_state.pop("photo_pick")
+elif requested_species in species_list:
     default = requested_species
 elif query:
     hit = process.extractOne(normalize(query), choices.keys(), scorer=fuzz.WRatio)
