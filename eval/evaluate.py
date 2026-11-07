@@ -1,8 +1,14 @@
 """Evaluate extraction against real-study gold rows in eval/gold.csv.
 
-Synthetic fixtures are deliberately excluded. Exact record matching checks the
-plant, local name, part, preparation, and reported use, rather than counting a
-species/part match as a fully correct record.
+Synthetic fixtures are deliberately excluded. A gold row counts as found when the
+database has a record from the same document and page with the same local name,
+part, preparation and reported use, and the same plant. The plant may be written
+as in the study (`name_in_text`, e.g. Chamomilla recutita) or as the GBIF accepted
+name the pipeline resolved it to (`species`, e.g. Matricaria chamomilla).
+
+gold.csv is a hand-checked sample, not a full transcription of each study, so
+precision cannot be measured: a database record missing from the sample may still be
+correct. Records for sampled plants that are not in gold.csv are listed as unchecked.
 """
 import csv
 from pathlib import Path
@@ -10,10 +16,29 @@ from pathlib import Path
 from pipeline.db import connect
 
 GOLD = Path(__file__).parent / "gold.csv"
+FIELDS = ("doc_id", "page", "part_used", "preparation", "use")
 
 
 def norm(s):
-    return " ".join((s or "").strip().lower().split())
+    return " ".join(str(s or "").strip().lower().split())
+
+
+def binomial(name):
+    """'Allium porrum L.' -> 'allium porrum' (drops the author)."""
+    return " ".join(norm(name).split()[:2])
+
+
+def plant_names(r):
+    return {binomial(r.get("species")), binomial(r.get("name_in_text"))} - {""}
+
+
+def key(r):
+    fields = tuple(norm(r.get(f)) for f in FIELDS)
+    return fields + (norm(r.get("community") or "Albanian"),)
+
+
+def local_names(r):
+    return {norm(name) for name in str(r.get("local_name") or "").split("/") if norm(name)}
 
 
 def main():
@@ -26,30 +51,47 @@ def main():
     rows = [dict(r) for r in conn.execute(
         f"SELECT * FROM uses WHERE doc_id IN ({','.join('?' * len(docs))})", list(docs))]
 
-    fields = ("doc_id", "species", "part_used", "preparation", "use")
-    def key(row):
-        community = row.get("community") or "Albanian"
-        return tuple(norm(row.get(field)) for field in fields) + (norm(community),)
+    by_key = {}
+    for r in rows:
+        by_key.setdefault(key(r), []).append(r)
 
-    gold_keys = {key(g) for g in gold}
-    pred_keys = {key(r) for r in rows}
-    aliases = {(key(r), norm(alias))
-               for r in rows for alias in str(r.get("local_name") or "").split("/")}
-    matched_gold = {key(g) for g in gold if key(g) in pred_keys
-                    and (key(g), norm(g["local_name"])) in aliases}
-    tp = len(matched_gold)
-    precision = tp / len(pred_keys) if pred_keys else 0
-    recall = tp / len(gold_keys) if gold_keys else 0
+    def found(g):
+        return any(binomial(g["species"]) in plant_names(r)
+                   and norm(g["local_name"]) in local_names(r)
+                   for r in by_key.get(key(g), []))
 
-    named = gold
-    name_acc = sum((key(g), norm(g["local_name"])) in aliases for g in named)
+    hits = [g for g in gold if found(g)]
+    recall = len(hits) / len(gold)
 
-    print(f"real-study gold records: {len(gold)}   extracted: {len(rows)}")
-    print(f"exact record precision: {precision:.0%}   recall: {recall:.0%}")
-    print(f"local-name species accuracy: {name_acc}/{len(named)} correct")
+    sampled = {(g["doc_id"], norm(g["local_name"])) for g in gold}
+    in_sample = [r for r in rows if any((r["doc_id"], alias) in sampled for alias in local_names(r))]
+    gold_by_key = {}
     for g in gold:
-        if key(g) not in pred_keys:
-            print(f"  missed: {g['local_name']} -> {g['species']} ({g['part_used']})")
+        gold_by_key.setdefault(key(g), []).append(g)
+    unchecked = [r for r in in_sample if not any(
+        binomial(g["species"]) in plant_names(r) and norm(g["local_name"]) in local_names(r)
+        for g in gold_by_key.get(key(r), [])
+    )]
+
+    by_local = {}
+    for r in rows:
+        for alias in local_names(r):
+            by_local.setdefault((r["doc_id"], alias), set()).update(plant_names(r))
+    named = [g for g in gold if (g["doc_id"], norm(g["local_name"])) in by_local]
+    name_ok = sum(binomial(g["species"]) in by_local[(g["doc_id"], norm(g["local_name"]))]
+                  for g in named)
+
+    print(f"real-study gold records: {len(gold)}   database records in those studies: {len(rows)}")
+    print(f"recall: {len(hits)}/{len(gold)} = {recall:.0%}")
+    print(f"local name -> plant: {name_ok}/{len(named)} correct")
+    for g in gold:
+        if not found(g):
+            print(f"  missed: p{g['page']} {g['local_name']} -> {g['species']} ({g['part_used']})")
+    if unchecked:
+        print(f"{len(unchecked)} other record(s) for sampled plants, not in gold.csv (unchecked):")
+    for r in unchecked:
+        print(f"  p{r['page']} {r['local_name']} -> {r['species']} "
+              f"({r['part_used']}, {r['preparation']}, {r['use']})")
 
 
 if __name__ == "__main__":
