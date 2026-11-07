@@ -6,6 +6,7 @@ import pandas as pd
 import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # app/ for ui.py
 from pipeline.config import DB_PATH  # noqa: E402
 from pipeline.db import connect  # noqa: E402
 from pipeline.quality import (  # noqa: E402
@@ -20,26 +21,10 @@ from pipeline.quality import (  # noqa: E402
     issue_messages,
     save_review,
 )
+from ui import page_header, section  # noqa: E402
 
-st.set_page_config(page_title="Data Quality & Review · EthnoHack", page_icon="🔎", layout="wide")
-st.markdown(
-    """
-    <style>
-      :root { --ethno-ink: #20352a; --ethno-green: #174c35; --ethno-leaf: #26734d; }
-      html, body, .stApp, [data-testid="stAppViewContainer"], [data-testid="stMain"], .main { background: #f1efe5 !important; }
-      [data-testid="stHeader"] { background: transparent; }
-      .block-container { max-width: 1220px; padding-top: 1.5rem; padding-bottom: 4rem; }
-      [data-testid="stAppViewContainer"] *, [data-testid="stMain"] * { color: var(--ethno-ink); }
-      h1, h2, h3 { color: var(--ethno-green) !important; letter-spacing: -0.025em; }
-      [data-testid="stMetric"] { background: #dfe9db !important; border: 1px solid #bacdb8 !important; border-radius: 14px; padding: 14px 18px; }
-      [data-testid="stTextInput"] input, [data-testid="stSelectbox"] [data-baseweb="select"] > div, [data-testid="stTextArea"] textarea { background: #fffdf7 !important; border-color: #b8c9b8 !important; }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-
-st.title("🔎 Data Quality & Review")
-st.caption("Local review workspace. Changes are stored in SQLite with a record-level audit trail.")
+page_header("fact_check", "Curation", "Data quality review",
+            "Check extracted records against the paper, fix them, and mark them verified. Every change is stored in SQLite with an audit trail.")
 
 if not DB_PATH.exists():
     st.error("No database yet. Run `make build` first, then reopen this page.")
@@ -60,12 +45,12 @@ metric_labels = [
     ("Unresolved names", "unresolved_names"), ("No specific location", "without_specific_locations"),
 ]
 for column, (label, key) in zip(st.columns(4), metric_labels[:4]):
-    column.metric(label, metrics[key])
+    column.metric(label, metrics[key], border=True)
 for column, (label, key) in zip(st.columns(3), metric_labels[4:]):
-    column.metric(label, metrics[key])
+    column.metric(label, metrics[key], border=True)
 
 st.divider()
-st.subheader("Review queue")
+section("checklist", "Review queue")
 filter_columns = st.columns(3)
 with filter_columns[0]:
     status_filter = st.selectbox("Review status", ["All", *REVIEW_STATUSES])
@@ -96,7 +81,7 @@ for record in filtered:
         "Review status": record.get("review_status"),
         "Warnings": "\n".join(issue_messages(findings[record["id"]])) or "None",
     })
-st.dataframe(pd.DataFrame(table_rows), hide_index=True, use_container_width=True, height=400)
+st.dataframe(pd.DataFrame(table_rows), hide_index=True, width="stretch", height=400)
 
 record_by_id = {record["id"]: record for record in filtered}
 if not record_by_id:
@@ -105,7 +90,7 @@ if not record_by_id:
     st.stop()
 
 st.divider()
-st.subheader("Inspect and review a record")
+section("edit_note", "Inspect and review a record")
 selected_id = st.selectbox(
     "Select record", list(record_by_id),
     format_func=lambda record_id: f"#{record_id} · {record_by_id[record_id].get('local_name') or 'Unnamed'} · {record_by_id[record_id].get('species') or 'Unresolved'}",
@@ -131,7 +116,7 @@ with st.form("review-record"):
         review_status = st.selectbox("Review status", REVIEW_STATUSES, index=REVIEW_STATUSES.index(selected.get("review_status") or "Needs Review"))
         reviewer = st.text_input("Local reviewer", placeholder="e.g. A. Hoxha")
     reviewer_note = st.text_area("Reviewer note", value=selected.get("reviewer_note") or "", placeholder="What was checked or corrected?")
-    saved = st.form_submit_button("Save review")
+    saved = st.form_submit_button("Save review", icon=":material/save:", type="primary")
 
 if saved:
     updates = {
@@ -148,14 +133,14 @@ if saved:
         st.success("Review saved. The audit log has been updated.")
         st.rerun()
 
-with st.expander("Change history", expanded=True):
+with st.expander("Change history", expanded=True, icon=":material/history:"):
     history = audit_history(conn, selected_id)
     if history:
         history_frame = pd.DataFrame(history).rename(columns={
             "changed_field": "Field", "previous_value": "Previous", "new_value": "New",
             "timestamp": "Timestamp", "action": "Action", "reviewer": "Reviewer", "reviewer_note": "Note",
         })
-        st.dataframe(history_frame[["Timestamp", "Action", "Field", "Previous", "New", "Reviewer", "Note"]], hide_index=True, use_container_width=True)
+        st.dataframe(history_frame[["Timestamp", "Action", "Field", "Previous", "New", "Reviewer", "Note"]], hide_index=True, width="stretch")
     else:
         st.caption("No review actions have been recorded for this record.")
 
