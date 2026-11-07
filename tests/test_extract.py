@@ -61,7 +61,7 @@ def test_structured_response_is_parsed_and_cached(tmp_path, monkeypatch):
     first = extract.extract_doc("paper", ["page text"])
     second = extract.extract_doc("paper", ["different text"])
 
-    assert first == [record.model_dump()]
+    assert first == [{**record.model_dump(), "record_origin": "AI Extracted"}]
     assert second == first
     assert len(calls) == 1
     assert calls[0]["output_format"] is extract.Extraction

@@ -167,6 +167,7 @@ def extract_records() -> list[dict]:
                 "location": None,
                 "page": page,
                 "quote": f"{' / '.join(local_names)} {row.get(3, '')} {row.get(4, '')} {row.get(5, '')}".strip(),
+                "record_origin": "Source Table",  # parsed from Table 1, not by the LLM
             })
 
     return records
