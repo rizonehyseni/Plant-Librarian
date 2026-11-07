@@ -1,0 +1,49 @@
+{
+ "key": "Cornus mas",
+ "value": [
+  {
+   "compound": "2-(3,4-Dihydroxyphenyl)-5,7-dihydroxy-1-benzopyran-1-ium-3-yl 6-O-(6-deoxyhexopyranosyl)hexopyranoside",
+   "smiles": "OC=1C=C(O)C=2C=C(OC3OC(COC4OC(C)C(O)C(O)C4O)C(O)C(O)C3O)C(=[O+]C2C1)C=5C=CC(O)=C(O)C5"
+  },
+  {
+   "compound": "ursolic acid",
+   "smiles": "CC1CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1C)C)C(=O)O"
+  },
+  {
+   "compound": "querciturone",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)C(=O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "hyperoside",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O"
+  },
+  {
+   "compound": "Cyanidin 3-galactoside",
+   "smiles": "OC=1C=C(O)C=2C=C(OC3OC(CO)C(O)C(O)C3O)C(=[O+]C2C1)C=4C=CC(O)=C(O)C4"
+  },
+  {
+   "compound": "(2R,3R)-3,5-dihydroxy-2-(4-hydroxyphenyl)-7-{[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}-2,3-dihydro-1-benzopyran-4-one",
+   "smiles": "O=C1C2=C(O)C=C(OC3OC(CO)C(O)C(O)C3O)C=C2OC(C4=CC=C(O)C=C4)C1O"
+  },
+  {
+   "compound": "Trifolin",
+   "smiles": "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O"
+  },
+  {
+   "compound": "quercitrin",
+   "smiles": "CC1C(C(C(C(O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C=C4)O)O)O)O)O"
+  },
+  {
+   "compound": "isoquercetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O"
+  },
+  {
+   "compound": "rutin",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "quercetin-3-O-beta-D-xylopyranoside",
+   "smiles": "C1C(C(C(C(O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C=C4)O)O)O)O)O"
+  }
+ ]
+}

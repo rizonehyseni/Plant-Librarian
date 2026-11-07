@@ -1,0 +1,26 @@
+{
+ "key": "Foeniculum vulgare Mill.",
+ "value": {
+  "usageKey": 3034922,
+  "scientificName": "Foeniculum vulgare Mill.",
+  "canonicalName": "Foeniculum vulgare",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Apiales",
+  "family": "Apiaceae",
+  "genus": "Foeniculum",
+  "species": "Foeniculum vulgare",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 1351,
+  "familyKey": 6720,
+  "genusKey": 10704390,
+  "speciesKey": 3034922,
+  "class": "Magnoliopsida"
+ }
+}

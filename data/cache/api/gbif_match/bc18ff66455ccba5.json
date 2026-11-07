@@ -1,0 +1,26 @@
+{
+ "key": "Prunus domestica L.",
+ "value": {
+  "usageKey": 7931731,
+  "scientificName": "Prunus domestica L.",
+  "canonicalName": "Prunus domestica",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Rosales",
+  "family": "Rosaceae",
+  "genus": "Prunus",
+  "species": "Prunus domestica",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 691,
+  "familyKey": 5015,
+  "genusKey": 3020559,
+  "speciesKey": 7931731,
+  "class": "Magnoliopsida"
+ }
+}

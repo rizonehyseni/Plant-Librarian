@@ -1,0 +1,217 @@
+{
+ "key": "Rubia tinctorum",
+ "value": [
+  {
+   "compound": "2-hydroxyanthraquinone",
+   "smiles": "C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C=C(C=C3)O"
+  },
+  {
+   "compound": "anthragallol",
+   "smiles": "C1=CC=C2C(=C1)C(=O)C3=CC(=C(C(=C3C2=O)O)O)O"
+  },
+  {
+   "compound": "7-hydroxy-2-methylanthraquinone",
+   "smiles": "CC1=CC2=C(C=C1)C(=O)C3=C(C2=O)C=C(C=C3)O"
+  },
+  {
+   "compound": "Alizarin 2-methyl ether",
+   "smiles": "COC1=C(C2=C(C=C1)C(=O)C3=CC=CC=C3C2=O)O"
+  },
+  {
+   "compound": "lucidin",
+   "smiles": "C1=CC=C2C(=C1)C(=O)C3=CC(=C(C(=C3C2=O)O)CO)O"
+  },
+  {
+   "compound": "anthraquinone",
+   "smiles": "C1=CC=C2C(=C1)C(=O)C3=CC=CC=C3C2=O"
+  },
+  {
+   "compound": "hyperoside",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O"
+  },
+  {
+   "compound": "1,3-dihydroxyanthraquinone",
+   "smiles": "C1=CC=C2C(=C1)C(=O)C3=CC(=CC(=C3C2=O)O)O"
+  },
+  {
+   "compound": "ruberythric acid",
+   "smiles": "C1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(C4=C(C=C3)C(=O)C5=CC=CC=C5C4=O)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "quinizarin",
+   "smiles": "C1=CC=C2C(=C1)C(=O)C3=C(C=CC(=C3C2=O)O)O"
+  },
+  {
+   "compound": "(E)-chlorogenic acid",
+   "smiles": "C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "Lucidinprimeveroside",
+   "smiles": "O=C1C=2C=CC=CC2C(=O)C3=C(O)C(=C(OC4OC(COC5OCC(O)C(O)C5O)C(O)C(O)C4O)C=C13)CO"
+  },
+  {
+   "compound": "2-hydroxy-1-methylanthracene-9,10-dione",
+   "smiles": "O=C1C=2C=CC=CC2C(=O)C=3C1=CC=C(O)C3C"
+  },
+  {
+   "compound": "[(4R,7S,8S,11S)-2-oxo-8-[(2S,3S,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,9-dioxatricyclo[5.3.1.04,11]undeca-1(10),5-dien-6-yl]methyl acetate",
+   "smiles": "O=C1OC2C=C(COC(=O)C)C3C(OC=C1C23)OC4OC(CO)C(O)C(O)C4O"
+  },
+  {
+   "compound": "[(4S,7S,8S,11R)-2-oxo-8-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,9-dioxatricyclo[5.3.1.04,11]undeca-1(10),5-dien-6-yl]methyl acetate",
+   "smiles": "O=C1OC2C=C(COC(=O)C)C3C(OC=C1C23)OC4OC(CO)C(O)C(O)C4O"
+  },
+  {
+   "compound": "Lucidin 3-O-glucoside",
+   "smiles": "O=C1C=2C=CC=CC2C(=O)C3=C(O)C(=C(OC4OC(CO)C(O)C(O)C4O)C=C13)CO"
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2R,3S,4R,5R,6S)-3,4,5-trihydroxy-6-[[(2S,3S,4S,5S,6R)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxymethyl]oxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(COC3OC(C)C(O)C(O)C3O)C(O)C(O)C2O)=C(OC=4C=C(O)C=C(O)C14)C=5C=CC(O)=C(O)C5"
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2R,3S,4R,5S,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=CC(O)=C(O)C4"
+  },
+  {
+   "compound": "1-methoxy-2-methylanthracene-9,10-dione",
+   "smiles": "O=C1C=2C=CC=CC2C(=O)C3=C(OC)C(=CC=C13)C"
+  },
+  {
+   "compound": "1-hydroxy-2-(hydroxymethyl)-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4R,5R)-3,4,5-trihydroxyoxan-2-yl]oxymethyl]oxan-2-yl]oxyanthracene-9,10-dione",
+   "smiles": "O=C1C=2C=CC=CC2C(=O)C3=C(O)C(=C(OC4OC(COC5OCC(O)C(O)C5O)C(O)C(O)C4O)C=C13)CO"
+  },
+  {
+   "compound": "1,2-dihydroxy-3-methoxyanthracene-9,10-dione",
+   "smiles": "O=C1C=2C=CC=CC2C(=O)C3=C(O)C(O)=C(OC)C=C13"
+  },
+  {
+   "compound": "2-Propenoic acid, 3-(4-hydroxy-3-methoxyphenyl)-, octadecyl ester",
+   "smiles": "O=C(OCCCCCCCCCCCCCCCCCC)C=CC1=CC=C(O)C(OC)=C1"
+  },
+  {
+   "compound": "Octadecyl ferulate",
+   "smiles": "O=C(OCCCCCCCCCCCCCCCCCC)C=CC1=CC=C(O)C(OC)=C1"
+  },
+  {
+   "compound": "icosyl (2E)-3-(4-hydroxy-3-methoxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OCCCCCCCCCCCCCCCCCCCC)C=CC1=CC=C(O)C(OC)=C1"
+  },
+  {
+   "compound": "icosyl 3-(4-hydroxy-3-methoxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OCCCCCCCCCCCCCCCCCCCC)C=CC1=CC=C(O)C(OC)=C1"
+  },
+  {
+   "compound": "Asperosid",
+   "smiles": "OCC1OC(OCC(C)CCC2(O)OC3CC4C5CC=C6CC(OC7OC(CO)C(OC8OC(C)C(OC9OC(C)C(O)C(O)C9O)C(O)C8O)C(O)C7OC%10OC(C)C(O)C(O)C%10O)CCC6(C)C5CCC4(C)C3C2C)C(O)C(O)C1O"
+  },
+  {
+   "compound": "Hexadecyl 3-(4-hydroxy-3-methoxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OCCCCCCCCCCCCCCCC)C=CC1=CC=C(O)C(OC)=C1"
+  },
+  {
+   "compound": "Hexadecyl ferulate",
+   "smiles": "O=C(OCCCCCCCCCCCCCCCC)C=CC1=CC=C(O)C(OC)=C1"
+  },
+  {
+   "compound": "purpurin",
+   "smiles": "C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C(=C(C=C3O)O)O"
+  },
+  {
+   "compound": "rubiadin",
+   "smiles": "CC1=C(C=C2C(=C1O)C(=O)C3=CC=CC=C3C2=O)O"
+  },
+  {
+   "compound": "pseudopurpurin",
+   "smiles": "C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C(=C(C(=C3O)C(=O)O)O)O"
+  },
+  {
+   "compound": "1,2-DIHYDROXY-3-METHYLANTHRAQUINONE",
+   "smiles": "CC1=CC2=C(C(=C1O)O)C(=O)C3=CC=CC=C3C2=O"
+  },
+  {
+   "compound": "1,3-dimethoxy-9,10-anthraquinone",
+   "smiles": "COC1=CC2=C(C(=C1)OC)C(=O)C3=CC=CC=C3C2=O"
+  },
+  {
+   "compound": "Mollugin",
+   "smiles": "CC1(C=CC2=C(O1)C3=CC=CC=C3C(=C2C(=O)OC)O)C"
+  },
+  {
+   "compound": "1,2-dimethoxyanthracene-9,10-dione",
+   "smiles": "COC1=C(C2=C(C=C1)C(=O)C3=CC=CC=C3C2=O)OC"
+  },
+  {
+   "compound": "1-Hydroxy-2,3-dimethoxyanthracene-9,10-dione",
+   "smiles": "COC1=C(C(=C2C(=C1)C(=O)C3=CC=CC=C3C2=O)O)OC"
+  },
+  {
+   "compound": "2,6-dihydroxyanthraquinone",
+   "smiles": "C1=CC2=C(C=C1O)C(=O)C3=C(C2=O)C=C(C=C3)O"
+  },
+  {
+   "compound": "1-Hydroxy-3-methoxyanthracene-9,10-dione",
+   "smiles": "COC1=CC2=C(C(=C1)O)C(=O)C3=CC=CC=C3C2=O"
+  },
+  {
+   "compound": "asperuloside",
+   "smiles": "CC(=O)OCC1=CC2C3C1C(OC=C3C(=O)O2)OC4C(C(C(C(O4)CO)O)O)O"
+  },
+  {
+   "compound": "2-methylanthraquinone",
+   "smiles": "CC1=CC2=C(C=C1)C(=O)C3=CC=CC=C3C2=O"
+  },
+  {
+   "compound": "2-(Butoxymethyl)-1,3-dihydroxyanthracene-9,10-dione",
+   "smiles": "O=C1C=2C=CC=CC2C(=O)C3=C(O)C(=C(O)C=C13)COCCCC"
+  },
+  {
+   "compound": "1,4-Naphthalenedione, 2-methoxy-3-(3-methyl-2-butenyl)-",
+   "smiles": "O=C1C(OC)=C(C(=O)C=2C=CC=CC12)CC=C(C)C"
+  },
+  {
+   "compound": "citric acid",
+   "smiles": "C(C(=O)O)C(CC(=O)O)(C(=O)O)O"
+  },
+  {
+   "compound": "2-Hydroxy-1-methoxyanthracene-9,10-dione",
+   "smiles": "COC1=C(C=CC2=C1C(=O)C3=CC=CC=C3C2=O)O"
+  },
+  {
+   "compound": "Lucidin ethyl ether",
+   "smiles": "CCOCC1=C(C=C2C(=C1O)C(=O)C3=CC=CC=C3C2=O)O"
+  },
+  {
+   "compound": "Nordamnacanthal",
+   "smiles": "C1=CC=C2C(=C1)C(=O)C3=CC(=C(C(=C3C2=O)O)C=O)O"
+  },
+  {
+   "compound": "Munjistin",
+   "smiles": "C1=CC=C2C(=C1)C(=O)C3=CC(=C(C(=C3C2=O)O)C(=O)O)O"
+  },
+  {
+   "compound": "2-Anthracenecarboxylic acid, 9,10-dihydro-1,3-dihydroxy-9,10-dioxo-, methyl ester",
+   "smiles": "COC(=O)C1=C(C=C2C(=C1O)C(=O)C3=CC=CC=C3C2=O)O"
+  },
+  {
+   "compound": "1-hydroxy-2-methyl-9,10-anthraquinone",
+   "smiles": "CC1=C(C2=C(C=C1)C(=O)C3=CC=CC=C3C2=O)O"
+  },
+  {
+   "compound": "scopoletin",
+   "smiles": "COC1=C(C=C2C(=C1)C=CC(=O)O2)O"
+  },
+  {
+   "compound": "rutin",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "alizarin",
+   "smiles": "C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C(=C(C=C3)O)O"
+  },
+  {
+   "compound": "Lucidin omega-methyl ether",
+   "smiles": "COCC1=C(C=C2C(=C1O)C(=O)C3=CC=CC=C3C2=O)O"
+  }
+ ]
+}

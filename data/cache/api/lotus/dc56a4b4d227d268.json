@@ -1,0 +1,341 @@
+{
+ "key": "Juncus effusus",
+ "value": [
+  {
+   "compound": "sitogluside",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)OC5C(C(C(C(O5)CO)O)O)O)C)C)C(C)C"
+  },
+  {
+   "compound": "vanillic acid",
+   "smiles": "COC1=C(C=CC(=C1)C(=O)O)O"
+  },
+  {
+   "compound": "Juncoside I",
+   "smiles": "O=C1OC(CC=C1C)C(C)C2CCC3(C)C4CCC5C(C)(C)C(OC6OC(CO)C(O)C(O)C6OC7OC(CO)C(O)C(O)C7OC8OC(CO)C(O)C(O)C8O)CCC95CC49CCC23C"
+  },
+  {
+   "compound": "beta-sitosterol",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "juncusol",
+   "smiles": "CC1=C(C=CC2=C1CCC3=CC(=C(C(=C32)C=C)C)O)O"
+  },
+  {
+   "compound": "1-(3,7-Dihydroxy-8-methyl-9,10-dihydrophenanthren-4-yl)ethanone",
+   "smiles": "O=C(C=1C(O)=CC=C2C1C=3C=CC(O)=C(C3CC2)C)C"
+  },
+  {
+   "compound": "5-ethenyl-1,6-dimethylphenanthrene-2,7-diol",
+   "smiles": "OC=1C=CC=2C(=CC=C3C=C(O)C(=C(C=C)C32)C)C1C"
+  },
+  {
+   "compound": "Juncusyl ester B",
+   "smiles": "O=C(OC(CO)CO)C=CC1=CC=C(O)C=C1"
+  },
+  {
+   "compound": "Juncunol",
+   "smiles": "OC=1C=CC=2C3=CC(=C(C=C)C=C3CCC2C1C)C"
+  },
+  {
+   "compound": "1,8-Dimethyl-5-hydroxymethyl-7-methoxy-9,10-dihydrophenanthren-2-ol",
+   "smiles": "OC=1C=CC=2C3=C(C=C(OC)C(=C3CCC2C1C)C)CO"
+  },
+  {
+   "compound": "4-Ethenyl-7-hydroxy-8-methyl-9,10-dihydrophenanthrene-1-carboxylic acid",
+   "smiles": "O=C(O)C=1C=CC(C=C)=C2C=3C=CC(O)=C(C3CCC12)C"
+  },
+  {
+   "compound": "9,10-Dihydro-4-ethenyl-1,8-dimethyl-2-methoxyphenanthrene-7-ol",
+   "smiles": "OC=1C=CC=2C3=C(C=C)C=C(OC)C(=C3CCC2C1C)C"
+  },
+  {
+   "compound": "2,7-Dihydroxy-3,8-dimethyl-9,10-dihydrophenanthrene-4-carbaldehyde",
+   "smiles": "O=CC1=C2C=3C=CC(O)=C(C3CCC2=CC(O)=C1C)C"
+  },
+  {
+   "compound": "2-O-p-Cumaroylglycerol",
+   "smiles": "O=C(OC(CO)CO)C=CC1=CC=C(O)C=C1"
+  },
+  {
+   "compound": "1,7-Dimethyl-5-vinyl-9,10-dihydrophenanthrene-2-ol",
+   "smiles": "OC=1C=CC=2C3=C(C=C)C=C(C=C3CCC2C1C)C"
+  },
+  {
+   "compound": "4-[(1S)-1-hydroxyethyl]-2,8-dimethyl-9,10-dihydrophenanthrene-1,7-diol",
+   "smiles": "OC=1C=CC=2C3=C(C=C(C(O)=C3CCC2C1C)C)C(O)C"
+  },
+  {
+   "compound": "Effuside IV",
+   "smiles": "OC1=CC(=C2C=3C=CC(OC4OC(CO)C(O)C(O)C4O)=C(C3CCC2=C1C)C)CO"
+  },
+  {
+   "compound": "3,8-Dimethyl-4-vinyl-7-methoxy-9,10-dihydrophenanthrene-1-ol",
+   "smiles": "OC=1C=C(C(C=C)=C2C=3C=CC(OC)=C(C3CCC12)C)C"
+  },
+  {
+   "compound": "Juncusyl ester A",
+   "smiles": "O=C(OCC1OC(OC1)(C)C)C=CC2=CC=C(O)C=C2"
+  },
+  {
+   "compound": "[(1S,3R,6S,8R,11S,12S,15R,16R)-15-[(2R,5R)-5-acetyloxy-6-hydroxy-6-methylheptan-2-yl]-7,7,12,16-tetramethyl-6-pentacyclo[9.7.0.01,3.03,8.012,16]octadecanyl] acetate",
+   "smiles": "O=C(OC(CCC(C)C1CCC2(C)C3CCC4C(C)(C)C(OC(=O)C)CCC54CC35CCC12C)C(O)(C)C)C"
+  },
+  {
+   "compound": "[(1S,3R,6S,8R,11S,12S,15R,16R)-15-[(2R,5S)-5-acetyloxy-6-hydroxy-6-methylheptan-2-yl]-7,7,12,16-tetramethyl-6-pentacyclo[9.7.0.01,3.03,8.012,16]octadecanyl] acetate",
+   "smiles": "O=C(OC(CCC(C)C1CCC2(C)C3CCC4C(C)(C)C(OC(=O)C)CCC54CC35CCC12C)C(O)(C)C)C"
+  },
+  {
+   "compound": "5-[(1S)-1-hydroxyethyl]-1,7-dimethyl-9,10-dihydrophenanthrene-2,6-diol",
+   "smiles": "OC=1C=CC=2C3=C(C=C(C(O)=C3C(O)C)C)CCC2C1C"
+  },
+  {
+   "compound": "1-o-Feruloyl-3-o-p-coumaroylglycerol",
+   "smiles": "O=C(OCC(O)COC(=O)C=CC1=CC=C(O)C(OC)=C1)C=CC2=CC=C(O)C=C2"
+  },
+  {
+   "compound": "Effuside V",
+   "smiles": "OCC1OC(OC=2C=CC=3C4=C(C=C(OC)C(=C4CCC3C2C)C)COC5OC(CO)C(O)C(O)C5O)C(O)C(O)C1O"
+  },
+  {
+   "compound": "1-Ethenyl-2,7-dimethyl-5,6-dihydrobenzo[b][1]benzoxepine-3,8-diol",
+   "smiles": "OC1=CC=C2OC3=C(C=C)C(=C(O)C=C3CCC2=C1C)C"
+  },
+  {
+   "compound": "D-galactopyranose",
+   "smiles": "C(C1C(C(C(C(O1)O)O)O)O)O"
+  },
+  {
+   "compound": "(1S,3R,6S,8R,11S,12S,15R,16R)-15-[(2R,5R)-5-hydroxy-6-methylheptan-2-yl]-7,7,12,16-tetramethylpentacyclo[9.7.0.01,3.03,8.012,16]octadecan-6-ol",
+   "smiles": "OC(CCC(C)C1CCC2(C)C3CCC4C(C)(C)C(O)CCC54CC35CCC12C)C(C)C"
+  },
+  {
+   "compound": "(1S,3R,6S,8R,11S,12S,15R,16R)-15-[(2R,5S)-5-hydroxy-6-methylheptan-2-yl]-7,7,12,16-tetramethylpentacyclo[9.7.0.01,3.03,8.012,16]octadecan-6-ol",
+   "smiles": "OC(CCC(C)C1CCC2(C)C3CCC4C(C)(C)C(O)CCC54CC35CCC12C)C(C)C"
+  },
+  {
+   "compound": "Q105026409",
+   "smiles": "O=C(OCC1OC(O)C(O)C(O)C1O)C(=CCC(O)C(C)C2CCC3(C)C4CCC5C(C)(C)C(OC6OC(CO)C(O)C(O)C6OC7OC(CO)C(O)C(O)C7OC8OC(CO)C(O)C(O)C8O)CCC95CC49CCC23C)C"
+  },
+  {
+   "compound": "Q105026410",
+   "smiles": "O=C(OCC1OC(O)C(O)C(O)C1O)C(=CCC(O)C(C)C2CCC3(C)C4CCC5C(C)(C)C(OC6OC(CO)C(O)C(O)C6OC7OC(CO)C(O)C(O)C7OC8OC(CO)C(O)C(O)C8O)CCC95CC49CCC23C)C"
+  },
+  {
+   "compound": "Q105125826",
+   "smiles": "O=C(OC1=CC=C(OC2OC(CO)C(O)C(O)C2O)C=C1)C(=CCC(O)C(C)C3CCC4(C)C5CCC6C(C)(C)C(OC7OC(CO)C(O)C(O)C7OC8OC(CO)C(O)C(O)C8OC9OC(CO)C(O)C(O)C9O)CCC%106CC5%10CCC34C)C"
+  },
+  {
+   "compound": "Q105132587",
+   "smiles": "O=C1OC(CC=C1C)C(C)C2CCC3(C)C4CCC5C(C)(C)C(OC6OC(CO)C(O)C(O)C6OC7OC(CO)C(O)C(O)C7OC8OC(CO)C(O)C(O)C8O)CCC95CC49CCC23C"
+  },
+  {
+   "compound": "Q105187999",
+   "smiles": "O=C(OC1OC(CO)C(O)C(O)C1O)C(=CCC(O)C(C)C2CCC3(C)C4CCC5C(C)(C)C(OC6OC(CO)C(O)C(O)C6OC7OC(CO)C(O)C(O)C7OC8OC(CO)C(O)C(O)C8O)CCC95CC49CCC23C)C"
+  },
+  {
+   "compound": "Effuside III",
+   "smiles": "OC=1C=CC=2C3=C(C=C(OC4OC(CO)C(O)C(O)C4O)C(=C3CCC2C1C)C)CO"
+  },
+  {
+   "compound": "1-(3,7-Dihydroxy-2,8-dimethyl-9,10-dihydro-4-phenanthrenyl)ethanone",
+   "smiles": "O=C(C=1C(O)=C(C=C2C1C=3C=CC(O)=C(C3CC2)C)C)C"
+  },
+  {
+   "compound": "1-Methyl-5-vinyl-6-(hydroxymethyl)-9,10-dihydrophenanthren-2-ol",
+   "smiles": "OC=1C=CC=2C3=C(C=C)C(=CC=C3CCC2C1C)CO"
+  },
+  {
+   "compound": "Effuside II",
+   "smiles": "OC=1C=CC=2C3=C(C=C(O)C(=C3CCC2C1C)C)COC4OC(CO)C(O)C(O)C4O"
+  },
+  {
+   "compound": "5-Ethenyl-1,7-dimethyl-9,10-dihydrophenanthrene-2,3-diol",
+   "smiles": "OC=1C=C2C=3C(C=C)=CC(=CC3CCC2=C(C1O)C)C"
+  },
+  {
+   "compound": "(24R)-24,25-Epoxy-5alpha-cycloartan-3beta-ol acetate",
+   "smiles": "O=C(OC1CCC23CC43CCC5(C)C(CCC5(C)C4CCC2C1(C)C)C(C)CCC6OC6(C)C)C"
+  },
+  {
+   "compound": "[(1S,3R,6S,8R,11S,12S,15R,16R)-15-[(2R)-4-[(2S)-3,3-dimethyloxiran-2-yl]butan-2-yl]-7,7,12,16-tetramethyl-6-pentacyclo[9.7.0.01,3.03,8.012,16]octadecanyl] acetate",
+   "smiles": "O=C(OC1CCC23CC43CCC5(C)C(CCC5(C)C4CCC2C1(C)C)C(C)CCC6OC6(C)C)C"
+  },
+  {
+   "compound": "5-[(1R)-1-methoxyethyl]-1,7-dimethyl-9,10-dihydrophenanthrene-2,6-diol",
+   "smiles": "OC=1C=CC=2C3=C(C=C(C(O)=C3C(OC)C)C)CCC2C1C"
+  },
+  {
+   "compound": "(1S,2S)-4,8-dimethyl-1,2,6,7-tetrahydronaphtho[1,2-e][1]benzofuran-1,2,9-triol",
+   "smiles": "OC=1C=CC=2C3=C(C=C(C=4OC(O)C(O)C43)C)CCC2C1C"
+  },
+  {
+   "compound": "1-methylpyrene-2,7-diol",
+   "smiles": "OC1=CC2=CC=C3C=C(O)C(=C4C=CC(=C1)C2=C34)C"
+  },
+  {
+   "compound": "7-methoxy-6-methylpyren-2-ol",
+   "smiles": "OC1=CC2=CC=C3C=C(OC)C(=C4C=CC(=C1)C2=C34)C"
+  },
+  {
+   "compound": "(1S,2R,4bR,7R,8aR,10aR)-7-[(1S)-1,2-dihydroxyethyl]-2-hydroxy-1-(hydroxymethyl)-1,4b,7-trimethyl-2,5,6,8,8a,9,10,10a-octahydrophenanthren-3-one",
+   "smiles": "O=C1C=C2C(CCC3CC(C)(CCC23C)C(O)CO)C(C)(CO)C1O"
+  },
+  {
+   "compound": "Jucunone",
+   "smiles": "O=C(C1=C(O)C(=CC=2C=3C(=CC=C(O)C3C)CCC21)C)C"
+  },
+  {
+   "compound": "2,7-dihydroxy-8-methylphenanthrene-4-carbaldehyde",
+   "smiles": "O=CC1=CC(O)=CC2=CC=C3C(C=CC(O)=C3C)=C12"
+  },
+  {
+   "compound": "4-Ethenyl-7-hydroxy-8-methyl-9,10-dihydrophenanthrene-2-carboxylic acid",
+   "smiles": "O=C(O)C1=CC(C=C)=C2C=3C=CC(O)=C(C3CCC2=C1)C"
+  },
+  {
+   "compound": "7-Hydroxy-2-methoxy-1,8-dimethyl-9,10-dihydrophenanthrene-4-carbaldehyde",
+   "smiles": "O=CC=1C=C(OC)C(=C2C1C=3C=CC(O)=C(C3CC2)C)C"
+  },
+  {
+   "compound": "3-Acetyloxycycloart-25-en-24-one",
+   "smiles": "O=C(OC1CCC23CC43CCC5(C)C(CCC5(C)C4CCC2C1(C)C)C(C)CCC(=O)C(=C)C)C"
+  },
+  {
+   "compound": "1,7-Dimethyl-5-(hydroxymethyl)-9,10-dihydrophenanthren-2-ol",
+   "smiles": "OC=1C=CC=2C3=C(C=C(C=C3CCC2C1C)C)CO"
+  },
+  {
+   "compound": "Effuside I",
+   "smiles": "OC=1C=CC=2C3=C(C=C(OC)C(=C3CCC2C1C)C)COC4OC(CO)C(O)C(O)C4O"
+  },
+  {
+   "compound": "1,8-Dimethyl-5-(hydroxymethyl)-9,10-dihydrophenanthrene-2,7-diol",
+   "smiles": "OC=1C=CC=2C3=C(C=C(O)C(=C3CCC2C1C)C)CO"
+  },
+  {
+   "compound": "3beta-Acetoxycycloartane-24-one",
+   "smiles": "O=C(OC1CCC23CC43CCC5(C)C(CCC5(C)C4CCC2C1(C)C)C(C)CCC(=O)C(C)C)C"
+  },
+  {
+   "compound": "4-[(1S)-1-hydroxyethyl]-1,8-dimethyl-9,10-dihydrophenanthrene-2,7-diol",
+   "smiles": "OC=1C=CC=2C3=C(C=C(O)C(=C3CCC2C1C)C)C(O)C"
+  },
+  {
+   "compound": "1-O-(4-Hydroxycinnamoyl)-L-glycerol",
+   "smiles": "O=C(OCC(O)CO)C=CC1=CC=C(O)C=C1"
+  },
+  {
+   "compound": "5-(hydroxymethyl)-1-methylphenanthrene-2,7-diol",
+   "smiles": "OC1=CC2=CC=C3C(C=CC(O)=C3C)=C2C(=C1)CO"
+  },
+  {
+   "compound": "7-(Hydroxymethyl)-1-methyl-5-vinyl-9,10-dihydrophenanthren-2-ol",
+   "smiles": "OC=1C=CC=2C3=C(C=C)C=C(C=C3CCC2C1C)CO"
+  },
+  {
+   "compound": "aldehydo-D-galactose",
+   "smiles": "C(C(C(C(C(C=O)O)O)O)O)O"
+  },
+  {
+   "compound": "aldehydo-D-glucose",
+   "smiles": "C(C(C(C(C(C=O)O)O)O)O)O"
+  },
+  {
+   "compound": "4-coumaric acid",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)O)O"
+  },
+  {
+   "compound": "DL-methionine",
+   "smiles": "CSCCC(C(=O)O)N"
+  },
+  {
+   "compound": "1,7-Dimethyl-9,10-dihydrophenanthrene-2,6-diol",
+   "smiles": "CC1=CC2=C(C=C1O)C3=C(CC2)C(=C(C=C3)O)C"
+  },
+  {
+   "compound": "5-Ethenyl-1-methylphenanthrene-2,7-diol",
+   "smiles": "CC1=C(C=CC2=C1C=CC3=CC(=CC(=C32)C=C)O)O"
+  },
+  {
+   "compound": "2,6-Phenanthrenediol, 5-ethenyl-9,10-dihydro-1,7-dimethyl-",
+   "smiles": "CC1=CC2=C(C3=C(CC2)C(=C(C=C3)O)C)C(=C1O)C=C"
+  },
+  {
+   "compound": "2,7-Phenanthrenediol, 4-ethenyl-9,10-dihydro-1,8-dimethyl-",
+   "smiles": "CC1=C(C=CC2=C1CCC3=C2C(=CC(=C3C)O)C=C)O"
+  },
+  {
+   "compound": "L-glutamic acid",
+   "smiles": "C(CC(=O)O)C(C(=O)O)N"
+  },
+  {
+   "compound": "L-arginine",
+   "smiles": "C(CC(C(=O)O)N)CN=C(N)N"
+  },
+  {
+   "compound": "nobiletin",
+   "smiles": "COC1=C(C=C(C=C1)C2=CC(=O)C3=C(O2)C(=C(C(=C3OC)OC)OC)OC)OC"
+  },
+  {
+   "compound": "quercetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O"
+  },
+  {
+   "compound": "L-serine",
+   "smiles": "C(C(C(=O)O)N)O"
+  },
+  {
+   "compound": "rutinose",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "6-demethoxytangeretin",
+   "smiles": "COC1=CC=C(C=C1)C2=CC(=O)C3=C(O2)C(=C(C=C3OC)OC)OC"
+  },
+  {
+   "compound": "DL-tryptophan",
+   "smiles": "C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N"
+  },
+  {
+   "compound": "α-spinasterin",
+   "smiles": "CCC(C=CC(C)C1CCC2C1(CCC3C2=CCC4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "4-Ethenyl-3,8-dimethyl-9,10-dihydrophenanthrene-1,7-diol",
+   "smiles": "CC1=CC(=C2CCC3=C(C2=C1C=C)C=CC(=C3C)O)O"
+  },
+  {
+   "compound": "D-glucopyranose",
+   "smiles": "C(C1C(C(C(C(O1)O)O)O)O)O"
+  },
+  {
+   "compound": "Effusol",
+   "smiles": "CC1=C(C=CC2=C1CCC3=C2C(=CC(=C3)O)C=C)O"
+  },
+  {
+   "compound": "DL-alanine",
+   "smiles": "CC(C(=O)O)N"
+  },
+  {
+   "compound": "β-alanine",
+   "smiles": "C(CN)C(=O)O"
+  },
+  {
+   "compound": "(E)-p-coumaric acid",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)O)O"
+  },
+  {
+   "compound": "DL-valine",
+   "smiles": "CC(C)C(C(=O)O)N"
+  },
+  {
+   "compound": "glycine",
+   "smiles": "C(C(=O)O)N"
+  },
+  {
+   "compound": "sucrose",
+   "smiles": "C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O"
+  }
+ ]
+}

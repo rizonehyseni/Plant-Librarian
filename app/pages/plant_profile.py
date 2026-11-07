@@ -184,8 +184,9 @@ if not IUCN_TOKEN and not any(flags.kind == "conservation"):
 
 # ---------------------------------------------------------------- 4 maps
 st.write("")
-section("map", "Where the study took place",
-        "The paper reports a study region, not a village for each plant record. The marker is approximate.")
+section("map", "Where the uses were recorded",
+        "Green pin: the record names a village or town. Grey pin: the study names only its region, so the marker "
+        "is approximate.")
 import folium  # noqa: E402
 from streamlit_folium import st_folium  # noqa: E402
 
@@ -197,11 +198,12 @@ else:
     center = [float(use_points.lat.mean()), float(use_points.lon.mean())]
     use_map = folium.Map(location=center, zoom_start=8, tiles=TILES)
     for _, u in use_points.drop_duplicates(subset=["lat", "lon"]).iterrows():
-        location = u.place or u.location or "Sharr Mountains study area"
+        location = u.place or u.location or "Study area"
+        exact = u.geo_precision == "record"
         folium.Marker(
             [u.lat, u.lon], tooltip=location,
-            popup=f"Approximate study-area location: {location}",
-            icon=folium.Icon(color="darkgreen", icon="leaf", prefix="fa"),
+            popup=f"{'Village or town named in the record' if exact else 'Approximate study-area location'}: {location}",
+            icon=folium.Icon(color="darkgreen" if exact else "gray", icon="leaf", prefix="fa"),
         ).add_to(use_map)
     st_folium(use_map, height=380, use_container_width=True, key="study-area-map-v2")
 
@@ -228,7 +230,10 @@ with st.expander("Sources, methods, and current limits", icon=":material/menu_bo
     plant_sources = demo_sources[demo_sources.doc_id.isin(used_doc_ids)]
     for _, source in plant_sources.iterrows():
         st.markdown(f"**[{source.title}]({source.url})**  ·  {source.citation}  ·  Licence: {source.licence}")
-    st.caption(f"This dataset contains {len(uses)} medicinal-use reports from Table 1 of the 2015 Sharr Mountains paper. Records are labelled by the community reported in the table and matched to a PDF page. The paper reports 114 medicinal taxa overall; its separate food and handicraft tables are not loaded here. These are traditional-use reports, not proof of medical effectiveness.")
+    st.caption(f"The library holds {len(uses)} medicinal-use reports from {uses.doc_id.nunique()} "
+               f"stud{'y' if uses.doc_id.nunique() == 1 else 'ies'}. Each record keeps its study page and quote; "
+               "Sharr Mountains records come from Table 1 of the 2015 paper and are labelled by community. Food and "
+               "handicraft tables are not loaded. These are traditional-use reports, not proof of medical effectiveness.")
 
 # Release the SQLite file between Streamlit reruns so the offline build can rebuild it on Windows.
 conn.close()

@@ -1,0 +1,117 @@
+{
+ "key": "Typha latifolia",
+ "value": [
+  {
+   "compound": "(+)-catechin",
+   "smiles": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O"
+  },
+  {
+   "compound": "typhasterol",
+   "smiles": "CC(C)C(C)C(C(C(C)C1CCC2C1(CCC3C2CC(=O)C4C3(CCC(C4)O)C)C)O)O"
+  },
+  {
+   "compound": "5-caffeoylshikimic acid",
+   "smiles": "C1C(C(C(C=C1C(=O)O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O"
+  },
+  {
+   "compound": "taraxasterol",
+   "smiles": "CC1C2C3CCC4C5(CCC(C(C5CCC4(C3(CCC2(CCC1=C)C)C)C)(C)C)O)C"
+  },
+  {
+   "compound": "beta-sitosterol",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "(−)-epicatechin",
+   "smiles": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O"
+  },
+  {
+   "compound": "(8S,9S,10R,13R,14S,17R)-17-(5-ethyl-6-methylheptan-2-yl)-3-hydroxy-10,13-dimethyl-1,2,3,4,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-7-one",
+   "smiles": "O=C1C=C2CC(O)CCC2(C)C3CCC4(C)C(CCC4C13)C(C)CCC(CC)C(C)C"
+  },
+  {
+   "compound": "(20S)-4alpha-Methyl-24-methylene-5alpha-cholest-7-en-3beta-ol",
+   "smiles": "OC1CCC2(C)C3C(=CCC2C1C)C4CCC(C(C)CCC(=C)C(C)C)C4(C)CC3"
+  },
+  {
+   "compound": "(3R,5S,8S,9S,10R,13R,14S,17R)-17-[(2S,3R,4R,5S)-3,4-dihydroxy-5,6-dimethylheptan-2-yl]-3-hydroxy-10,13-dimethyl-1,2,3,4,5,7,8,9,11,12,14,15,16,17-tetradecahydrocyclopenta[a]phenanthren-6-one",
+   "smiles": "O=C1CC2C3CCC(C(C)C(O)C(O)C(C)C(C)C)C3(C)CCC2C4(C)CCC(O)CC14"
+  },
+  {
+   "compound": "17-(3,4-Dihydroxy-5,6-dimethylheptan-2-yl)-3-hydroxy-10,13-dimethyl-1,2,3,4,5,7,8,9,11,12,14,15,16,17-tetradecahydrocyclopenta[a]phenanthren-6-one",
+   "smiles": "O=C1CC2C3CCC(C(C)C(O)C(O)C(C)C(C)C)C3(C)CCC2C4(C)CCC(O)CC14"
+  },
+  {
+   "compound": "5,8-Epidioxy-5beta-ergosta-6,22-diene-3beta-ol",
+   "smiles": "OC1CCC2(C)C3CCC4(C)C(CCC4C53OOC2(C=C5)C1)C(C=CC(C)C(C)C)C"
+  },
+  {
+   "compound": "5-Hydroxy-2-(4-hydroxy-3-methoxyphenyl)-7-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxy-3-[3,4,5-trihydroxy-6-[(3,4,5-trihydroxy-6-methyloxan-2-yl)oxymethyl]oxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(COC3OC(C)C(O)C(O)C3O)C(O)C(O)C2O)=C(OC4=CC(OC5OC(C)C(O)C(O)C5O)=CC(O)=C14)C=6C=CC(O)=C(OC)C6"
+  },
+  {
+   "compound": "5,7-dihydroxy-3-methoxy-2-[3-methoxy-4-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]chromen-4-one",
+   "smiles": "O=C1C(OC)=C(OC=2C=C(O)C=C(O)C12)C=3C=CC(OC4OC(CO)C(O)C(O)C4O)=C(OC)C3"
+  },
+  {
+   "compound": "Quercetin 3-neohesperidoside",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C(O)C2OC3OC(C)C(O)C(O)C3O)=C(OC=4C=C(O)C=C(O)C14)C=5C=CC(O)=C(O)C5"
+  },
+  {
+   "compound": "24-methylenecholesterol",
+   "smiles": "CC(C)C(=C)CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C"
+  },
+  {
+   "compound": "lupeol",
+   "smiles": "CC(=C)C1CCC2(C1C3CCC4C5(CCC(C(C5CCC4(C3(CC2)C)C)(C)C)O)C)C"
+  },
+  {
+   "compound": "ergosterol endoperoxide",
+   "smiles": "CC(C)C(C)C=CC(C)C1CCC2C1(CCC3C24C=CC5(C3(CCC(C5)O)C)OO4)C"
+  },
+  {
+   "compound": "5a,8a-Epidioxyergosta-6,9(11),22-trien-3",
+   "smiles": "OC1CCC2(C3=CCC4(C)C(CCC4C53OOC2(C=C5)C1)C(C=CC(C)C(C)C)C)C"
+  },
+  {
+   "compound": "campesterol",
+   "smiles": "CC(C)C(C)CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C"
+  },
+  {
+   "compound": "β-amyrin",
+   "smiles": "CC1(CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1)C)C)C"
+  },
+  {
+   "compound": "taraxasterol",
+   "smiles": "OC1CCC2(C)C(CCC3(C)C2CCC4C5C(C(=C)CCC5(C)CCC43C)C)C1(C)C"
+  },
+  {
+   "compound": "(6S,9R)-vomifoliol",
+   "smiles": "CC1=CC(=O)CC(C1(C=CC(C)O)O)(C)C"
+  },
+  {
+   "compound": "stigmasterol",
+   "smiles": "CCC(C=CC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "cholesterol",
+   "smiles": "CC(C)CCCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C"
+  },
+  {
+   "compound": "α-amyrin",
+   "smiles": "CC1CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1C)C)C"
+  },
+  {
+   "compound": "isofucosterol",
+   "smiles": "CC=C(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "beta-sitostenone",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CCC4=CC(=O)CCC34C)C)C(C)C"
+  },
+  {
+   "compound": "afzelechin",
+   "smiles": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC=C(C=C3)O)O"
+  }
+ ]
+}

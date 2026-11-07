@@ -1,0 +1,153 @@
+{
+ "key": "Symphytum officinale",
+ "value": [
+  {
+   "compound": "hederagenin 3-O-arabinoside",
+   "smiles": "CC1(CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)CO)OC6C(C(C(CO6)O)O)O)C)C)C2C1)C)C(=O)O)C"
+  },
+  {
+   "compound": "intermedine",
+   "smiles": "CC(C)C(C(C)O)(C(=O)OCC1=CCN2C1C(CC2)O)O"
+  },
+  {
+   "compound": "myoscorpine",
+   "smiles": "CC=C(C)C(=O)OC1CCN2C1C(=CC2)COC(=O)C(C(C)C)(C(C)O)O"
+  },
+  {
+   "compound": "7-angelylretronecine",
+   "smiles": "CC=C(C)C(=O)OC1CCN2C1C(=CC2)CO"
+  },
+  {
+   "compound": "cauloside D",
+   "smiles": "CC1C(C(C(C(O1)OC2C(OC(C(C2O)O)OCC3C(C(C(C(O3)OC(=O)C45CCC(CC4C6=CCC7C8(CCC(C(C8CCC7(C6(CC5)C)C)(C)CO)OC9C(C(C(CO9)O)O)O)C)(C)C)O)O)O)CO)O)O)O"
+  },
+  {
+   "compound": "beta-sitosterol",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "(E)-chlorogenic acid",
+   "smiles": "C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "(7-hydroxy-5,6,7,8-tetrahydro-3H-pyrrolizin-1-yl)methyl 2-methylbut-2-enoate",
+   "smiles": "O=C(OCC1=CCN2CCC(O)C12)C(=CC)C"
+  },
+  {
+   "compound": "[(7R,8R)-7-[(Z)-2-methylbut-2-enoyl]oxy-5,6,7,8-tetrahydro-3H-pyrrolizin-1-yl]methyl (2S)-2,3-dihydroxy-2-[(1S)-1-hydroxyethyl]-3-methylbutanoate",
+   "smiles": "O=C(OC1CCN2CC=C(COC(=O)C(O)(C(O)C)C(O)(C)C)C21)C(=CC)C"
+  },
+  {
+   "compound": "Intermedine N-oxide",
+   "smiles": "O=C(OCC1=CC[N+]2([O-])CCC(O)C12)C(O)(C(O)C)C(C)C"
+  },
+  {
+   "compound": "Lycopsamine N-oxide",
+   "smiles": "O=C(OCC1=CC[N+]2([O-])CCC(O)C12)C(O)(C(O)C)C(C)C"
+  },
+  {
+   "compound": "Symlandine N-oxide",
+   "smiles": "O=C(OC1CC[N+]2([O-])CC=C(COC(=O)C(O)(C(O)C)C(C)C)C12)C(=CC)C"
+  },
+  {
+   "compound": "Cauloside D",
+   "smiles": "O=C(OC1OC(COC2OC(CO)C(OC3OC(C)C(O)C(O)C3O)C(O)C2O)C(O)C(O)C1O)C45CCC(C)(C)CC5C6=CCC7C8(C)CCC(OC9OCC(O)C(O)C9O)C(C)(CO)C8CCC7(C)C6(C)CC4"
+  },
+  {
+   "compound": "[(7R,8R)-7-(2,3-dimethylbut-2-enoyloxy)-5,6,7,8-tetrahydro-3H-pyrrolizin-1-yl]methyl (2R)-2-hydroxy-2-[(1S)-1-hydroxyethyl]-3-methylbutanoate",
+   "smiles": "O=C(OC1CCN2CC=C(COC(=O)C(O)(C(O)C)C(C)C)C21)C(=C(C)C)C"
+  },
+  {
+   "compound": "(3S,4aR,6aS,6bS,8aS,11R,12S,12aR,14bS)-4,4,6a,6b,8a,11,12,14b-octamethyl-2,3,4a,5,6,7,8,9,10,11,12,12a,13,14-tetradecahydro-1H-picen-3-ol",
+   "smiles": "OC1CCC2(C3=C(CCC2C1(C)C)C4(C)CCC5(C)CCC(C)C(C)C5C4(C)CC3)C"
+  },
+  {
+   "compound": "(3S,8R,9S,10R,13R,14R,17S)-17-[(2R,5R)-5-ethyl-6-methylheptan-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol",
+   "smiles": "OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C)CCC(CC)C(C)C)C2(C)CC1"
+  },
+  {
+   "compound": "Q105291613",
+   "smiles": "O=C(OC1OC(COC2OC(CO)C(OC3OC(C)C(O)C(O)C3O)C(O)C2O)C(O)C(O)C1O)C45CCC(C)(C)CC5C6=CCC7C8(C)CCC(OC9OCC(OC%10OC(CO)C(O)C(O)C%10O)C(O)C9O)C(C)(CO)C8CCC7(C)C6(C)CC4"
+  },
+  {
+   "compound": "Q104992987",
+   "smiles": "O=C(O)C12CCC(C)(C)CC2C3=CCC4C5(C)CCC(OC6OCC(OC7OC(CO)C(O)C(O)C7OC8OC(CO)C(O)C(O)C8O)C(O)C6O)C(C)(CO)C5CCC4(C)C3(C)CC1"
+  },
+  {
+   "compound": "Q105283223",
+   "smiles": "O=C(OC1OC(COC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O)C34CCC(C)(C)CC4C5=CCC6C7(C)CCC(OC8OCC(OC9OC(CO)C(O)C(O)C9O)C(O)C8O)C(C)(CO)C7CCC6(C)C5(C)CC3"
+  },
+  {
+   "compound": "[(7R,8R)-7-(2-methylbut-2-enoyloxy)-5,6,7,8-tetrahydro-3H-pyrrolizin-1-yl]methyl (2S)-2-hydroxy-2-[(1S)-1-hydroxyethyl]-3-methylbutanoate",
+   "smiles": "O=C(OC1CCN2CC=C(COC(=O)C(O)(C(O)C)C(C)C)C21)C(=CC)C"
+  },
+  {
+   "compound": "[7-(2-methylbut-2-enoyloxy)-5,6,7,8-tetrahydro-3H-pyrrolizin-1-yl]methyl 2-hydroxy-2-(1-hydroxyethyl)-3-methylbutanoate",
+   "smiles": "O=C(OC1CCN2CC=C(COC(=O)C(O)(C(O)C)C(C)C)C21)C(=CC)C"
+  },
+  {
+   "compound": "Symphytoxide A",
+   "smiles": "O=C(O)C12CCC(C)(C)CC2C3=CCC4C5(C)CCC(OC6OCC(O)C(OC7OC(CO)C(O)C(O)C7O)C6OC8OC(CO)C(O)C(O)C8O)C(C)(CO)C5CCC4(C)C3(C)CC1"
+  },
+  {
+   "compound": "3beta-(alpha-L-Arabinopyranosyloxy)-23-hydroxyolean-12-en-28-oic acid 6-O-(4-O-beta-D-glucopyranosyl-beta-D-glucopyranosyl)-beta-D-glucopyranosyl ester",
+   "smiles": "O=C(OC1OC(COC2OC(CO)C(OC3OC(CO)C(O)C(O)C3O)C(O)C2O)C(O)C(O)C1O)C45CCC(C)(C)CC5C6=CCC7C8(C)CCC(OC9OCC(O)C(O)C9O)C(C)(CO)C8CCC7(C)C6(C)CC4"
+  },
+  {
+   "compound": "Echiupinine (7-senecioylintermedine)",
+   "smiles": "O=C(OC1CCN2CC=C(COC(=O)C(O)(C(O)C)C(C)C)C21)C=C(C)C"
+  },
+  {
+   "compound": "Acetylintermedine",
+   "smiles": "CC(C)C(C(C)O)(C(=O)OCC1=CCN2C1C(CC2)OC(=O)C)O"
+  },
+  {
+   "compound": "trans-caffeic acid",
+   "smiles": "C1=CC(=C(C=C1C=CC(=O)O)O)O"
+  },
+  {
+   "compound": "allantoin",
+   "smiles": "C1(C(=O)NC(=O)N1)NC(=O)N"
+  },
+  {
+   "compound": "Symlandine",
+   "smiles": "CC=C(C)C(=O)OC1CCN2C1C(=CC2)COC(=O)C(C(C)C)(C(C)O)O"
+  },
+  {
+   "compound": "(S)-rosmarinic acid",
+   "smiles": "C1=CC(=C(C=C1CC(C(=O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "lycopsamine",
+   "smiles": "CC(C)C(C(C)O)(C(=O)OCC1=CCN2C1C(CC2)O)O"
+  },
+  {
+   "compound": "symphytine",
+   "smiles": "CC=C(C)C(=O)OC1CCN2C1C(=CC2)COC(=O)C(C(C)C)(C(C)O)O"
+  },
+  {
+   "compound": "symphytine N-oxide",
+   "smiles": "CC=C(C)C(=O)OC1CC[N+]2(C1C(=CC2)COC(=O)C(C(C)C)(C(C)O)O)[O-]"
+  },
+  {
+   "compound": "Acetyllycopsamine",
+   "smiles": "CC(C)C(C(C)O)(C(=O)OCC1=CCN2C1C(CC2)OC(=O)C)O"
+  },
+  {
+   "compound": "campesterol",
+   "smiles": "CC(C)C(C)CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C"
+  },
+  {
+   "compound": "caffeic acid",
+   "smiles": "OC(=O)C=Cc1ccc(O)c(O)c1"
+  },
+  {
+   "compound": "echimidine",
+   "smiles": "CC=C(C)C(=O)OC1CCN2C1C(=CC2)COC(=O)C(C(C)O)(C(C)(C)O)O"
+  },
+  {
+   "compound": "cholesterol",
+   "smiles": "CC(C)CCCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "key": "Prunus spinosa L.",
+ "value": {
+  "usageKey": 3023221,
+  "scientificName": "Prunus spinosa L.",
+  "canonicalName": "Prunus spinosa",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Rosales",
+  "family": "Rosaceae",
+  "genus": "Prunus",
+  "species": "Prunus spinosa",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 691,
+  "familyKey": 5015,
+  "genusKey": 3020559,
+  "speciesKey": 3023221,
+  "class": "Magnoliopsida"
+ }
+}

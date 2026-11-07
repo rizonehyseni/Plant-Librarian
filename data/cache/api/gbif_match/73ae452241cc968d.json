@@ -1,0 +1,26 @@
+{
+ "key": "Pimpinella anisum L.",
+ "value": {
+  "usageKey": 8080300,
+  "scientificName": "Pimpinella anisum L.",
+  "canonicalName": "Pimpinella anisum",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Apiales",
+  "family": "Apiaceae",
+  "genus": "Pimpinella",
+  "species": "Pimpinella anisum",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 1351,
+  "familyKey": 6720,
+  "genusKey": 3034784,
+  "speciesKey": 8080300,
+  "class": "Magnoliopsida"
+ }
+}

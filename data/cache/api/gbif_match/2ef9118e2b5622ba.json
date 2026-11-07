@@ -1,0 +1,26 @@
+{
+ "key": "Teucrium chamaedrys L.",
+ "value": {
+  "usageKey": 6411747,
+  "scientificName": "Teucrium chamaedrys L.",
+  "canonicalName": "Teucrium chamaedrys",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "genus": "Teucrium",
+  "species": "Teucrium chamaedrys",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 408,
+  "familyKey": 2497,
+  "genusKey": 2926895,
+  "speciesKey": 6411747,
+  "class": "Magnoliopsida"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "key": "Achillea millefolium L.",
+ "value": {
+  "usageKey": 3120060,
+  "scientificName": "Achillea millefolium L.",
+  "canonicalName": "Achillea millefolium",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Asterales",
+  "family": "Asteraceae",
+  "genus": "Achillea",
+  "species": "Achillea millefolium",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 414,
+  "familyKey": 3065,
+  "genusKey": 3119995,
+  "speciesKey": 3120060,
+  "class": "Magnoliopsida"
+ }
+}

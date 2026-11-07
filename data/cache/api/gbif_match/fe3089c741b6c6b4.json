@@ -1,0 +1,26 @@
+{
+ "key": "Ocimum basilicum L.",
+ "value": {
+  "usageKey": 2927096,
+  "scientificName": "Ocimum basilicum L.",
+  "canonicalName": "Ocimum basilicum",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "genus": "Ocimum",
+  "species": "Ocimum basilicum",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 408,
+  "familyKey": 2497,
+  "genusKey": 2874693,
+  "speciesKey": 2927096,
+  "class": "Magnoliopsida"
+ }
+}

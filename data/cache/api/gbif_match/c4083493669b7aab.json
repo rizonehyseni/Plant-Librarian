@@ -1,0 +1,27 @@
+{
+ "key": "Mentha longifolia (L.) Huds.",
+ "value": {
+  "usageKey": 2927177,
+  "acceptedUsageKey": 7510173,
+  "scientificName": "Mentha longifolia (L.) Huds.",
+  "canonicalName": "Mentha longifolia",
+  "rank": "SPECIES",
+  "status": "SYNONYM",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "genus": "Mentha",
+  "species": "Mentha longifolia",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 408,
+  "familyKey": 2497,
+  "genusKey": 2927173,
+  "speciesKey": 7510173,
+  "class": "Magnoliopsida"
+ }
+}

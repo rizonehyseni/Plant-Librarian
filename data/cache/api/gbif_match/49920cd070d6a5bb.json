@@ -1,0 +1,26 @@
+{
+ "key": "Mentha pulegium L.",
+ "value": {
+  "usageKey": 2927189,
+  "scientificName": "Mentha pulegium L.",
+  "canonicalName": "Mentha pulegium",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "genus": "Mentha",
+  "species": "Mentha pulegium",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 408,
+  "familyKey": 2497,
+  "genusKey": 2927173,
+  "speciesKey": 2927189,
+  "class": "Magnoliopsida"
+ }
+}

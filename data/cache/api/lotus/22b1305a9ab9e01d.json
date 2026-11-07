@@ -1,0 +1,29 @@
+{
+ "key": "Thymus serpyllum",
+ "value": [
+  {
+   "compound": "thymol",
+   "smiles": "CC1=CC(=C(C=C1)C(C)C)O"
+  },
+  {
+   "compound": "ursolic acid",
+   "smiles": "CC1CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1C)C)C(=O)O"
+  },
+  {
+   "compound": "chromium",
+   "smiles": "[Cr]"
+  },
+  {
+   "compound": "trans-caffeic acid",
+   "smiles": "C1=CC(=C(C=C1C=CC(=O)O)O)O"
+  },
+  {
+   "compound": "(R)-rosmarinic acid",
+   "smiles": "C1=CC(=C(C=C1CC(C(=O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "alpha-terpineol",
+   "smiles": "CC1=CCC(CC1)C(C)(C)O"
+  }
+ ]
+}
