@@ -11,6 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # app/ for ui.py
 from pipeline import config, extract  # noqa: E402
 from pipeline.add_study import add_study, slugify  # noqa: E402
 from pipeline.db import connect  # noqa: E402
+from i18n import t  # noqa: E402
 from ui import page_header, section  # noqa: E402
 
 page_header("upload_file", "Curation", "Add a study",
@@ -18,7 +19,7 @@ page_header("upload_file", "Curation", "Add a study",
             "names are matched, and every record lands on the map with its page and quote.")
 
 if not config.DB_PATH.exists():
-    st.error("No database yet. Run `make build` first, then reopen this page.", icon=":material/database:")
+    st.error(t("No database yet. Run `make build` first, then reopen this page."), icon=":material/database:")
     st.stop()
 
 if extract.provider() is None or config.OFFLINE:
@@ -35,25 +36,25 @@ with open(config.SEED / "places.csv", encoding="utf-8") as f:
 areas = [p["place"] for p in places if p["kind"] == "region"] + [p["place"] for p in places if p["kind"] != "region"]
 
 with st.form("add-study", border=True):
-    upload = st.file_uploader("Study file", type=["pdf", "txt"],
+    upload = st.file_uploader(t("Study file"), type=["pdf", "txt"],
                               help="An open-access PDF with selectable text, or a plain-text file.")
     left, right = st.columns(2)
-    title = left.text_input("Title", placeholder="Medicinal plants of the Rugova highlands")
-    doc_id = right.text_input("Short id (optional)", placeholder="mustafa2012",
+    title = left.text_input(t("Title"), placeholder="Medicinal plants of the Rugova highlands")
+    doc_id = right.text_input(t("Short id (optional)"), placeholder="mustafa2012",
                               help="Used as the file name. Taken from the title if empty.")
-    citation = st.text_input("Citation", placeholder="Author A, Author B. Journal. Year;Vol:Pages. doi:…")
+    citation = st.text_input(t("Citation"), placeholder="Author A, Author B. Journal. Year;Vol:Pages. doi:…")
     left, right = st.columns(2)
-    url = left.text_input("Link to the study", placeholder="https://…")
-    licence = right.text_input("Licence", placeholder="CC BY 4.0")
-    study_area = st.selectbox("Study area", areas, index=areas.index("Malet e Sharrit") if "Malet e Sharrit" in areas else 0,
-                              help="Records that name no village are put here on the map.")
+    url = left.text_input(t("Link to the study"), placeholder="https://…")
+    licence = right.text_input(t("Licence"), placeholder="CC BY 4.0")
+    study_area = st.selectbox(t("Study area"), areas, index=areas.index("Malet e Sharrit") if "Malet e Sharrit" in areas else 0,
+                              help=t("Records that name no village are put here on the map."))
     st.caption(":material/info: Check that the licence allows reuse. The file is saved to `data/raw/` and the "
                "study to `data/seed/sources.csv`, so `make build` reproduces it.")
-    submitted = st.form_submit_button("Read the study", icon=":material/auto_stories:", type="primary")
+    submitted = st.form_submit_button(t("Read the study"), icon=":material/auto_stories:", type="primary")
 
 if submitted:
     if upload is None or not (title or doc_id):
-        st.error("Choose a file and give the study a title.")
+        st.error(t("Choose a file and give the study a title."))
         st.stop()
     meta = {"doc_id": doc_id or title, "title": title or doc_id, "citation": citation, "url": url,
             "licence": licence, "study_area": study_area}
@@ -81,10 +82,10 @@ if doc:
     st.success(f"**{doc}** added: {len(rows)} records, {rows.species.nunique()} plants, "
                f"{len(new_species)} new to the library.", icon=":material/check_circle:")
     a, b, c, d = st.columns(4)
-    a.metric("Records", len(rows))
-    b.metric("Plants", rows.species.nunique())
-    c.metric("New plants", len(new_species))
-    d.metric("Placed by village", int((rows.geo_precision == "record").sum()))
+    a.metric(t("Records"), len(rows))
+    b.metric(t("Plants"), rows.species.nunique())
+    c.metric(t("New plants"), len(new_species))
+    d.metric(t("Placed by village"), int((rows.geo_precision == "record").sum()))
 
     section("map", "Where the new records were made",
             "Green: the record names a village or town. Grey: only the study area is known.")

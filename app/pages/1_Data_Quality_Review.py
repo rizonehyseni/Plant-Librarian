@@ -21,13 +21,14 @@ from pipeline.quality import (  # noqa: E402
     issue_messages,
     save_review,
 )
+from i18n import t  # noqa: E402
 from ui import page_header, section  # noqa: E402
 
 page_header("fact_check", "Curation", "Data quality review",
             "Check extracted records against the paper, fix them, and mark them verified. Every change is stored in SQLite with an audit trail.")
 
 if not DB_PATH.exists():
-    st.error("No database yet. Run `make build` first, then reopen this page.")
+    st.error(t("No database yet. Run `make build` first, then reopen this page."))
     st.stop()
 
 conn = connect()
@@ -45,20 +46,20 @@ metric_labels = [
     ("Unresolved names", "unresolved_names"), ("No specific location", "without_specific_locations"),
 ]
 for column, (label, key) in zip(st.columns(4), metric_labels[:4]):
-    column.metric(label, metrics[key], border=True)
+    column.metric(t(label), metrics[key], border=True)
 for column, (label, key) in zip(st.columns(3), metric_labels[4:]):
-    column.metric(label, metrics[key], border=True)
+    column.metric(t(label), metrics[key], border=True)
 
 st.divider()
 section("checklist", "Review queue")
 filter_columns = st.columns(3)
 with filter_columns[0]:
-    status_filter = st.selectbox("Review status", ["All", *REVIEW_STATUSES])
+    status_filter = st.selectbox(t("Review status"), ["All", *REVIEW_STATUSES], format_func=t)
 with filter_columns[1]:
     species_options = sorted({record["species"] for record in records if record.get("species")})
-    species_filter = st.selectbox("Plant species", ["All", *species_options])
+    species_filter = st.selectbox(t("Plant species"), ["All", *species_options], format_func=t)
 with filter_columns[2]:
-    issue_filter = st.selectbox("Data quality issue", ["All", *ISSUE_LABELS])
+    issue_filter = st.selectbox(t("Data quality issue"), ["All", *ISSUE_LABELS], format_func=t)
 
 filtered = filter_records(
     records,
@@ -85,38 +86,38 @@ st.dataframe(pd.DataFrame(table_rows), hide_index=True, width="stretch", height=
 
 record_by_id = {record["id"]: record for record in filtered}
 if not record_by_id:
-    st.info("No records match these filters.")
+    st.info(t("No records match these filters."))
     conn.close()
     st.stop()
 
 st.divider()
 section("edit_note", "Inspect and review a record")
 selected_id = st.selectbox(
-    "Select record", list(record_by_id),
+    t("Select record"), list(record_by_id),
     format_func=lambda record_id: f"#{record_id} · {record_by_id[record_id].get('local_name') or 'Unnamed'} · {record_by_id[record_id].get('species') or 'Unresolved'}",
 )
 selected = record_by_id[selected_id]
 if findings[selected_id]:
     st.warning(" | ".join(issue_messages(findings[selected_id])))
 else:
-    st.success("No automatic data-quality warnings for this record.")
+    st.success(t("No automatic data-quality warnings for this record."))
 
 with st.form("review-record"):
     form_columns = st.columns(2)
     with form_columns[0]:
-        local_name = st.text_input("Local plant name", value=selected.get("local_name") or "")
-        species = st.text_input("Scientific plant name", value=selected.get("species") or "")
-        plant_part = st.text_input("Plant part", value=selected.get("part_used") or "")
-        preparation = st.text_input("Preparation", value=selected.get("preparation") or "")
-        traditional_use = st.text_area("Traditional use", value=selected.get("use") or "")
+        local_name = st.text_input(t("Local plant name"), value=selected.get("local_name") or "")
+        species = st.text_input(t("Scientific plant name"), value=selected.get("species") or "")
+        plant_part = st.text_input(t("Plant part"), value=selected.get("part_used") or "")
+        preparation = st.text_input(t("Preparation"), value=selected.get("preparation") or "")
+        traditional_use = st.text_area(t("Traditional use"), value=selected.get("use") or "")
     with form_columns[1]:
-        location = st.text_input("Recorded location", value=selected.get("location") or "")
-        page = st.text_input("Source page", value=str(selected.get("page") or ""))
-        origin = st.selectbox("Record origin", RECORD_ORIGINS, index=RECORD_ORIGINS.index(selected.get("record_origin") or "AI Extracted"))
-        review_status = st.selectbox("Review status", REVIEW_STATUSES, index=REVIEW_STATUSES.index(selected.get("review_status") or "Needs Review"))
-        reviewer = st.text_input("Local reviewer", placeholder="e.g. A. Hoxha")
-    reviewer_note = st.text_area("Reviewer note", value=selected.get("reviewer_note") or "", placeholder="What was checked or corrected?")
-    saved = st.form_submit_button("Save review", icon=":material/save:", type="primary")
+        location = st.text_input(t("Recorded location"), value=selected.get("location") or "")
+        page = st.text_input(t("Source page"), value=str(selected.get("page") or ""))
+        origin = st.selectbox(t("Record origin"), RECORD_ORIGINS, format_func=t, index=RECORD_ORIGINS.index(selected.get("record_origin") or "AI Extracted"))
+        review_status = st.selectbox(t("Review status"), REVIEW_STATUSES, format_func=t, index=REVIEW_STATUSES.index(selected.get("review_status") or "Needs Review"))
+        reviewer = st.text_input(t("Local reviewer"), placeholder="e.g. A. Hoxha")
+    reviewer_note = st.text_area(t("Reviewer note"), value=selected.get("reviewer_note") or "", placeholder=t("What was checked or corrected?"))
+    saved = st.form_submit_button(t("Save review"), icon=":material/save:", type="primary")
 
 if saved:
     updates = {
@@ -130,10 +131,10 @@ if saved:
     except ValueError as exc:
         st.error(str(exc))
     else:
-        st.success("Review saved. The audit log has been updated.")
+        st.success(t("Review saved. The audit log has been updated."))
         st.rerun()
 
-with st.expander("Change history", expanded=True, icon=":material/history:"):
+with st.expander(t("Change history"), expanded=True, icon=":material/history:"):
     history = audit_history(conn, selected_id)
     if history:
         history_frame = pd.DataFrame(history).rename(columns={
@@ -142,6 +143,6 @@ with st.expander("Change history", expanded=True, icon=":material/history:"):
         })
         st.dataframe(history_frame[["Timestamp", "Action", "Field", "Previous", "New", "Reviewer", "Note"]], hide_index=True, width="stretch")
     else:
-        st.caption("No review actions have been recorded for this record.")
+        st.caption(t("No review actions have been recorded for this record."))
 
 conn.close()
