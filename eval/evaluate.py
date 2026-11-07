@@ -41,13 +41,14 @@ def local_names(r):
     return {norm(name) for name in str(r.get("local_name") or "").split("/") if norm(name)}
 
 
-def main():
-    gold = [g for g in csv.DictReader(open(GOLD, encoding="utf-8"))
-            if g["doc_id"] != "sample_fixture"]
+def evaluate(conn=None, gold_path=GOLD):
+    """Recall of the gold rows in the database; returns counts and the missed/unchecked rows."""
+    with open(gold_path, encoding="utf-8") as f:
+        gold = [g for g in csv.DictReader(f) if g["doc_id"] != "sample_fixture"]
     if not gold:
         raise SystemExit("No real-study gold rows found in eval/gold.csv")
     docs = {g["doc_id"] for g in gold}
-    conn = connect()
+    conn = conn or connect()
     rows = [dict(r) for r in conn.execute(
         f"SELECT * FROM uses WHERE doc_id IN ({','.join('?' * len(docs))})", list(docs))]
 
@@ -81,12 +82,19 @@ def main():
     name_ok = sum(binomial(g["species"]) in by_local[(g["doc_id"], norm(g["local_name"]))]
                   for g in named)
 
-    print(f"real-study gold records: {len(gold)}   database records in those studies: {len(rows)}")
-    print(f"recall: {len(hits)}/{len(gold)} = {recall:.0%}")
-    print(f"local name -> plant: {name_ok}/{len(named)} correct")
-    for g in gold:
-        if not found(g):
-            print(f"  missed: p{g['page']} {g['local_name']} -> {g['species']} ({g['part_used']})")
+    return {"gold": len(gold), "rows": len(rows), "hits": len(hits), "recall": recall,
+            "name_ok": name_ok, "named": len(named),
+            "missed": [g for g in gold if not found(g)], "unchecked": unchecked}
+
+
+def main():
+    res = evaluate()
+    print(f"real-study gold records: {res['gold']}   database records in those studies: {res['rows']}")
+    print(f"recall: {res['hits']}/{res['gold']} = {res['recall']:.0%}")
+    print(f"local name -> plant: {res['name_ok']}/{res['named']} correct")
+    for g in res["missed"]:
+        print(f"  missed: p{g['page']} {g['local_name']} -> {g['species']} ({g['part_used']})")
+    unchecked = res["unchecked"]
     if unchecked:
         print(f"{len(unchecked)} other record(s) for sampled plants, not in gold.csv (unchecked):")
     for r in unchecked:
