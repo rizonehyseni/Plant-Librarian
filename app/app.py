@@ -32,10 +32,14 @@ def ensure_database() -> bool:
 with st.spinner("Building the plant library for the first time (about 10 seconds)…"):
     ensure_database()
 
+# A shared link can pick the language once: ?lang=en (for English-speaking judges) or ?lang=sq.
+if "lang" not in st.session_state:
+    st.session_state.lang = LANGUAGES.get(st.query_params.get("lang", "sq"), "Shqip")
+
 with st.sidebar:
     # Rendered in the entrypoint on every run, so the choice holds on every page.
-    st.segmented_control(":material/translate: Gjuha · Language", list(LANGUAGES.values()), default="Shqip",
-                         key="lang", required=True)
+    st.segmented_control(":material/translate: Gjuha · Language", list(LANGUAGES.values()), key="lang",
+                         required=True)
 
 pages = {
     t("Explore"): [
