@@ -1,6 +1,6 @@
 PY ?= python
 
-.PHONY: setup build app test eval clean
+.PHONY: setup build app test eval stats clean
 
 setup:
 	$(PY) -m pip install -r requirements.txt
@@ -16,6 +16,9 @@ test:
 
 eval:           ## Accuracy against the hand-checked gold sample
 	$(PY) -m eval.evaluate
+
+stats:          ## Headline numbers; writes docs/numbers.md
+	$(PY) -m eval.stats --markdown
 
 clean:
 	rm -rf data/interim data/ethnohack.db
