@@ -1,6 +1,6 @@
 PY ?= python
 
-.PHONY: setup build app test eval stats clean
+.PHONY: setup build app test eval stats slides clean
 
 setup:
 	$(PY) -m pip install -r requirements.txt
@@ -19,6 +19,11 @@ eval:           ## Accuracy against the hand-checked gold sample
 
 stats:          ## Headline numbers; writes docs/numbers.md
 	$(PY) -m eval.stats --markdown
+
+CHROME ?= google-chrome
+slides:         ## Print docs/submission/slides.html to slides.pdf (needs Chrome or Chromium)
+	cd docs/submission && $(CHROME) --headless=new --no-pdf-header-footer --virtual-time-budget=5000 \
+		--print-to-pdf=slides.pdf "file://$(CURDIR)/docs/submission/slides.html"
 
 clean:
 	rm -rf data/interim data/ethnohack.db
