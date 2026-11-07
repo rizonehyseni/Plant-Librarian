@@ -13,7 +13,7 @@ tested the same preparation people actually drink), and any safety or conservati
 ```bash
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-cp .env.example .env        # add your ANTHROPIC_API_KEY (others optional)
+cp .env.example .env        # add your free GROQ_API_KEY (https://console.groq.com/keys)
 make build                  # rebuild data/ethnohack.db from data/raw
 make app                    # open the demo at http://localhost:8501
 make test                   # unit tests
@@ -45,12 +45,18 @@ come from the table parser, not from Claude, so this checks the parser.
 
 ### What needs an API key
 
-- The Anthropic key is used only to extract plant-use records from a study that has no
-  cached extraction. Without the key, that study is skipped by extraction.
+Everything runs on free services. No paid key is needed.
+
+- `GROQ_API_KEY` (free at https://console.groq.com/keys) is used to extract plant-use records
+  from a study that has no cached extraction, and by the chat page. Extraction uses
+  `GROQ_EXTRACT_MODEL` (default `openai/gpt-oss-120b`) with a strict JSON schema, two pages per
+  request (`GROQ_PAGES_PER_CALL`), and waits and retries when the free rate limit is hit.
+  Every extracted record must have its quote found on the cited page, or it is dropped.
+- `ANTHROPIC_API_KEY` is optional (paid) and used only with `EXTRACT_PROVIDER=anthropic`.
 - The GBIF, PubMed and Wikidata lookups run during a normal online build and do not use
-  the Anthropic key. Their responses are cached under `data/cache/api/`.
+  an LLM key. Their responses are cached under `data/cache/api/`.
 - `OFFLINE=1` makes the build use saved API responses. It cannot fetch missing data; an
-  uncached study with no Anthropic key will have no extracted records.
+  uncached study with no LLM key will have no extracted records.
 - IUCN conservation lookups need the separate optional `IUCN_TOKEN`.
 - The chat page (**Ask the librarian**) needs `GROQ_API_KEY` (free at https://console.groq.com/keys).
   `GROQ_MODEL` picks the model (default `openai/gpt-oss-120b`).
@@ -104,7 +110,7 @@ separate in `data/seed/reviewed_evidence.csv`.
 | Step | Module | What it does | AI? |
 | --- | --- | --- | --- |
 | 1 Ingest | `pipeline/ingest.py` | PDF/text in `data/raw/` to page-numbered text | No |
-| 2 Extract | `pipeline/extract.py` | Claude reads each study and returns plant-use records (plant, part, preparation, use, page, verbatim quote) | **Yes** |
+| 2 Extract | `pipeline/extract.py` | An LLM (Groq, free; Anthropic optional) reads each study and returns plant-use records (plant, part, preparation, use, page, verbatim quote) | **Yes** |
 | 3 Names | `pipeline/names.py` | Dialect-tolerant matching of Albanian names (`data/seed/albanian_names.csv`, rapidfuzz) confirmed with GBIF | No |
 | 4 Evidence | `pipeline/evidence.py` | PubMed search per species; rule-based tags for preparation (aqueous, ethanolic, essential oil) and study type | No |
 | 5 Flags | `pipeline/flags.py` | Safety flags from `data/seed/risk_rules.csv`, conservation status from IUCN | No |
@@ -120,7 +126,7 @@ level come from written rules and open databases. Every API and LLM response is 
 
 **In the app:** open **Add a study** (Curation), upload the PDF, fill in title, citation, link, licence and
 study area, and press *Read the study*. `pipeline/add_study.py` saves the file to `data/raw/`, appends the
-study to `data/seed/sources.csv`, lets Claude extract the records (needs `ANTHROPIC_API_KEY`; the result is
+study to `data/seed/sources.csv`, lets the LLM extract the records (free `GROQ_API_KEY`; the result is
 cached in `data/cache/extract/`), matches names and places, and looks up evidence, flags and maps only for
 plants new to the database. The page shows the new records on a map with page and quote. Commit the new
 files under `data/` to keep them. If nothing is extracted, nothing is saved.
@@ -131,7 +137,7 @@ files under `data/` to keep them. If nothing is extracted, nothing is saved.
 2. Add a row to `data/seed/sources.csv` with title, citation, URL, licence and `study_area`
    (the region the study covers, e.g. `Malet e Sharrit`; it must be a place or alias in
    `data/seed/places.csv`). Records that name no village are located there (`geo_precision = study`).
-3. Set `ANTHROPIC_API_KEY` in `.env` before the first build if you want Claude to extract
+3. Set the free `GROQ_API_KEY` in `.env` before the first build if you want the LLM to extract
    this study. Otherwise, provide a checked extraction cache at
    `data/cache/extract/<name>.json`. A cached extraction is used before any API call.
 4. Run `make build`. Network lookup responses are cached under `data/cache/api/`.
