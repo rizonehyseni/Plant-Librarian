@@ -512,6 +512,8 @@ SQ = {
     'issues': 'probleme',
     'no page': 'pa faqe',
     'Show only records with this check result.': 'Shfaq vetëm rekordet me këtë rezultat.',
+    "QR code for the app link": "Kodi QR për linkun e app-it",
+    "QR code for this plant's profile": "Kodi QR për profilin e kësaj bime",
 }
 
 

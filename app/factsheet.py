@@ -35,6 +35,14 @@ def qr_svg(url: str, box: int = 6) -> str:
     return svg[svg.index("<svg"):]
 
 
+def qr_png(url: str, box: int = 8) -> bytes:
+    """QR code as a PNG (black on white) for st.image: renders the same everywhere, light or dark theme."""
+    img = qrcode.make(url, box_size=box, border=2)
+    buf = io.BytesIO()
+    img.save(buf, format="PNG")
+    return buf.getvalue()
+
+
 def profile_url(species: str) -> str:
     return f"{app_url()}/?species={quote(species)}"
 
