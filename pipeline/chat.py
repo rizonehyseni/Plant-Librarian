@@ -19,6 +19,7 @@ from typing import Any
 import requests
 from rapidfuzz import fuzz
 
+from .compare import compare_species, summary_sentence
 from .config import GROQ_API_KEY, GROQ_MODEL, SEED
 from .names import normalize, seed_names
 
@@ -186,17 +187,19 @@ def plant_sheet(conn, plant: Plant, reviewed: list[dict[str, str]], sources: dic
 
     papers = [dict(r) for r in conn.execute(
         "SELECT pmid, title, year, prep_class, study_type FROM evidence WHERE species = ? ORDER BY year DESC", (sp,))]
-    trad = Counter(u.get("prep_class") or "other" for u in plant.uses)
+    # same-preparation check from PubMed tags only; the reviewed papers are listed above
+    prep_check = compare_species(plant.uses, papers)
+    lines.append(f"Was the same preparation tested? Automatic keyword check: {prep_check['label']}. "
+                 f"{summary_sentence(prep_check)}")
     if papers:
         tags = Counter(p["prep_class"] for p in papers)
         kinds = Counter(p["study_type"] for p in papers)
         lines.append(
             f"PubMed candidates (UNREVIEWED keyword matches, tags can be wrong): {len(papers)} papers; "
-            f"preparation tags: {dict(tags)}; study-type tags: {dict(kinds)}. "
-            f"Traditional preparation class in the study: {dict(trad)}. "
-            f"Candidates tagged with the same preparation class as the tradition: "
-            f"{sum(tags[c] for c in trad if c != 'other')} of {len(papers)}.")
-        for p in papers[:MAX_PUBMED_TITLES]:
+            f"preparation tags: {dict(tags)}; study-type tags: {dict(kinds)}.")
+        # same-preparation candidates first, they answer the user's most likely question
+        listed = prep_check["matching_papers"] + [p for p in papers if p not in prep_check["matching_papers"]]
+        for p in listed[:MAX_PUBMED_TITLES]:
             cid = f"P{p['pmid']}"
             lines.append(f"- [{cid}] {p['title']} ({p['year']}); tags: {p['prep_class']}, {p['study_type']}")
             sources[cid] = {"label": f"PubMed {p['pmid']}: {p['title']} · unreviewed",

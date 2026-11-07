@@ -46,6 +46,25 @@ fungi, and requires each record's table text to match a unique PDF page.
 - The chat page (**Ask the librarian**) needs `GROQ_API_KEY` (free at https://console.groq.com/keys).
   `GROQ_MODEL` picks the model (default `openai/gpt-oss-120b`).
 
+## Was the same preparation tested?
+
+`pipeline/compare.py` compares each plant's traditional preparation (e.g. infusion → water-based)
+with the preparation tags of its top PubMed results, using rules only (no AI). Each plant gets one verdict:
+
+| Verdict | Meaning |
+| --- | --- |
+| Manually reviewed | A paper in `reviewed_evidence.csv` was checked against this preparation |
+| Same preparation, human study tagged | A candidate with the same preparation tag is tagged as a human study |
+| Same preparation, lab/animal only | Same preparation tag, but no human study tag |
+| Only other preparations | **Research gap**: studies exist, none with the preparation people use |
+| No studies found | **Research gap**: no PubMed candidates |
+| Not comparable by keywords | Eaten fresh, fat ointment etc.; keyword tags cannot compare it |
+
+The verdict is shown on each plant profile. The **Research gaps** page lists all plants with
+the gaps first and can export the table as CSV. The chat assistant uses the same check. The
+tags are keyword guesses on the top 40 PubMed results, so a verdict points to papers to read.
+It is not a review.
+
 ## Chat assistant
 
 `app/pages/3_Ask_the_Librarian.py` answers questions in Albanian or English **only from the

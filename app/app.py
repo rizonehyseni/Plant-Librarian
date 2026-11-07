@@ -7,6 +7,7 @@ import streamlit as st
 from rapidfuzz import fuzz, process
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from pipeline.compare import compare_species, summary_sentence  # noqa: E402
 from pipeline.config import DB_PATH, IUCN_TOKEN  # noqa: E402
 from pipeline.db import connect  # noqa: E402
 from pipeline.names import normalize  # noqa: E402
@@ -154,6 +155,23 @@ for _, u in sp_uses.iterrows():
 st.divider()
 st.subheader("2 · What modern studies tested")
 st.caption("The comparison describes preparation similarity. It does not confirm that the traditional use is effective.")
+prep_check = compare_species(
+    sp_uses.to_dict("records"), evidence.to_dict("records"), reviewed_evidence.to_dict("records"))
+with st.container(border=True):
+    st.markdown(f"#### Was the same preparation tested? · {prep_check['label']}")
+    st.write(summary_sentence(prep_check))
+    if prep_check["verdict"] in {"human", "lab", "different"}:
+        check_cols = st.columns(3)
+        check_cols[0].metric("PubMed candidates", prep_check["papers"])
+        check_cols[1].metric("Same preparation tag", prep_check["matching"])
+        check_cols[2].metric("…tagged as human study", prep_check["matching_human"])
+    if prep_check["matching_papers"] and prep_check["verdict"] != "reviewed":
+        with st.expander("Candidates tagged with the same preparation"):
+            for p in prep_check["matching_papers"][:10]:
+                st.markdown(f"- [{p['title']}](https://pubmed.ncbi.nlm.nih.gov/{p['pmid']}/) · {p['year']} · "
+                            f"{str(p.get('study_type') or 'other').replace('_', ' ')}")
+    st.caption("Automatic check from keyword tags on the top PubMed results; read the paper before relying on it. "
+               "See the Research gaps page for every plant.")
 if reviewed_evidence.empty:
     st.markdown("No modern study has been manually checked against this plant’s reported preparation yet.")
 else:
