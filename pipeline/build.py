@@ -45,7 +45,8 @@ def main():
             use_rows.append({"doc_id": doc_id, **{k: r.get(k) for k in (
                 "page", "local_name", "name_in_text", "community", "species", "gbif_key", "match_method", "match_score",
                 "family", "part_used", "preparation", "prep_class", "administration", "use", "location",
-                "place", "lat", "lon", "geo_precision", "quote")}})
+                "place", "lat", "lon", "geo_precision", "quote")},
+                "record_origin": rec.get("record_origin") or "AI Extracted"})
             if r["species"]:
                 species_keys.setdefault(r["species"], r["gbif_key"])
     _insert(conn, "uses", use_rows)

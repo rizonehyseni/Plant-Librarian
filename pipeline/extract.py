@@ -63,7 +63,7 @@ def _call_llm(text: str) -> list[dict]:
         return []
     if response.stop_reason == "max_tokens":
         print("  extract: output hit max_tokens; lower PAGES_PER_CALL")
-    return [r.model_dump() for r in response.parsed_output.records]
+    return [{**r.model_dump(), "record_origin": "AI Extracted"} for r in response.parsed_output.records]
 
 
 def extract_doc(doc_id: str, pages: list[str]) -> list[dict]:
