@@ -14,7 +14,7 @@ from pipeline.compare import compare_species  # noqa: E402
 from pipeline.config import DB_PATH, IUCN_TOKEN, SEED  # noqa: E402
 from pipeline.db import connect  # noqa: E402
 from pipeline.names import normalize  # noqa: E402
-from factsheet import fact_sheet_html, profile_url, qr_svg  # noqa: E402
+from factsheet import fact_sheet_html, profile_url, qr_png  # noqa: E402
 from i18n import lang, summary_sentence, t  # noqa: E402
 from ui import hero, section  # noqa: E402
 
@@ -160,8 +160,7 @@ with st.container(horizontal=True, vertical_alignment="center"):
         data=fact_sheet_html(species, family.iloc[0] if len(family) else None, local_names, sp_uses, prep_check,
                              reviewed_evidence, evidence, flags, demo_sources).encode("utf-8"))
     with st.popover(t("QR code"), icon=":material/qr_code_2:"):
-        st.html(f'<div style="width:180px;background:#fff;padding:8px;border-radius:8px">'
-                f'{qr_svg(profile_url(species))}</div>')
+        st.image(qr_png(profile_url(species)), width=180, alt=t("QR code for this plant's profile"))
         st.caption(t("Scan to open this plant's profile.") + f"  \n`{profile_url(species)}`")
 
 # ---------------------------------------------------------------- 1 traditional use
