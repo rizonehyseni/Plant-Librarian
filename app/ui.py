@@ -9,6 +9,8 @@ from pathlib import Path
 
 import streamlit as st
 
+from i18n import t
+
 ASSETS = Path(__file__).resolve().parent / "assets"
 
 CSS = """
@@ -70,6 +72,7 @@ def _icon(name: str) -> str:
 
 def page_header(icon: str, eyebrow: str, title: str, subtitle: str = "") -> None:
     """Icon tile + eyebrow + serif title. `icon` is a Material Symbols name, e.g. "forum"."""
+    eyebrow, title, subtitle = t(eyebrow), t(title), t(subtitle) if subtitle else ""
     sub = f'<div class="eh-sub">{escape(subtitle)}</div>' if subtitle else ""
     st.markdown(
         f'<div class="eh-header"><div class="eh-icon">{_icon(icon)}</div><div>'
@@ -80,6 +83,7 @@ def page_header(icon: str, eyebrow: str, title: str, subtitle: str = "") -> None
 
 def hero(eyebrow: str, title: str, subtitle: str, chips: list[tuple[str, str]] = ()) -> None:
     """Large landing banner. `chips` are (icon, text) pairs."""
+    eyebrow, title, subtitle = t(eyebrow), t(title), t(subtitle)
     chip_html = "".join(f'<span class="eh-chip">{_icon(i)}{escape(t)}</span>' for i, t in chips)
     chip_row = f'<div class="eh-chips">{chip_html}</div>' if chips else ""
     st.markdown(
@@ -92,6 +96,6 @@ def hero(eyebrow: str, title: str, subtitle: str, chips: list[tuple[str, str]] =
 
 def section(icon: str, title: str, caption: str = "") -> None:
     """Section heading with an icon badge."""
-    st.markdown(f'<div class="eh-section">{_icon(icon)}<h3>{escape(title)}</h3></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="eh-section">{_icon(icon)}<h3>{escape(t(title))}</h3></div>', unsafe_allow_html=True)
     if caption:
-        st.caption(caption)
+        st.caption(t(caption))

@@ -17,6 +17,7 @@ from pipeline.explore import (  # noqa: E402
     search_and_filter,
     sort_records,
 )
+from i18n import t  # noqa: E402
 from ui import page_header, section  # noqa: E402
 
 FILTER_KEYS = (
@@ -42,14 +43,14 @@ def cached_records(database_mtime: int):
 
 
 def display_values(values: list[str]) -> str:
-    return ", ".join(values) if values else "Not available in current data"
+    return ", ".join(values) if values else t("Not available in current data")
 
 
 page_header("travel_explore", "Explore", "Search & compare",
             "Search every documented use by name, use, part or preparation, filter the records, and compare up to three plants side by side.")
 
 if not DB_PATH.exists():
-    st.error("No database yet. Run `make build` first, then reopen this page.")
+    st.error(t("No database yet. Run `make build` first, then reopen this page."))
     st.stop()
 
 records = cached_records(DB_PATH.stat().st_mtime_ns)
@@ -61,28 +62,29 @@ options = filter_options(records)
 search_column, clear_column = st.columns([5, 1])
 with search_column:
     query = st.text_input(
-        "Search names, aliases, uses, or descriptions",
-        placeholder="Try Çaj mali, Origanum, kamomil, or respiratory",
+        t("Search names, aliases, uses, or descriptions"),
+        placeholder=t("Try Çaj mali, Origanum, kamomil, or respiratory"),
         key="explore_query", icon=":material/search:",
     )
 with clear_column:
     st.write("")
-    st.button("Clear filters", on_click=clear_filters, width="stretch", icon=":material/filter_alt_off:")
+    st.button(t("Clear filters"), on_click=clear_filters, width="stretch", icon=":material/filter_alt_off:")
 
-with st.expander("Advanced filters", expanded=True, icon=":material/tune:"):
+with st.expander(t("Advanced filters"), expanded=True, icon=":material/tune:"):
     first_row = st.columns(3)
     with first_row[0]:
-        selected_species = st.multiselect("Plant species", options["species"], key="explore_species")
-        selected_parts = st.multiselect("Plant parts", options["parts"], key="explore_parts")
-        selected_preparations = st.multiselect("Preparation methods", options["preparations"], key="explore_preparations")
+        selected_species = st.multiselect(t("Plant species"), options["species"], key="explore_species")
+        selected_parts = st.multiselect(t("Plant parts"), options["parts"], key="explore_parts")
+        selected_preparations = st.multiselect(t("Preparation methods"), options["preparations"], key="explore_preparations")
     with first_row[1]:
-        selected_uses = st.multiselect("Traditional uses", options["uses"], key="explore_uses")
-        selected_locations = st.multiselect("Geographic locations", options["locations"], key="explore_locations")
-        selected_evidence = st.multiselect("Evidence type", options["evidence"], key="explore_evidence")
+        selected_uses = st.multiselect(t("Traditional uses"), options["uses"], key="explore_uses")
+        selected_locations = st.multiselect(t("Geographic locations"), options["locations"], key="explore_locations")
+        selected_evidence = st.multiselect(t("Evidence type"), options["evidence"], key="explore_evidence")
     with first_row[2]:
-        selected_safety = st.multiselect("Safety or risk status", options["safety"], key="explore_safety")
-        selected_status = st.multiselect("Record verification status", options["review_status"], key="explore_status")
-        order = st.selectbox("Sort results", ["Plant name", "Scientific name", "Number of documented uses", "Verification status"])
+        selected_safety = st.multiselect(t("Safety or risk status"), options["safety"], key="explore_safety")
+        selected_status = st.multiselect(t("Record verification status"), options["review_status"], key="explore_status")
+        order = st.selectbox(t("Sort results"), ["Plant name", "Scientific name", "Number of documented uses", "Verification status"],
+                             format_func=t)
 
 filtered = search_and_filter(
     records, query=query, species=selected_species, parts=selected_parts,
@@ -91,14 +93,14 @@ filtered = search_and_filter(
     review_statuses=selected_status,
 )
 ordered = sort_records(filtered, order)
-section("list_alt", f"Matching records · {len(ordered)}")
+section("list_alt", t("Matching records · {n}", n=len(ordered)))
 
 if not ordered:
-    st.info("No records match this search and filter combination. Clear filters or try a broader term.")
+    st.info(t("No records match this search and filter combination. Clear filters or try a broader term."))
 else:
     visible, total_pages = page_records(ordered, page=1)
     if total_pages > 1:
-        page_number = st.selectbox("Result page", list(range(1, total_pages + 1)))
+        page_number = st.selectbox(t("Result page"), list(range(1, total_pages + 1)))
         visible, _ = page_records(ordered, page=page_number)
     for record in visible:
         with st.container(border=True):
@@ -107,12 +109,12 @@ else:
                 st.markdown(f"### {record.get('local_name') or 'Unnamed plant'} · *{record['species']}*")
                 st.caption(f"Verification: {record.get('review_status', 'Not reviewed')} · {record.get('use_count', 1)} documented use record(s)")
             with action_column:
-                if st.button("Open profile", key=f"profile-{record['id']}", width="stretch", icon=":material/arrow_forward:"):
+                if st.button(t("Open profile"), key=f"profile-{record['id']}", width="stretch", icon=":material/arrow_forward:"):
                     st.switch_page("pages/plant_profile.py", query_params={"species": record["species"]})
             detail_columns = st.columns(3)
-            detail_columns[0].markdown(f"**Traditional use**  \n{record.get('use') or 'Not available'}")
-            detail_columns[1].markdown(f"**Plant part / preparation**  \n{record.get('part_used') or 'Not available'} · {record.get('preparation') or 'Not available'}")
-            detail_columns[2].markdown(f"**Recorded location**  \n{record.get('location_label') or 'Not specific in current data'}")
+            detail_columns[0].markdown(f"**{t('Traditional use')}**  \n{record.get('use') or 'Not available'}")
+            detail_columns[1].markdown(f"**{t('Plant part / preparation')}**  \n{record.get('part_used') or 'Not available'} · {record.get('preparation') or 'Not available'}")
+            detail_columns[2].markdown(f"**{t('Recorded location')}**  \n{record.get('location_label') or 'Not specific in current data'}")
             modern_types = sorted(item for item in record["evidence_types"] if item != TRADITIONAL_EVIDENCE)
             st.caption(f"Traditional evidence: documented study record. Modern study tags: {display_values(modern_types)}.")
             if record["safety_flags"]:
@@ -123,8 +125,8 @@ else:
 st.divider()
 section("compare_arrows", "Compare plants")
 comparison_species = st.multiselect(
-    "Select up to three plant profiles", options["species"], max_selections=3,
-    placeholder="Choose plants to compare",
+    t("Select up to three plant profiles"), options["species"], max_selections=3,
+    placeholder=t("Choose plants to compare"),
 )
 if comparison_species:
     comparison = compare_plants(records, comparison_species)
@@ -132,19 +134,19 @@ if comparison_species:
     for column, plant in zip(comparison_columns, comparison):
         with column:
             st.markdown(f"### *{plant['species']}*")
-            st.markdown(f"**Local names**  \n{display_values(plant['local_names'])}")
-            st.markdown(f"**Documented uses**  \n{display_values(plant['uses'])}")
-            st.markdown(f"**Plant parts**  \n{display_values(plant['parts'])}")
-            st.markdown(f"**Preparations**  \n{display_values(plant['preparations'])}")
-            st.markdown(f"**Locations**  \n{display_values(plant['locations'])}")
+            st.markdown(f"**{t('Local names')}**  \n{display_values(plant['local_names'])}")
+            st.markdown(f"**{t('Documented uses')}**  \n{display_values(plant['uses'])}")
+            st.markdown(f"**{t('Plant parts')}**  \n{display_values(plant['parts'])}")
+            st.markdown(f"**{t('Preparations')}**  \n{display_values(plant['preparations'])}")
+            st.markdown(f"**{t('Locations')}**  \n{display_values(plant['locations'])}")
             modern_types = [item for item in plant["evidence_types"] if item != TRADITIONAL_EVIDENCE]
-            st.markdown(f"**Modern study tags**  \n{display_values(modern_types)}")
-            st.markdown(f"**Verification**  \n{display_values(plant['review_statuses'])}")
+            st.markdown(f"**{t('Modern study tags')}**  \n{display_values(modern_types)}")
+            st.markdown(f"**{t('Verification')}**  \n{display_values(plant['review_statuses'])}")
             if plant["safety_flags"]:
-                st.markdown("**Safety information**")
+                st.markdown(f"**{t('Safety information')}**")
                 for flag in plant["safety_flags"]:
                     st.caption(f"{flag.get('level', 'flag').title()}: {flag.get('note', 'Not available')}")
             else:
                 st.markdown("**Safety information**  \nNot available in the current safety-rule list.")
 else:
-    st.caption("Choose one to three plants to compare only the information available in this database.")
+    st.caption(t("Choose one to three plants to compare only the information available in this database."))

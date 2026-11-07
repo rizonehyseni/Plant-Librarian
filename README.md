@@ -28,6 +28,7 @@ No `make` (Windows)? Run the commands from the Makefile directly, e.g. `python -
 
 | Page | What it shows | Needs a key? |
 | --- | --- | --- |
+| **Language** | Sidebar toggle Shqip / English (default Shqip) for all interface text; study data stays in the language of the source | No |
 | **Plant profile** | Fact sheet per plant: uses with page and quote, community, "was the same preparation tested?", PubMed candidates, safety flags, map | No |
 | **Search & compare** | Filter and compare records across plants, parts, preparations | No |
 | **Map of uses** | All records on one map (village pin or study-area circle), filters by community, study, use and preparation, optional GBIF occurrence heat map, which plants the communities share, flagged plants | No |
