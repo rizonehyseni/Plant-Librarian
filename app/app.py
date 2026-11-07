@@ -19,6 +19,7 @@ pages = {
                 icon=":material/travel_explore:", url_path="search"),
         st.Page("pages/6_Map.py", title=t("Map of uses"), icon=":material/map:", url_path="map"),
         st.Page("pages/4_Research_Gaps.py", title=t("Research gaps"), icon=":material/science:", url_path="gaps"),
+        st.Page("pages/7_Priorities.py", title=t("Priorities"), icon=":material/target:", url_path="priorities"),
     ],
     t("Assistant"): [
         st.Page("pages/3_Ask_the_Librarian.py", title=t("Ask the librarian"), icon=":material/forum:", url_path="ask"),
