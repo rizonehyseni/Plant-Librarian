@@ -1,7 +1,7 @@
 # Devpost page: copy and paste
 
-Fields in the order Devpost asks for them. Numbers come from `docs/numbers.md` (`make stats`); if the
-data changes, update them from there.
+Fields in the order Devpost asks for them. Numbers come from `make stats`; if the
+data changes, update them from its output.
 
 ---
 

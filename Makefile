@@ -17,8 +17,8 @@ test:
 eval:           ## Accuracy against the hand-checked gold sample
 	$(PY) -m eval.evaluate
 
-stats:          ## Headline numbers; writes docs/numbers.md
-	$(PY) -m eval.stats --markdown
+stats:          ## Headline numbers, computed from the database
+	$(PY) -m eval.stats
 
 CHROME ?= google-chrome
 slides:         ## Print docs/submission/slides.html to slides.pdf (needs Chrome or Chromium)
