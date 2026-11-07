@@ -47,7 +47,7 @@ tested?"**
 people in Rugovë drink it as a tea for sleep and nerves. Of 40 PubMed papers, none tests the tea: they study
 essential oils, alcohol extracts and isolated compounds.
 
-All numbers are generated from the database by `make stats` ([docs/numbers.md](docs/numbers.md)).
+All numbers are computed from the database by `make stats`, never typed by hand.
 
 ## What it does
 
@@ -100,8 +100,7 @@ flowchart LR
 | Photo | `pipeline/photo.py` | Pl@ntNet suggestions, matched to the library | External model |
 
 **AI is used only where text has to become a table, or speech has to become text.** Everything that must be
-right (safety, evidence level, priorities) comes from written rules and open databases. More detail:
-[docs/technical.md](docs/technical.md).
+right (safety, evidence level, priorities) comes from written rules and open databases.
 
 ## Why you can trust it
 
@@ -152,7 +151,9 @@ make eval                # accuracy against eval/gold.csv
 Chat, voice and *Add a study* need a free `GROQ_API_KEY` (https://console.groq.com/keys) in `.env`
 (`cp .env.example .env`); photo identification needs a free `PLANTNET_API_KEY`. Everything else runs offline.
 No `make` (Windows)? Run the commands from the [Makefile](Makefile), e.g. `python -m pipeline.build`.
-Deploying your own copy on Streamlit Community Cloud: see [docs/technical.md](docs/technical.md#deploy-a-public-link-free-streamlit-community-cloud).
+To deploy your own copy for free on [Streamlit Community Cloud](https://share.streamlit.io): main file `app/app.py`,
+Python 3.12, and `GROQ_API_KEY` (optionally `PLANTNET_API_KEY`, and `APP_URL` = your app's link for the QR codes) in
+*Secrets*. The app builds its database from the committed caches on first start.
 
 ## Repository
 
@@ -164,7 +165,7 @@ data/seed/      hand-curated lists: sources, Albanian names, places, safety rule
 data/cache/     cached API and LLM responses (offline rebuild)
 eval/           gold rows, accuracy and stats scripts
 tests/          unit tests
-docs/           technical notes, numbers, demo script, submission (slides, Devpost text)
+docs/           submission: slides (PDF) and Devpost text
 ```
 
 ## Limitations
@@ -180,4 +181,3 @@ docs/           technical notes, numbers, demo script, submission (slides, Devpo
 Rizonë Hyseni · Dua Bilalli · Sara Kycyku · Rrezon Ibishi
 
 Code under the [MIT License](LICENSE). Study data keeps the licence of each source (see above).
-Team notes and the remaining-work list: [docs/team-status.md](docs/team-status.md).
