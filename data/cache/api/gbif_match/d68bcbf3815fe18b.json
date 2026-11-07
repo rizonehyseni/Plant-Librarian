@@ -1,0 +1,26 @@
+{
+ "key": "Geranium sanguineum L.",
+ "value": {
+  "usageKey": 2890920,
+  "scientificName": "Geranium sanguineum L.",
+  "canonicalName": "Geranium sanguineum",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Geraniales",
+  "family": "Geraniaceae",
+  "genus": "Geranium",
+  "species": "Geranium sanguineum",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 624,
+  "familyKey": 4676,
+  "genusKey": 2889949,
+  "speciesKey": 2890920,
+  "class": "Magnoliopsida"
+ }
+}

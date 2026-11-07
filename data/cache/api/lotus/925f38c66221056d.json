@@ -1,0 +1,105 @@
+{
+ "key": "Teucrium chamaedrys",
+ "value": [
+  {
+   "compound": "cirsiliol",
+   "smiles": "COC1=C(C(=C2C(=C1)OC(=CC2=O)C3=CC(=C(C=C3)O)O)O)OC"
+  },
+  {
+   "compound": "γ-elemene",
+   "smiles": "C=CC1(C)CCC(=C(C)C)CC1C(=C)C"
+  },
+  {
+   "compound": "ursolic acid",
+   "smiles": "CC1CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1C)C)C(=O)O"
+  },
+  {
+   "compound": "verbascoside",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(O)C(O)=C2)C(O)C1OC3OC(C)C(O)C(O)C3O)CO)C=CC4=CC=C(O)C(O)=C4"
+  },
+  {
+   "compound": "beta-sitosterol",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "AC1LCS9H",
+   "smiles": "O=C1OCC23C4OC13CC(O)CC2C5(C(=O)OC(C6=COC=C6)C5)C(C)C4"
+  },
+  {
+   "compound": "(2aR,4R,5'S,5aR,6S,7S,9S,9aR)-5'-(furan-3-yl)-4,9-dihydroxy-2a-(hydroxymethyl)-7-methylspiro[1,3,4,5,5a,7,8,9-octahydronaphtho[1,8a-b]oxete-6,3'-oxolane]-2'-one",
+   "smiles": "O=C1OC(C2=COC=C2)CC13C(C)CC(O)C45COC5(CO)CC(O)CC34"
+  },
+  {
+   "compound": "Dihydroteugin",
+   "smiles": "O=C1OCC23C(O)CC(C)C4(C(=O)OC(C5=COC=C5)C4)C3CC(O)CC12"
+  },
+  {
+   "compound": "Teucvidin",
+   "smiles": "O=C1OC2C3=C1CCCC3C4(C(=O)OC(C5=COC=C5)C4)C(C)C2"
+  },
+  {
+   "compound": "Teuflin",
+   "smiles": "O=C1OC2C3=C1CCCC3C4(C(=O)OC(C5=COC=C5)C4)C(C)C2"
+  },
+  {
+   "compound": "Teucrin G",
+   "smiles": "O=C1OCC23C(O)CC(C)C4(C(=O)OC(C5=COC=C5)C4)C3CC6OC6C12O"
+  },
+  {
+   "compound": "Teucrin A",
+   "smiles": "O=C1OC2C3=C1CCCC3C4(C(=O)OC(C5=COC=C5)C4)C(C)C2O"
+  },
+  {
+   "compound": "3beta-Hydroxystigmasta-5,25-diene-7-one",
+   "smiles": "O=C1C=C2CC(O)CCC2(C)C3CCC4(C)C(CCC4C13)C(C)CCC(C(=C)C)CC"
+  },
+  {
+   "compound": "Teucvin",
+   "smiles": "O=C1OC2C3=C1CCCC3C4(C(=O)OC(C5=COC=C5)C4)C(C)C2"
+  },
+  {
+   "compound": "(Z,6R)-6-[(3S,5S,8R,9S,10S,13R,14S,17R)-3-hydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]-3-prop-1-en-2-ylhept-2-enal",
+   "smiles": "O=CC=C(C(=C)C)CCC(C)C1CCC2C3CCC4CC(O)CCC4(C)C3CCC12C"
+  },
+  {
+   "compound": "Teucrin F",
+   "smiles": "O=C1OCC23C(O)CC(C)C4(C(=O)OC(C5=COC=C5)C4)C3CC=CC12O"
+  },
+  {
+   "compound": "Teucrioside",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(O)C(O)=C2)C(O)C1OC3OC(C)C(O)C(O)C3OC4OCC(O)C(O)C4O)CO)C=CC5=CC=C(O)C(O)=C5"
+  },
+  {
+   "compound": "Teucrioside 3''''-O-methyl ether",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(O)C(O)=C2)C(O)C1OC3OC(C)C(O)C(O)C3OC4OCC(O)C(O)C4O)CO)C=CC5=CC=C(O)C(OC)=C5"
+  },
+  {
+   "compound": "(1S,2S,6S,7S,9R,11R,12R)-12-[(2S)-2-(furan-3-yl)-2-hydroxyethyl]-7-hydroxy-11-methyl-8,14-dioxatetracyclo[7.6.0.01,6.02,12]pentadecan-13-one",
+   "smiles": "O=C1OCC23C4OC(O)C3CCCC2C1(CC(O)C5=COC=C5)C(C)C4"
+  },
+  {
+   "compound": "Pectolinarigenin",
+   "smiles": "COC1=CC=C(C=C1)C2=CC(=O)C3=C(C(=C(C=C3O2)O)OC)O"
+  },
+  {
+   "compound": "stigmasterol",
+   "smiles": "OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C)CCC(C(=C)C)CC)C2(C)CC1"
+  },
+  {
+   "compound": "naringenin",
+   "smiles": "C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC=C(C=C3)O"
+  },
+  {
+   "compound": "apigenin",
+   "smiles": "C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "(R)-naringenin",
+   "smiles": "C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC=C(C=C3)O"
+  },
+  {
+   "compound": "α-amyrin",
+   "smiles": "CC1CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1C)C)C"
+  }
+ ]
+}

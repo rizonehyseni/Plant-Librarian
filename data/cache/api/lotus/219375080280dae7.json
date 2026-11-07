@@ -1,0 +1,121 @@
+{
+ "key": "Prunus spinosa",
+ "value": [
+  {
+   "compound": "(+)-catechin",
+   "smiles": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O"
+  },
+  {
+   "compound": "nonacosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "galactitol",
+   "smiles": "C(C(C(C(C(CO)O)O)O)O)O"
+  },
+  {
+   "compound": "kaempferol",
+   "smiles": "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "lespedin",
+   "smiles": "CC1C(C(C(C(O1)OC2=CC(=C3C(=C2)OC(=C(C3=O)OC4C(C(C(C(O4)C)O)O)O)C5=CC=C(C=C5)O)O)O)O)O"
+  },
+  {
+   "compound": "keracyanin cation",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C([O+]=C4C=C(C=C(C4=C3)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "(−)-epicatechin",
+   "smiles": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O"
+  },
+  {
+   "compound": "D-sorbitol",
+   "smiles": "C(C(C(C(C(CO)O)O)O)O)O"
+  },
+  {
+   "compound": "3-Hydroxy-beta-ionone",
+   "smiles": "O=C(C=CC1=C(C)CC(O)CC1(C)C)C"
+  },
+  {
+   "compound": "3-Oxo-alpha-ionol",
+   "smiles": "O=C1C=C(C)C(C=CC(O)C)C(C)(C)C1"
+  },
+  {
+   "compound": "3-[(2R,3S,4S,5S)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]oxy-2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=CC(O)=C(O)C4"
+  },
+  {
+   "compound": "5-hydroxy-6-methoxychromen-2-one",
+   "smiles": "O=C1OC2=CC=C(OC)C(O)=C2C=C1"
+  },
+  {
+   "compound": "7-[(2R,3S,4R,5S)-3,4-dihydroxy-5-[(1S)-1-hydroxyethyl]oxolan-2-yl]oxy-5-hydroxy-2-(4-hydroxyphenyl)-3-[(2S,3S,4S,5R)-3,4,5-trihydroxyoxolan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(O)C(O)C2O)=C(OC3=CC(OC4OC(C(O)C)C(O)C4O)=CC(O)=C13)C=5C=CC(O)=CC5"
+  },
+  {
+   "compound": "(2R,15S)-3,4-Dihydro-2alpha-(3,4-dihydroxyphenyl)-8-(4-hydroxyphenyl)-8alpha,14alpha-methano-2H,14H-1-benzopyrano[7,8-d][1,3]benzodioxocin-3alpha,5,11,13,15-pentol",
+   "smiles": "OC1=CC=C(C=C1)C23OC=4C=C(O)C=C(O)C4C(C=5C(O2)=CC(O)=C6C5OC(C7=CC=C(O)C(O)=C7)C(O)C6)C3O"
+  },
+  {
+   "compound": "ent-Epiafzelechin-(2alpha-O-7,4alpha-8)-catechin",
+   "smiles": "OC1=CC=C(C=C1)C23OC=4C=C(O)C=C(O)C4C(C=5C(O2)=CC(O)=C6C5OC(C7=CC=C(O)C(O)=C7)C(O)C6)C3O"
+  },
+  {
+   "compound": "Mahuannin A",
+   "smiles": "OC1=CC=C(C=C1)C2OC=3C(=C(O)C=C4OC5(OC=6C=C(O)C=C(O)C6C(C43)C5O)C7=CC=C(O)C=C7)CC2O"
+  },
+  {
+   "compound": "Pavetannin A2",
+   "smiles": "OC=1C=C(O)C2=C(OC3(OC4=CC(O)=C5C(OC(C6=CC=C(O)C(O)=C6)C(O)C5)=C4C2C3O)C7=CC=C(O)C(O)=C7)C1"
+  },
+  {
+   "compound": "Proanthocyanidin A5'",
+   "smiles": "OC=1C=C(O)C2=C(OC3(OC4=CC(O)=C5C(OC(C6=CC=C(O)C(O)=C6)C(O)C5)=C4C2C3O)C7=CC=C(O)C(O)=C7)C1"
+  },
+  {
+   "compound": "3-[(2S,3R,4S,5S)-3,4-dihydroxy-5-[(1S)-1-hydroxyethyl]oxolan-2-yl]oxy-2-[4-[(2S,3R,4R,5S)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]oxyphenyl]-5,7-dihydroxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(C(O)C)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=CC(OC5OC(CO)C(O)C5O)=CC4"
+  },
+  {
+   "compound": "3-[(2R,3S,4R,5S)-3,4-dihydroxy-5-[(1S)-1-hydroxyethyl]oxolan-2-yl]oxy-5-hydroxy-2-(4-hydroxyphenyl)-7-[(2R,3S,4S,5S,6R)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(C(O)C)C(O)C2O)=C(OC3=CC(OC4OC(C)C(O)C(O)C4O)=CC(O)=C13)C=5C=CC(O)=CC5"
+  },
+  {
+   "compound": "3-[(2R,3S,4S,5S)-3,4-dihydroxy-5-[(1S)-1-hydroxyethyl]oxolan-2-yl]oxy-5-hydroxy-2-(4-hydroxyphenyl)-7-[(2R,3S,4S,5S,6R)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(C(O)C)C(O)C2O)=C(OC3=CC(OC4OC(C)C(O)C(O)C4O)=CC(O)=C13)C=5C=CC(O)=CC5"
+  },
+  {
+   "compound": "prunasin",
+   "smiles": "C1=CC=C(C=C1)C(C#N)OC2C(C(C(C(O2)CO)O)O)O"
+  },
+  {
+   "compound": "benzoic acid",
+   "smiles": "C1=CC=C(C=C1)C(=O)O"
+  },
+  {
+   "compound": "quercetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O"
+  },
+  {
+   "compound": "(R)-amygdalin",
+   "smiles": "C1=CC=C(C=C1)C(C#N)OC2C(C(C(C(O2)COC3C(C(C(C(O3)CO)O)O)O)O)O)O"
+  },
+  {
+   "compound": "benzaldehyde",
+   "smiles": "C1=CC=C(C=C1)C=O"
+  },
+  {
+   "compound": "benzyl alcohol",
+   "smiles": "C1=CC=C(C=C1)CO"
+  },
+  {
+   "compound": "sambunigrin",
+   "smiles": "C1=CC=C(C=C1)C(C#N)OC2C(C(C(C(O2)CO)O)O)O"
+  },
+  {
+   "compound": "sucrose",
+   "smiles": "C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O"
+  }
+ ]
+}

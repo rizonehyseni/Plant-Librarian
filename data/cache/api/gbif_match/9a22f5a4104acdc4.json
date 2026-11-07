@@ -1,0 +1,26 @@
+{
+ "key": "Vaccinium vitis-idaea L.",
+ "value": {
+  "usageKey": 2882835,
+  "scientificName": "Vaccinium vitis-idaea L.",
+  "canonicalName": "Vaccinium vitis-idaea",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Ericales",
+  "family": "Ericaceae",
+  "genus": "Vaccinium",
+  "species": "Vaccinium vitis-idaea",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 1353,
+  "familyKey": 2505,
+  "genusKey": 2882813,
+  "speciesKey": 2882835,
+  "class": "Magnoliopsida"
+ }
+}

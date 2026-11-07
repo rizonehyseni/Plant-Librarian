@@ -1,0 +1,26 @@
+{
+ "key": "Rubus fruticosus L.",
+ "value": {
+  "usageKey": 8436459,
+  "scientificName": "Rubus fruticosus L.",
+  "canonicalName": "Rubus fruticosus",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Rosales",
+  "family": "Rosaceae",
+  "genus": "Rubus",
+  "species": "Rubus fruticosus",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 691,
+  "familyKey": 5015,
+  "genusKey": 2988638,
+  "speciesKey": 8436459,
+  "class": "Magnoliopsida"
+ }
+}

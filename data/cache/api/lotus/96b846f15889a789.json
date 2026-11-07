@@ -1,0 +1,113 @@
+{
+ "key": "Euphorbia amygdaloides",
+ "value": [
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[[3,4,5-trihydroxy-6-[(3,4,5-trihydroxy-6-methyl-2-oxanyl)oxymethyl]-2-oxanyl]oxy]-1-benzopyran-4-one",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "[(1S,2S,3aR,5R,6E,9S,10S,11S,13R,13aS)-10-acetyloxy-3a,5,13-trihydroxy-2,5,8,8-tetramethyl-1,11-bis[[(Z)-2-methylbut-2-enoyl]oxy]-12-methylidene-4-oxo-1,2,3,9,10,11,13,13a-octahydrocyclopenta[12]annulen-9-yl] pyridine-3-carboxylate",
+   "smiles": "O=C(OC1C(OC(=O)C)C(OC(=O)C(=CC)C)C(=C)C(O)C2C(OC(=O)C(=CC)C)C(C)CC2(O)C(=O)C(O)(C=CC1(C)C)C)C=3C=NC=CC3"
+  },
+  {
+   "compound": "Amygdaloidin B",
+   "smiles": "O=C(OC1C(OC(=O)C)C(OC(=O)C(=CC)C)C(=C)C(O)C2C(OC(=O)C(=CC)C)C(C)CC2(O)C(=O)C(O)(C=CC1(C)C)C)C=3C=NC=CC3"
+  },
+  {
+   "compound": "Q105281999",
+   "smiles": "O=C(OC1C(OC(=O)C)C(OC(=O)C(=CC)C)C(=C)C(O)C2C(OC(=O)C(=C)C(OO)C)C(C)CC2(O)C(=O)C(O)(C=CC1(C)C)C)C=3C=NC=CC3"
+  },
+  {
+   "compound": "[(1S,2S,3aR,5R,6E,9S,10S,11S,13R,13aR)-9,13-diacetyloxy-3a,5,10-trihydroxy-2,5,8,8-tetramethyl-11-[(Z)-2-methylbut-2-enoyl]oxy-12-methylidene-4-oxo-1,2,3,9,10,11,13,13a-octahydrocyclopenta[12]annulen-1-yl] (3S)-3-hydroperoxy-2-methylidenebutanoate",
+   "smiles": "O=C(OC1C(=C)C(OC(=O)C)C2C(OC(=O)C(=C)C(OO)C)C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C(OC(=O)C)C1O)C)C(=CC)C"
+  },
+  {
+   "compound": "Amygdaloidin J",
+   "smiles": "O=C(OC1C(=C)C(OC(=O)C)C2C(OC(=O)C(=C)C(OO)C)C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C(OC(=O)C)C1O)C)C(=CC)C"
+  },
+  {
+   "compound": "[(1S,2S,3aR,5R,6E,9S,10R,11S,13R,13aR)-1,9-diacetyloxy-3a,5,11-trihydroxy-2,5,8,8-tetramethyl-10-[(Z)-2-methylbut-2-enoyl]oxy-12-methylidene-4-oxo-1,2,3,9,10,11,13,13a-octahydrocyclopenta[12]annulen-13-yl] (3S)-3-hydroperoxy-2-methylidenebutanoate",
+   "smiles": "O=C(OC1C(O)C(=C)C(OC(=O)C(=C)C(OO)C)C2C(OC(=O)C)C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C1OC(=O)C)C)C(=CC)C"
+  },
+  {
+   "compound": "[(1S,2S,3aR,5R,6E,9S,10R,11S,13R,13aR)-9,13-diacetyloxy-3a,5,11-trihydroxy-2,5,8,8-tetramethyl-10-[(Z)-2-methylbut-2-enoyl]oxy-12-methylidene-4-oxo-1,2,3,9,10,11,13,13a-octahydrocyclopenta[12]annulen-1-yl] (3S)-3-hydroperoxy-2-methylidenebutanoate",
+   "smiles": "O=C(OC1C(O)C(=C)C(OC(=O)C)C2C(OC(=O)C(=C)C(OO)C)C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C1OC(=O)C)C)C(=CC)C"
+  },
+  {
+   "compound": "Amygdaloidin H",
+   "smiles": "O=C(OC1C(O)C(=C)C(OC(=O)C)C2C(OC(=O)C(=C)C(OO)C)C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C1OC(=O)C)C)C(=CC)C"
+  },
+  {
+   "compound": "Amygdaloidin I",
+   "smiles": "O=C(OC1C(O)C(=C)C(OC(=O)C(=C)C(OO)C)C2C(OC(=O)C)C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C1OC(=O)C)C)C(=CC)C"
+  },
+  {
+   "compound": "[(1S,2S,3aR,5R,6E,9S,10S,11S,13R,13aR)-1,13-diacetyloxy-3a,5-dihydroxy-2,5,8,8-tetramethyl-10,11-bis[[(Z)-2-methylbut-2-enoyl]oxy]-12-methylidene-4-oxo-1,2,3,9,10,11,13,13a-octahydrocyclopenta[12]annulen-9-yl] pyridine-3-carboxylate",
+   "smiles": "O=C(OC1C(OC(=O)C(=CC)C)C(OC(=O)C(=CC)C)C(=C)C(OC(=O)C)C2C(OC(=O)C)C(C)CC2(O)C(=O)C(O)(C=CC1(C)C)C)C=3C=NC=CC3"
+  },
+  {
+   "compound": "Amygdaloidin A",
+   "smiles": "O=C(OC1C(OC(=O)C(=CC)C)C(OC(=O)C(=CC)C)C(=C)C(OC(=O)C)C2C(OC(=O)C)C(C)CC2(O)C(=O)C(O)(C=CC1(C)C)C)C=3C=NC=CC3"
+  },
+  {
+   "compound": "[(1S,2S,3aR,5R,6E,9S,10R,11S,13R,13aR)-9,13-diacetyloxy-3a,5,11-trihydroxy-2,5,8,8-tetramethyl-1-[(Z)-2-methylbut-2-enoyl]oxy-12-methylidene-4-oxo-1,2,3,9,10,11,13,13a-octahydrocyclopenta[12]annulen-10-yl] (3S)-3-hydroperoxy-2-methylidenebutanoate",
+   "smiles": "O=C(OC1C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C(OC(=O)C)C(OC(=O)C(=C)C(OO)C)C(O)C(=C)C(OC(=O)C)C12)C)C(=CC)C"
+  },
+  {
+   "compound": "Amygdaloidin G",
+   "smiles": "O=C(OC1C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C(OC(=O)C)C(OC(=O)C(=C)C(OO)C)C(O)C(=C)C(OC(=O)C)C12)C)C(=CC)C"
+  },
+  {
+   "compound": "(+/-)-naringenin",
+   "smiles": "Oc1ccc(cc1)C1CC(=O)c2c(O)cc(O)cc2O1"
+  },
+  {
+   "compound": "[(1S,2S,3aR,5R,6E,9S,10S,11S,13R,13aS)-9,10-diacetyloxy-3a,5,13-trihydroxy-2,5,8,8-tetramethyl-1-[(Z)-2-methylbut-2-enoyl]oxy-12-methylidene-4-oxo-1,2,3,9,10,11,13,13a-octahydrocyclopenta[12]annulen-11-yl] (3S)-3-hydroperoxy-2-methylidenebutanoate",
+   "smiles": "O=C(OC1C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C(OC(=O)C)C(OC(=O)C)C(OC(=O)C(=C)C(OO)C)C(=C)C(O)C12)C)C(=CC)C"
+  },
+  {
+   "compound": "Amygdaloidin E",
+   "smiles": "O=C(OC1C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C(OC(=O)C)C(OC(=O)C)C(OC(=O)C(=C)C(OO)C)C(=C)C(O)C12)C)C(=CC)C"
+  },
+  {
+   "compound": "[(1S,2S,3aR,5R,6E,9S,10S,11S,13R,13aS)-9,10-diacetyloxy-3a,5,13-trihydroxy-2,5,8,8-tetramethyl-11-[(Z)-2-methylbut-2-enoyl]oxy-12-methylidene-4-oxo-1,2,3,9,10,11,13,13a-octahydrocyclopenta[12]annulen-1-yl] (Z)-2-methylbut-2-enoate",
+   "smiles": "O=C(OC1C(=C)C(O)C2C(OC(=O)C(=CC)C)C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C(OC(=O)C)C1OC(=O)C)C)C(=CC)C"
+  },
+  {
+   "compound": "[(1S,2S,3aR,5R,6E,9S,10S,11S,13R,13aS)-3a,9,10-triacetyloxy-5,13-dihydroxy-2,5,8,8-tetramethyl-1-[(Z)-2-methylbut-2-enoyl]oxy-12-methylidene-4-oxo-1,2,3,9,10,11,13,13a-octahydrocyclopenta[12]annulen-11-yl] (3S)-3-hydroperoxy-2-methylidenebutanoate",
+   "smiles": "O=C(OC1C(C)CC2(OC(=O)C)C(=O)C(O)(C=CC(C)(C)C(OC(=O)C)C(OC(=O)C)C(OC(=O)C(=C)C(OO)C)C(=C)C(O)C12)C)C(=CC)C"
+  },
+  {
+   "compound": "Amygdaloidin D",
+   "smiles": "O=C(OC1C(=C)C(O)C2C(OC(=O)C(=CC)C)C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C(OC(=O)C)C1OC(=O)C)C)C(=CC)C"
+  },
+  {
+   "compound": "Amygdaloidin F",
+   "smiles": "O=C(OC1C(C)CC2(OC(=O)C)C(=O)C(O)(C=CC(C)(C)C(OC(=O)C)C(OC(=O)C)C(OC(=O)C(=C)C(OO)C)C(=C)C(O)C12)C)C(=CC)C"
+  },
+  {
+   "compound": "[(1S,2S,3aR,5R,6E,9S,10S,11S,13R,13aR)-9,13-diacetyloxy-3a,5,10-trihydroxy-2,5,8,8-tetramethyl-1-[(Z)-2-methylbut-2-enoyl]oxy-12-methylidene-4-oxo-1,2,3,9,10,11,13,13a-octahydrocyclopenta[12]annulen-11-yl] (3S)-3-hydroperoxy-2-methylidenebutanoate",
+   "smiles": "O=C(OC1C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C(OC(=O)C)C(O)C(OC(=O)C(=C)C(OO)C)C(=C)C(OC(=O)C)C12)C)C(=CC)C"
+  },
+  {
+   "compound": "Amygdaloidin L",
+   "smiles": "O=C(OC1C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C(OC(=O)C)C(O)C(OC(=O)C(=C)C(OO)C)C(=C)C(OC(=O)C)C12)C)C(=CC)C"
+  },
+  {
+   "compound": "Amygdaloidin C",
+   "smiles": "O=C(OC1C(OC(=O)C)C(OC(=O)C(=CC)C)C(=C)C(O)C2C(OC(=O)C(=C)C(OO)C)C(C)CC2(O)C(=O)C(O)(C=CC1(C)C)C)C=3C=NC=CC3"
+  },
+  {
+   "compound": "[(1S,2S,3aR,5R,6E,9S,10S,11S,13R,13aR)-1,9-diacetyloxy-3a,5,10-trihydroxy-2,5,8,8-tetramethyl-11-[(Z)-2-methylbut-2-enoyl]oxy-12-methylidene-4-oxo-1,2,3,9,10,11,13,13a-octahydrocyclopenta[12]annulen-13-yl] (3S)-3-hydroperoxy-2-methylidenebutanoate",
+   "smiles": "O=C(OC1C(=C)C(OC(=O)C(=C)C(OO)C)C2C(OC(=O)C)C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C(OC(=O)C)C1O)C)C(=CC)C"
+  },
+  {
+   "compound": "Amygdaloidin K",
+   "smiles": "O=C(OC1C(=C)C(OC(=O)C(=C)C(OO)C)C2C(OC(=O)C)C(C)CC2(O)C(=O)C(O)(C=CC(C)(C)C(OC(=O)C)C1O)C)C(=CC)C"
+  },
+  {
+   "compound": "quercetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O"
+  }
+ ]
+}

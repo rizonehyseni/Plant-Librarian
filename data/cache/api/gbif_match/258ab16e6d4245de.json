@@ -1,0 +1,26 @@
+{
+ "key": "Cotinus coggygria Scop.",
+ "value": {
+  "usageKey": 3190522,
+  "scientificName": "Cotinus coggygria Scop.",
+  "canonicalName": "Cotinus coggygria",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Sapindales",
+  "family": "Anacardiaceae",
+  "genus": "Cotinus",
+  "species": "Cotinus coggygria",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 933,
+  "familyKey": 2398,
+  "genusKey": 3190519,
+  "speciesKey": 3190522,
+  "class": "Magnoliopsida"
+ }
+}

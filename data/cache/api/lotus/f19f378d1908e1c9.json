@@ -1,0 +1,89 @@
+{
+ "key": "Agrimonia eupatoria",
+ "value": [
+  {
+   "compound": "kaempferol",
+   "smiles": "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "kaempferide",
+   "smiles": "COC1=CC=C(C=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "Maltotriose",
+   "smiles": "OCC1OC(OC2C(O)C(O)C(OC2CO)OC3C(O)C(O)C(O)OC3CO)C(O)C(O)C1O"
+  },
+  {
+   "compound": "Apigenin 7-glucuronide",
+   "smiles": "O=C(O)C1OC(OC2=CC(O)=C3C(=O)C=C(OC3=C2)C=4C=CC(O)=CC4)C(O)C(O)C1O"
+  },
+  {
+   "compound": "Rosamultin",
+   "smiles": "O=C(OC1OC(CO)C(O)C(O)C1O)C23CCC(C)C(O)(C)C3C4=CCC5C6(C)CC(O)C(O)C(C)(C)C6CCC5(C)C4(C)CC2"
+  },
+  {
+   "compound": "[(2S,3R,4R,5S,6R)-6-[5,7-dihydroxy-2-(4-hydroxyphenyl)-4-oxo-chromen-3-yl]oxy-3,4,5-trihydroxy-tetrahydropyran-2-yl]methyl (E)-3-(4-hydroxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OCC1OC(OC=2C(=O)C=3C(O)=CC(O)=CC3OC2C=4C=CC(O)=CC4)C(O)C(O)C1O)C=CC5=CC=C(O)C=C5"
+  },
+  {
+   "compound": "Astragalin",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=CC(O)=CC4"
+  },
+  {
+   "compound": "[(2R,3S,4R,5R,6S)-2-[5,7-dihydroxy-2-(4-hydroxyphenyl)-4-oxochromen-3-yl]oxy-4,5-dihydroxy-6-(hydroxymethyl)oxan-3-yl] acetate",
+   "smiles": "O=C(OC1C(OC=2C(=O)C=3C(O)=CC(O)=CC3OC2C=4C=CC(O)=CC4)OC(CO)C(O)C1O)C"
+  },
+  {
+   "compound": "3-[(6-Deoxy-alpha-L-mannopyranosyl)oxy]-5,7-dihydroxy-2-(4-methoxyphenyl)-4H-1-benzopyran-4-one",
+   "smiles": "O=C1C(OC2OC(C)C(O)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=CC(OC)=CC4"
+  },
+  {
+   "compound": "5,7-dihydroxy-2-(4-methoxyphenyl)-3-[(2S,3S,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(C)C(O)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=CC(OC)=CC4"
+  },
+  {
+   "compound": "(1S,2S,4aS,6aR,6aS,6bR,8aS,10S,12aS,14bR)-10-hydroxy-1,2,6a,6b,9,9,12a-heptamethyl-2,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydro-1H-picene-4a-carboxylic acid",
+   "smiles": "O=C(O)C12CCC(C)C(C)C2C3=CCC4C5(C)CCC(O)C(C)(C)C5CCC4(C)C3(C)CC1"
+  },
+  {
+   "compound": "apigetrin",
+   "smiles": "C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O"
+  },
+  {
+   "compound": "luteolin-7-O-β-glucuronide",
+   "smiles": "O=C(O)C1OC(OC2=CC(O)=C3C(=O)C=C(OC3=C2)C=4C=CC(O)=C(O)C4)C(O)C(O)C1O"
+  },
+  {
+   "compound": "nictoflorin",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC=C(C=C5)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "quercetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O"
+  },
+  {
+   "compound": "quercitrin",
+   "smiles": "CC1C(C(C(C(O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C=C4)O)O)O)O)O"
+  },
+  {
+   "compound": "luteoloside",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O)O"
+  },
+  {
+   "compound": "isoquercetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O"
+  },
+  {
+   "compound": "rutin",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "afzelin",
+   "smiles": "CC1C(C(C(C(O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC=C(C=C4)O)O)O)O"
+  },
+  {
+   "compound": "kaempferol 3-O-beta-L-glucopyranoside",
+   "smiles": "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O"
+  }
+ ]
+}

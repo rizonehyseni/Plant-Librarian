@@ -1,0 +1,26 @@
+{
+ "key": "Primula veris L.",
+ "value": {
+  "usageKey": 8377689,
+  "scientificName": "Primula veris L.",
+  "canonicalName": "Primula veris",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Ericales",
+  "family": "Primulaceae",
+  "genus": "Primula",
+  "species": "Primula veris",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 1353,
+  "familyKey": 6674,
+  "genusKey": 8026112,
+  "speciesKey": 8377689,
+  "class": "Magnoliopsida"
+ }
+}
