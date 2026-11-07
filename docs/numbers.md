@@ -29,9 +29,9 @@ The synthetic test fixture is excluded.
 | Plants with PubMed candidates | 108 / 108 |
 | Plants with GBIF occurrences | 96 / 108 |
 | Plants with compounds (Wikidata/LOTUS) | 102 / 108 |
-| Plants with a safety flag | 5 |
-| Flags, risk / caution | 3 |
-| Flags, risk / warning | 2 |
+| Plants with a safety flag | 20 |
+| Flags, risk / caution | 16 |
+| Flags, risk / warning | 4 |
 | Records Needs Review | 569 |
 | Verified records | 0 |
 | Eval recall (hand-checked gold rows) | 23/23 = 100% |
