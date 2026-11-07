@@ -36,9 +36,11 @@ fungi, and requires each record's table text to match a unique PDF page.
 
 `eval/gold.csv` contains 23 real-study examples whose local name, plant part, preparation,
 reported use and page were checked against the source PDF. The synthetic fixture rows remain
-in the file for reference but are excluded from `make eval`. Evaluation requires an exact match
-on the real record fields; these 23 examples are a small sample, not a full-document accuracy
-claim.
+in the file for reference but are excluded from `make eval`. A gold row counts as found when a
+record has the same page, local name, part, preparation and use, and the same plant, written
+either as in the study or as the GBIF accepted name (e.g. *Chamomilla recutita* = *Matricaria
+chamomilla*). The 23 rows are a small sample, so `make eval` reports recall, not precision. The
+current Sharr records come from the table parser, not from Claude, so this checks the parser.
 
 ### What needs an API key
 
