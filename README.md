@@ -34,7 +34,7 @@ No `make` (Windows)? Run the commands from the Makefile directly, e.g. `python -
 | **Map of uses** | All records on one map (village pin or study-area circle), filters by community, study, use and preparation, optional GBIF occurrence heat map, which plants the communities share, flagged plants | No |
 | **Research gaps** | Every plant with its preparation verdict, gaps first, CSV export | No |
 | **Priorities** | *What should science study next?* (plants used for the same body system by independent groups, preparation untested) and *Knowledge at risk* (plants and uses only one group reports) | No |
-| **Ask the librarian** | Chat that answers only from the fact sheets, with sources | Free `GROQ_API_KEY` |
+| **Ask the librarian** | Chat that answers only from the fact sheets, with sources; ask by typing or **with your voice** (Albanian or English); a small animated botanist greets you | Free `GROQ_API_KEY` |
 | **Data quality review** | Check, correct and verify records; audit log | No |
 | **Add a study** | Upload a new study; the LLM extracts records and they join the map | Free `GROQ_API_KEY` |
 
@@ -199,6 +199,15 @@ The verdict is shown on each plant profile. The **Research gaps** page lists all
 the gaps first and can export the table as CSV. The chat assistant uses the same check. The
 tags are keyword guesses on the top 40 PubMed results, so a verdict points to papers to read.
 It is not a review.
+
+## Ask with your voice
+
+On **Ask the librarian**, press the microphone (`st.audio_input`), speak, press again. `pipeline/voice.py`
+sends the recording to Groq's free Whisper model (`GROQ_WHISPER_MODEL`, default `whisper-large-v3`) with the
+interface language as a hint and a short prompt of Albanian plant names, then asks the text like a typed
+question. Recordings are not stored. Same free `GROQ_API_KEY` as the chat. The animated botanist on that page
+is inline SVG with CSS (no JavaScript, no external files) and stops moving when the system asks for reduced
+motion.
 
 ## Research priorities and knowledge at risk
 

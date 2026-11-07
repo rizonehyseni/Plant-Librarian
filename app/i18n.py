@@ -399,6 +399,13 @@ SQ = {
     "Women's health": 'Shëndeti i gruas',
     'Eyes, ears and mouth': 'Sytë, veshët dhe goja',
     'Fever and inflammation': 'Temperatura dhe inflamacioni',
+    # ---------------------------------------------------------------- voice and botanist
+    "Hello! I'm the plant librarian. Ask me about any plant: type it, or press the microphone and say its name the way your grandparents do.": 'Përshëndetje! Jam bibliotekari i bimëve. Më pyet për çdo bimë: shkruaje, ose shtyp mikrofonin dhe thuaje emrin siç e thonë gjyshërit.',
+    'Animated botanist waving with a leaf': 'Botanist i animuar që përshëndet me një gjethe',
+    'Or ask with your voice': 'Ose pyet me zë',
+    'Press the microphone, speak in Albanian or English, press again to stop.': 'Shtyp mikrofonin, fol në shqip ose anglisht, shtyp sërish për ta ndalur.',
+    'Listening…': 'Po dëgjoj…',
+    'I could not hear a question. Try again a little closer to the microphone.': 'Nuk e dëgjova pyetjen. Provo sërish pak më afër mikrofonit.',
 }
 
 
