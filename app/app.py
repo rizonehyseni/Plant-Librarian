@@ -8,6 +8,30 @@ from ui import apply_theme
 st.set_page_config(page_title="Plant librarian · EthnoHack", page_icon=":material/eco:", layout="wide")
 apply_theme()
 
+
+@st.cache_resource(show_spinner=False)
+def ensure_database() -> bool:
+    """On a fresh server (e.g. Streamlit Cloud) there is no database yet: build it from the committed caches.
+
+    Runs once per server, offline (no API calls, about 10 seconds), in a separate process so OFFLINE=1
+    does not affect the running app.
+    """
+    import os
+    import subprocess
+    import sys
+    from pathlib import Path
+
+    root = Path(__file__).resolve().parent.parent
+    if (root / "data" / "ethnohack.db").exists():
+        return True
+    subprocess.run([sys.executable, "-m", "pipeline.build"], cwd=root, check=True,
+                   env={**os.environ, "OFFLINE": "1"}, capture_output=True)
+    return True
+
+
+with st.spinner("Building the plant library for the first time (about 10 seconds)…"):
+    ensure_database()
+
 with st.sidebar:
     # Rendered in the entrypoint on every run, so the choice holds on every page.
     st.segmented_control(":material/translate: Gjuha · Language", list(LANGUAGES.values()), default="Shqip",
