@@ -7,6 +7,23 @@ from dotenv import load_dotenv
 ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT / ".env")
 
+
+def _load_streamlit_secrets() -> None:
+    """On Streamlit Community Cloud keys live in st.secrets; copy plain string values into the environment.
+
+    Values already in the environment (or .env) win. Does nothing when there is no secrets.toml.
+    """
+    try:
+        import streamlit as st
+        for name, value in st.secrets.to_dict().items():
+            if isinstance(value, str) and value and not os.getenv(name):
+                os.environ[name] = value.strip()
+    except Exception:  # no streamlit, no secrets file, or a broken one: fall back to .env only
+        pass
+
+
+_load_streamlit_secrets()
+
 DATA = ROOT / "data"
 RAW = DATA / "raw"              # study PDFs / text files go here
 INTERIM = DATA / "interim"      # extracted page text (rebuildable, not committed)

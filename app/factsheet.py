@@ -12,9 +12,16 @@ import streamlit as st
 from i18n import lang, summary_sentence, t
 
 
+def _secret(name: str) -> str:
+    try:
+        return str(st.secrets.get(name, "") or "").strip()
+    except Exception:  # no secrets.toml locally
+        return ""
+
+
 def app_url() -> str:
     """Public address of the app: APP_URL when set (deployed), else the address the browser used."""
-    url = os.getenv("APP_URL") or st.context.url or "http://localhost:8501"
+    url = os.getenv("APP_URL") or _secret("APP_URL") or st.context.url or "http://localhost:8501"
     parts = urlsplit(url)
     return urlunsplit((parts.scheme, parts.netloc, "", "", "")).rstrip("/")
 

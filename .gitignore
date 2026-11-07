@@ -11,3 +11,6 @@ data/*.db
 .agents/
 .claude/worktrees/
 data/cache/extract/*.partial.json
+
+# Streamlit Cloud secrets (never commit)
+.streamlit/secrets.toml

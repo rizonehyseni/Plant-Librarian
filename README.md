@@ -28,7 +28,7 @@ No `make` (Windows)? Run the commands from the Makefile directly, e.g. `python -
 
 1. Go to https://share.streamlit.io and sign in with the GitHub account that owns this repo (private repos
    work; Streamlit asks for permission once).
-2. **Create app** → *Deploy a public app from GitHub*: repository `rizonehyseni/hackathon`, branch `main`,
+2. **Create app** → *Deploy a public app from GitHub*: repository `rizonehyseni/Plant-Librarian`, branch `main`,
    main file `app/app.py`. Under *Advanced settings* pick **Python 3.12**.
 3. In *Advanced settings → Secrets* paste (TOML, quotes required):
    ```toml
