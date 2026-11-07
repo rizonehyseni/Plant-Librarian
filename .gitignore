@@ -5,3 +5,8 @@ __pycache__/
 .pytest_cache/
 data/interim/
 data/*.db
+.env.*
+!.env.example
+*.swp
+.agents/
+.claude/worktrees/

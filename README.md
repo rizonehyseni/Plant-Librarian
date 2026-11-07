@@ -33,6 +33,7 @@ No `make` (Windows)? Run the commands from the Makefile directly, e.g. `python -
 | **Search & compare** | Filter and compare records across plants, parts, preparations | No |
 | **Map of uses** | All records on one map (village pin or study-area circle), filters by community, study, use and preparation, optional GBIF occurrence heat map, which plants the communities share, flagged plants | No |
 | **Research gaps** | Every plant with its preparation verdict, gaps first, CSV export | No |
+| **Priorities** | *What should science study next?* (plants used for the same body system by independent groups, preparation untested) and *Knowledge at risk* (plants and uses only one group reports) | No |
 | **Ask the librarian** | Chat that answers only from the fact sheets, with sources | Free `GROQ_API_KEY` |
 | **Data quality review** | Check, correct and verify records; audit log | No |
 | **Add a study** | Upload a new study; the LLM extracts records and they join the map | Free `GROQ_API_KEY` |
@@ -63,7 +64,10 @@ per change.
 - `make eval`: 42 hand-checked gold rows, recall 40/42 (95%), local name to plant 40/40.
   Per study: Sharr (table parser) 23/23, Albanian Alps (**Groq LLM extraction**) 17/19. The two
   misses (*Beta vulgaris*, *Brassica oleracea*, p. 5) were not extracted.
-- App: the seven pages above. 46 tests pass (`make test`). `make stats` writes the slide numbers to `docs/numbers.md`; the demo walk-through is in `docs/demo-script.md`.
+- **Priorities** page (`pipeline/priorities.py`, rules only): 36 research-priority plants, 4 with a
+  preparation never tested and 15 confirmed in two regions (top: *Humulus lupulus*, hop, for nerves and
+  sleep in 3 groups across both studies); 73 plants and 119 uses that only one group reports.
+- App: the pages above. 46 tests pass (`make test`). `make stats` writes the slide numbers to `docs/numbers.md`; the demo walk-through is in `docs/demo-script.md`.
 
 ### Remaining, in order of priority
 
@@ -195,6 +199,23 @@ The verdict is shown on each plant profile. The **Research gaps** page lists all
 the gaps first and can export the table as CSV. The chat assistant uses the same check. The
 tags are keyword guesses on the top 40 PubMed results, so a verdict points to papers to read.
 It is not a review.
+
+## Research priorities and knowledge at risk
+
+`pipeline/priorities.py` uses written rules only, no AI. Each use text is sorted into a body system by
+keywords (respiratory, digestive, skin and wounds, nerves and sleep, ...). A **group** is one community in
+one study (e.g. Turkish in the 2015 Sharr study; the 2012 Albanian Alps study is one group because it does not
+split by community).
+
+- **What should science study next?** A plant is a priority when 2+ independent groups use it for the same
+  body system and its preparation verdict is *Only other preparations*, *No studies found* or *Same
+  preparation, lab/animal only*. Score: 10 per group, +15 per extra study region, +20 if the preparation was
+  never tested, plus a small bonus for many records. These are hypotheses to study, not evidence.
+- **Knowledge at risk:** plants that only one group reports, and uses of a known plant that only one group
+  reports. A plant missing from a study does not prove that community never knew it (studies asked different
+  people), so this list gets more reliable with every study added.
+
+Both views are on the **Priorities** page, with CSV export.
 
 ## Chat assistant
 
