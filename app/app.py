@@ -11,6 +11,7 @@ pages = {
         st.Page("pages/plant_profile.py", title="Plant profile", icon=":material/local_florist:", default=True),
         st.Page("pages/2_Explore_Advanced_Search.py", title="Search & compare",
                 icon=":material/travel_explore:", url_path="search"),
+        st.Page("pages/6_Map.py", title="Map of uses", icon=":material/map:", url_path="map"),
         st.Page("pages/4_Research_Gaps.py", title="Research gaps", icon=":material/science:", url_path="gaps"),
     ],
     "Assistant": [
