@@ -10,3 +10,4 @@ data/*.db
 *.swp
 .agents/
 .claude/worktrees/
+data/cache/extract/*.partial.json
