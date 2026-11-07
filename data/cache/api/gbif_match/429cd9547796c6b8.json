@@ -1,0 +1,26 @@
+{
+ "key": "Morus alba L.",
+ "value": {
+  "usageKey": 5361889,
+  "scientificName": "Morus alba L.",
+  "canonicalName": "Morus alba",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Rosales",
+  "family": "Moraceae",
+  "genus": "Morus",
+  "species": "Morus alba",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 691,
+  "familyKey": 6640,
+  "genusKey": 2984545,
+  "speciesKey": 5361889,
+  "class": "Magnoliopsida"
+ }
+}

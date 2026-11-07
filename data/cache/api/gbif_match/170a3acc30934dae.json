@@ -1,0 +1,26 @@
+{
+ "key": "Capsella bursa-pastoris (L.) Medik.",
+ "value": {
+  "usageKey": 5375388,
+  "scientificName": "Capsella bursa-pastoris (L.) Medik.",
+  "canonicalName": "Capsella bursa-pastoris",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Brassicales",
+  "family": "Brassicaceae",
+  "genus": "Capsella",
+  "species": "Capsella bursa-pastoris",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 7225535,
+  "familyKey": 3112,
+  "genusKey": 3047430,
+  "speciesKey": 5375388,
+  "class": "Magnoliopsida"
+ }
+}

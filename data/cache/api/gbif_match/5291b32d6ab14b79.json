@@ -1,0 +1,26 @@
+{
+ "key": "Veronica officinalis L.",
+ "value": {
+  "usageKey": 3172049,
+  "scientificName": "Veronica officinalis L.",
+  "canonicalName": "Veronica officinalis",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Lamiales",
+  "family": "Plantaginaceae",
+  "genus": "Veronica",
+  "species": "Veronica officinalis",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 408,
+  "familyKey": 2420,
+  "genusKey": 3172047,
+  "speciesKey": 3172049,
+  "class": "Magnoliopsida"
+ }
+}

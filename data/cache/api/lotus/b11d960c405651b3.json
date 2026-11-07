@@ -1,0 +1,141 @@
+{
+ "key": "Dryopteris filix-mas",
+ "value": [
+  {
+   "compound": "echinenone",
+   "smiles": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(C(=O)CCC2(C)C)C)C)C"
+  },
+  {
+   "compound": "eugenol",
+   "smiles": "COC1=C(C=CC(=C1)CC=C)O"
+  },
+  {
+   "compound": "5-caffeoylshikimic acid",
+   "smiles": "C1C(C(C(C=C1C(=O)O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O"
+  },
+  {
+   "compound": "(E)-chlorogenic acid",
+   "smiles": "C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "2-butanoyl-6-[(3-butanoyl-2,4-dihydroxy-6-methoxy-5-methylphenyl)methyl]-3,5-dihydroxy-4,4-dimethylcyclohexa-2,5-dien-1-one",
+   "smiles": "O=C1C(C(=O)CCC)=C(O)C(C(O)=C1CC=2C(O)=C(C(O)=C(C2OC)C)C(=O)CCC)(C)C"
+  },
+  {
+   "compound": "pentadecane",
+   "smiles": "CCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "tetradecane",
+   "smiles": "CCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "flavaspidic acid",
+   "smiles": "O=C1C(C(=O)CCC)=C(O)C(C(O)=C1CC=2C(O)=C(C(O)=C(C2O)C)C(=O)CCC)(C)C"
+  },
+  {
+   "compound": "(4S,6R)-4-butanoyl-6-[[3-butanoyl-5-[[(1R,5S)-5-butanoyl-3,3-dimethyl-2,4,6-trioxocyclohexyl]methyl]-2,4,6-trihydroxyphenyl]methyl]-2,2-dimethylcyclohexane-1,3,5-trione",
+   "smiles": "O=C(C=1C(O)=C(C(O)=C(C1O)CC2C(=O)C(C(=O)CCC)C(=O)C(C2=O)(C)C)CC3C(=O)C(C(=O)CCC)C(=O)C(C3=O)(C)C)CCC"
+  },
+  {
+   "compound": "linoleic acid",
+   "smiles": "CCCCCC=CCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "stearic acid",
+   "smiles": "CCCCCCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "oleic acid",
+   "smiles": "CCCCCCCCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "hexadecane",
+   "smiles": "CCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "filixic acid BBB",
+   "smiles": "CCCC(=O)C1=C(C(=C(C(=C1O)CC2=C(C(C(=C(C2=O)C(=O)CCC)O)(C)C)O)O)CC3=C(C(C(=C(C3=O)C(=O)CCC)O)(C)C)O)O"
+  },
+  {
+   "compound": "(±)-β-citronellol",
+   "smiles": "CC(CCC=C(C)C)CCO"
+  },
+  {
+   "compound": "taraxanthin",
+   "smiles": "CC1=CC(CC(C1C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC23C(CC(CC2(O3)C)O)(C)C)C)C)(C)C)O"
+  },
+  {
+   "compound": "nerol",
+   "smiles": "CC(=CCCC(=CCO)C)C"
+  },
+  {
+   "compound": "palmitic acid",
+   "smiles": "CCCCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "myristic acid",
+   "smiles": "CCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "3-octanol",
+   "smiles": "CCCCCC(CC)O"
+  },
+  {
+   "compound": "linalool",
+   "smiles": "CC(=CCCC(C)(C=C)O)C"
+  },
+  {
+   "compound": "squalene",
+   "smiles": "CC(=CCCC(=CCCC(=CCCC=C(C)CCC=C(C)CCC=C(C)C)C)C)C"
+  },
+  {
+   "compound": "geraniol",
+   "smiles": "CC(=CCCC(=CCO)C)C"
+  },
+  {
+   "compound": "palmitoleic acid",
+   "smiles": "CCCCCCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "heptadecene",
+   "smiles": "CCCCCCCCCCCCCCCC=C"
+  },
+  {
+   "compound": "benzyl alcohol",
+   "smiles": "C1=CC=C(C=C1)CO"
+  },
+  {
+   "compound": "cryptoxanthin",
+   "smiles": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CC(CC2(C)C)O)C)C)C"
+  },
+  {
+   "compound": "oct-1-en-3-ol",
+   "smiles": "CCCCCC(C=C)O"
+  },
+  {
+   "compound": "aspidinol",
+   "smiles": "CCCC(=O)C1=C(C(=C(C=C1O)OC)C)O"
+  },
+  {
+   "compound": "behenic acid",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "zeaxanthin",
+   "smiles": "CC1=C(C(CC(C1)O)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CC(CC2(C)C)O)C)C)C"
+  },
+  {
+   "compound": "1-hexanol",
+   "smiles": "CCCCCCO"
+  },
+  {
+   "compound": "tridecane",
+   "smiles": "CCCCCCCCCCCCC"
+  },
+  {
+   "compound": "β-carotene",
+   "smiles": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C"
+  }
+ ]
+}

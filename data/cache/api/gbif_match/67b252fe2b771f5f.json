@@ -1,0 +1,26 @@
+{
+ "key": "Juncus effusus L.",
+ "value": {
+  "usageKey": 2701311,
+  "scientificName": "Juncus effusus L.",
+  "canonicalName": "Juncus effusus",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Poales",
+  "family": "Juncaceae",
+  "genus": "Juncus",
+  "species": "Juncus effusus",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 196,
+  "orderKey": 1369,
+  "familyKey": 5353,
+  "genusKey": 2701072,
+  "speciesKey": 2701311,
+  "class": "Liliopsida"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "key": "Raphanus sativus L.",
+ "value": {
+  "usageKey": 7678610,
+  "scientificName": "Raphanus sativus L.",
+  "canonicalName": "Raphanus sativus",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Brassicales",
+  "family": "Brassicaceae",
+  "genus": "Raphanus",
+  "species": "Raphanus sativus",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 7225535,
+  "familyKey": 3112,
+  "genusKey": 3040962,
+  "speciesKey": 7678610,
+  "class": "Magnoliopsida"
+ }
+}

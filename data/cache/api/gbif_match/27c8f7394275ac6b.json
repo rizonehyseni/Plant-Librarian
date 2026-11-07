@@ -1,0 +1,26 @@
+{
+ "key": "Citrus limon (L.) Osbeck",
+ "value": {
+  "usageKey": 7647136,
+  "scientificName": "Citrus × limon (L.) Osbeck",
+  "canonicalName": "Citrus limon",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Sapindales",
+  "family": "Rutaceae",
+  "genus": "Citrus",
+  "species": "Citrus limon",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 933,
+  "familyKey": 2396,
+  "genusKey": 3190155,
+  "speciesKey": 7647136,
+  "class": "Magnoliopsida"
+ }
+}

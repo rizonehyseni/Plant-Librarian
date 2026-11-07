@@ -1,0 +1,405 @@
+{
+ "key": "Allium ampeloprasum",
+ "value": [
+  {
+   "compound": "mercaptopurine",
+   "smiles": "C1=NC2=C(N1)C(=S)N=CN2"
+  },
+  {
+   "compound": "isophytol",
+   "smiles": "CC(C)CCCC(C)CCCC(C)CCCC(C)(C=C)O"
+  },
+  {
+   "compound": "nonacosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "propyl sulfide",
+   "smiles": "CCCSCCC"
+  },
+  {
+   "compound": "1-penten-3-ol",
+   "smiles": "CCC(C=C)O"
+  },
+  {
+   "compound": "(RS)-acetoin",
+   "smiles": "CC(C(=O)C)O"
+  },
+  {
+   "compound": "β-chlorogenin",
+   "smiles": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CC(C6C5(CCC(C6)O)C)O)C)C)OC1"
+  },
+  {
+   "compound": "allyl disulfide",
+   "smiles": "C=CCSSCC=C"
+  },
+  {
+   "compound": "kaempferol",
+   "smiles": "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "methyl propyl disulfide",
+   "smiles": "CCCSSC"
+  },
+  {
+   "compound": "agigenin",
+   "smiles": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CC(C6C5(CC(C(C6)O)O)C)O)C)C)OC1"
+  },
+  {
+   "compound": "1,2,3-trimethylbenzene",
+   "smiles": "CC1=C(C(=CC=C1)C)C"
+  },
+  {
+   "compound": "dimethyl phthalate",
+   "smiles": "COC(=O)C1=CC=CC=C1C(=O)OC"
+  },
+  {
+   "compound": "pentanal",
+   "smiles": "CCCCC=O"
+  },
+  {
+   "compound": "2-Methyl-2-pentenal",
+   "smiles": "O=CC(=CCC)C"
+  },
+  {
+   "compound": "(±)-L-alliin",
+   "smiles": "C=CCS(=O)CC(C(=O)O)N"
+  },
+  {
+   "compound": "(2S)-2-Amino-3-prop-2-enylsulfinylpropanoic acid",
+   "smiles": "O=C(O)C(N)C[S+]([O-])CC=C"
+  },
+  {
+   "compound": "dipropyl tetrasulfide",
+   "smiles": "CCCSSSSCCC"
+  },
+  {
+   "compound": "neophytadiene",
+   "smiles": "CC(C)CCCC(C)CCCC(C)CCCC(=C)C=C"
+  },
+  {
+   "compound": "n-pentane",
+   "smiles": "CCCCC"
+  },
+  {
+   "compound": "3-(Ethanesulfinyl)alanine",
+   "smiles": "O=C(O)C(N)C[S+]([O-])CC"
+  },
+  {
+   "compound": "methiin",
+   "smiles": "O=C(O)C(N)C[S+]([O-])C"
+  },
+  {
+   "compound": "heptadecane",
+   "smiles": "CCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "tetradecane",
+   "smiles": "CCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "nonadecane",
+   "smiles": "CCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "heneicosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "pentacosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "tricosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "heptacosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "Astragalin",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=CC(O)=CC4"
+  },
+  {
+   "compound": "dioscin",
+   "smiles": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CC=C6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)C)O)O)O)O)OC9C(C(C(C(O9)C)O)O)O)C)C)C)OC1"
+  },
+  {
+   "compound": "aldehydo-D-galactose",
+   "smiles": "C(C(C(C(C(C=O)O)O)O)O)O"
+  },
+  {
+   "compound": "linoleic acid",
+   "smiles": "CCCCCC=CCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "methyl mercaptan",
+   "smiles": "CS"
+  },
+  {
+   "compound": "octadeca-9,12-dienoic acid",
+   "smiles": "CCCCCC=CCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "aldehydo-D-glucose",
+   "smiles": "C(C(C(C(C(C=O)O)O)O)O)O"
+  },
+  {
+   "compound": "propyl mercaptan",
+   "smiles": "CCCS"
+  },
+  {
+   "compound": "aldehydo-D-mannose",
+   "smiles": "C(C(C(C(C(C=O)O)O)O)O)O"
+  },
+  {
+   "compound": "decane",
+   "smiles": "CCCCCCCCCC"
+  },
+  {
+   "compound": "stearic acid",
+   "smiles": "CCCCCCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "oleic acid",
+   "smiles": "CCCCCCCCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "dimethyl sulfide",
+   "smiles": "CSC"
+  },
+  {
+   "compound": "kaempferol 3-O-neohesperidoside",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C(O)C2OC3OC(C)C(O)C(O)C3O)=C(OC=4C=C(O)C=C(O)C14)C=5C=CC(O)=CC5"
+  },
+  {
+   "compound": "[(2S,3R,4S,5S,6R)-2-[5,7-dihydroxy-2-(4-hydroxyphenyl)-4-oxochromen-3-yl]oxy-4,5-dihydroxy-6-(hydroxymethyl)oxan-3-yl] (E)-3-(4-hydroxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OC1C(OC=2C(=O)C=3C(O)=CC(O)=CC3OC2C=4C=CC(O)=CC4)OC(CO)C(O)C1O)C=CC5=CC=C(O)C=C5"
+  },
+  {
+   "compound": "3-(propylthio)propene",
+   "smiles": "CCCSCC=C"
+  },
+  {
+   "compound": "diosgenin",
+   "smiles": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CC=C6C5(CCC(C6)O)C)C)C)OC1"
+  },
+  {
+   "compound": "Dimethyldiselenide",
+   "smiles": "C[Se][Se]C"
+  },
+  {
+   "compound": "1-(Methylthio)ethanethiol",
+   "smiles": "SC(SC)C"
+  },
+  {
+   "compound": "2-Propenyl propyl trisulfide",
+   "smiles": "CCCSSSCC=C"
+  },
+  {
+   "compound": "2-ethylhexanol",
+   "smiles": "CCCCC(CC)CO"
+  },
+  {
+   "compound": "(2E/Z)-2-methyl-2-butenal",
+   "smiles": "O=CC(=CC)C"
+  },
+  {
+   "compound": "2,3-Thiophenedicarboxaldehyde",
+   "smiles": "C1=CSC(=C1C=O)C=O"
+  },
+  {
+   "compound": "palmitic acid",
+   "smiles": "CCCCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "undecane",
+   "smiles": "CCCCCCCCCCC"
+  },
+  {
+   "compound": "L-glutamic acid",
+   "smiles": "C(CC(=O)O)C(C(=O)O)N"
+  },
+  {
+   "compound": "2-amylfuran",
+   "smiles": "CCCCCC1=CC=CO1"
+  },
+  {
+   "compound": "diethyl phthalate",
+   "smiles": "CCOC(=O)C1=CC=CC=C1C(=O)OCC"
+  },
+  {
+   "compound": "myristic acid",
+   "smiles": "CCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "quercetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O"
+  },
+  {
+   "compound": "allyl methyl disulfide",
+   "smiles": "CSSCC=C"
+  },
+  {
+   "compound": "f-gitonin",
+   "smiles": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CC(C(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)O)C)C)C)OC1"
+  },
+  {
+   "compound": "3-(Methylselanyl)prop-1-ene",
+   "smiles": "C[Se]CC=C"
+  },
+  {
+   "compound": "dodecane",
+   "smiles": "CCCCCCCCCCCC"
+  },
+  {
+   "compound": "(E)-1-sulfosulfanylprop-1-ene",
+   "smiles": "O=S(=O)(O)SC=CC"
+  },
+  {
+   "compound": "3-(Ethylsulfanyl)pentane",
+   "smiles": "CCC(CC)SCC"
+  },
+  {
+   "compound": "allyl methyl sulfide",
+   "smiles": "CSCC=C"
+  },
+  {
+   "compound": "S-Methyl propane-1-sulfinothioate",
+   "smiles": "[O-][S+](SC)CCC"
+  },
+  {
+   "compound": "propionaldehyde",
+   "smiles": "CCC=O"
+  },
+  {
+   "compound": "dimethylselenide",
+   "smiles": "C[Se]C"
+  },
+  {
+   "compound": "octadec-9-enoic acid",
+   "smiles": "CCCCCCCCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "hexanal",
+   "smiles": "CCCCCC=O"
+  },
+  {
+   "compound": "2-methoxy-4-vinylphenol",
+   "smiles": "COC1=C(C=CC(=C1)C=C)O"
+  },
+  {
+   "compound": "dibutyl phthalate",
+   "smiles": "CCCCOC(=O)C1=CC=CC=C1C(=O)OCCCC"
+  },
+  {
+   "compound": "L-valine",
+   "smiles": "CC(C)C(C(=O)O)N"
+  },
+  {
+   "compound": "acetaldehyde",
+   "smiles": "CC=O"
+  },
+  {
+   "compound": "Methyl 2-methylhexadecanoate",
+   "smiles": "O=C(OC)C(C)CCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "1,1-diethoxyethane",
+   "smiles": "CCOC(C)OCC"
+  },
+  {
+   "compound": "Methyl propyl tetrasulphide",
+   "smiles": "CCCSSSSC"
+  },
+  {
+   "compound": "2-ethylfuran",
+   "smiles": "CCC1=CC=CO1"
+  },
+  {
+   "compound": "dimethyl disulfide",
+   "smiles": "CSSC"
+  },
+  {
+   "compound": "dipropyl trisulfide",
+   "smiles": "CCCSSSCCC"
+  },
+  {
+   "compound": "lignoceric acid",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "dimethyl trisulfide",
+   "smiles": "CSSSC"
+  },
+  {
+   "compound": "phthalic acid",
+   "smiles": "C1=CC=C(C(=C1)C(=O)O)C(=O)O"
+  },
+  {
+   "compound": "Dipropyl disulfide",
+   "smiles": "CCCSSCCC"
+  },
+  {
+   "compound": "heptadecene",
+   "smiles": "CCCCCCCCCCCCCCCC=C"
+  },
+  {
+   "compound": "isovaleraldehyde",
+   "smiles": "CC(C)CC=O"
+  },
+  {
+   "compound": "alpha-linolenic acid",
+   "smiles": "CCC=CCC=CCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "methyl propyl trisulfide",
+   "smiles": "CCCSSSC"
+  },
+  {
+   "compound": "allyl propyl disulfide",
+   "smiles": "CCCSSCC=C"
+  },
+  {
+   "compound": "oct-1-en-3-ol",
+   "smiles": "CCCCCC(C=C)O"
+  },
+  {
+   "compound": "arachidic acid",
+   "smiles": "CCCCCCCCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "octadeca-9,12,15-trienoic acid",
+   "smiles": "CCC=CCC=CCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "S-propyl propanethiosulfinate",
+   "smiles": "CCCSS(=O)CCC"
+  },
+  {
+   "compound": "allicin",
+   "smiles": "C=CCSS(=O)CC=C"
+  },
+  {
+   "compound": "behenic acid",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "isoalliin",
+   "smiles": "CC=CS(=O)CC(C(=O)O)N"
+  },
+  {
+   "compound": "1-hexanol",
+   "smiles": "CCCCCCO"
+  },
+  {
+   "compound": "glycine",
+   "smiles": "C(C(=O)O)N"
+  },
+  {
+   "compound": "1-octen-3-one",
+   "smiles": "CCCCCC(=O)C=C"
+  }
+ ]
+}

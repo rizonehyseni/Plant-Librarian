@@ -1,0 +1,185 @@
+{
+ "key": "Fumaria officinalis",
+ "value": [
+  {
+   "compound": "protopine",
+   "smiles": "CN1CCC2=CC3=C(C=C2C(=O)CC4=C(C1)C5=C(C=C4)OCO5)OCO3"
+  },
+  {
+   "compound": "(E)-chlorogenic acid",
+   "smiles": "C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "(R)-scoulerine",
+   "smiles": "OC=1C=C2C(=CC1OC)CCN3CC4=C(O)C(OC)=CC=C4CC23"
+  },
+  {
+   "compound": "CID 21627986",
+   "smiles": "OC=1C=C2C(=CC1OC)CCN(C)C23CC4=CC=C5OCOC5=C4C3O"
+  },
+  {
+   "compound": "DL-malic acid",
+   "smiles": "C(C(C(=O)O)O)C(=O)O"
+  },
+  {
+   "compound": "(1S,8'R)-6-methoxy-2-methyl-2-oxidospiro[3,4-dihydroisoquinolin-2-ium-1,7'-6,8-dihydrocyclopenta[g][1,3]benzodioxole]-7,8'-diol",
+   "smiles": "[O-][N+]1(C)CCC2=CC(OC)=C(O)C=C2C31CC4=CC=C5OCOC5=C4C3O"
+  },
+  {
+   "compound": "[(1S,8'R)-6,7-dimethoxy-2-methylspiro[3,4-dihydroisoquinoline-1,7'-6,8-dihydrocyclopenta[g][1,3]benzodioxole]-8'-yl] acetate",
+   "smiles": "O=C(OC1C2=C3OCOC3=CC=C2CC41C5=CC(OC)=C(OC)C=C5CCN4C)C"
+  },
+  {
+   "compound": "5-[2-[2-[2-(Dimethylamino)ethyl]-4,5-dimethoxyphenyl]acetyl]-1,3-benzodioxole-4-carboxylic acid",
+   "smiles": "O=C(O)C1=C2OCOC2=CC=C1C(=O)CC3=CC(OC)=C(OC)C=C3CCN(C)C"
+  },
+  {
+   "compound": "Fumarophycine",
+   "smiles": "O=C(OC1C2=C3OCOC3=CC=C2CC41C5=CC(O)=C(OC)C=C5CCN4C)C"
+  },
+  {
+   "compound": "Manske alkaloid F 38",
+   "smiles": "O=C1C2=C3OCOC3=CC=C2C4N(C)CCC5=CC(OC)=C(O)C=C5C14O"
+  },
+  {
+   "compound": "O-Methylfumarophycinol",
+   "smiles": "OC1C2=C3OCOC3=CC=C2CC41C5=CC(OC)=C(OC)C=C5CCN4C"
+  },
+  {
+   "compound": "Corydamine",
+   "smiles": "N1=CC2=C3OCOC3=CC=C2C=C1C=4C=C5OCOC5=CC4CCNC"
+  },
+  {
+   "compound": "Spiro[7H-indeno[4,5-d]-1,3-dioxole-7,1'(2'H)-isoquinoline]-7',8-diol, 3',4',6,8-tetrahydro-6'-methoxy-2'-methyl-, (7S-trans)-",
+   "smiles": "OC=1C=C2C(=CC1OC)CCN(C)C23CC4=CC=C5OCOC5=C4C3O"
+  },
+  {
+   "compound": "(7R,8R)-6'-methylspiro[6,8-dihydrocyclopenta[g][1,3]benzodioxole-7,5'-7,8-dihydro-[1,3]dioxolo[4,5-g]isoquinoline]-8-ol",
+   "smiles": "OC1C2=C3OCOC3=CC=C2CC41C5=CC=6OCOC6C=C5CCN4C"
+  },
+  {
+   "compound": "(1R,12S)-12,15-dihydroxy-16-methoxy-21-methyl-6,8-dioxa-21-azapentacyclo[10.9.0.02,10.05,9.013,18]henicosa-2(10),3,5(9),13,15,17-hexaen-11-one",
+   "smiles": "O=C1C2=C3OCOC3=CC=C2C4N(C)CCC5=CC(OC)=C(O)C=C5C14O"
+  },
+  {
+   "compound": "Fumariline",
+   "smiles": "O=C1C2=C3OCOC3=CC=C2CC14C5=CC=6OCOC6C=C5CCN4C"
+  },
+  {
+   "compound": "(7R,8S)-6′,7′-Dimethoxy-2′-methyl-3′,4′,6,8-tetrahydro-2′H-spiro[indeno[4,5-d][1,3]dioxole-7,1′-isoquinolin]-8-ol",
+   "smiles": "CN1CCC2=CC(=C(C=C2C13CC4=C(C3O)C5=C(C=C4)OCO5)OC)OC"
+  },
+  {
+   "compound": "(7R)-6'-methylspiro[6H-cyclopenta[g][1,3]benzodioxole-7,5'-7,8-dihydro-[1,3]dioxolo[4,5-g]isoquinoline]-8-one",
+   "smiles": "O=C1C2=C3OCOC3=CC=C2CC14C5=CC=6OCOC6C=C5CCN4C"
+  },
+  {
+   "compound": "12H-Benzo[a]-1,3-benzodioxolo[4,5-g]quinolizin-9-ol, 6,6a,11,14-tetrahydro-8-methoxy-",
+   "smiles": "OC=1C=C2C(=CC1OC)C3N(CC4=C5OCOC5=CC=C4C3)CC2"
+  },
+  {
+   "compound": "N-Methylsinactine",
+   "smiles": "O(C=1C=C2C(=CC1OC)C3CC4=CC=C5OCOC5=C4C[N+]3(C)CC2)C"
+  },
+  {
+   "compound": "(1R,8'R)-6,7-dimethoxy-2-methylspiro[3,4-dihydroisoquinoline-1,7'-6,8-dihydrocyclopenta[g][1,3]benzodioxole]-8'-ol",
+   "smiles": "OC1C2=C3OCOC3=CC=C2CC41C5=CC(OC)=C(OC)C=C5CCN4C"
+  },
+  {
+   "compound": "(-)-corlumine",
+   "smiles": "O=C1OC(C2=CC=C3OCOC3=C12)C4C5=CC(OC)=C(OC)C=C5CCN4C"
+  },
+  {
+   "compound": "L-sinactine",
+   "smiles": "O(C=1C=C2C(=CC1OC)C3N(CC4=C5OCOC5=CC=C4C3)CC2)C"
+  },
+  {
+   "compound": "Fumaritine",
+   "smiles": "OC=1C=C2C(=CC1OC)CCN(C)C23CC4=CC=C5OCOC5=C4C3O"
+  },
+  {
+   "compound": "(+)-adlumine",
+   "smiles": "CN1CCC2=CC(=C(C=C2C1C3C4=C(C5=C(C=C4)OCO5)C(=O)O3)OC)OC"
+  },
+  {
+   "compound": "cryptopine",
+   "smiles": "CN1CCC2=CC(=C(C=C2C(=O)CC3=C(C1)C4=C(C=C3)OCO4)OC)OC"
+  },
+  {
+   "compound": "fumaric acid",
+   "smiles": "C(=CC(=O)O)C(=O)O"
+  },
+  {
+   "compound": "parfumine",
+   "smiles": "CN1CCC2=CC(=C(C=C2C13CC4=C(C3=O)C5=C(C=C4)OCO5)O)OC"
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=CC(O)=C(O)C4"
+  },
+  {
+   "compound": "ferulic acid",
+   "smiles": "COC1=C(C=CC(=C1)C=CC(=O)O)O"
+  },
+  {
+   "compound": "Tetrahydrocoptisine",
+   "smiles": "C1CN2CC3=C(CC2C4=CC5=C(C=C41)OCO5)C=CC6=C3OCO6"
+  },
+  {
+   "compound": "(R/S)-scoulerine",
+   "smiles": "COC1=C(C2=C(CC3C4=CC(=C(C=C4CCN3C2)OC)O)C=C1)O"
+  },
+  {
+   "compound": "trans-caffeic acid",
+   "smiles": "C1=CC(=C(C=C1C=CC(=O)O)O)O"
+  },
+  {
+   "compound": "dihydrosanguinarine",
+   "smiles": "CN1CC2=C(C=CC3=C2OCO3)C4=C1C5=CC6=C(C=C5C=C4)OCO6"
+  },
+  {
+   "compound": "3-hydroxybenzoic acid",
+   "smiles": "C1=CC(=CC(=C1)O)C(=O)O"
+  },
+  {
+   "compound": "3,4-dihydroxybenzoic acid",
+   "smiles": "C1=CC(=C(C=C1C(=O)O)O)O"
+  },
+  {
+   "compound": "3,4-dihydroxybenzoic acid",
+   "smiles": "c1cc(c(cc1C(=O)O)O)O"
+  },
+  {
+   "compound": "Sinactine",
+   "smiles": "COC1=C(C=C2C3CC4=C(CN3CCC2=C1)C5=C(C=C4)OCO5)OC"
+  },
+  {
+   "compound": "(S)-N-methylcanadine",
+   "smiles": "C[N+]12CCC3=CC4=C(C=C3C1CC5=C(C2)C(=C(C=C5)OC)OC)OCO4"
+  },
+  {
+   "compound": "coptisine",
+   "smiles": "C1C[N+]2=C(C=C3C=CC4=C(C3=C2)OCO4)C5=CC6=C(C=C51)OCO6"
+  },
+  {
+   "compound": "Bulgaramine",
+   "smiles": "CN1CCC2=CC(=C(C=C2C3=C1C4=C(C3)C=CC5=C4OCO5)OC)OC"
+  },
+  {
+   "compound": "rutin",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "(E)-p-coumaric acid",
+   "smiles": "C1=CC(=CC=C1C=CC(=O)O)O"
+  },
+  {
+   "compound": "corytuberine",
+   "smiles": "CN1CCC2=CC(=C(C3=C2C1CC4=C3C(=C(C=C4)OC)O)O)OC"
+  },
+  {
+   "compound": "(-)-alpha-Hydrastine",
+   "smiles": "CN1CCC2=CC3=C(C=C2C1C4C5=C(C(=C(C=C5)OC)OC)C(=O)O4)OCO3"
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "key": "Leonurus cardiaca",
+ "value": [
+  {
+   "compound": "verbascoside",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(O)C(O)=C2)C(O)C1OC3OC(C)C(O)C(O)C3O)CO)C=CC4=CC=C(O)C(O)=C4"
+  },
+  {
+   "compound": "hyperoside",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O"
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=CC(O)=C(O)C4"
+  },
+  {
+   "compound": "[5-hydroxy-7-methyl-1-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4a,5,6,7a-tetrahydro-1H-cyclopenta[c]pyran-7-yl] acetate",
+   "smiles": "O=C(OC1(C)CC(O)C2C=COC(OC3OC(CO)C(O)C(O)C3O)C21)C"
+  },
+  {
+   "compound": "Covi-ox",
+   "smiles": "OC=1C(=C(C=2OC(C)(CCC2C1C)CCCC(C)CCCC(C)CCCC(C)C)C)C"
+  },
+  {
+   "compound": "(2E,4E,6E)-octadeca-2,4,6-trienoic acid",
+   "smiles": "O=C(O)C=CC=CC=CCCCCCCCCCCC"
+  },
+  {
+   "compound": "[(2R,3R,4R,5R,6R)-4-[(2S,3R,4R,5R,6S)-4,5-dihydroxy-6-methyl-3-[(2S,3R,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxyoxan-2-yl]oxy-6-[2-(3,4-dihydroxyphenyl)ethoxy]-5-hydroxy-2-(hydroxymethyl)oxan-3-yl] (E)-3-(4-hydroxy-3-methoxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(O)C(O)=C2)C(O)C1OC3OC(C)C(O)C(O)C3OC4OCC(O)C(O)C4O)CO)C=CC5=CC=C(O)C(OC)=C5"
+  },
+  {
+   "compound": "Leosibiricin",
+   "smiles": "O=C(OC1(C(=O)C2OC(=O)C3(C)CCCC(C)(C23)C41OC5(C=COC5)CC4)C)C"
+  },
+  {
+   "compound": "Stachysoside A",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(O)C(O)=C2)C(O)C1OC3OC(C)C(O)C(O)C3OC4OCC(O)C(O)C4O)CO)C=CC5=CC=C(O)C(O)=C5"
+  },
+  {
+   "compound": "octadeca-2,4-dienoic acid",
+   "smiles": "O=C(O)C=CC=CCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "19-Acetoxypregaleopsin",
+   "smiles": "O=C(OCC1(C)CCCC2(C)C1CC(=O)C(OC(=O)C)(C)C32OC4(C=COC4)CC3)C"
+  },
+  {
+   "compound": "[1-[2-(furan-3-yl)ethyl]-1-hydroxy-5-(hydroxymethyl)-2,5,8a-trimethyl-3-oxo-4a,6,7,8-tetrahydro-4H-naphthalen-2-yl] acetate",
+   "smiles": "O=C(OC1(C(=O)CC2C(C)(CO)CCCC2(C)C1(O)CCC3=COC=C3)C)C"
+  },
+  {
+   "compound": "19-Hydroxygaleopsin",
+   "smiles": "O=C(OC1(C(=O)CC2C(C)(CO)CCCC2(C)C1(O)CCC3=COC=C3)C)C"
+  },
+  {
+   "compound": "[(1S,4aS,5R,7S,7aS)-5-hydroxy-7-methyl-1-[(2R,3S,4R,5S,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4a,5,6,7a-tetrahydro-1H-cyclopenta[c]pyran-7-yl] acetate",
+   "smiles": "O=C(OC1(C)CC(O)C2C=COC(OC3OC(CO)C(O)C(O)C3O)C21)C"
+  },
+  {
+   "compound": "Astragalin",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=CC(O)=CC4"
+  },
+  {
+   "compound": "[(3aS,4R,6aS,7R,8S,10aS)-8-hydroxy-7-[[(2S)-2-hydroxy-4-methyl-2,3-dihydrofuran-5-yl]methyl]-7,8-dimethyl-3,5-dioxo-3a,4,6,6a,9,10-hexahydro-1H-benzo[d][2]benzofuran-4-yl] acetate",
+   "smiles": "O=C(OC1C(=O)CC2C(C)(CC=3OC(O)CC3C)C(O)(C)CCC42COC(=O)C14)C"
+  },
+  {
+   "compound": "(2R,3S,4S,5S,6R)-2-[[(1S,4aS,5R,7S,7aS)-5,7-dihydroxy-7-methyl-4a,5,6,7a-tetrahydro-1H-cyclopenta[c]pyran-1-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "smiles": "OCC1OC(OC2OC=CC3C(O)CC(O)(C)C23)C(O)C(O)C1O"
+  },
+  {
+   "compound": "CID 163192599",
+   "smiles": "O=C(OC1(C(=O)C2OC(=O)C3(C)CCCC(C)(C23)C41OC5(OC(O)CC5)CC4)C)C"
+  },
+  {
+   "compound": "octadeca-2,4,6-trienoic acid",
+   "smiles": "O=C(O)C=CC=CC=CCCCCCCCCCCC"
+  },
+  {
+   "compound": "Stachysoside C",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(OC)C(O)=C2)C(O)C1OC3OC(C)C(O)C(O)C3OC4OCC(O)C(O)C4O)CO)C=CC5=CC=C(O)C(OC)=C5"
+  },
+  {
+   "compound": "CID 162968353",
+   "smiles": "O=C(OC1(C(=O)C2OC(=O)C3(C)CCCC(C)(C23)C41OC5(COC(O)C5)CC4)C)C"
+  },
+  {
+   "compound": "apigetrin",
+   "smiles": "C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O"
+  },
+  {
+   "compound": "(2E,4E)-octadeca-2,4-dienoic acid",
+   "smiles": "O=C(O)C=CC=CCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "Apigenin-4'-glucoside",
+   "smiles": "O=C1C=C(OC=2C=C(O)C=C(O)C12)C=3C=CC(OC4OC(CO)C(O)C(O)C4O)=CC3"
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C(O)C2O)=C(OC=3C=C(O)C=C(O)C13)C=4C=CC(O)=C(O)C4"
+  },
+  {
+   "compound": "quercetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O"
+  },
+  {
+   "compound": "quercitrin",
+   "smiles": "CC1C(C(C(C(O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C=C4)O)O)O)O)O"
+  },
+  {
+   "compound": "rutin",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O"
+  }
+ ]
+}

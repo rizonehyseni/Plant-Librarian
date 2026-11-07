@@ -1,0 +1,26 @@
+{
+ "key": "Satureja montana L.",
+ "value": {
+  "usageKey": 2926884,
+  "scientificName": "Satureja montana L.",
+  "canonicalName": "Satureja montana",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "genus": "Satureja",
+  "species": "Satureja montana",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 408,
+  "familyKey": 2497,
+  "genusKey": 2926882,
+  "speciesKey": 2926884,
+  "class": "Magnoliopsida"
+ }
+}

@@ -22,6 +22,107 @@ make eval                   # accuracy against eval/gold.csv
 
 No `make` (Windows)? Run the commands from the Makefile directly, e.g. `python -m pipeline.build`.
 
+## App pages
+
+| Page | What it shows | Needs a key? |
+| --- | --- | --- |
+| **Plant profile** | Fact sheet per plant: uses with page and quote, community, "was the same preparation tested?", PubMed candidates, safety flags, map | No |
+| **Search & compare** | Filter and compare records across plants, parts, preparations | No |
+| **Map of uses** | All records on one map (village pin or study-area circle), filters by community, study, use and preparation, optional GBIF occurrence heat map, which plants the communities share, flagged plants | No |
+| **Research gaps** | Every plant with its preparation verdict, gaps first, CSV export | No |
+| **Ask the librarian** | Chat that answers only from the fact sheets, with sources | Free `GROQ_API_KEY` |
+| **Data quality review** | Check, correct and verify records; audit log | No |
+| **Add a study** | Upload a new study; the LLM extracts records and they join the map | Free `GROQ_API_KEY` |
+
+## Status and remaining work
+
+Last updated 2026-11-07. **Rule: only free services.** Nobody on the team pays for an API; Groq's free
+key is the only LLM key we use. Branch names use `feat/`, `fix/`, `docs/`, `chore/` prefixes; open a PR
+per change.
+
+### Done
+
+- Pipeline: ingest, extraction (Groq free, strict schema, quote must be found on the cited page),
+  dialect-tolerant names with GBIF, PubMed evidence tags, safety rules, Wikidata compounds, places.
+- Data: Sharr Mountains study (Mustafa et al. 2015), **569 use records, 108 plants, 3 communities**
+  (Albanian 167, Bosniak/Gorani 252, Turkish 150), all from Table 1 by the table parser, each matched to
+  its PDF page. Every plant name is confirmed by GBIF. PubMed candidates
+  are loaded for all 108 plants, GBIF occurrences for 97, Wikidata compounds for 103; all responses are
+  cached in `data/cache/api/`, so `OFFLINE=1 make build` reproduces the database.
+- Preparation check (**Research gaps** page): 3 plants manually reviewed, 18 with a same-preparation
+  human study tag, 50 same preparation in lab/animal only, **11 research gaps** (studies exist, none with
+  the preparation people use), 26 not comparable by keywords.
+- Communities: **18 plants are used by all three communities**; 11 only by Albanians, 24 only by
+  Bosniaks/Gorani, 18 only by Turks (**Map of uses** page).
+- `make eval`: 23 hand-checked gold rows, recall 23/23, local name to plant 23/23 (this checks the
+  table parser; LLM extraction has no gold rows yet).
+- App: the seven pages above. 45 tests pass (`make test`).
+
+### Remaining, in order of priority
+
+Tick a box in your PR when you finish an item.
+
+**1. Free Groq key (5 min, everyone who runs the demo)**
+- [ ] Create a key at https://console.groq.com/keys (free) and put `GROQ_API_KEY=...` in `.env`.
+  Never commit `.env`.
+
+**2. Chat assistant check (30 min)**
+- [ ] With the key set, open **Ask the librarian** and ask at least 6 questions, 3 in Albanian and 3 in
+  English, e.g. "Për çfarë përdoret kamomili?", "Which plants were used for coughs?", "Is St John's wort
+  safe?". Each answer must cite `R`/`P`/`F` ids that exist and must refuse doses.
+- [ ] Write the questions that worked into the demo script (item 8).
+
+**3. Add a second study, the "new study" demo (1-2 h, needs item 1)**
+- [ ] Download Mustafa et al. 2012, *Medical ethnobotany of the Albanian Alps in Kosovo*, J Ethnobiol
+  Ethnomed 8:6: PDF https://ethnobiomed.biomedcentral.com/track/pdf/10.1186/1746-4269-8-6 (PMC3285519).
+  Confirm the licence on the article page.
+- [ ] `make app` → **Add a study**: short id `albanian_alps_2012`, study area **Rugovë** (Kosovo side;
+  `Bjeshkët e Nemuna` in `places.csv` sits on the Albanian/Montenegrin side). Groq's free rate limit can
+  make this take a few minutes; the page waits and retries.
+- [ ] Spot-check 20 extracted records against the PDF (page and quote) on **Data quality review**.
+- [ ] Add 15-20 checked rows from this study to `eval/gold.csv`, run `make eval`, and write the recall
+  here. These are the first gold rows for LLM extraction.
+- [ ] Commit `data/raw/albanian_alps_2012.pdf`, `data/cache/extract/albanian_alps_2012.json`,
+  `data/seed/sources.csv` and the new files under `data/cache/api/`, so `OFFLINE=1 make build`
+  reproduces the demo.
+- [ ] If Groq is not available on demo day, the cached extraction still works offline.
+
+**4. Review records (1 h, no key)**
+- [ ] All 573 records are `Needs Review`. On **Data quality review**, verify at least 30 records against
+  the PDF (pick the most reported plants). The number of verified records goes on a slide.
+
+**5. Reviewed modern evidence (1-2 h, no key)**
+- [ ] `data/seed/reviewed_evidence.csv` has 4 papers. Add 5-10 more for the plants shown in the demo
+  (e.g. *Matricaria chamomilla*, *Hypericum perforatum*, *Sideritis scardica*, *Urtica dioica*): read the
+  PubMed abstract and fill preparation, comparison and limitation. These turn a plant's verdict into
+  "Manually reviewed".
+
+**6. Safety and names seed data (1 h, no key)**
+- [ ] `data/seed/risk_rules.csv` has 5 rules. Add EMA/HMPC monograph rules for other plants in the data
+  that have one (check the EMA herbal list; cite the URL; no doses).
+- [ ] Optional: request a free IUCN token (https://api.iucnredlist.org/, non-commercial) and set
+  `IUCN_TOKEN` for conservation flags.
+- [ ] Check `data/seed/albanian_names.csv` (67 names) against the studies for wrong pairs.
+
+**7. Licences and repo hygiene (30 min)**
+- [ ] Confirm the licence of every study in `data/seed/sources.csv` and every data source in the
+  licence table below; remove the line "Check every licence before submission" when done.
+- [ ] `make test` green, `OFFLINE=1 make build && make eval` runs on a clean clone, no `.env` or keys in
+  git history (`git log -p | grep -i "api_key="` shows only empty values).
+
+**8. Demo and presentation (2-3 h)**
+- [ ] Demo script (5 min): profile of a plant by its Albanian name → "was the same tea tested?" →
+  Research gaps → Map of uses (community overlap) → chat question → Add a study (or show the cached
+  result).
+- [ ] Rehearse with `OFFLINE=1` and no network, so nothing depends on live APIs.
+- [ ] Slides with the numbers above: records, plants, communities, plants shared by all three
+  communities, research gaps, eval recall, verified records. Take screenshots as a fallback.
+
+**Later / nice to have** (from the proposal's "other ideas", only if time is left)
+- Time slider comparing old and new records (needs dated studies).
+- Conservation layer on the map (needs IUCN or a national red list).
+- Family recipes with consent; folklore layer kept separate from medicine; habitat map.
+
 The repo includes a **synthetic test fixture** and one real, open-access Sharr Mountains
 study (`data/raw/cross_cultural_sharr_2015.pdf`). The committed extraction cache contains
 569 community-labelled medicinal-use rows across 108 plant taxa from Table 1. These include
@@ -149,7 +250,8 @@ files under `data/` to keep them. If nothing is extracted, nothing is saved.
 `make build` stores a place for every use record in the `uses` table: `place`, `lat`, `lon` and
 `geo_precision`. `record` means the record names the village or town; `study` means only the
 study area is known, so the coordinates mark the region, not a spot; empty means the record
-cannot be placed. The app can use these columns to draw a map of recorded uses.
+cannot be placed. The **Map of uses** page draws these columns (`pipeline/atlas.py` groups records by place
+and counts the plants each community shares).
 
 To add a place, add a row to `data/seed/places.csv`: the Albanian name, `|`-separated aliases
 (definite forms such as `Prizreni`, Serbian/Macedonian spellings), coordinates (WGS84), country

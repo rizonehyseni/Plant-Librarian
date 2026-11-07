@@ -1,0 +1,26 @@
+{
+ "key": "Thymus vulgaris L.",
+ "value": {
+  "usageKey": 5341442,
+  "scientificName": "Thymus vulgaris L.",
+  "canonicalName": "Thymus vulgaris",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "genus": "Thymus",
+  "species": "Thymus vulgaris",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 408,
+  "familyKey": 2497,
+  "genusKey": 2926960,
+  "speciesKey": 5341442,
+  "class": "Magnoliopsida"
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "key": "Veronica officinalis",
+ "value": [
+  {
+   "compound": "aucubin",
+   "smiles": "C1=COC(C2C1C(C=C2CO)O)OC3C(C(C(C(O3)CO)O)O)O"
+  },
+  {
+   "compound": "Veronicoside",
+   "smiles": "O=C(OC1C2OC2(CO)C3C(OC=CC13)OC4OC(CO)C(O)C(O)C4O)C=5C=CC=CC5"
+  },
+  {
+   "compound": "methyl 1-[6-[3-(3,4-dihydroxyphenyl)prop-2-enoyloxymethyl]-3,4,5-trihydroxyoxan-2-yl]oxy-7-hydroxy-7-methyl-4a,5,6,7a-tetrahydro-1H-cyclopenta[c]pyran-4-carboxylate",
+   "smiles": "O=C(OCC1OC(OC2OC=C(C(=O)OC)C3CCC(O)(C)C23)C(O)C(O)C1O)C=CC4=CC=C(O)C(O)=C4"
+  },
+  {
+   "compound": "Mussaenoside",
+   "smiles": "O=C(OC)C1=COC(OC2OC(CO)C(O)C(O)C2O)C3C1CCC3(O)C"
+  },
+  {
+   "compound": "2-(Hexopyranosyloxy)-1a-(hydroxymethyl)-1a,1b,2,5a,6,6a-hexahydrooxireno[2',3':4,5]cyclopenta[1,2-c]pyran-6-yl 3,4-dihydroxybenzoate",
+   "smiles": "O=C(OC1C2OC2(CO)C3C(OC=CC13)OC4OC(CO)C(O)C(O)C4O)C5=CC=C(O)C(O)=C5"
+  },
+  {
+   "compound": "[(1S,2S,4S,5S,6S,10S)-2-(hydroxymethyl)-10-[(2S,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,9-dioxatricyclo[4.4.0.02,4]dec-7-en-5-yl] benzoate",
+   "smiles": "O=C(OC1C2OC2(CO)C3C(OC=CC13)OC4OC(CO)C(O)C(O)C4O)C=5C=CC=CC5"
+  },
+  {
+   "compound": "[2-(Hydroxymethyl)-10-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,9-dioxatricyclo[4.4.0.02,4]dec-7-en-5-yl] benzoate",
+   "smiles": "O=C(OC1C2OC2(CO)C3C(OC=CC13)OC4OC(CO)C(O)C(O)C4O)C=5C=CC=CC5"
+  },
+  {
+   "compound": "methyl (1S,4aS,7S,7aS)-1-[(2S,3R,4S,5S,6R)-6-[[(E)-3-(3,4-dihydroxyphenyl)prop-2-enoyl]oxymethyl]-3,4,5-trihydroxyoxan-2-yl]oxy-7-hydroxy-7-methyl-4a,5,6,7a-tetrahydro-1H-cyclopenta[c]pyran-4-carboxylate",
+   "smiles": "O=C(OCC1OC(OC2OC=C(C(=O)OC)C3CCC(O)(C)C23)C(O)C(O)C1O)C=CC4=CC=C(O)C(O)=C4"
+  },
+  {
+   "compound": "[2-(Hydroxymethyl)-10-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,9-dioxatricyclo[4.4.0.02,4]dec-7-en-5-yl] 3-(3-hydroxy-4-methoxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OC1C2OC2(CO)C3C(OC=CC13)OC4OC(CO)C(O)C(O)C4O)C=CC5=CC=C(OC)C(O)=C5"
+  },
+  {
+   "compound": "[(1S,2S,4S,5S,6S,10S)-2-(hydroxymethyl)-10-[(2S,3S,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,9-dioxatricyclo[4.4.0.02,4]dec-7-en-5-yl] (E)-3-(3,4-dihydroxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OC1C2OC2(CO)C3C(OC=CC13)OC4OC(CO)C(O)C(O)C4O)C=CC5=CC=C(O)C(O)=C5"
+  },
+  {
+   "compound": "[(1S,2S,4S,5S,6S,10S)-2-(hydroxymethyl)-10-[(2S,3S,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,9-dioxatricyclo[4.4.0.02,4]dec-7-en-5-yl] (Z)-3-(3,4-dihydroxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OC1C2OC2(CO)C3C(OC=CC13)OC4OC(CO)C(O)C(O)C4O)C=CC5=CC=C(O)C(O)=C5"
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5-hydroxy-7-[(2R,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C=C(OC2=CC(OC3OC(CO)C(O)C(O)C3O)=CC(O)=C12)C=4C=CC(O)=C(O)C4"
+  },
+  {
+   "compound": "catalpol",
+   "smiles": "C1=COC(C2C1C(C3C2(O3)CO)O)OC4C(C(C(C(O4)CO)O)O)O"
+  },
+  {
+   "compound": "apigenin",
+   "smiles": "C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "verminoside",
+   "smiles": "C1=COC(C2C1C(C3C2(O3)CO)OC(=O)C=CC4=CC(=C(C=C4)O)O)OC5C(C(C(C(O5)CO)O)O)O"
+  },
+  {
+   "compound": "verproside",
+   "smiles": "C1=COC(C2C1C(C3C2(O3)CO)OC(=O)C4=CC(=C(C=C4)O)O)OC5C(C(C(C(O5)CO)O)O)O"
+  },
+  {
+   "compound": "eupatorin",
+   "smiles": "COC1=C(C=C(C=C1)C2=CC(=O)C3=C(C(=C(C=C3O2)OC)OC)O)O"
+  },
+  {
+   "compound": "luteoloside",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O)O"
+  },
+  {
+   "compound": "luteolin",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "minecoside",
+   "smiles": "COC1=C(C=C(C=C1)C=CC(=O)OC2C3C=COC(C3C4(C2O4)CO)OC5C(C(C(C(O5)CO)O)O)O)O"
+  }
+ ]
+}

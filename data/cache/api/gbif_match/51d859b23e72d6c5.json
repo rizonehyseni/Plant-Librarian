@@ -1,0 +1,26 @@
+{
+ "key": "Thymus serpyllum L.",
+ "value": {
+  "usageKey": 6409622,
+  "scientificName": "Thymus serpyllum L.",
+  "canonicalName": "Thymus serpyllum",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "genus": "Thymus",
+  "species": "Thymus serpyllum",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 408,
+  "familyKey": 2497,
+  "genusKey": 2926960,
+  "speciesKey": 6409622,
+  "class": "Magnoliopsida"
+ }
+}
