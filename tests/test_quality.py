@@ -1,3 +1,4 @@
+import sqlite3
 from pipeline.db import connect, initialize
 from pipeline.quality import audit_history, check_records, dashboard_metrics, fetch_records, filter_records, save_review
 
@@ -37,14 +38,17 @@ def test_dashboard_metrics_and_filters():
 
 def test_migration_preserves_existing_records_and_review_actions(tmp_path):
     path = tmp_path / "legacy.db"
-    conn = connect(path)
+    legacy = sqlite3.connect(path)  # an old database, created before connect() migrated
+    conn = legacy
     conn.execute("CREATE TABLE uses (id INTEGER PRIMARY KEY, doc_id TEXT, local_name TEXT, species TEXT, match_method TEXT, part_used TEXT, preparation TEXT, use TEXT, geo_precision TEXT)")
     conn.execute("CREATE TABLE sources (doc_id TEXT PRIMARY KEY, title TEXT, citation TEXT, url TEXT, licence TEXT, study_area TEXT)")
     conn.execute("INSERT INTO sources VALUES ('study', 'Study', 'Author (2024)', 'https://example.test/study', '', '')")
     conn.execute("INSERT INTO uses (id, doc_id, local_name, species, match_method, part_used, preparation, use, geo_precision) VALUES (1, 'study', 'Çaj mali', 'Origanum vulgare', 'exact', 'Aerial parts', 'Infusion', 'Cough', 'record')")
     conn.commit()
+    legacy.close()
 
-    initialize(conn)
+    conn = connect(path)  # migrates the old schema
+    initialize(conn)  # running it again is harmless
     record = fetch_records(conn)[0]
     assert record["species"] == "Origanum vulgare"
     assert record["review_status"] == "Needs Review" and record["record_origin"] == "AI Extracted"
