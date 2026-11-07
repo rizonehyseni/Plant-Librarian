@@ -19,6 +19,7 @@ pages = {
     "Curation": [
         st.Page("pages/1_Data_Quality_Review.py", title="Data quality review",
                 icon=":material/fact_check:", url_path="review"),
+        st.Page("pages/5_Add_a_Study.py", title="Add a study", icon=":material/upload_file:", url_path="add"),
     ],
 }
 page = st.navigation(pages)

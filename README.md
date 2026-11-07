@@ -118,6 +118,15 @@ level come from written rules and open databases. Every API and LLM response is 
 
 ## Adding a study
 
+**In the app:** open **Add a study** (Curation), upload the PDF, fill in title, citation, link, licence and
+study area, and press *Read the study*. `pipeline/add_study.py` saves the file to `data/raw/`, appends the
+study to `data/seed/sources.csv`, lets Claude extract the records (needs `ANTHROPIC_API_KEY`; the result is
+cached in `data/cache/extract/`), matches names and places, and looks up evidence, flags and maps only for
+plants new to the database. The page shows the new records on a map with page and quote. Commit the new
+files under `data/` to keep them. If nothing is extracted, nothing is saved.
+
+**By hand:**
+
 1. Put the PDF in `data/raw/` (use a short file name, e.g. `mustafa2012.pdf`).
 2. Add a row to `data/seed/sources.csv` with title, citation, URL, licence and `study_area`
    (the region the study covers, e.g. `Malet e Sharrit`; it must be a place or alias in
