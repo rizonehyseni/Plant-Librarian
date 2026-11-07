@@ -24,7 +24,27 @@ CI (GitHub Actions, `.github/workflows/tests.yml`) runs `make test`, an offline 
 
 No `make` (Windows)? Run the commands from the Makefile directly, e.g. `python -m pipeline.build`.
 
-## App pages
+## Deploy a public link (free, Streamlit Community Cloud)
+
+1. Go to https://share.streamlit.io and sign in with the GitHub account that owns this repo (private repos
+   work; Streamlit asks for permission once).
+2. **Create app** → *Deploy a public app from GitHub*: repository `rizonehyseni/hackathon`, branch `main`,
+   main file `app/app.py`. Under *Advanced settings* pick **Python 3.12**.
+3. In *Advanced settings → Secrets* paste (TOML, quotes required):
+   ```toml
+   GROQ_API_KEY = "gsk_..."
+   # optional
+   PLANTNET_API_KEY = "..."
+   APP_URL = "https://<your-app>.streamlit.app"
+   ```
+   Streamlit Cloud also exposes these as environment variables, which is how the app reads them.
+4. **Deploy.** The first start installs the requirements (a few minutes) and then builds the database from
+   the committed caches, offline, in about 10 seconds.
+5. Copy the app link into the `APP_URL` secret (step 3) so the QR codes point to it, and *Reboot app*.
+
+On the cloud the disk is temporary: reviews, approved family-knowledge entries and studies added in the app
+are lost when the app restarts. Make those changes locally and commit them; the cloud copy is for showing.
+
 
 | Page | What it shows | Needs a key? |
 | --- | --- | --- |
