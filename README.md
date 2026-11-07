@@ -29,7 +29,7 @@ No `make` (Windows)? Run the commands from the Makefile directly, e.g. `python -
 | Page | What it shows | Needs a key? |
 | --- | --- | --- |
 | **Language** | Sidebar toggle Shqip / English (default Shqip) for all interface text; study data stays in the language of the source | No |
-| **Plant profile** | Fact sheet per plant: uses with page and quote, community, "was the same preparation tested?", PubMed candidates, safety flags, map | No |
+| **Plant profile** | Search by Albanian or scientific name, or **identify from a photo** (Pl@ntNet, optional free key). Fact sheet per plant: uses with page and quote, community, "was the same preparation tested?", PubMed candidates, safety flags, map | No |
 | **Search & compare** | Filter and compare records across plants, parts, preparations | No |
 | **Map of uses** | All records on one map (village pin or study-area circle), filters by community, study, use and preparation, optional GBIF occurrence heat map, which plants the communities share, flagged plants | No |
 | **Research gaps** | Every plant with its preparation verdict, gaps first, CSV export | No |
@@ -199,6 +199,18 @@ The verdict is shown on each plant profile. The **Research gaps** page lists all
 the gaps first and can export the table as CSV. The chat assistant uses the same check. The
 tags are keyword guesses on the top 40 PubMed results, so a verdict points to papers to read.
 It is not a review.
+
+## Identify a plant from a photo
+
+On **Plant profile**, switch on *Identify a plant from a photo*, take a photo or upload one, and say what it shows
+(leaf, flower, fruit, bark, or not sure). `pipeline/photo.py` sends it to the [Pl@ntNet](https://my.plantnet.org/)
+API, which is free for non-commercial use with an account (`PLANTNET_API_KEY` in `.env`, daily quota). The top 3
+suggestions are shown with Pl@ntNet's confidence and matched to the library (same species, or same genus), with a
+button to open the profile. The page says it is a suggestion, not a confirmed identification, and never to collect or
+use a plant on the basis of a photo. Photos are not stored. Without the key the toggle shows how to get one.
+
+To get the key: create an account at https://my.plantnet.org/, open *Your API key* in the account settings, copy it,
+add `PLANTNET_API_KEY=...` to `.env`, and restart `make app`.
 
 ## Ask with your voice
 
