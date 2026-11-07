@@ -69,7 +69,7 @@ def test_duplicate_id_and_bad_type_are_rejected(workspace):
 def test_no_records_leaves_nothing_behind(workspace):
     raw, seed, conn, _ = workspace
     before = (seed / "sources.csv").read_text(encoding="utf-8")
-    with pytest.raises(ValueError, match="ANTHROPIC_API_KEY"):
+    with pytest.raises(ValueError, match="GROQ_API_KEY"):
         add_study.add_study(b"text", ".txt", META, conn=conn, extractor=lambda *a: [])
     assert not list(raw.iterdir())
     assert (seed / "sources.csv").read_text(encoding="utf-8") == before

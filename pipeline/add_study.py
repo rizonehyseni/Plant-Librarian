@@ -2,7 +2,7 @@
 
 This is the "give it a study it has never seen" step: the file is saved to data/raw,
 its metadata appended to data/seed/sources.csv (so `make build` reproduces it later),
-Claude extracts the plant-use records (cached in data/cache/extract/<doc_id>.json),
+the LLM (Groq, free) extracts the plant-use records (cached in data/cache/extract/<doc_id>.json),
 and the records go through the same name, preparation and place steps as the build.
 Only species that are new to the database are enriched with evidence, flags and maps.
 """
@@ -80,7 +80,7 @@ def add_study(file_bytes: bytes, suffix: str, meta: dict, conn=None, extractor=N
     if not records:
         path.unlink()
         raise ValueError(
-            "No plant-use records were extracted. Set ANTHROPIC_API_KEY in .env (or add a checked "
+            "No plant-use records were extracted. Set the free GROQ_API_KEY in .env (or add a checked "
             f"extraction at data/cache/extract/{doc_id}.json) and try again.")
     _append_source(meta)
 

@@ -8,23 +8,27 @@ import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # app/ for ui.py
-from pipeline import config  # noqa: E402
+from pipeline import config, extract  # noqa: E402
 from pipeline.add_study import add_study, slugify  # noqa: E402
 from pipeline.db import connect  # noqa: E402
 from ui import page_header, section  # noqa: E402
 
 page_header("upload_file", "Curation", "Add a study",
-            "Upload an open ethnobotanical study the librarian has never seen. Claude reads it, the plant "
+            "Upload an open ethnobotanical study the librarian has never seen. An AI model reads it, the plant "
             "names are matched, and every record lands on the map with its page and quote.")
 
 if not config.DB_PATH.exists():
     st.error("No database yet. Run `make build` first, then reopen this page.", icon=":material/database:")
     st.stop()
 
-if not config.ANTHROPIC_API_KEY or config.OFFLINE:
-    st.warning("Reading a new study needs `ANTHROPIC_API_KEY` in `.env` and `OFFLINE` unset. Without it, only a "
-               "study with a checked extraction in `data/cache/extract/<id>.json` can be added.",
-               icon=":material/key:")
+if extract.provider() is None or config.OFFLINE:
+    st.warning("Reading a new study needs a free `GROQ_API_KEY` in `.env` (https://console.groq.com/keys) and "
+               "`OFFLINE` unset. Without it, only a study with a checked extraction in "
+               "`data/cache/extract/<id>.json` can be added.", icon=":material/key:")
+elif extract.provider() == "groq":
+    st.caption(f":material/bolt: Extraction runs on Groq's free tier (`{extract.GROQ_EXTRACT_MODEL}`), "
+               f"{extract.GROQ_PAGES_PER_CALL} pages per request. A 15-page study can take a few minutes because of "
+               "the free rate limit. Records whose quote is not found on the cited page are dropped.")
 
 with open(config.SEED / "places.csv", encoding="utf-8") as f:
     places = list(csv.DictReader(f))
@@ -56,7 +60,7 @@ if submitted:
     try:
         with st.status("Reading the study…", expanded=True) as status:
             st.write(f"Saving `{slugify(meta['doc_id'])}{Path(upload.name).suffix.lower()}` and extracting the text")
-            st.write("Claude is pulling out plant, part, preparation and use, with page and quote")
+            st.write("The AI model is pulling out plant, part, preparation and use, with page and quote")
             result = add_study(upload.getvalue(), Path(upload.name).suffix, meta)
             st.write(f"Matched {len(result.species)} plants; looked up evidence for {len(result.new_species)} new ones")
             status.update(label="Study added", state="complete", expanded=False)
