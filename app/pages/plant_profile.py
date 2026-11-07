@@ -42,7 +42,11 @@ hero(
 )
 
 # Search by a local or scientific name, then choose the resolved species.
-choices = {normalize(n): sp for n, sp in zip(uses.local_name, uses.species)}
+choices = {
+    normalize(alias.strip()): species_name
+    for local, species_name in zip(uses.local_name, uses.species)
+    for alias in str(local).split("/")
+}
 choices.update({normalize(sp): sp for sp in uses.species.unique()})
 species_list = sorted(uses.species.unique())
 search_col, select_col = st.columns([1.2, 1], gap="medium")
@@ -107,6 +111,7 @@ for _, u in sp_uses.iterrows():
         st.markdown(
             f":green-badge[:material/water_drop: {(u.preparation or 'Preparation not stated').capitalize()}] "
             f":orange-badge[:material/spa: {(u.part_used or 'Part not stated').capitalize()}] "
+            f"{f':blue-badge[:material/groups: {u.community}] ' if u.community else ''}"
             f":gray-badge[:material/location_on: {place}]"
         )
         if src is not None:
@@ -223,7 +228,7 @@ with st.expander("Sources, methods, and current limits", icon=":material/menu_bo
     plant_sources = demo_sources[demo_sources.doc_id.isin(used_doc_ids)]
     for _, source in plant_sources.iterrows():
         st.markdown(f"**[{source.title}]({source.url})**  ·  {source.citation}  ·  Licence: {source.licence}")
-    st.caption("This version contains 74 ALB-labelled medicinal-use rows from Table 1 of the 2015 Sharr Mountains paper, across 51 plant taxa. Each row is matched to its PDF page. The paper reports 114 medicinal taxa overall; other community rows and its separate food and handicraft tables are not loaded here. These are traditional-use reports, not proof of medical effectiveness.")
+    st.caption(f"This dataset contains {len(uses)} medicinal-use reports from Table 1 of the 2015 Sharr Mountains paper. Records are labelled by the community reported in the table and matched to a PDF page. The paper reports 114 medicinal taxa overall; its separate food and handicraft tables are not loaded here. These are traditional-use reports, not proof of medical effectiveness.")
 
 # Release the SQLite file between Streamlit reruns so the offline build can rebuild it on Windows.
 conn.close()

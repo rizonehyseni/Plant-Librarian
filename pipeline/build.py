@@ -43,7 +43,7 @@ def main():
             r["prep_class"] = evidence.classify_traditional(r["preparation"])
             r.update(places.locate_record(r.get("location"), study_area.get(doc_id)))
             use_rows.append({"doc_id": doc_id, **{k: r.get(k) for k in (
-                "page", "local_name", "name_in_text", "species", "gbif_key", "match_method", "match_score",
+                "page", "local_name", "name_in_text", "community", "species", "gbif_key", "match_method", "match_score",
                 "family", "part_used", "preparation", "prep_class", "administration", "use", "location",
                 "place", "lat", "lon", "geo_precision", "quote")}})
             if r["species"]:
