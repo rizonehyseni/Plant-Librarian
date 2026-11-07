@@ -28,6 +28,8 @@ pages = {
         st.Page("pages/1_Data_Quality_Review.py", title=t("Data quality review"),
                 icon=":material/fact_check:", url_path="review"),
         st.Page("pages/5_Add_a_Study.py", title=t("Add a study"), icon=":material/upload_file:", url_path="add"),
+        st.Page("pages/8_Share_Knowledge.py", title=t("Share family knowledge"), icon=":material/volunteer_activism:",
+                url_path="share"),
     ],
 }
 page = st.navigation(pages)

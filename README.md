@@ -36,6 +36,7 @@ No `make` (Windows)? Run the commands from the Makefile directly, e.g. `python -
 | **Priorities** | *What should science study next?* (plants used for the same body system by independent groups, preparation untested) and *Knowledge at risk* (plants and uses only one group reports) | No |
 | **Ask the librarian** | Chat that answers only from the fact sheets, with sources; ask by typing or **with your voice** (Albanian or English); a small animated botanist greets you | Free `GROQ_API_KEY` |
 | **Data quality review** | Check, correct and verify records; audit log | No |
+| **Share family knowledge** | Form to add a traditional use from your family with two consents (sharer and knowledge holder), no names, doses refused; reviewers approve, reject or withdraw; approved entries join the library as *Community Contribution* | No |
 | **Add a study** | Upload a new study; the LLM extracts records and they join the map | Free `GROQ_API_KEY` |
 
 ## Status and remaining work
@@ -199,6 +200,22 @@ The verdict is shown on each plant profile. The **Research gaps** page lists all
 the gaps first and can export the table as CSV. The chat assistant uses the same check. The
 tags are keyword guesses on the top 40 PubMed results, so a verdict points to papers to read.
 It is not a review.
+
+## Family knowledge with consent
+
+**Share family knowledge** (Curation) lets anyone add a use they learned at home. `pipeline/contributions.py`:
+
+- needs two consents: the person sharing (CC BY 4.0) and the person who holds the knowledge;
+- collects no names of people (only *grandmother*, *neighbour*, ...) and refuses amounts or schedules
+  (`200 g`, `2 filxhanë`, `3 times a day`), so no dose is ever stored;
+- keeps every entry `pending` in `data/contributions/contributions.csv` until a reviewer approves it;
+  approved entries enter the library as source *Community contributions (shared with consent)*, origin
+  *Community Contribution*, placed on the map at the chosen village or region, and still `Needs Review` on
+  the Data quality page;
+- lets a reviewer withdraw a published entry at any time, which removes it from the library.
+
+`make build` adds the approved entries from the CSV, so commit that file to keep them. In this prototype anyone
+can review; a real deployment would limit the reviewer section to signed-in reviewers.
 
 ## Identify a plant from a photo
 

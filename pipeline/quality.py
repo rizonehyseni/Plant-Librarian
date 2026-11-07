@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 from .db import initialize
 
 REVIEW_STATUSES = ("Needs Review", "Verified")
-RECORD_ORIGINS = ("AI Extracted", "Source Table", "Manually Reviewed")
+RECORD_ORIGINS = ("AI Extracted", "Source Table", "Manually Reviewed", "Community Contribution")
 EDITABLE_FIELDS = {
     "local_name", "name_in_text", "species", "family", "part_used", "preparation",
     "administration", "use", "location", "place", "lat", "lon", "geo_precision",

@@ -90,6 +90,11 @@ def main():
 
     docs = ingest.run()
     extracted = extract.run(docs)
+    from . import contributions  # approved family knowledge, shared with consent through the app
+    if contributions.approved_records():
+        _insert(conn, "sources", [contributions.SOURCE])
+        extracted[contributions.DOC_ID] = contributions.approved_records()
+        print(f"contributions: {len(extracted[contributions.DOC_ID])} approved entries")
 
     rows = [row for doc_id, records in extracted.items()
             for row in use_rows(doc_id, records, study_area.get(doc_id))]
