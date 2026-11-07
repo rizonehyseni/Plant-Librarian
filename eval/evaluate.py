@@ -1,8 +1,8 @@
-"""Accuracy against the hand-checked gold sample in eval/gold.csv.
+"""Evaluate extraction against real-study gold rows in eval/gold.csv.
 
-A gold row counts as found when the database has a record from the same document
-with the same species and the same part used. Reports precision, recall and
-name-matching accuracy - put these numbers in the slides.
+Synthetic fixtures are deliberately excluded. Exact record matching checks the
+plant, local name, part, preparation, and reported use, rather than counting a
+species/part match as a fully correct record.
 """
 import csv
 from pathlib import Path
@@ -13,17 +13,21 @@ GOLD = Path(__file__).parent / "gold.csv"
 
 
 def norm(s):
-    return (s or "").strip().lower()
+    return " ".join((s or "").strip().lower().split())
 
 
 def main():
-    gold = list(csv.DictReader(open(GOLD, encoding="utf-8")))
+    gold = [g for g in csv.DictReader(open(GOLD, encoding="utf-8"))
+            if g["doc_id"] != "sample_fixture"]
+    if not gold:
+        raise SystemExit("No real-study gold rows found in eval/gold.csv")
     docs = {g["doc_id"] for g in gold}
     conn = connect()
     rows = [dict(r) for r in conn.execute(
         f"SELECT * FROM uses WHERE doc_id IN ({','.join('?' * len(docs))})", list(docs))]
 
-    key = lambda r: (r["doc_id"], norm(r["species"]), norm(r["part_used"]))
+    fields = ("doc_id", "local_name", "species", "part_used", "preparation", "use")
+    key = lambda r: tuple(norm(r.get(field)) for field in fields)
     gold_keys = {key(g) for g in gold}
     pred_keys = {key(r) for r in rows}
     tp = len(gold_keys & pred_keys)
@@ -34,9 +38,9 @@ def main():
     named = [g for g in gold if (g["doc_id"], norm(g["local_name"])) in by_local]
     name_acc = sum(by_local[(g["doc_id"], norm(g["local_name"]))] == norm(g["species"]) for g in named)
 
-    print(f"gold records: {len(gold)}   extracted: {len(rows)}")
-    print(f"precision: {precision:.0%}   recall: {recall:.0%}")
-    print(f"name matching: {name_acc}/{len(named)} correct")
+    print(f"real-study gold records: {len(gold)}   extracted: {len(rows)}")
+    print(f"exact record precision: {precision:.0%}   recall: {recall:.0%}")
+    print(f"local-name species accuracy: {name_acc}/{len(named)} correct")
     for g in gold:
         if key(g) not in pred_keys:
             print(f"  missed: {g['local_name']} -> {g['species']} ({g['part_used']})")

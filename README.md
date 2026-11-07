@@ -34,6 +34,12 @@ Regenerate the Sharr table cache without an API key with `python -m pipeline.ext
 The script reads the committed article XML and PDF, keeps ALB-labelled plant rows, excludes
 fungi, and requires each record's table text to match a unique PDF page.
 
+`eval/gold.csv` contains 23 real-study examples whose local name, plant part, preparation,
+reported use and page were checked against the source PDF. The synthetic fixture rows remain
+in the file for reference but are excluded from `make eval`. Evaluation requires an exact match
+on the real record fields; these 23 examples are a small sample, not a full-document accuracy
+claim.
+
 ### What needs an API key
 
 - The Anthropic key is used only to extract plant-use records from a study that has no
