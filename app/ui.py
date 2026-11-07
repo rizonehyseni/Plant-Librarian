@@ -99,3 +99,83 @@ def section(icon: str, title: str, caption: str = "") -> None:
     st.markdown(f'<div class="eh-section">{_icon(icon)}<h3>{escape(t(title))}</h3></div>', unsafe_allow_html=True)
     if caption:
         st.caption(t(caption))
+
+
+BOTANIST_SVG = """
+<svg class="bt-figure" viewBox="0 0 120 150" width="104" height="130" role="img" aria-label="{alt}">
+  <ellipse cx="60" cy="143" rx="30" ry="5" fill="#1f3d2e" opacity=".12"/>
+  <!-- basket of herbs -->
+  <g class="bt-basket">
+    <path d="M14 112 q4 -14 14 -10 q-2 -12 8 -12 q6 0 6 10 q8 -4 10 6" fill="#4f8a63"/>
+    <path d="M20 108 l2 -8 M30 104 l-2 -10 M40 106 l3 -9" stroke="#2f6b4f" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="26" cy="99" r="3" fill="#e9c46a"/><circle cx="38" cy="96" r="3" fill="#f2f2f2"/>
+    <path d="M10 110 h44 l-5 22 h-34 z" fill="#b07a45"/>
+    <path d="M12 117 h40 M14 124 h36" stroke="#8a5a2e" stroke-width="2"/>
+  </g>
+  <!-- body -->
+  <g class="bt-body">
+    <path d="M60 140 v-6 M74 140 v-6" stroke="#3b2f2a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M46 132 q0 -40 21 -40 q21 0 21 40 z" fill="#2f6b4f"/>
+    <path d="M58 132 q0 -28 9 -36 q9 8 9 36 z" fill="#e8dcc0"/>
+    <path d="M62 112 h10" stroke="#2f6b4f" stroke-width="2" stroke-linecap="round"/>
+    <!-- arm holding basket -->
+    <path d="M50 102 q-12 6 -10 14" stroke="#2f6b4f" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <circle cx="40" cy="116" r="4" fill="#e8b48c"/>
+    <!-- waving arm with a leaf -->
+    <g class="bt-wave">
+      <path d="M84 102 q10 -8 12 -22" stroke="#2f6b4f" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <circle cx="96" cy="78" r="4.5" fill="#e8b48c"/>
+      <g class="bt-leaf">
+        <path d="M97 74 q4 -16 18 -18 q-2 16 -18 18 z" fill="#6aa84f"/>
+        <path d="M97 74 l13 -13" stroke="#3f7a2f" stroke-width="1.2"/>
+      </g>
+    </g>
+  </g>
+  <!-- head -->
+  <g class="bt-head">
+    <circle cx="67" cy="76" r="14" fill="#e8b48c"/>
+    <path d="M55 72 q2 -8 12 -8 q10 0 12 8" fill="#5a3b28"/>
+    <g class="bt-eyes"><circle cx="62" cy="77" r="1.7" fill="#1f3328"/><circle cx="72" cy="77" r="1.7" fill="#1f3328"/></g>
+    <path d="M62 83 q5 4 10 0" stroke="#7a3e2b" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <circle cx="58" cy="81" r="2" fill="#e38b7a" opacity=".5"/><circle cx="76" cy="81" r="2" fill="#e38b7a" opacity=".5"/>
+    <!-- straw hat with a flower -->
+    <ellipse cx="67" cy="64" rx="25" ry="5" fill="#d9b26f"/>
+    <path d="M54 64 q1 -14 13 -14 q12 0 13 14 z" fill="#e6c27e"/>
+    <path d="M54 61 h26" stroke="#2f6b4f" stroke-width="3"/>
+    <circle cx="77" cy="58" r="3" fill="#f4f1e8"/><circle cx="77" cy="58" r="1.3" fill="#e9c46a"/>
+  </g>
+</svg>
+"""
+
+BOTANIST_CSS = """
+<style>
+.bt-wrap { display:flex; align-items:flex-end; gap:12px; margin:-.6rem 0 1.2rem; }
+.bt-figure { flex-shrink:0; overflow:visible; }
+.bt-bubble { position:relative; background:#fffdf8; border:1px solid #d9ddcf; border-radius:16px; padding:10px 14px;
+  color:#1f3328; font-size:.95rem; line-height:1.45; max-width:520px; margin-bottom:34px;
+  box-shadow:0 6px 16px rgba(31,61,46,.08); animation: bt-pop .5s ease-out both .3s; }
+.bt-bubble:before { content:""; position:absolute; left:-8px; bottom:14px; width:14px; height:14px; background:#fffdf8;
+  border-left:1px solid #d9ddcf; border-bottom:1px solid #d9ddcf; transform:rotate(45deg); }
+.bt-body { animation: bt-breathe 3.2s ease-in-out infinite; transform-origin:67px 140px; }
+.bt-head { animation: bt-nod 3.2s ease-in-out infinite; transform-origin:67px 90px; }
+.bt-wave { animation: bt-wave 2.4s ease-in-out infinite; transform-origin:84px 102px; }
+.bt-leaf { animation: bt-sway 2.4s ease-in-out infinite; transform-origin:97px 74px; }
+.bt-eyes { animation: bt-blink 4.5s infinite; transform-origin:67px 77px; }
+.bt-basket { animation: bt-breathe 3.2s ease-in-out infinite; transform-origin:32px 132px; }
+@keyframes bt-wave { 0%,55%,100% { transform:rotate(0) } 12% { transform:rotate(-16deg) } 24% { transform:rotate(10deg) }
+  36% { transform:rotate(-14deg) } 46% { transform:rotate(6deg) } }
+@keyframes bt-sway { 0%,100% { transform:rotate(0) } 50% { transform:rotate(12deg) } }
+@keyframes bt-nod { 0%,100% { transform:rotate(0) } 50% { transform:rotate(-4deg) } }
+@keyframes bt-breathe { 0%,100% { transform:translateY(0) } 50% { transform:translateY(-1.5px) } }
+@keyframes bt-blink { 0%,92%,100% { transform:scaleY(1) } 95% { transform:scaleY(.1) } }
+@keyframes bt-pop { from { opacity:0; transform:translateY(6px) scale(.97) } to { opacity:1; transform:none } }
+@media (prefers-reduced-motion: reduce) { .bt-wrap * { animation:none !important } }
+@media (max-width:640px) { .bt-figure { width:78px; height:98px } .bt-bubble { font-size:.88rem } }
+</style>
+"""
+
+
+def botanist(message: str, alt: str = "Animated botanist waving with a leaf") -> None:
+    """Small animated herbalist (inline SVG + CSS, no JavaScript) with a speech bubble."""
+    st.html(BOTANIST_CSS + f'<div class="bt-wrap">{BOTANIST_SVG.format(alt=escape(alt))}'
+            f'<div class="bt-bubble">{escape(message)}</div></div>')

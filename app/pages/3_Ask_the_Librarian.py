@@ -1,4 +1,5 @@
 """Chat assistant that answers only from the plant fact sheets, with sources."""
+import hashlib
 import sys
 from pathlib import Path
 
@@ -6,11 +7,11 @@ import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # app/ for ui.py
-from pipeline import chat  # noqa: E402
+from pipeline import chat, voice  # noqa: E402
 from pipeline.config import DB_PATH, GROQ_API_KEY, GROQ_MODEL  # noqa: E402
 from pipeline.db import connect  # noqa: E402
 from i18n import lang, t  # noqa: E402
-from ui import page_header  # noqa: E402
+from ui import botanist, page_header  # noqa: E402
 
 AVATARS = {"user": ":material/person:", "assistant": ":material/local_florist:"}
 EXAMPLES = [  # (icon, question): each one shows a different part of the fact sheets
@@ -29,6 +30,8 @@ EXAMPLES_SQ = [
 page_header("forum", "Assistant", "Ask the librarian",
             "Ask in English or Albanian. Answers come only from this project's fact sheets (study records, "
             "reviewed papers, PubMed candidates and safety rules), and every claim links to its source.")
+botanist(t("Hello! I'm the plant librarian. Ask me about any plant: type it, or press the microphone and say "
+           "its name the way your grandparents do."), alt=t("Animated botanist waving with a leaf"))
 
 if not DB_PATH.exists():
     st.error(t("No database yet. Run `make build` first, then reopen this page."), icon=":material/database:")
@@ -42,6 +45,24 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []  # {"role", "content", "citations"}
 if lang() == "sq":
     EXAMPLES = EXAMPLES_SQ
+
+# Ask with your voice: Groq's free Whisper turns the recording into text, then it is asked like typed text.
+audio = st.audio_input(t("Or ask with your voice"), key="voice_question",
+                       help=t("Press the microphone, speak in Albanian or English, press again to stop."))
+if audio is not None:
+    digest = hashlib.sha1(audio.getvalue()).hexdigest()
+    if st.session_state.get("voice_done") != digest:  # each recording is transcribed once
+        st.session_state.voice_done = digest
+        with st.spinner(t("Listening…")):
+            try:
+                heard, failed = voice.transcribe(audio.getvalue(), language=lang()), False
+            except Exception as exc:  # noqa: BLE001
+                heard, failed = "", True
+                st.error(str(exc), icon=":material/mic_off:")
+        if heard:
+            st.session_state.pending_question = heard
+        elif not failed:
+            st.caption(":material/mic_off: " + t("I could not hear a question. Try again a little closer to the microphone."))
 
 
 def show_citations(citations):
