@@ -1,6 +1,7 @@
 """EthnoHack plant librarian: app entry point and navigation (`make app`)."""
 import streamlit as st
 
+from factsheet import app_url, qr_svg
 from i18n import LANGUAGES, t
 from ui import apply_theme
 
@@ -35,6 +36,11 @@ pages = {
 page = st.navigation(pages)
 
 with st.sidebar:
+    with st.popover(t("Share this app"), icon=":material/qr_code_2:", width="stretch"):
+        st.html(f'<div style="width:200px">{qr_svg(app_url())}</div>')
+        st.caption(t("Scan to open the app on a phone.") + f"  \n`{app_url()}`")
+        if "localhost" in app_url() or "127.0.0.1" in app_url():
+            st.caption(":material/info: " + t("This is a local address. Set APP_URL to the public link after deploying."))
     st.caption(":material/info: " + t("Research prototype. Traditional-use reports are not proof that a remedy works, "
                                       "and nothing here is medical advice."))
 

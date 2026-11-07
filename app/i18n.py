@@ -485,6 +485,21 @@ SQ = {
     'Community Contribution': 'Kontribut i komunitetit',
     'shared with consent, reviewed': 'ndarë me pëlqim, e rishikuar',
     'Community contributions (shared with consent)': 'Kontribute të komunitetit (ndarë me pëlqim)',
+    # ---------------------------------------------------------------- fact sheet and QR
+    'Download fact sheet': 'Shkarko fletën e bimës',
+    'A printable page with every use, source, study and flag. Open it and print to PDF.': 'Një faqe për printim me çdo përdorim, burim, studim dhe flamur. Hapeni dhe printojeni si PDF.',
+    'QR code': 'Kodi QR',
+    "Scan to open this plant's profile.": 'Skanojeni për të hapur profilin e kësaj bime.',
+    'Share this app': 'Ndaj app-in',
+    'Scan to open the app on a phone.': 'Skanojeni për ta hapur app-in në celular.',
+    'This is a local address. Set APP_URL to the public link after deploying.': 'Kjo është adresë lokale. Vendosni APP_URL me linkun publik pas deploy-it.',
+    'None yet': 'Ende asnjë',
+    'No rule from the limited safety list matched; this is not an all-clear.': 'Asnjë rregull nga lista e kufizuar e sigurisë nuk u përputh; kjo nuk do të thotë e sigurt.',
+    'Open in the app': 'Hape në app',
+    'Sources': 'Burimet',
+    'No doses are given.': 'Nuk jepen doza.',
+    'PubMed candidates are keyword matches, not reviewed conclusions.': 'Kandidatët PubMed janë përputhje me fjalë kyçe, jo përfundime të rishikuara.',
+    'Generated': 'Krijuar më',
 }
 
 

@@ -29,7 +29,7 @@ No `make` (Windows)? Run the commands from the Makefile directly, e.g. `python -
 | Page | What it shows | Needs a key? |
 | --- | --- | --- |
 | **Language** | Sidebar toggle Shqip / English (default Shqip) for all interface text; study data stays in the language of the source | No |
-| **Plant profile** | Search by Albanian or scientific name, or **identify from a photo** (Pl@ntNet, optional free key). Fact sheet per plant: uses with page and quote, community, "was the same preparation tested?", PubMed candidates, safety flags, map | No |
+| **Plant profile** | Search by Albanian or scientific name, or **identify from a photo** (Pl@ntNet, optional free key). **Download a printable fact sheet** and a **QR code** per plant. Fact sheet per plant: uses with page and quote, community, "was the same preparation tested?", PubMed candidates, safety flags, map | No |
 | **Search & compare** | Filter and compare records across plants, parts, preparations | No |
 | **Map of uses** | All records on one map (village pin or study-area circle), filters by community, study, use and preparation, optional GBIF occurrence heat map, which plants the communities share, flagged plants | No |
 | **Research gaps** | Every plant with its preparation verdict, gaps first, CSV export | No |
@@ -200,6 +200,19 @@ The verdict is shown on each plant profile. The **Research gaps** page lists all
 the gaps first and can export the table as CSV. The chat assistant uses the same check. The
 tags are keyword guesses on the top 40 PubMed results, so a verdict points to papers to read.
 It is not a review.
+
+## Printable fact sheet and QR codes
+
+- **Download fact sheet** on each plant profile gives a standalone HTML page (`app/factsheet.py`): every use with
+  community, place and study page, the preparation verdict, reviewed papers, PubMed candidates, safety flags,
+  citations and licences, the disclaimer, and a QR code back to the profile. Open it and print to PDF; no extra
+  software is needed.
+- **QR code** next to it opens the plant's profile on a phone; **Share this app** in the sidebar shows a QR code
+  for the whole app (for the slides). QR codes are inline SVG from the `qrcode` package (free, no image library).
+- The QR codes use `APP_URL` when set (put the public link there after deploying), otherwise the address the
+  browser used, so on `localhost` they only work on the same computer.
+
+After pulling, run `pip install -r requirements.txt` once for `qrcode`.
 
 ## Family knowledge with consent
 

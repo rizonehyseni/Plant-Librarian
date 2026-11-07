@@ -14,6 +14,7 @@ from pipeline.compare import compare_species  # noqa: E402
 from pipeline.config import DB_PATH, IUCN_TOKEN, SEED  # noqa: E402
 from pipeline.db import connect  # noqa: E402
 from pipeline.names import normalize  # noqa: E402
+from factsheet import fact_sheet_html, profile_url, qr_svg  # noqa: E402
 from i18n import lang, summary_sentence, t  # noqa: E402
 from ui import hero, section  # noqa: E402
 
@@ -152,6 +153,15 @@ metric_cols[0].metric(t("Study use reports"), len(sp_uses), border=True)
 metric_cols[1].metric(t("Reviewed papers"), len(reviewed_evidence), border=True)
 metric_cols[2].metric(t("PubMed candidates"), len(evidence), border=True, help=t("Unreviewed keyword matches"))
 metric_cols[3].metric(t("Safety flags"), len(flags), border=True, help=t("From the project's limited rule list"))
+with st.container(horizontal=True, vertical_alignment="center"):
+    st.download_button(
+        t("Download fact sheet"), icon=":material/print:", file_name=f"{species.replace(' ', '_')}_fact_sheet.html",
+        mime="text/html", help=t("A printable page with every use, source, study and flag. Open it and print to PDF."),
+        data=fact_sheet_html(species, family.iloc[0] if len(family) else None, local_names, sp_uses, prep_check,
+                             reviewed_evidence, evidence, flags, demo_sources).encode("utf-8"))
+    with st.popover(t("QR code"), icon=":material/qr_code_2:"):
+        st.html(f'<div style="width:180px">{qr_svg(profile_url(species))}</div>')
+        st.caption(t("Scan to open this plant's profile.") + f"  \n`{profile_url(species)}`")
 
 # ---------------------------------------------------------------- 1 traditional use
 st.write("")
