@@ -47,7 +47,7 @@ per change.
 - Data: Sharr Mountains study (Mustafa et al. 2015), **569 use records, 108 plants, 3 communities**
   (Albanian 167, Bosniak/Gorani 252, Turkish 150), all from Table 1 by the table parser, each matched to
   its PDF page. Every plant name is confirmed by GBIF. PubMed candidates
-  are loaded for all 108 plants, GBIF occurrences for 97, Wikidata compounds for 103; all responses are
+  are loaded for all 108 plants, GBIF occurrences for 96, Wikidata compounds for 102 (`make stats`); all responses are
   cached in `data/cache/api/`, so `OFFLINE=1 make build` reproduces the database.
 - Preparation check (**Research gaps** page): 3 plants manually reviewed, 18 with a same-preparation
   human study tag, 50 same preparation in lab/animal only, **11 research gaps** (studies exist, none with
@@ -56,7 +56,7 @@ per change.
   Bosniaks/Gorani, 18 only by Turks (**Map of uses** page).
 - `make eval`: 23 hand-checked gold rows, recall 23/23, local name to plant 23/23 (this checks the
   table parser; LLM extraction has no gold rows yet).
-- App: the seven pages above. 45 tests pass (`make test`).
+- App: the seven pages above. 46 tests pass (`make test`). `make stats` writes the slide numbers to `docs/numbers.md`; the demo walk-through is in `docs/demo-script.md`.
 
 ### Remaining, in order of priority
 
