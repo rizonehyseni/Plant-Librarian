@@ -61,7 +61,7 @@ page = st.navigation(pages)
 
 with st.sidebar:
     with st.popover(t("Share this app"), icon=":material/qr_code_2:", width="stretch"):
-        st.html(f'<div style="width:200px">{qr_svg(app_url())}</div>')
+        st.html(f'<div style="width:200px;background:#fff;padding:8px;border-radius:8px">{qr_svg(app_url())}</div>')
         st.caption(t("Scan to open the app on a phone.") + f"  \n`{app_url()}`")
         if "localhost" in app_url() or "127.0.0.1" in app_url():
             st.caption(":material/info: " + t("This is a local address. Set APP_URL to the public link after deploying."))

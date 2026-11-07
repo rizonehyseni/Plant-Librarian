@@ -160,7 +160,8 @@ with st.container(horizontal=True, vertical_alignment="center"):
         data=fact_sheet_html(species, family.iloc[0] if len(family) else None, local_names, sp_uses, prep_check,
                              reviewed_evidence, evidence, flags, demo_sources).encode("utf-8"))
     with st.popover(t("QR code"), icon=":material/qr_code_2:"):
-        st.html(f'<div style="width:180px">{qr_svg(profile_url(species))}</div>')
+        st.html(f'<div style="width:180px;background:#fff;padding:8px;border-radius:8px">'
+                f'{qr_svg(profile_url(species))}</div>')
         st.caption(t("Scan to open this plant's profile.") + f"  \n`{profile_url(species)}`")
 
 # ---------------------------------------------------------------- 1 traditional use
