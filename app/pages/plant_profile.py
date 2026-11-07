@@ -168,10 +168,14 @@ for _, u in sp_uses.iterrows():
             f"{f':blue-badge[:material/groups: {t(u.community)}] ' if u.community else ''}"
             f":gray-badge[:material/location_on: {place}]"
         )
-        if src is not None:
-            st.caption(f":material/description: [{src.title}]({src.url}) · " + t("printed page {page}", page=u.page))
+        page_label = (t("printed page {page}", page=int(u.page)) if pd.notna(u.page)
+                      else t("shared with consent, reviewed"))
+        if src is not None and not src.url:
+            st.caption(f":material/volunteer_activism: {t(src.title)} · {page_label}")
+        elif src is not None:
+            st.caption(f":material/description: [{src.title}]({src.url}) · " + page_label)
         else:
-            st.caption(f":material/description: {u.doc_id} · " + t("printed page {page}", page=u.page))
+            st.caption(f":material/description: {u.doc_id} · " + page_label)
         if u.quote:
             with st.expander(t("Excerpt from the paper"), icon=":material/format_quote:"):
                 st.markdown(f"> {u.quote}")
