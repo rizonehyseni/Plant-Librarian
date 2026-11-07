@@ -34,7 +34,7 @@ def _count_species(conn, table: str, species: set[str]) -> int:
 def compute(conn, gold_path=GOLD, reviewed=None) -> dict:
     """All headline numbers as a dict. `reviewed` is passed to compare_all (None = seed file)."""
     rows = [dict(r) for r in conn.execute(
-        "SELECT doc_id, species, community, review_status FROM uses WHERE doc_id != ?", (FIXTURE,))]
+        "SELECT doc_id, species, community, review_status, auto_check FROM uses WHERE doc_id != ?", (FIXTURE,))]
     species = {r["species"] for r in rows if r["species"]}
     overlap = community_overlap(rows)
 
@@ -68,6 +68,7 @@ def compute(conn, gold_path=GOLD, reviewed=None) -> dict:
         "flags": {f"{k} / {lvl}": n for (k, lvl), n in sorted(flags.items())},
         "review_status": dict(sorted(Counter(r["review_status"] for r in rows).items())),
         "verified": sum(r["review_status"] == "Verified" for r in rows),
+        "auto_check": dict(sorted(Counter(r.get("auto_check") or "not run" for r in rows).items())),
         "eval": None if ev is None else {k: ev[k] for k in ("gold", "hits", "recall", "name_ok", "named")},
     }
 
@@ -96,7 +97,8 @@ def _lines(s: dict) -> list[tuple[str, str]]:
     ]
     out += [(f"Flags, {k}", n) for k, n in s["flags"].items()]
     out += [(f"Records {status}", n) for status, n in s["review_status"].items()]
-    out.append(("Verified records", s["verified"]))
+    out.append(("Verified records (by a person)", s["verified"]))
+    out += [(f"Auto-check against PDF: {k}", n) for k, n in s["auto_check"].items()]
     ev = s["eval"]
     if ev:
         out += [

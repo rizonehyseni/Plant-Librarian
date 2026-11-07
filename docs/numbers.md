@@ -34,7 +34,9 @@ The synthetic test fixture is excluded.
 | Flags, risk / caution | 17 |
 | Flags, risk / warning | 4 |
 | Records Needs Review | 689 |
-| Verified records | 0 |
+| Verified records (by a person) | 0 |
+| Auto-check against PDF: issues | 12 |
+| Auto-check against PDF: passed | 677 |
 | Eval recall (hand-checked gold rows) | 40/42 = 95% |
 | Eval local name -> plant | 40/40 |
 

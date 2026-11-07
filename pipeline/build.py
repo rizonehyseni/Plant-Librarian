@@ -106,6 +106,8 @@ def main():
     print(f"places: {located['record']} records located by village/town, "
           f"{located['study']} by study area, {len(rows) - sum(located.values())} not on the map")
 
+    from . import autocheck  # every record against its PDF page (text matching, not a human review)
+    print("auto-check:", ", ".join(f"{k} {v}" for k, v in autocheck.run(conn).items()))
     enrich(conn, keys)
     conn.commit()
     print(f"build: wrote {DB_PATH}")

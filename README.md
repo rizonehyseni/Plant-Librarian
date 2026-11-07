@@ -35,7 +35,7 @@ No `make` (Windows)? Run the commands from the Makefile directly, e.g. `python -
 | **Research gaps** | Every plant with its preparation verdict, gaps first, CSV export | No |
 | **Priorities** | *What should science study next?* (plants used for the same body system by independent groups, preparation untested) and *Knowledge at risk* (plants and uses only one group reports) | No |
 | **Ask the librarian** | Chat that answers only from the fact sheets, with sources; ask by typing or **with your voice** (Albanian or English); a small animated botanist greets you | Free `GROQ_API_KEY` |
-| **Data quality review** | Check, correct and verify records; audit log | No |
+| **Data quality review** | Check, correct and verify records; automatic PDF check per record (passed / issues, with details); audit log | No |
 | **Share family knowledge** | Form to add a traditional use from your family with two consents (sharer and knowledge holder), no names, doses refused; reviewers approve, reject or withdraw; approved entries join the library as *Community Contribution* | No |
 | **Add a study** | Upload a new study; the LLM extracts records and they join the map | Free `GROQ_API_KEY` |
 
@@ -90,9 +90,14 @@ per change. CI (tests, offline build, eval) runs on every PR.
 Tick the box in your PR when you finish an item. ⏱ = rough time.
 
 **1. Verify records — most convincing number for the jury (⏱ 1 h, anyone, no key)**
-- [ ] **0 of 689** records are verified. On **Data quality review**, check at least 30 against the PDF
-  (page and quote), starting with the demo plants (*Hithi*, *Bari sherbetit*, *Kamomil*) and 20 records of the
-  Albanian Alps study (the AI-extracted one). Set *Manually Reviewed* + *Verified*.
+- [x] **Automatic PDF check** (`pipeline/autocheck.py`, runs in `make build`): **681 of 689 records passed**
+  (name, part, preparation, use and quote found on the cited page), **12 have issues**: Sharr table rows that
+  start on one page and end on the next, so the parser gave the later page (garlic p.8→7, motherwort p.12→11,
+  willow p.16→15, cowberry p.19→18). This is not a human verification; `review_status` is untouched.
+- [ ] **0 of 689** records are verified by a person. On **Data quality review**, filter *Automatic PDF check →
+  issues* and fix the 12 pages first, then confirm at least 30 (demo plants *Hithi*, *Bari sherbetit*,
+  *Kamomil*, and 20 of the AI-extracted Albanian Alps records). Write your name as reviewer and set
+  *Manually Reviewed* + *Verified*.
 
 **2. Merge Rrezon's branch (⏱ 10 min, Rrezon)**
 - [ ] `codex/rrezon` has 13 new Albanian names and a chamomile allergy rule but no PR yet. Open a PR to `main`.
