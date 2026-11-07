@@ -20,6 +20,8 @@ make test                   # unit tests
 make eval                   # accuracy against eval/gold.csv
 ```
 
+CI (GitHub Actions, `.github/workflows/tests.yml`) runs `make test`, an offline `make build` and `make eval` on every PR.
+
 No `make` (Windows)? Run the commands from the Makefile directly, e.g. `python -m pipeline.build`.
 
 ## App pages
