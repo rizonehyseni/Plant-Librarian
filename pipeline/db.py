@@ -33,7 +33,9 @@ CREATE TABLE IF NOT EXISTS uses (
     quote TEXT,
     review_status TEXT NOT NULL DEFAULT 'Needs Review',
     reviewer_note TEXT,
-    record_origin TEXT NOT NULL DEFAULT 'AI Extracted'
+    record_origin TEXT NOT NULL DEFAULT 'AI Extracted',
+    auto_check TEXT,         -- passed | issues | no page (automatic PDF check, not a human review)
+    auto_check_detail TEXT
 );
 CREATE TABLE IF NOT EXISTS evidence (
     species TEXT, pmid TEXT, title TEXT, year TEXT, prep_class TEXT, study_type TEXT,
@@ -78,6 +80,8 @@ def initialize(conn: sqlite3.Connection) -> None:
         "review_status": "TEXT NOT NULL DEFAULT 'Needs Review'",
         "reviewer_note": "TEXT",
         "record_origin": "TEXT NOT NULL DEFAULT 'AI Extracted'",
+        "auto_check": "TEXT",
+        "auto_check_detail": "TEXT",
     }
     for column, definition in additions.items():
         if column not in columns:

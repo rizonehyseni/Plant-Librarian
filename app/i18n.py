@@ -500,6 +500,18 @@ SQ = {
     'No doses are given.': 'Nuk jepen doza.',
     'PubMed candidates are keyword matches, not reviewed conclusions.': 'Kandidatët PubMed janë përputhje me fjalë kyçe, jo përfundime të rishikuara.',
     'Generated': 'Krijuar më',
+    # ---------------------------------------------------------------- automatic PDF check
+    'Auto-check passed': 'Kontrolli automatik kaloi',
+    'Auto-check issues': 'Probleme nga kontrolli automatik',
+    'No page to check': 'Pa faqe për kontroll',
+    'Name, part, preparation, use and quote found on the cited PDF page by text matching. Not a human verification.': 'Emri, pjesa, përgatitja, përdorimi dhe citati u gjetën në faqen e PDF-së me krahasim teksti. Nuk është verifikim nga njeriu.',
+    'Check these first.': 'Kontrolloni këto të parat.',
+    'The automatic check compares each record with its PDF page; it never marks a record as verified. Only a person can, below.': 'Kontrolli automatik e krahason çdo rekord me faqen e PDF-së; nuk e shënon kurrë si të verifikuar. Këtë mund ta bëjë vetëm një person, më poshtë.',
+    'Automatic PDF check': 'Kontrolli automatik me PDF',
+    'passed': 'kaloi',
+    'issues': 'probleme',
+    'no page': 'pa faqe',
+    'Show only records with this check result.': 'Shfaq vetëm rekordet me këtë rezultat.',
 }
 
 

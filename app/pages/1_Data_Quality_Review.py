@@ -49,6 +49,15 @@ for column, (label, key) in zip(st.columns(4), metric_labels[:4]):
     column.metric(t(label), metrics[key], border=True)
 for column, (label, key) in zip(st.columns(3), metric_labels[4:]):
     column.metric(t(label), metrics[key], border=True)
+auto = {s: sum(r.get("auto_check") == s for r in records) for s in ("passed", "issues", "no page")}
+a1, a2, a3 = st.columns(3)
+a1.metric(t("Auto-check passed"), auto["passed"], border=True,
+          help=t("Name, part, preparation, use and quote found on the cited PDF page by text matching. "
+                 "Not a human verification."))
+a2.metric(t("Auto-check issues"), auto["issues"], border=True, help=t("Check these first."))
+a3.metric(t("No page to check"), auto["no page"], border=True)
+st.caption(":material/info: " + t("The automatic check compares each record with its PDF page; it never marks a "
+                                  "record as verified. Only a person can, below."))
 
 st.divider()
 section("checklist", "Review queue")
@@ -60,6 +69,8 @@ with filter_columns[1]:
     species_filter = st.selectbox(t("Plant species"), ["All", *species_options], format_func=t)
 with filter_columns[2]:
     issue_filter = st.selectbox(t("Data quality issue"), ["All", *ISSUE_LABELS], format_func=t)
+auto_filter = st.segmented_control(t("Automatic PDF check"), ["passed", "issues", "no page"], format_func=t,
+                                   key="auto_filter", help=t("Show only records with this check result."))
 
 filtered = filter_records(
     records,
@@ -68,6 +79,8 @@ filtered = filter_records(
     species=None if species_filter == "All" else species_filter,
     issue=None if issue_filter == "All" else issue_filter,
 )
+if auto_filter:
+    filtered = [r for r in filtered if r.get("auto_check") == auto_filter]
 table_rows = []
 for record in filtered:
     table_rows.append({
@@ -81,6 +94,7 @@ for record in filtered:
         "Location": record.get("location") or record.get("place") or "Not specific",
         "Review status": record.get("review_status"),
         "Warnings": "\n".join(issue_messages(findings[record["id"]])) or "None",
+        "Auto-check": record.get("auto_check") or "—",
     })
 st.dataframe(pd.DataFrame(table_rows), hide_index=True, width="stretch", height=400)
 
@@ -101,6 +115,10 @@ if findings[selected_id]:
     st.warning(" | ".join(issue_messages(findings[selected_id])))
 else:
     st.success(t("No automatic data-quality warnings for this record."))
+if selected.get("auto_check"):
+    box = st.info if selected["auto_check"] == "passed" else st.warning
+    box(f"**{t('Automatic PDF check')}: {t(selected['auto_check'])}**  \n{selected.get('auto_check_detail') or ''}",
+        icon=":material/rule:")
 
 with st.form("review-record"):
     form_columns = st.columns(2)
