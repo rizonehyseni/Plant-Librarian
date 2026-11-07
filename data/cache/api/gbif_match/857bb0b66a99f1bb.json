@@ -1,0 +1,26 @@
+{
+ "key": "Pinus sylvestris L.",
+ "value": {
+  "usageKey": 5285637,
+  "scientificName": "Pinus sylvestris L.",
+  "canonicalName": "Pinus sylvestris",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Pinales",
+  "family": "Pinaceae",
+  "genus": "Pinus",
+  "species": "Pinus sylvestris",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 194,
+  "orderKey": 640,
+  "familyKey": 3925,
+  "genusKey": 2684241,
+  "speciesKey": 5285637,
+  "class": "Pinopsida"
+ }
+}

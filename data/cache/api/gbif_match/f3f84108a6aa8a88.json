@@ -1,0 +1,26 @@
+{
+ "key": "Linum hirsutum L.",
+ "value": {
+  "usageKey": 7293186,
+  "scientificName": "Linum hirsutum L.",
+  "canonicalName": "Linum hirsutum",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Malpighiales",
+  "family": "Linaceae",
+  "genus": "Linum",
+  "species": "Linum hirsutum",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 1414,
+  "familyKey": 2493,
+  "genusKey": 2873855,
+  "speciesKey": 7293186,
+  "class": "Magnoliopsida"
+ }
+}

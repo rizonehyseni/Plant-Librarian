@@ -1,0 +1,305 @@
+{
+ "key": "Citrullus lanatus",
+ "value": [
+  {
+   "compound": "butyrolactone",
+   "smiles": "C1CC(=O)OC1"
+  },
+  {
+   "compound": "caprylaldehyde",
+   "smiles": "CCCCCCCC=O"
+  },
+  {
+   "compound": "24-epicampesterol",
+   "smiles": "CC(C)C(C)CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C"
+  },
+  {
+   "compound": "1-pentanol",
+   "smiles": "CCCCCO"
+  },
+  {
+   "compound": "1-penten-3-ol",
+   "smiles": "CCC(C=C)O"
+  },
+  {
+   "compound": "lauryl alcohol",
+   "smiles": "CCCCCCCCCCCCO"
+  },
+  {
+   "compound": "2-nonanone",
+   "smiles": "CCCCCCCC(=O)C"
+  },
+  {
+   "compound": "1-pentadecene",
+   "smiles": "CCCCCCCCCCCCCC=C"
+  },
+  {
+   "compound": "(S)-cryptoxanthin",
+   "smiles": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CC(CC2(C)C)O)C)C)C"
+  },
+  {
+   "compound": "pentanal",
+   "smiles": "CCCCC=O"
+  },
+  {
+   "compound": "3-epi-Bryonolol",
+   "smiles": "OCC1(C)CCC2(C)CCC3(C4=C(CCC3(C)C2C1)C5(C)CCC(O)C(C)(C)C5CC4)C"
+  },
+  {
+   "compound": "Clerosterol",
+   "smiles": "OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C)CCC(C(=C)C)CC)C2(C)CC1"
+  },
+  {
+   "compound": "24-Ethyl-5alpha-cholest-7-en-3beta-ol",
+   "smiles": "OC1CCC2(C)C3C(=CCC2C1)C4CCC(C(C)CCC(CC)C(C)C)C4(C)CC3"
+  },
+  {
+   "compound": "Codisterol",
+   "smiles": "OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C)CCC(C(=C)C)C)C2(C)CC1"
+  },
+  {
+   "compound": "Bryonolol",
+   "smiles": "OCC1(C)CCC2(C)CCC3(C4=C(CCC3(C)C2C1)C5(C)CCC(O)C(C)(C)C5CC4)C"
+  },
+  {
+   "compound": "(3R,4aR,6aS,6bS,8aS,11R,12aR,14bS)-11-(hydroxymethyl)-4,4,6a,6b,8a,11,14b-heptamethyl-1,2,3,4a,7,8,9,10,12,12a,13,14-dodecahydropicen-3-ol",
+   "smiles": "OCC1(C)CCC2(C)CCC3(C=4C=CC5C(C4CCC3(C)C2C1)(C)CCC(O)C5(C)C)C"
+  },
+  {
+   "compound": "5-Dehydrokarounidiol",
+   "smiles": "OCC1(C)CCC2(C)CCC3(C4=CC=C5C(C4=CCC3(C)C2C1)(C)CCC(O)C5(C)C)C"
+  },
+  {
+   "compound": "Karounidiol 3-benzoate",
+   "smiles": "O=C(OC1CCC2(C3=CCC4(C)C5CC(C)(CO)CCC5(C)CCC4(C3=CCC2C1(C)C)C)C)C=6C=CC=CC6"
+  },
+  {
+   "compound": "6-methyl-5-hepten-2-one",
+   "smiles": "CC(=CCCC(=O)C)C"
+  },
+  {
+   "compound": "pentadecane",
+   "smiles": "CCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "nonadecane",
+   "smiles": "CCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "octadecane",
+   "smiles": "CCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "heneicosane",
+   "smiles": "CCCCCCCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "Q105152207",
+   "smiles": "O=C(C=CC(O)(C)C)C(O)(C)C1C(O)CC2(C)C3CC=C4C(C=C(OC5OC(CO)C(O)C(O)C5O)C(=O)C4(C)C)C3(C(=O)CC12C)C"
+  },
+  {
+   "compound": "Q105223050",
+   "smiles": "O=C(OC(C=CC(=O)C(O)(C)C1C(O)CC2(C)C3CC=C4C(C=C(OC5OC(CO)C(O)C(O)C5O)C(=O)C4(C)C)C3(C(=O)CC12C)C)(C)C)C"
+  },
+  {
+   "compound": "[(E,6R)-6-[(8S,9R,10S,13R,14S,16R,17R)-2,16-dihydroxy-4,4,9,13,14-pentamethyl-3,11-dioxo-8,10,12,15,16,17-hexahydro-7H-cyclopenta[a]phenanthren-17-yl]-6-hydroxy-2-methyl-5-oxohept-3-en-2-yl] acetate",
+   "smiles": "O=C(OC(C=CC(=O)C(O)(C)C1C(O)CC2(C)C3CC=C4C(C=C(O)C(=O)C4(C)C)C3(C(=O)CC12C)C)(C)C)C"
+  },
+  {
+   "compound": "7-cis-Lycopene",
+   "smiles": "C(=CC=C(C=CC=C(C=CC=C(C)CCC=C(C)C)C)C)C=C(C=CC=C(C=CC=C(C)CCC=C(C)C)C)C"
+  },
+  {
+   "compound": "bryoamaride",
+   "smiles": "O=C1C(OC2OC(CO)C(O)C(O)C2O)=CC3C(=CCC4C3(C(=O)CC5(C)C(C(O)CC45C)C(O)(C(=O)CCC(O)(C)C)C)C)C1(C)C"
+  },
+  {
+   "compound": "2-O-b-D-Glucopyranosylcucurbitacin E",
+   "smiles": "O=C(OC(C=CC(=O)C(O)(C)C1C(O)CC2(C)C3CC=C4C(C=C(OC5OC(CO)C(O)C(O)C5O)C(=O)C4(C)C)C3(C(=O)CC12C)C)(C)C)C"
+  },
+  {
+   "compound": "linoleic acid",
+   "smiles": "CCCCCC=CCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "cis-b,b-Carotene",
+   "smiles": "C(=CC=C(C=CC=C(C=CC1=C(C)CCCC1(C)C)C)C)C=C(C=CC=C(C=CC2=C(C)CCCC2(C)C)C)C"
+  },
+  {
+   "compound": "cis-y,y-Carotene",
+   "smiles": "C(=CC=C(C=CC=C(C=CC=C(C)CCC=C(C)C)C)C)C=C(C=CC=C(C=CC=C(C)CCC=C(C)C)C)C"
+  },
+  {
+   "compound": "ethanol",
+   "smiles": "CCO"
+  },
+  {
+   "compound": "Bryonolic acid",
+   "smiles": "O=C(O)C1(C)CCC2(C)CCC3(C4=C(CCC3(C)C2C1)C5(C)CCC(O)C(C)(C)C5CC4)C"
+  },
+  {
+   "compound": "stearic acid",
+   "smiles": "CCCCCCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "oleic acid",
+   "smiles": "CCCCCCCCC=CCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "3-phenyl-2-propen-1-ol",
+   "smiles": "C1=CC=C(C=C1)C=CCO"
+  },
+  {
+   "compound": "hexadecane",
+   "smiles": "CCCCCCCCCCCCCCCC"
+  },
+  {
+   "compound": "Karounidiol",
+   "smiles": "CC1(C(CCC2(C1CC=C3C2=CCC4(C3(CCC5(C4CC(CC5)(C)CO)C)C)C)C)O)C"
+  },
+  {
+   "compound": "bryonolic acid",
+   "smiles": "CC1(C2CCC3=C(C2(CCC1O)C)CCC4(C3(CCC5(C4CC(CC5)(C)C(=O)O)C)C)C)C"
+  },
+  {
+   "compound": "trans-β-ionone",
+   "smiles": "CC1=C(C(CCC1)(C)C)C=CC(=O)C"
+  },
+  {
+   "compound": "palmitic acid",
+   "smiles": "CCCCCCCCCCCCCCCC(=O)O"
+  },
+  {
+   "compound": "2-amylfuran",
+   "smiles": "CCCCCC1=CC=CO1"
+  },
+  {
+   "compound": "24-methylenecholesterol",
+   "smiles": "CC(C)C(=C)CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C"
+  },
+  {
+   "compound": "(5E,9E)-farnesyl acetone",
+   "smiles": "CC(=CCCC(=CCCC(=CCCC(=O)C)C)C)C"
+  },
+  {
+   "compound": "erythrodiol",
+   "smiles": "CC1(CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1)C)CO)C"
+  },
+  {
+   "compound": "hexanal",
+   "smiles": "CCCCCC=O"
+  },
+  {
+   "compound": "α-spinasterin",
+   "smiles": "CCC(C=CC(C)C1CCC2C1(CCC3C2=CCC4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "nonanal",
+   "smiles": "CCCCCCCCC=O"
+  },
+  {
+   "compound": "neral",
+   "smiles": "CC(=CCCC(=CC=O)C)C"
+  },
+  {
+   "compound": "cucurbitacin E",
+   "smiles": "CC(=O)OC(C)(C)C=CC(=O)C(C)(C1C(CC2(C1(CC(=O)C3(C2CC=C4C3C=C(C(=O)C4(C)C)O)C)C)C)O)O"
+  },
+  {
+   "compound": "1-nonanol",
+   "smiles": "CCCCCCCCCO"
+  },
+  {
+   "compound": "lycopene",
+   "smiles": "CC(=CCCC(=CC=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC=C(C)CCC=C(C)C)C)C)C)C"
+  },
+  {
+   "compound": "all-trans-phytofluene",
+   "smiles": "CC(=CCCC(=CCCC(=CCCC(=CC=CC=C(C)C=CC=C(C)CCC=C(C)CCC=C(C)C)C)C)C)C"
+  },
+  {
+   "compound": "geranial",
+   "smiles": "CC(=CCCC(=CC=O)C)C"
+  },
+  {
+   "compound": "phenylethyl alcohol",
+   "smiles": "C1=CC=C(C=C1)CCO"
+  },
+  {
+   "compound": "farnesylacetone",
+   "smiles": "O=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C"
+  },
+  {
+   "compound": "benzaldehyde",
+   "smiles": "C1=CC=C(C=C1)C=O"
+  },
+  {
+   "compound": "4-Oxononan-1-al",
+   "smiles": "O=CCCC(=O)CCCCC"
+  },
+  {
+   "compound": "geraniol",
+   "smiles": "CC(=CCCC(=CCO)C)C"
+  },
+  {
+   "compound": "benzyl alcohol",
+   "smiles": "C1=CC=C(C=C1)CO"
+  },
+  {
+   "compound": "7,7',9,9'-tetra-cis-lycopene",
+   "smiles": "CC(=CCCC(=CC=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC=C(C)CCC=C(C)C)C)C)C)C"
+  },
+  {
+   "compound": "isoamyl alcohol",
+   "smiles": "CC(C)CCO"
+  },
+  {
+   "compound": "oct-1-en-3-ol",
+   "smiles": "CCCCCC(C=C)O"
+  },
+  {
+   "compound": "γ-nonalactone",
+   "smiles": "CCCCCC1CCC(=O)O1"
+  },
+  {
+   "compound": "(E)-cinnamyl alcohol",
+   "smiles": "C1=CC=C(C=C1)C=CCO"
+  },
+  {
+   "compound": "stigmasterol",
+   "smiles": "CCC(C=CC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "2-heptanone",
+   "smiles": "CCCCCC(=O)C"
+  },
+  {
+   "compound": "acetophenone",
+   "smiles": "CC(=O)C1=CC=CC=C1"
+  },
+  {
+   "compound": "1-octanol",
+   "smiles": "CCCCCCCCO"
+  },
+  {
+   "compound": "isofucosterol",
+   "smiles": "CC=C(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "1-hexanol",
+   "smiles": "CCCCCCO"
+  },
+  {
+   "compound": "butan-1-ol",
+   "smiles": "CCCCO"
+  },
+  {
+   "compound": "geranylacetone",
+   "smiles": "CC(=CCCC(=CCCC(=O)C)C)C"
+  },
+  {
+   "compound": "1-octen-3-one",
+   "smiles": "CCCCCC(=O)C=C"
+  }
+ ]
+}

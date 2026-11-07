@@ -1,0 +1,26 @@
+{
+ "key": "Echinops bannaticus Rochel ex Schrad.",
+ "value": {
+  "usageKey": 5392859,
+  "scientificName": "Echinops bannaticus Rochel ex Schrad.",
+  "canonicalName": "Echinops bannaticus",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Asterales",
+  "family": "Asteraceae",
+  "genus": "Echinops",
+  "species": "Echinops bannaticus",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 414,
+  "familyKey": 3065,
+  "genusKey": 3109550,
+  "speciesKey": 5392859,
+  "class": "Magnoliopsida"
+ }
+}

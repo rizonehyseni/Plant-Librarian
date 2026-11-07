@@ -1,0 +1,117 @@
+{
+ "key": "Salix purpurea",
+ "value": [
+  {
+   "compound": "cyanidin cation",
+   "smiles": "C1=CC(=C(C=C1C2=C(C=C3C(=CC(=CC3=[O+]2)O)O)O)O)O"
+  },
+  {
+   "compound": "tremuloidin",
+   "smiles": "C1=CC=C(C=C1)C(=O)OC2C(C(C(OC2OC3=CC=CC=C3CO)CO)O)O"
+  },
+  {
+   "compound": "delphinidin(1+)",
+   "smiles": "C1=C(C=C(C(=C1O)O)O)C2=C(C=C3C(=CC(=CC3=[O+]2)O)O)O"
+  },
+  {
+   "compound": "quercimeritrin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "pyrocatechol",
+   "smiles": "C1=CC=C(C(=C1)O)O"
+  },
+  {
+   "compound": "picein",
+   "smiles": "CC(=O)C1=CC=C(C=C1)OC2C(C(C(C(O2)CO)O)O)O"
+  },
+  {
+   "compound": "salidroside",
+   "smiles": "C1=CC(=CC=C1CCOC2C(C(C(C(O2)CO)O)O)O)O"
+  },
+  {
+   "compound": "D-(−)-salicin",
+   "smiles": "C1=CC=C(C(=C1)CO)OC2C(C(C(C(O2)CO)O)O)O"
+  },
+  {
+   "compound": "4H-1-Benzopyran-4-one, 5-(beta-D-glucopyranosyloxy)-2,3-dihydro-7-hydroxy-2-(4-hydroxyphenyl)-, (S)-",
+   "smiles": "O=C1C=2C(OC3OC(CO)C(O)C(O)C3O)=CC(O)=CC2OC(C4=CC=C(O)C=C4)C1"
+  },
+  {
+   "compound": "delphinidin inner salt",
+   "smiles": "[O-]C=1C(O)=CC(=CC1O)C2=[O+]C=3C=C(O)C=C(O)C3C=C2O"
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-3,5-dihydroxy-7-[(2R,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C(O)=C(OC2=CC(OC3OC(CO)C(O)C(O)C3O)=CC(O)=C12)C=4C=CC(O)=C(O)C4"
+  },
+  {
+   "compound": "[2-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]methyl (1R)-1-hydroxy-6-oxocyclohex-2-ene-1-carboxylate",
+   "smiles": "O=C(OCC=1C=CC=CC1OC2OC(CO)C(O)C(O)C2O)C3(O)C=CCCC3=O"
+  },
+  {
+   "compound": "[2-[(2R,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]methyl 1-hydroxy-6-oxocyclohex-2-ene-1-carboxylate",
+   "smiles": "O=C(OCC=1C=CC=CC1OC2OC(CO)C(O)C(O)C2O)C3(O)C=CCCC3=O"
+  },
+  {
+   "compound": "(2R,3S,4S,5R,6S)-2-(hydroxymethyl)-6-[2-(4-hydroxyphenyl)ethoxy]oxane-3,4,5-triol",
+   "smiles": "OC1=CC=C(C=C1)CCOC2OC(CO)C(O)C(O)C2O"
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5-hydroxy-7-[(2R,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C=C(OC2=CC(OC3OC(CO)C(O)C(O)C3O)=CC(O)=C12)C=4C=CC(O)=C(O)C4"
+  },
+  {
+   "compound": "[(1R)-6-oxocyclohex-2-ene-1-carbonyl] 2-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxybenzoate",
+   "smiles": "O=C(OC(=O)C1C=CCCC1=O)C=2C=CC=CC2OC3OC(CO)C(O)C(O)C3O"
+  },
+  {
+   "compound": "DL-pipecolic acid",
+   "smiles": "C1CCNC(C1)C(=O)O"
+  },
+  {
+   "compound": "salicortin",
+   "smiles": "C1CC(=O)C(C=C1)(C(=O)OCC2=CC=CC=C2OC3C(C(C(C(O3)CO)O)O)O)O"
+  },
+  {
+   "compound": "quercetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O"
+  },
+  {
+   "compound": "vimalin",
+   "smiles": "COC1=CC=C(C=C1)C=CCOC2C(C(C(C(O2)CO)O)O)O"
+  },
+  {
+   "compound": "sachaliside",
+   "smiles": "C1=CC(=CC=C1C=CCOC2C(C(C(C(O2)CO)O)O)O)O"
+  },
+  {
+   "compound": "salireposide",
+   "smiles": "C1=CC=C(C=C1)C(=O)OCC2=C(C=CC(=C2)O)OC3C(C(C(C(O3)CO)O)O)O"
+  },
+  {
+   "compound": "luteoloside",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O)O"
+  },
+  {
+   "compound": "Grandidentatin",
+   "smiles": "C1CCC(C(C1)O)OC2C(C(C(C(O2)CO)O)O)OC(=O)C=CC3=CC=C(C=C3)O"
+  },
+  {
+   "compound": "5-hydroxypipecolic acid",
+   "smiles": "C1CC(NCC1O)C(=O)O"
+  },
+  {
+   "compound": "Tremulacin",
+   "smiles": "C1CC(=O)C(C=C1)(C(=O)OCC2=CC=CC=C2OC3C(C(C(C(O3)CO)O)O)OC(=O)C4=CC=CC=C4)O"
+  },
+  {
+   "compound": "luteolin",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "2-chlorophyscion",
+   "smiles": "CC1=CC(=C2C(=C1)C(=O)C3=CC(=C(C(=C3C2=O)O)Cl)OC)O"
+  }
+ ]
+}

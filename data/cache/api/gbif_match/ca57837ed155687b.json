@@ -1,0 +1,26 @@
+{
+ "key": "Gentiana asclepiadea L.",
+ "value": {
+  "usageKey": 7270381,
+  "scientificName": "Gentiana asclepiadea L.",
+  "canonicalName": "Gentiana asclepiadea",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Gentianales",
+  "family": "Gentianaceae",
+  "genus": "Gentiana",
+  "species": "Gentiana asclepiadea",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 412,
+  "familyKey": 2503,
+  "genusKey": 3170037,
+  "speciesKey": 7270381,
+  "class": "Magnoliopsida"
+ }
+}

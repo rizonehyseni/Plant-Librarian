@@ -1,0 +1,205 @@
+{
+ "key": "Plantago lanceolata",
+ "value": [
+  {
+   "compound": "2-carboxy-D-arabinitol",
+   "smiles": "C(C(C(C(CO)(C(=O)O)O)O)O)O"
+  },
+  {
+   "compound": "chrysophanol",
+   "smiles": "CC1=CC(=C2C(=C1)C(=O)C3=C(C2=O)C(=CC=C3)O)O"
+  },
+  {
+   "compound": "emodin",
+   "smiles": "CC1=CC(=C2C(=C1)C(=O)C3=CC(=CC(=C3C2=O)O)O)O"
+  },
+  {
+   "compound": "vanillic acid",
+   "smiles": "COC1=C(C=CC(=C1)C(=O)O)O"
+  },
+  {
+   "compound": "verbascoside",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(O)C(O)=C2)C(O)C1OC3OC(C)C(O)C(O)C3O)CO)C=CC4=CC=C(O)C(O)=C4"
+  },
+  {
+   "compound": "aucubin",
+   "smiles": "C1=COC(C2C1C(C=C2CO)O)OC3C(C(C(C(O3)CO)O)O)O"
+  },
+  {
+   "compound": "hyperoside",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O"
+  },
+  {
+   "compound": "(E)-chlorogenic acid",
+   "smiles": "C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "Calceolarioside A",
+   "smiles": "O=C(OC1C(O)C(O)C(OCCC2=CC=C(O)C(O)=C2)OC1CO)C=CC3=CC=C(O)C(O)=C3"
+  },
+  {
+   "compound": "Cistanoside F",
+   "smiles": "O=CC(O)C(OC1OC(C)C(O)C(O)C1O)C(OC(=O)C=CC2=CC=C(O)C(O)=C2)C(O)CO"
+  },
+  {
+   "compound": "Globularin",
+   "smiles": "O=C(OCC12OC2C(O)C3C=COC(OC4OC(CO)C(O)C(O)C4O)C31)C=CC=5C=CC=CC5"
+  },
+  {
+   "compound": "Martynoside",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(OC)C(O)=C2)C(O)C1OC3OC(C)C(O)C(O)C3O)CO)C=CC4=CC=C(O)C(OC)=C4"
+  },
+  {
+   "compound": "Stachysoside A",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(O)C(O)=C2)C(O)C1OC3OC(C)C(O)C(O)C3OC4OCC(O)C(O)C4O)CO)C=CC5=CC=C(O)C(O)=C5"
+  },
+  {
+   "compound": "[(2R,3R,4R,5R,6R)-6-[2-(3,4-dihydroxyphenyl)ethoxy]-5-hydroxy-2-(hydroxymethyl)-4-[(2S,3R,4S,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-3-yl] (E)-3-(3,4-dihydroxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(O)C(O)=C2)C(O)C1OC3OC(C)C(O)C(O)C3O)CO)C=CC4=CC=C(O)C(O)=C4"
+  },
+  {
+   "compound": "[(2R,3S,4S,5R,6S)-6-[2-(3,4-dihydroxyphenyl)ethoxy]-3,5-dihydroxy-4-[(2S,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]methyl (E)-3-(3,4-dihydroxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OCC1OC(OCCC2=CC=C(O)C(O)=C2)C(O)C(OC3OC(CO)C(O)C(O)C3O)C1O)C=CC4=CC=C(O)C(O)=C4"
+  },
+  {
+   "compound": "Plantainoside D",
+   "smiles": "O=C(OCC1OC(OCCC2=CC=C(O)C(O)=C2)C(O)C(OC3OC(CO)C(O)C(O)C3O)C1O)C=CC4=CC=C(O)C(O)=C4"
+  },
+  {
+   "compound": "3,5-Dihydroxy-7-methoxy-2-(2,3,4-trihydroxyphenyl)chromen-4-one",
+   "smiles": "O=C1C(O)=C(OC2=CC(OC)=CC(O)=C12)C=3C=CC(O)=C(O)C3O"
+  },
+  {
+   "compound": "[(2R,3R,4S,5R,6R)-6-[2-(3,4-dihydroxyphenyl)ethoxy]-3,5-dihydroxy-4-[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]methyl (E)-3-(3,4-dihydroxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OCC1OC(OCCC2=CC=C(O)C(O)=C2)C(O)C(OC3OC(C)C(O)C(O)C3O)C1O)C=CC4=CC=C(O)C(O)=C4"
+  },
+  {
+   "compound": "Catalpinoside",
+   "smiles": "OCC1OC(OC2OC=CC3C(O)C4OC4(CO)C23)C(O)C(O)C1O"
+  },
+  {
+   "compound": "[(4R,7S,8S,11S)-2-oxo-8-[(2S,3S,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,9-dioxatricyclo[5.3.1.04,11]undeca-1(10),5-dien-6-yl]methyl acetate",
+   "smiles": "O=C1OC2C=C(COC(=O)C)C3C(OC=C1C23)OC4OC(CO)C(O)C(O)C4O"
+  },
+  {
+   "compound": "Hookerioside",
+   "smiles": "O=C(OC1OC(CO)C(O)C(O)C1O)C2=COC(OC3OC(CO)C(O)C(O)C3O)C4=C(COC(=O)C)CCC24"
+  },
+  {
+   "compound": "(2S,3R,4S,5S,6R)-2-[[(1S,2S,4S,5S,6S,10S)-5-hydroxy-2-(hydroxymethyl)-3,9-dioxatricyclo[4.4.0.02,4]dec-7-en-10-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "smiles": "OCC1OC(OC2OC=CC3C(O)C4OC4(CO)C23)C(O)C(O)C1O"
+  },
+  {
+   "compound": "(1S,4aS,6S,7aS)-6-hydroxy-7-methylidene-1-[(2S,3S,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4a,5,6,7a-tetrahydro-1H-cyclopenta[c]pyran-4-carboxylic acid",
+   "smiles": "O=C(O)C1=COC(OC2OC(CO)C(O)C(O)C2O)C3C(=C)C(O)CC13"
+  },
+  {
+   "compound": "(1S,4aS,6S,7S,7aR)-6-hydroxy-7-methyl-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-1,4a,5,6,7,7a-hexahydrocyclopenta[c]pyran-4-carboxylic acid",
+   "smiles": "O=C(O)C1=COC(OC2OC(CO)C(O)C(O)C2O)C3C1CC(O)C3C"
+  },
+  {
+   "compound": "8-Epiloganic acid",
+   "smiles": "O=C(O)C1=COC(OC2OC(CO)C(O)C(O)C2O)C3C1CC(O)C3C"
+  },
+  {
+   "compound": "[(2R,3R,4R,5R,6R)-6-[2-(3,4-dihydroxyphenyl)ethoxy]-5-hydroxy-2-(hydroxymethyl)-4-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-3-yl] (E)-3-(3,4-dihydroxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(O)C(O)=C2)C(O)C1OC3OC(CO)C(O)C(O)C3O)CO)C=CC4=CC=C(O)C(O)=C4"
+  },
+  {
+   "compound": "[(2R,3R,4R,5R,6R)-6-[2-(3,4-dihydroxyphenyl)ethoxy]-5-hydroxy-2-(hydroxymethyl)-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-3-yl] (E)-3-(3,4-dihydroxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(O)C(O)=C2)C(O)C1OC3OC(CO)C(O)C(O)C3O)CO)C=CC4=CC=C(O)C(O)=C4"
+  },
+  {
+   "compound": "[(2R,3R,4R,5R,6R)-5-hydroxy-2-(hydroxymethyl)-6-[2-(4-hydroxyphenyl)ethoxy]-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-3-yl] (E)-3-(4-hydroxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(O)C=C2)C(O)C1OC3OC(CO)C(O)C(O)C3O)CO)C=CC4=CC=C(O)C=C4"
+  },
+  {
+   "compound": "[(2R,3R,4S,5R,6R)-2,5-dihydroxy-6-(hydroxymethyl)-3-(3,4,5-trihydroxybenzoyl)oxy-tetrahydropyran-4-yl] 3,4,5-trihydroxybenzoate",
+   "smiles": "O=C(OC1C(O)OC(CO)C(O)C1OC(=O)C2=CC(O)=C(O)C(O)=C2)C3=CC(O)=C(O)C(O)=C3"
+  },
+  {
+   "compound": "1,2,3-Tri-O-galloyl-beta-D-glucose",
+   "smiles": "O=C(OC1OC(CO)C(O)C(OC(=O)C2=CC(O)=C(O)C(O)=C2)C1OC(=O)C3=CC(O)=C(O)C(O)=C3)C4=CC(O)=C(O)C(O)=C4"
+  },
+  {
+   "compound": "(2S,3R,4S,5R,6R)-2-[[(1S,4aS,5R,7aS)-5-hydroxy-7-(hydroxymethyl)-1,4a,5,7a-tetrahydrocyclopenta[c]pyran-1-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "smiles": "OCC1=CC(O)C2C=COC(OC3OC(CO)C(O)C(O)C3O)C12"
+  },
+  {
+   "compound": "Rhinanthin",
+   "smiles": "OCC1=CC(O)C2C=COC(OC3OC(CO)C(O)C(O)C3O)C12"
+  },
+  {
+   "compound": "[(1S,2S,4S,5S,6S,10S)-5-hydroxy-10-[(2S,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,9-dioxatricyclo[4.4.0.02,4]dec-7-en-2-yl]methyl (E)-3-phenylprop-2-enoate",
+   "smiles": "O=C(OCC12OC2C(O)C3C=COC(OC4OC(CO)C(O)C(O)C4O)C31)C=CC=5C=CC=CC5"
+  },
+  {
+   "compound": "[(2R,3R,4R,5R,6R)-4-[(2S,3R,4R,5R,6S)-4,5-dihydroxy-6-methyl-3-[(2S,3R,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxyoxan-2-yl]oxy-6-[2-(3,4-dihydroxyphenyl)ethoxy]-5-hydroxy-2-(hydroxymethyl)oxan-3-yl] (Z)-3-(3,4-dihydroxyphenyl)prop-2-enoate",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(O)C(O)=C2)C(O)C1OC3OC(C)C(O)C(O)C3OC4OCC(O)C(O)C4O)CO)C=CC5=CC=C(O)C(O)=C5"
+  },
+  {
+   "compound": "[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] (1S,4aS)-7-(hydroxymethyl)-1-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-1,4a,5,6-tetrahydrocyclopenta[c]pyran-4-carboxylate",
+   "smiles": "O=C(OC1OC(CO)C(O)C(O)C1O)C2=COC(OC3OC(CO)C(O)C(O)C3O)C4=C(CO)CCC24"
+  },
+  {
+   "compound": "Desacetylhookerioside",
+   "smiles": "O=C(OC1OC(CO)C(O)C(O)C1O)C2=COC(OC3OC(CO)C(O)C(O)C3O)C4=C(CO)CCC24"
+  },
+  {
+   "compound": "catalpol",
+   "smiles": "C1=COC(C2C1C(C3C2(O3)CO)O)OC4C(C(C(C(O4)CO)O)O)O"
+  },
+  {
+   "compound": "Leucosceptoside A",
+   "smiles": "O=C(OC1C(OC(OCCC2=CC=C(O)C(O)=C2)C(O)C1OC3OC(C)C(O)C(O)C3O)CO)C=CC4=CC=C(O)C(OC)=C4"
+  },
+  {
+   "compound": "Calceolarioside B",
+   "smiles": "C1=CC(=C(C=C1CCOC2C(C(C(C(O2)COC(=O)C=CC3=CC(=C(C=C3)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "quercetin",
+   "smiles": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O"
+  },
+  {
+   "compound": "asperuloside",
+   "smiles": "CC(=O)OCC1=CC2C3C1C(OC=C3C(=O)O2)OC4C(C(C(C(O4)CO)O)O)O"
+  },
+  {
+   "compound": "Gardoside",
+   "smiles": "C=C1C(CC2C1C(OC=C2C(=O)O)OC3C(C(C(C(O3)CO)O)O)O)O"
+  },
+  {
+   "compound": "morin",
+   "smiles": "C1=CC(=C(C=C1O)O)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "Plantamajoside",
+   "smiles": "C1=CC(=C(C=C1CCOC2C(C(C(C(O2)CO)OC(=O)C=CC3=CC(=C(C=C3)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O)O"
+  },
+  {
+   "compound": "gallic acid",
+   "smiles": "C1=C(C=C(C(=C1O)O)O)C(=O)O"
+  },
+  {
+   "compound": "neochlorogenic acid",
+   "smiles": "C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "rutin",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "(E)-cinnamic acid",
+   "smiles": "C1=CC=C(C=C1)C=CC(=O)O"
+  },
+  {
+   "compound": "caffeic acid",
+   "smiles": "OC(=O)C=Cc1ccc(O)c(O)c1"
+  },
+  {
+   "compound": "parietin",
+   "smiles": "CC1=CC(=C2C(=C1)C(=O)C3=CC(=CC(=C3C2=O)O)OC)O"
+  }
+ ]
+}

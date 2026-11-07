@@ -1,5 +1,6 @@
 """One command rebuilds everything: `make build` (or `python -m pipeline.build`)."""
 import csv
+import re
 
 from . import chemistry, evidence, extract, flags, geo, ingest, names, places
 from .config import DB_PATH, SEED
@@ -31,11 +32,30 @@ USE_COLUMNS = (
     "place", "lat", "lon", "geo_precision", "quote")
 
 
+HYPHENS = re.compile("[\u2010-\u2015\u2212]")
+
+
+# An amount: a number or range with a unit ("200-300 g", "2-3 soup spoons", "40 cones", "(1 kg)").
+DOSE = re.compile(
+    r"\(?\b\d+(?:\s*[-\u2013]\s*\d+)?\s*(?:kg|g|mg|ml|l|litres?|liters?|(?:soup|tea|table)\s*spoons?|spoons?"
+    r"|cups?|glass(?:es)?|cones?|drops?|times|pieces?|leaves|fruits)\b\)?", re.IGNORECASE)
+
+
+def plain_hyphens(rec: dict) -> dict:
+    """LLMs often write "Anti-diabetic" with a non-breaking hyphen (U+2011); store a plain "-" so search matches."""
+    return {k: HYPHENS.sub("-", v) if isinstance(v, str) else v for k, v in rec.items()}
+
+
+def no_doses(rec: dict) -> dict:
+    """The app shows no doses: amounts in a study's table become "[amount]" (the page reference stays)."""
+    return {k: DOSE.sub("[amount]", v) if isinstance(v, str) else v for k, v in rec.items()}
+
+
 def use_rows(doc_id: str, records: list[dict], study_area: str | None) -> list[dict]:
     """Extracted records of one study -> rows for the `uses` table (names, prep class, place)."""
     rows = []
     for rec in records:
-        r = names.resolve(rec)
+        r = names.resolve(no_doses(plain_hyphens(rec)))
         r["prep_class"] = evidence.classify_traditional(r["preparation"])
         r.update(places.locate_record(r.get("location"), study_area))
         rows.append({"doc_id": doc_id, **{k: r.get(k) for k in USE_COLUMNS},

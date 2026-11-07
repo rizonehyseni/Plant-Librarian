@@ -1,0 +1,26 @@
+{
+ "key": "Carduus nutans L.",
+ "value": {
+  "usageKey": 8185959,
+  "scientificName": "Carduus nutans L.",
+  "canonicalName": "Carduus nutans",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Asterales",
+  "family": "Asteraceae",
+  "genus": "Carduus",
+  "species": "Carduus nutans",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 414,
+  "familyKey": 3065,
+  "genusKey": 3114511,
+  "speciesKey": 8185959,
+  "class": "Magnoliopsida"
+ }
+}

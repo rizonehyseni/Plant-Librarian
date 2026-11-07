@@ -1,0 +1,24 @@
+{
+ "key": "Thymus spp.",
+ "value": {
+  "usageKey": 2926960,
+  "scientificName": "Thymus L.",
+  "canonicalName": "Thymus",
+  "rank": "GENUS",
+  "status": "ACCEPTED",
+  "confidence": 96,
+  "matchType": "HIGHERRANK",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "genus": "Thymus",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 408,
+  "familyKey": 2497,
+  "genusKey": 2926960,
+  "class": "Magnoliopsida"
+ }
+}

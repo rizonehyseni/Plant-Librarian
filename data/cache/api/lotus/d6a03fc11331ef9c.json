@@ -1,0 +1,33 @@
+{
+ "key": "Helleborus odorus",
+ "value": [
+  {
+   "compound": "protoanemonin",
+   "smiles": "C=C1C=CC(=O)O1"
+  },
+  {
+   "compound": "(1R,3aS,5aS,7S,9aS,11aR)-7-{[(2R,4R,5R)-3,4-dihydroxy-6-methyl-5-{[(2S,4R,5S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}oxan-2-yl]oxy}-3a,5a-dihydroxy-11a-methyl-1-(6-oxopyran-3-yl)-dodecahydro-1H-cyclopenta[a]phenanthrene-9a-carbaldehyde",
+   "smiles": "O=CC12CCC(OC3OC(C)C(OC4OC(CO)C(O)C(O)C4O)C(O)C3O)CC2(O)CCC5C1CCC6(C)C(C7=COC(=O)C=C7)CCC56O"
+  },
+  {
+   "compound": "CID 44584382",
+   "smiles": "O=CC12CCC(OC3OC(C)C(O)C(O)C3O)CC2(O)CCC4C1CCC5(C)C(C6=COC(=O)C=C6)CCC45O"
+  },
+  {
+   "compound": "hellebrigenin",
+   "smiles": "O=CC12CCC(O)CC2(O)CCC3C1CCC4(C)C(C5=COC(=O)C=C5)CCC34O"
+  },
+  {
+   "compound": "Hellebrin",
+   "smiles": "O=CC12CCC(OC3OC(C)C(OC4OC(CO)C(O)C(O)C4O)C(O)C3O)CC2(O)CCC5C1CCC6(C)C(C7=COC(=O)C=C7)CCC56O"
+  },
+  {
+   "compound": "14-Hydroxy-3-oxobufa-20,22-dienolide",
+   "smiles": "O=C1OC=C(C=C1)C2CCC3(O)C4CCC5CC(=O)CCC5(C)C4CCC23C"
+  },
+  {
+   "compound": "20-hydroxyecdysone",
+   "smiles": "CC12CCC3C(=CC(=O)C4C3(CC(C(C4)O)O)C)C1(CCC2C(C)(C(CCC(C)(C)O)O)O)O"
+  }
+ ]
+}

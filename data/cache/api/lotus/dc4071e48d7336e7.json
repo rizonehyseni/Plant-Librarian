@@ -1,0 +1,93 @@
+{
+ "key": "Digitalis grandiflora",
+ "value": [
+  {
+   "compound": "gitoxigenin",
+   "smiles": "CC12CCC(CC1CCC3C2CCC4(C3(CC(C4C5=CC(=O)OC5)O)O)C)O"
+  },
+  {
+   "compound": "acetyldigitoxin",
+   "smiles": "CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CCC7(C6(CCC7C8=CC(=O)OC8)O)C)C)C)C)OC(=O)C)O"
+  },
+  {
+   "compound": "digoxin ester derivative",
+   "smiles": "O=C1OCC(=C1)C2CCC3(O)C4CCC5CC(OC6OC(C)C(OC7OC(C)C(OC8OC(C)C(O)C(OC(=O)C)C8)C(O)C7)C(O)C6)CCC5(C)C4CC(O)C23C"
+  },
+  {
+   "compound": "Q104252847",
+   "smiles": "O=C1OCC(=C1)C2CCC3(O)C4CCC5CC(OC6OC(C)C(OC7OC(C)C(OC8OC(C)C(OC9OC(CO)C(O)C(O)C9O)C(OC(=O)C)C8)C(O)C7)C(O)C6)CCC5(C)C4CCC23C"
+  },
+  {
+   "compound": "digitoxin epimer",
+   "smiles": "O=C1OCC(=C1)C2CCC3(O)C4CCC5CC(OC6OC(C)C(OC7OC(C)C(OC8OC(C)C(O)C(O)C8)C(O)C7)C(O)C6)CCC5(C)C4CCC23C"
+  },
+  {
+   "compound": "(3S,4S,5R)-3,5-dihydroxy-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyhexanal",
+   "smiles": "O=CCC(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)C"
+  },
+  {
+   "compound": "Lugrandoside",
+   "smiles": "O=C(OC1C(O)C(O)C(OCCC2=CC=C(O)C(O)=C2)OC1COC3OC(CO)C(O)C(O)C3O)C=CC4=CC=C(O)C(O)=C4"
+  },
+  {
+   "compound": "Pectolinarigenin",
+   "smiles": "COC1=CC=C(C=C1)C2=CC(=O)C3=C(C(=C(C=C3O2)O)OC)O"
+  },
+  {
+   "compound": "lanatoside a",
+   "smiles": "CC1C(C(CC(O1)OC2CCC3(C(C2)CCC4C3CCC5(C4(CCC5C6=CC(=O)OC6)O)C)C)O)OC7CC(C(C(O7)C)OC8CC(C(C(O8)C)OC9C(C(C(C(O9)CO)O)O)O)OC(=O)C)O"
+  },
+  {
+   "compound": "1,5-Dihydroxy-3-methylanthraquinone",
+   "smiles": "O=C1C=2C=CC=C(O)C2C(=O)C3=CC(=CC(O)=C13)C"
+  },
+  {
+   "compound": "apigenin",
+   "smiles": "C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "hispidulin",
+   "smiles": "COC1=C(C=C2C(=C1O)C(=O)C=C(O2)C3=CC=C(C=C3)O)O"
+  },
+  {
+   "compound": "digitoxin",
+   "smiles": "CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CCC7(C6(CCC7C8=CC(=O)OC8)O)C)C)C)C)O)O"
+  },
+  {
+   "compound": "2-Anthraquinonecarboxylic acid, 4-hydroxy-",
+   "smiles": "C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C(=CC(=C3)C(=O)O)O"
+  },
+  {
+   "compound": "chryseriol",
+   "smiles": "COC1=C(C=CC(=C1)C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "β-acetyldigoxin",
+   "smiles": "CC1C(C(CC(O1)OC2CCC3(C(C2)CCC4C3CC(C5(C4(CCC5C6=CC(=O)OC6)O)C)O)C)O)OC7CC(C(C(O7)C)OC8CC(C(C(O8)C)OC(=O)C)O)O"
+  },
+  {
+   "compound": "luteolin",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "lanatoside C",
+   "smiles": "CC1C(C(CC(O1)OC2CCC3(C(C2)CCC4C3CC(C5(C4(CCC5C6=CC(=O)OC6)O)C)O)C)O)OC7CC(C(C(O7)C)OC8CC(C(C(O8)C)OC9C(C(C(C(O9)CO)O)O)O)OC(=O)C)O"
+  },
+  {
+   "compound": "scutellarein",
+   "smiles": "C1=CC(=CC=C1C2=CC(=O)C3=C(C(=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "jaceosidin",
+   "smiles": "COC1=C(C=CC(=C1)C2=CC(=O)C3=C(C(=C(C=C3O2)O)OC)O)O"
+  },
+  {
+   "compound": "lanatoside b",
+   "smiles": "CC1C(C(CC(O1)OC2CCC3(C(C2)CCC4C3CCC5(C4(CC(C5C6=CC(=O)OC6)O)O)C)C)O)OC7CC(C(C(O7)C)OC8CC(C(C(O8)C)OC9C(C(C(C(O9)CO)O)O)O)OC(=O)C)O"
+  },
+  {
+   "compound": "digitoxigenin",
+   "smiles": "CC12CCC(CC1CCC3C2CCC4(C3(CCC4C5=CC(=O)OC5)O)C)O"
+  }
+ ]
+}

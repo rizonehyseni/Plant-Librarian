@@ -1,0 +1,27 @@
+{
+ "key": "Polygonum bistorta L.",
+ "value": {
+  "usageKey": 5334323,
+  "acceptedUsageKey": 7291159,
+  "scientificName": "Polygonum bistorta L.",
+  "canonicalName": "Polygonum bistorta",
+  "rank": "SPECIES",
+  "status": "SYNONYM",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Caryophyllales",
+  "family": "Polygonaceae",
+  "genus": "Bistorta",
+  "species": "Bistorta officinalis",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 422,
+  "familyKey": 2416,
+  "genusKey": 8148051,
+  "speciesKey": 7925535,
+  "class": "Magnoliopsida"
+ }
+}

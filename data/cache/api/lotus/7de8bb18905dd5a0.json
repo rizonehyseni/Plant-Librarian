@@ -1,0 +1,89 @@
+{
+ "key": "Galium verum",
+ "value": [
+  {
+   "compound": "(E)-chlorogenic acid",
+   "smiles": "C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "5-hydroxy-2-(4-hydroxyphenyl)-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2S,3S,4S,5S,6R)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxymethyl]oxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C=C(OC2=CC(OC3OC(COC4OC(C)C(O)C(O)C4O)C(O)C(O)C3O)=CC(O)=C12)C=5C=CC(O)=CC5"
+  },
+  {
+   "compound": "1,3-dihydroxy-9,10-dioxoanthracen-2-yl acetate",
+   "smiles": "O=C(OC1=C(O)C=C2C(=O)C=3C=CC=CC3C(=O)C2=C1O)C"
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5-hydroxy-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3S,4R,5R)-3,4,5-trihydroxyoxan-2-yl]oxymethyl]oxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C=C(OC2=CC(OC3OC(COC4OCC(O)C(O)C4O)C(O)C(O)C3O)=CC(O)=C12)C=5C=CC(O)=C(O)C5"
+  },
+  {
+   "compound": "2-hydroxy-1,3-dimethoxyanthracene-9,10-dione",
+   "smiles": "O=C1C=2C=CC=CC2C(=O)C3=C(OC)C(O)=C(OC)C=C13"
+  },
+  {
+   "compound": "5-hydroxy-2-(3-hydroxy-4-methoxyphenyl)-7-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+   "smiles": "O=C1C=C(OC2=CC(OC3OC(CO)C(O)C(O)C3O)=CC(O)=C12)C=4C=CC(OC)=C(O)C4"
+  },
+  {
+   "compound": "Methyl 7-(acetyloxymethyl)-5-hydroxy-1-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-1,4a,5,7a-tetrahydrocyclopenta[c]pyran-4-carboxylate",
+   "smiles": "O=C(OC)C1=COC(OC2OC(CO)C(O)C(O)C2O)C3C(=CC(O)C13)COC(=O)C"
+  },
+  {
+   "compound": "[10-Methoxy-2-oxo-8-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,9-dioxatricyclo[5.3.1.04,11]undec-5-en-6-yl]methyl acetate",
+   "smiles": "O=C(OCC1=CC2OC(=O)C3C(OC)OC(OC4OC(CO)C(O)C(O)C4O)C1C23)C"
+  },
+  {
+   "compound": "asperuloside",
+   "smiles": "O=C1OC2C=C(COC(=O)C)C3C(OC=C1C23)OC4OC(CO)C(O)C(O)C4O"
+  },
+  {
+   "compound": "[2-Oxo-8-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,9-dioxatricyclo[5.3.1.04,11]undeca-1(10),5-dien-6-yl]methyl 3-(4-hydroxyphenyl)propanoate",
+   "smiles": "O=C1OC2C=C(COC(=O)CCC3=CC=C(O)C=C3)C4C(OC=C1C24)OC5OC(CO)C(O)C(O)C5O"
+  },
+  {
+   "compound": "digiferrugineol",
+   "smiles": "C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C(=C(C=C3)CO)O"
+  },
+  {
+   "compound": "rubiadin",
+   "smiles": "CC1=C(C=C2C(=C1O)C(=O)C3=CC=CC=C3C2=O)O"
+  },
+  {
+   "compound": "1,2-DIHYDROXY-3-METHYLANTHRAQUINONE",
+   "smiles": "CC1=CC2=C(C(=C1O)O)C(=O)C3=CC=CC=C3C2=O"
+  },
+  {
+   "compound": "1,3-dimethoxy-9,10-anthraquinone",
+   "smiles": "COC1=CC2=C(C(=C1)OC)C(=O)C3=CC=CC=C3C2=O"
+  },
+  {
+   "compound": "nictoflorin",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC=C(C=C5)O)O)O)O)O)O)O"
+  },
+  {
+   "compound": "asperuloside",
+   "smiles": "CC(=O)OCC1=CC2C3C1C(OC=C3C(=O)O2)OC4C(C(C(C(O4)CO)O)O)O"
+  },
+  {
+   "compound": "diosmetin",
+   "smiles": "COC1=C(C=C(C=C1)C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O"
+  },
+  {
+   "compound": "luteoloside",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O)O"
+  },
+  {
+   "compound": "2-Hydroxy-1-methoxyanthracene-9,10-dione",
+   "smiles": "COC1=C(C=CC2=C1C(=O)C3=CC=CC=C3C2=O)O"
+  },
+  {
+   "compound": "1-hydroxy-2-methyl-9,10-anthraquinone",
+   "smiles": "CC1=C(C2=C(C=C1)C(=O)C3=CC=CC=C3C2=O)O"
+  },
+  {
+   "compound": "Lucidin omega-methyl ether",
+   "smiles": "COCC1=C(C=C2C(=C1O)C(=O)C3=CC=CC=C3C2=O)O"
+  }
+ ]
+}

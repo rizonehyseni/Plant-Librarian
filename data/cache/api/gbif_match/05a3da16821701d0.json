@@ -1,0 +1,26 @@
+{
+ "key": "Alnus glutinosa (L.) Gaertn.",
+ "value": {
+  "usageKey": 2876213,
+  "scientificName": "Alnus glutinosa (L.) Gaertn.",
+  "canonicalName": "Alnus glutinosa",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Fagales",
+  "family": "Betulaceae",
+  "genus": "Alnus",
+  "species": "Alnus glutinosa",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 1354,
+  "familyKey": 4688,
+  "genusKey": 2876099,
+  "speciesKey": 2876213,
+  "class": "Magnoliopsida"
+ }
+}

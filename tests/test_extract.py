@@ -137,3 +137,32 @@ def test_provider_choice(monkeypatch):
     assert extract.provider() is None  # asked for Anthropic but no key: never a silent paid fallback
     monkeypatch.delenv("EXTRACT_PROVIDER")
     assert extract.provider() == "groq"
+
+
+# A table row as PDF text: each cell on its own line, columns interleaved with other rows.
+TABLE_PAGE = """Arctium lappa L.
+(Asteraceae) 12/DE/10
+Bullushtra
+Areal parts
+Decoction
+Skin inflammation
+Anti‑diabetic
+Aristolochia clematitis L.
+Fiku i egër"""
+
+
+def test_quote_with_cells_joined_by_ellipsis_is_found():
+    quote = "Arctium lappa L. ... Bullushtra ... Areal parts ... Decoction ... Anti-diabetic"
+    assert extract.quote_on_page(quote, TABLE_PAGE)
+    assert extract.quote_on_page("Arctium lappa L. … Bullushtra", TABLE_PAGE)
+
+
+def test_quote_piece_missing_from_page_is_rejected():
+    quote = "Arctium lappa L. ... Bullushtra ... Infusion against cough"
+    assert not extract.quote_on_page(quote, TABLE_PAGE)
+    assert not extract.quote_on_page("Arctium lappa L. ... Bullushtra", "Some other page about Zea mays")
+
+
+def test_too_short_quote_is_rejected():
+    assert not extract.quote_on_page("Decoction", TABLE_PAGE)
+    assert not extract.quote_on_page("...", TABLE_PAGE)

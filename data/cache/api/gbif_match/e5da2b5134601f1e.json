@@ -1,0 +1,27 @@
+{
+ "key": "Betula verrucosa Ehrh.",
+ "value": {
+  "usageKey": 5331989,
+  "acceptedUsageKey": 7783328,
+  "scientificName": "Betula verrucosa Ehrh.",
+  "canonicalName": "Betula verrucosa",
+  "rank": "SPECIES",
+  "status": "SYNONYM",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Fagales",
+  "family": "Betulaceae",
+  "genus": "Betula",
+  "species": "Betula pendula",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 1354,
+  "familyKey": 4688,
+  "genusKey": 2875008,
+  "speciesKey": 5331916,
+  "class": "Magnoliopsida"
+ }
+}

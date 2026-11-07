@@ -1,0 +1,27 @@
+{
+ "key": "Citrullus vulgaris Schrad.",
+ "value": {
+  "usageKey": 3625068,
+  "acceptedUsageKey": 2874621,
+  "scientificName": "Citrullus vulgaris Schrad.",
+  "canonicalName": "Citrullus vulgaris",
+  "rank": "SPECIES",
+  "status": "SYNONYM",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Cucurbitales",
+  "family": "Cucurbitaceae",
+  "genus": "Citrullus",
+  "species": "Citrullus lanatus",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 7224005,
+  "familyKey": 6634,
+  "genusKey": 8257011,
+  "speciesKey": 2874621,
+  "class": "Magnoliopsida"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "key": "Sambucus ebulus",
+ "value": [
+  {
+   "compound": "vitamin C",
+   "smiles": "OC[CH](O)[CH]1OC(=O)C(=C1O)O"
+  },
+  {
+   "compound": "(E)-chlorogenic acid",
+   "smiles": "C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O"
+  },
+  {
+   "compound": "DL-malic acid",
+   "smiles": "C(C(C(=O)O)O)C(=O)O"
+  },
+  {
+   "compound": "Stigmast-4-ene-3,6-dione",
+   "smiles": "O=C1C=C2C(=O)CC3C(CCC4(C)C(CCC34)C(C)CCC(CC)C(C)C)C2(C)CC1"
+  },
+  {
+   "compound": "[(1S,4aS,6S,7S,7aS)-7-(acetyloxymethyl)-6-hydroxy-4-[[(2R,3S,5R,6R)-5-hydroxy-6-(hydroxymethyl)-4-oxo-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxymethyl]-1,4a,5,6,7,7a-hexahydrocyclopenta[c]pyran-1-yl] 3-methylbutanoate",
+   "smiles": "O=C(OCC1C(O)CC2C(=COC(OC(=O)CC(C)C)C21)COC3OC(CO)C(O)C(=O)C3OC4OC(C)C(O)C(O)C4O)C"
+  },
+  {
+   "compound": "(6S,8R,9R,10S,13R,14R,17S)-17-[(2R,5R)-5-ethyl-6-methylheptan-2-yl]-6-hydroxy-10,13-dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one",
+   "smiles": "O=C1C=C2C(O)CC3C(CCC4(C)C(CCC34)C(C)CCC(CC)C(C)C)C2(C)CC1"
+  },
+  {
+   "compound": "Q104936665",
+   "smiles": "O=C(OCC1C(O)CC2C(=COC(OC(=O)CC(C)C)C21)COC3OC(CO)C(O)C(O)C3OC4OC(C)C(OC(=O)C)C(O)C4O)C"
+  },
+  {
+   "compound": "[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] (E,6S)-8-hydroxy-2,6-dimethyloct-2-enoate",
+   "smiles": "O=C(OC1OC(CO)C(O)C(O)C1O)C(=CCCC(C)CCO)C"
+  },
+  {
+   "compound": "Q105035025",
+   "smiles": "O=C(OC1C(O)C(O)C(OC2C(=O)C(O)C(OC2OCC3=COC(OC(=O)CC(C)C)C4C3CC(O)C4CO)CO)OC1C)C"
+  },
+  {
+   "compound": "Q105219056",
+   "smiles": "O=C(OCC1C(O)CC2C(=COC(OC(=O)CC(C)C)C21)COC3OC(CO)C(O)C(=O)C3OC4OC(C)C(OC(=O)C)C(O)C4O)C"
+  },
+  {
+   "compound": "Q105230122",
+   "smiles": "O=C(OC1CC2C(=COC(OC(=O)CC(C)C)C2C1CO)COC3OC(CO)C(O)C(=O)C3OC4OC(C)C(OC(=O)C)C(O)C4O)C"
+  },
+  {
+   "compound": "(1R,5S,9R)-9-ethenyl-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]-2,8-dioxabicyclo[3.3.1]non-6-en-3-one",
+   "smiles": "O=C1OC2OC=C(COC3OC(CO)C(O)C(O)C3O)C(C1)C2C=C"
+  },
+  {
+   "compound": "[(1S,4aS,6S,7S,7aS)-4-[[(2R,4R,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]-6-hydroxy-7-(hydroxymethyl)-1,4a,5,6,7,7a-hexahydrocyclopenta[c]pyran-1-yl] 3-methylbutanoate",
+   "smiles": "O=C(OC1OC=C(COC2OC(CO)C(O)C(O)C2)C3CC(O)C(CO)C13)CC(C)C"
+  },
+  {
+   "compound": "Cyanidin 3-sambubioside-5-glucoside",
+   "smiles": "OC=1C=C(OC2OC(CO)C(O)C(O)C2O)C=3C=C(OC4OC(CO)C(O)C(O)C4OC5OCC(O)C(O)C5O)C(=[O+]C3C1)C=6C=CC(O)=C(O)C6"
+  },
+  {
+   "compound": "6'-O-Apiosylebuloside",
+   "smiles": "O=C(OC1OC=C(COC2OC(COC3OCC(O)(CO)C3O)C(O)C(O)C2O)C4CC(=O)C(C)C14)CC(C)C"
+  },
+  {
+   "compound": "Ebuloside",
+   "smiles": "O=C(OC1OC=C(COC2OC(CO)C(O)C(O)C2O)C3CC(=O)C(C)C13)CC(C)C"
+  },
+  {
+   "compound": "(7Alpha-Hydroxy)-Morroniside",
+   "smiles": "O=C(OC)C1=COC(OC2OC(CO)C(O)C(O)C2O)C3C(OC(O)CC13)C"
+  },
+  {
+   "compound": "[(1S,4aS,6S,7R,7aS)-6-hydroxy-7-methyl-4-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]-1,4a,5,6,7,7a-hexahydrocyclopenta[c]pyran-1-yl] 3-methylbutanoate",
+   "smiles": "O=C(OC1OC=C(COC2OC(CO)C(O)C(O)C2O)C3CC(O)C(C)C13)CC(C)C"
+  },
+  {
+   "compound": "DL-lactic acid",
+   "smiles": "CC(C(=O)O)O"
+  },
+  {
+   "compound": "oxalic acid",
+   "smiles": "C(=O)(C(=O)O)O"
+  },
+  {
+   "compound": "morroniside",
+   "smiles": "CC1C2C(CC(O1)O)C(=COC2OC3C(C(C(C(O3)CO)O)O)O)C(=O)OC"
+  },
+  {
+   "compound": "stigmasterol",
+   "smiles": "OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C=CC(CC)C(C)C)C)C2(C)CC1"
+  },
+  {
+   "compound": "acetic acid",
+   "smiles": "CC(=O)O"
+  },
+  {
+   "compound": "citric acid",
+   "smiles": "C(C(=O)O)C(CC(=O)O)(C(=O)O)O"
+  },
+  {
+   "compound": "rutin",
+   "smiles": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O"
+  }
+ ]
+}

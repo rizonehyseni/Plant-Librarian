@@ -1,0 +1,21 @@
+{
+ "key": "Linum hirsutum",
+ "value": [
+  {
+   "compound": "α-peltatin",
+   "smiles": "COC1=CC(=CC(=C1O)OC)C2C3C(CC4=C(C5=C(C=C24)OCO5)O)COC3=O"
+  },
+  {
+   "compound": "(5R,5aR,8aR,9R)-5-hydroxy-4-methoxy-9-(3,4,5-trimethoxyphenyl)-5a,6,8a,9-tetrahydro-5H-[2]benzofuro[6,5-f][1,3]benzodioxol-8-one",
+   "smiles": "O=C1OCC2C(O)C3=C(OC)C=4OCOC4C=C3C(C5=CC(OC)=C(OC)C(OC)=C5)C12"
+  },
+  {
+   "compound": "podofilox",
+   "smiles": "COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O"
+  },
+  {
+   "compound": "β-peltatin",
+   "smiles": "COC1=CC(=CC(=C1OC)OC)C2C3C(CC4=C(C5=C(C=C24)OCO5)O)COC3=O"
+  }
+ ]
+}

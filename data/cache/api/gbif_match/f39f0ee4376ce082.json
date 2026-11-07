@@ -1,0 +1,26 @@
+{
+ "key": "Centaurium erythraea Raf.",
+ "value": {
+  "usageKey": 11232377,
+  "scientificName": "Centaurium erythraea Raf.",
+  "canonicalName": "Centaurium erythraea",
+  "rank": "SPECIES",
+  "status": "DOUBTFUL",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Gentianales",
+  "family": "Gentianaceae",
+  "genus": "Centaurium",
+  "species": "Centaurium erythraea",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 412,
+  "familyKey": 2503,
+  "genusKey": 7412173,
+  "speciesKey": 11232377,
+  "class": "Magnoliopsida"
+ }
+}

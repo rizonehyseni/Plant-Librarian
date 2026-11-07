@@ -1,0 +1,27 @@
+{
+ "key": "Agropyron repens (L.) P. Beauv.",
+ "value": {
+  "usageKey": 2706653,
+  "acceptedUsageKey": 5290299,
+  "scientificName": "Agropyron repens (L.) P.Beauv.",
+  "canonicalName": "Agropyron repens",
+  "rank": "SPECIES",
+  "status": "SYNONYM",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Poales",
+  "family": "Poaceae",
+  "genus": "Elymus",
+  "species": "Elymus repens",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 196,
+  "orderKey": 1369,
+  "familyKey": 3073,
+  "genusKey": 10465436,
+  "speciesKey": 5290299,
+  "class": "Liliopsida"
+ }
+}

@@ -28,6 +28,7 @@ GROQ_EXTRACT_MODEL = os.getenv("GROQ_EXTRACT_MODEL", "openai/gpt-oss-120b")
 # Groq's free tier allows few tokens per minute, so send small chunks.
 GROQ_PAGES_PER_CALL = int(os.getenv("GROQ_PAGES_PER_CALL", "2"))
 QUOTE_MATCH = 80  # rapidfuzz partial_ratio needed between quote and page text
+MIN_QUOTE = 12    # a quote shorter than this (e.g. one word) could match any page
 
 
 class PlantUse(BaseModel):
@@ -115,8 +116,23 @@ def _call_groq(text: str, retries: int = 6) -> list[dict]:
 
 def _flat(text: str) -> str:
     s = unicodedata.normalize("NFKC", text or "").lower()
+    s = re.sub(r"[‐-―−]", "-", s)  # Unicode hyphens and dashes as "-"
     s = re.sub(r"-\s*\n\s*", "", s)  # words split across lines
     return " ".join(s.split())
+
+
+def quote_on_page(quote: str | None, page_text: str) -> bool:
+    """True if the quote is on the page.
+
+    A table row is split across columns in the PDF text, so the model often joins the
+    cells with "..." ("Arctium lappa L. ... Bullushtra ... Decoction"). Each piece must
+    then be found on the page; the pieces together must be at least MIN_QUOTE characters.
+    """
+    text = _flat(page_text)
+    pieces = [p for p in (_flat(s) for s in re.split(r"\.{3}|…", quote or "")) if p]
+    if sum(map(len, pieces)) < MIN_QUOTE:
+        return False
+    return all(fuzz.partial_ratio(p, text) >= QUOTE_MATCH for p in pieces)
 
 
 def grounded(records: list[dict], pages: list[str]) -> list[dict]:
@@ -126,8 +142,7 @@ def grounded(records: list[dict], pages: list[str]) -> list[dict]:
         page = rec.get("page")
         if not isinstance(page, int) or not 1 <= page <= len(pages):
             continue
-        quote, text = _flat(rec.get("quote")), _flat(pages[page - 1])
-        if quote and fuzz.partial_ratio(quote, text) >= QUOTE_MATCH:
+        if quote_on_page(rec.get("quote"), pages[page - 1]):
             kept.append(rec)
     if len(kept) < len(records):
         print(f"  extract: dropped {len(records) - len(kept)} records whose page or quote did not match")

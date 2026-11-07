@@ -1,0 +1,161 @@
+{
+ "key": "Lagenaria siceraria",
+ "value": [
+  {
+   "compound": "24-epicampesterol",
+   "smiles": "CC(C)C(C)CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C"
+  },
+  {
+   "compound": "Gibbane-1,10-dicarboxylic acid, 2,3,5-trihydroxy-4a-(hydroxymethyl)-1-methyl-8-methylene-, 1,4a-lactone, (1alpha,2beta,3beta,4aalpha,4bbeta,5beta,10beta)-",
+   "smiles": "O=C(O)C1C2C3(C(=O)OCC2(CC(O)C3O)C4C(O)CC5C(=C)CC14C5)C"
+  },
+  {
+   "compound": "kaempferol",
+   "smiles": "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+  },
+  {
+   "compound": "beta-sitosterol",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "3-epi-Karounidiol",
+   "smiles": "OCC1(C)CCC2(C)CCC3(C4=CCC5C(C4=CCC3(C)C2C1)(C)CCC(O)C5(C)C)C"
+  },
+  {
+   "compound": "Clerosterol",
+   "smiles": "OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C)CCC(C(=C)C)CC)C2(C)CC1"
+  },
+  {
+   "compound": "Codisterol",
+   "smiles": "OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C)CCC(C(=C)C)C)C2(C)CC1"
+  },
+  {
+   "compound": "Bryonolol",
+   "smiles": "OCC1(C)CCC2(C)CCC3(C4=C(CCC3(C)C2C1)C5(C)CCC(O)C(C)(C)C5CC4)C"
+  },
+  {
+   "compound": "(3R,4aR,6aS,6bS,8aS,11R,12aR,14bS)-11-(hydroxymethyl)-4,4,6a,6b,8a,11,14b-heptamethyl-1,2,3,4a,7,8,9,10,12,12a,13,14-dodecahydropicen-3-ol",
+   "smiles": "OCC1(C)CCC2(C)CCC3(C=4C=CC5C(C4CCC3(C)C2C1)(C)CCC(O)C5(C)C)C"
+  },
+  {
+   "compound": "Karounidiol 3-benzoate",
+   "smiles": "O=C(OC1CCC2(C3=CCC4(C)C5CC(C)(CO)CCC5(C)CCC4(C3=CCC2C1(C)C)C)C)C=6C=CC=CC6"
+  },
+  {
+   "compound": "Loranthol",
+   "smiles": "OC1CCC2(C)C3CCC4C5C(C(=C)C)CCC5(C)CCC4(C)C3(C)C(O)CC2C1(C)C"
+  },
+  {
+   "compound": "(24S)-24-Ethyl-5alpha-cholesta-7,25-dien-3beta-ol",
+   "smiles": "OC1CCC2(C)C3C(=CCC2C1)C4CCC(C(C)CCC(C(=C)C)CC)C4(C)CC3"
+  },
+  {
+   "compound": "(1S,2S,3S,5S,8R,9S,10R,11S,12R,13S)-3,12,13-trihydroxy-11-methyl-6-methylidene-16-oxo-15-oxapentacyclo[9.3.2.15,8.01,10.02,8]heptadecane-9-carboxylic acid",
+   "smiles": "O=C(O)C1C2C3(OC(=O)C2(C)C(O)C(O)C3)C4C(O)CC5C(=C)CC14C5"
+  },
+  {
+   "compound": "3,12,13-Trihydroxy-11-methyl-6-methylidene-16-oxo-15-oxapentacyclo[9.3.2.15,8.01,10.02,8]heptadecane-9-carboxylic acid",
+   "smiles": "O=C(O)C1C2C3(OC(=O)C2(C)C(O)C(O)C3)C4C(O)CC5C(=C)CC14C5"
+  },
+  {
+   "compound": "3beta-[[(E)-3-(4-Hydroxyphenyl)acryloyl]oxy]-D:C-friedoolean-7,9(11)-diene-29-ol",
+   "smiles": "O=C(OC1CCC2(C3=CCC4(C)C5CC(C)(CO)CCC5(C)CCC4(C3=CCC2C1(C)C)C)C)C=CC6=CC=C(O)C=C6"
+  },
+  {
+   "compound": "3beta-[[(E)-3-(3-Methoxy-4-hydroxyphenyl)acryloyl]oxy]-D:C-friedoolean-7,9(11)-diene-29-ol",
+   "smiles": "O=C(OC1CCC2(C3=CCC4(C)C5CC(C)(CO)CCC5(C)CCC4(C3=CCC2C1(C)C)C)C)C=CC6=CC=C(O)C(OC)=C6"
+  },
+  {
+   "compound": "25-Dehydrochondrillasterol",
+   "smiles": "OC1CCC2(C)C3C(=CCC2C1)C4CCC(C(C=CC(C(=C)C)CC)C)C4(C)CC3"
+  },
+  {
+   "compound": "(2R,4aS,6aS,8aR,12aS,14aS,14bR)-2,4a,6a,9,9,12a,14a-heptamethyl-10-oxo-3,4,5,6,8,8a,11,12,14,14b-decahydro-1H-picene-2-carboxylic acid",
+   "smiles": "O=C(O)C1(C)CCC2(C)CCC3(C4=CCC5C(C(=O)CCC5(C4=CCC3(C)C2C1)C)(C)C)C"
+  },
+  {
+   "compound": "Campest-7-en-3beta-ol",
+   "smiles": "OC1CCC2(C)C3C(=CCC2C1)C4CCC(C(C)CCC(C)C(C)C)C4(C)CC3"
+  },
+  {
+   "compound": "Gibberellin A52",
+   "smiles": "O=C(O)C1C2C3(C(=O)OCC2(CC(O)C3O)C4C(O)CC5C(=C)CC14C5)C"
+  },
+  {
+   "compound": "(2R,4aS,6aS,8aR,12aS,14aS,14bR)-2,4a,6a,9,9,12a,14a-heptamethyl-10-oxo-3,4,5,6,7,8,8a,11,12,13,14,14b-dodecahydro-1H-picene-2-carboxylic acid",
+   "smiles": "O=C(O)C1(C)CCC2(C)CCC3(C4=C(CCC3(C)C2C1)C5(C)CCC(=O)C(C)(C)C5CC4)C"
+  },
+  {
+   "compound": "2beta,3beta-Dihydroxy-D:C-friedoolean-8-ene-29-oic acid methyl ester",
+   "smiles": "O=C(OC)C1(C)CCC2(C)CCC3(C4=C(CCC3(C)C2C1)C5(C)CC(O)C(O)C(C)(C)C5CC4)C"
+  },
+  {
+   "compound": "CID 15608667",
+   "smiles": "OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C=CC(C(=C)C)CC)C)C2(C)CC1"
+  },
+  {
+   "compound": "Bryonolic acid",
+   "smiles": "O=C(O)C1(C)CCC2(C)CCC3(C4=C(CCC3(C)C2C1)C5(C)CCC(O)C(C)(C)C5CC4)C"
+  },
+  {
+   "compound": "Karounidiol",
+   "smiles": "CC1(C(CCC2(C1CC=C3C2=CCC4(C3(CCC5(C4CC(CC5)(C)CO)C)C)C)C)O)C"
+  },
+  {
+   "compound": "saponarin",
+   "smiles": "O=C1C=C(OC=2C=C(OC3OC(CO)C(O)C(O)C3O)C(=C(O)C12)C4OC(CO)C(O)C(O)C4O)C=5C=CC(O)=CC5"
+  },
+  {
+   "compound": "bryonolic acid",
+   "smiles": "CC1(C2CCC3=C(C2(CCC1O)C)CCC4(C3(CCC5(C4CC(CC5)(C)C(=O)O)C)C)C)C"
+  },
+  {
+   "compound": "avenasterol",
+   "smiles": "OC1CCC2(C)C3C(=CCC2C1)C4CCC(C(C)CCC(=CC)C(C)C)C4(C)CC3"
+  },
+  {
+   "compound": "24-methylenecholesterol",
+   "smiles": "CC(C)C(=C)CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C"
+  },
+  {
+   "compound": "Ergosta-7,25(27)-dienol",
+   "smiles": "OC1CCC2(C)C3C(=CCC2C1)C4CCC(C(C)CCC(C(=C)C)C)C4(C)CC3"
+  },
+  {
+   "compound": "isoorientin",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C(=C(C=C3O2)O)C4C(C(C(C(O4)CO)O)O)O)O)O)O"
+  },
+  {
+   "compound": "isovitexin",
+   "smiles": "C1=CC(=CC=C1C2=CC(=O)C3=C(C(=C(C=C3O2)O)C4C(C(C(C(O4)CO)O)O)O)O)O"
+  },
+  {
+   "compound": "α-spinasterin",
+   "smiles": "CCC(C=CC(C)C1CCC2C1(CCC3C2=CCC4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "castasterone",
+   "smiles": "CC(C)C(C)C(C(C(C)C1CCC2C1(CCC3C2CC(=O)C4C3(CC(C(C4)O)O)C)C)O)O"
+  },
+  {
+   "compound": "3-beta-O-(E)-coumaroyl-D:C-friedooleana-7,9(11)-dien-29-oic acid",
+   "smiles": "CC1(C(CCC2(C1CC=C3C2=CCC4(C3(CCC5(C4CC(CC5)(C)C(=O)O)C)C)C)C)OC(=O)C=CC6=CC=C(C=C6)O)C"
+  },
+  {
+   "compound": "campesterol",
+   "smiles": "CC(C)C(C)CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C"
+  },
+  {
+   "compound": "stigmasterol",
+   "smiles": "CCC(C=CC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "isofucosterol",
+   "smiles": "CC=C(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C"
+  },
+  {
+   "compound": "(3β,5α)-stigmast-7-en-3-ol",
+   "smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2=CCC4C3(CCC(C4)O)C)C)C(C)C"
+  }
+ ]
+}

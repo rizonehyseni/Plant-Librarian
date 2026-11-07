@@ -1,0 +1,26 @@
+{
+ "key": "Capsicum annuum L.",
+ "value": {
+  "usageKey": 2932944,
+  "scientificName": "Capsicum annuum L.",
+  "canonicalName": "Capsicum annuum",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 100,
+  "matchType": "EXACT",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Solanales",
+  "family": "Solanaceae",
+  "genus": "Capsicum",
+  "species": "Capsicum annuum",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 1176,
+  "familyKey": 7717,
+  "genusKey": 2932937,
+  "speciesKey": 2932944,
+  "class": "Magnoliopsida"
+ }
+}

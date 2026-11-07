@@ -74,3 +74,17 @@ def test_no_records_leaves_nothing_behind(workspace):
     assert not list(raw.iterdir())
     assert (seed / "sources.csv").read_text(encoding="utf-8") == before
     assert conn.execute("SELECT COUNT(*) FROM uses").fetchone()[0] == 0
+
+
+def test_unicode_hyphens_are_stored_as_plain_hyphens():
+    from pipeline.build import plain_hyphens
+    rec = {"use": "Anti‑diabetic; Anti‐rheumatic", "quote": "x – y", "page": 5}
+    assert plain_hyphens(rec) == {"use": "Anti-diabetic; Anti-rheumatic", "quote": "x - y", "page": 5}
+
+
+def test_amounts_are_removed_but_the_preparation_stays():
+    from pipeline.build import no_doses
+    rec = {"preparation": "Macerated roots (200-300 g) mixed honey (1 kg)", "page": 9,
+           "administration": "2-3 soup spoons in the morning", "use": "Anti-diabetic"}
+    assert no_doses(rec) == {"preparation": "Macerated roots [amount] mixed honey [amount]", "page": 9,
+                             "administration": "[amount] in the morning", "use": "Anti-diabetic"}
