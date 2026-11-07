@@ -16,7 +16,7 @@ from pathlib import Path
 from pipeline.db import connect
 
 GOLD = Path(__file__).parent / "gold.csv"
-FIELDS = ("doc_id", "page", "local_name", "part_used", "preparation", "use")
+FIELDS = ("doc_id", "page", "part_used", "preparation", "use")
 
 
 def norm(s):
@@ -33,7 +33,12 @@ def plant_names(r):
 
 
 def key(r):
-    return tuple(norm(r.get(f)) for f in FIELDS)
+    fields = tuple(norm(r.get(f)) for f in FIELDS)
+    return fields + (norm(r.get("community") or "Albanian"),)
+
+
+def local_names(r):
+    return {norm(name) for name in str(r.get("local_name") or "").split("/") if norm(name)}
 
 
 def main():
@@ -51,21 +56,27 @@ def main():
         by_key.setdefault(key(r), []).append(r)
 
     def found(g):
-        return any(binomial(g["species"]) in plant_names(r) for r in by_key.get(key(g), []))
+        return any(binomial(g["species"]) in plant_names(r)
+                   and norm(g["local_name"]) in local_names(r)
+                   for r in by_key.get(key(g), []))
 
     hits = [g for g in gold if found(g)]
     recall = len(hits) / len(gold)
 
     sampled = {(g["doc_id"], norm(g["local_name"])) for g in gold}
-    in_sample = [r for r in rows if (r["doc_id"], norm(r["local_name"])) in sampled]
+    in_sample = [r for r in rows if any((r["doc_id"], alias) in sampled for alias in local_names(r))]
     gold_by_key = {}
     for g in gold:
-        gold_by_key.setdefault(key(g), set()).add(binomial(g["species"]))
-    unchecked = [r for r in in_sample if not plant_names(r) & gold_by_key.get(key(r), set())]
+        gold_by_key.setdefault(key(g), []).append(g)
+    unchecked = [r for r in in_sample if not any(
+        binomial(g["species"]) in plant_names(r) and norm(g["local_name"]) in local_names(r)
+        for g in gold_by_key.get(key(r), [])
+    )]
 
     by_local = {}
     for r in rows:
-        by_local.setdefault((r["doc_id"], norm(r["local_name"])), set()).update(plant_names(r))
+        for alias in local_names(r):
+            by_local.setdefault((r["doc_id"], alias), set()).update(plant_names(r))
     named = [g for g in gold if (g["doc_id"], norm(g["local_name"])) in by_local]
     name_ok = sum(binomial(g["species"]) in by_local[(g["doc_id"], norm(g["local_name"]))]
                   for g in named)

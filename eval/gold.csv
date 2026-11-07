@@ -3,9 +3,9 @@ sample_fixture,1,Kamomili,Matricaria chamomilla,flowers,infusion,stomach ache
 sample_fixture,1,Çaj mali,Sideritis scardica,aerial parts,decoction,colds and cough
 sample_fixture,1,Lule basani,Hypericum perforatum,flowering tops,macerated in olive oil,wounds and burns
 sample_fixture,1,Sherebela,Salvia officinalis,leaves,infusion,sore throat
-cross_cultural_sharr_2015,8,Mullaga,Althaea officinalis,Flowers,Infusion,Anti-tussive / expectorant
-cross_cultural_sharr_2015,9,Kamomil,Chamomilla recutita,Aerial parts,Infusion,Infections of the digestive tract
-cross_cultural_sharr_2015,13,Çaj mali,Origanum vulgare,Aerial parts,Infusion,"Anti-tussive; influenza; respiratory system infections"
+cross_cultural_sharr_2015,8,Mullaga,Althaea officinalis,Flowers,Infusion,Anti-tussive/expectorant
+cross_cultural_sharr_2015,9,Lule qeni,Matricaria chamomilla,Aerial parts,Infusion,Antimicrobial
+cross_cultural_sharr_2015,13,Çaj mali,Origanum vulgare,Aerial parts,Infusion,Anti-tussive
 cross_cultural_sharr_2015,7,Bredhi,Abies alba,Wood,"Resin, mixed with fat",Anti-fungal
 cross_cultural_sharr_2015,7,Bari i magarit,Agropyron repens,Aerial parts,Infusion,Anti-hemorrhoidal
 cross_cultural_sharr_2015,7,Alhemıla,Alchemilla vulgaris,Aerial parts,Infusion,Improve fertility in women
@@ -18,7 +18,7 @@ cross_cultural_sharr_2015,8,Fshisa,Artemisia absinthium,Leaves,Infusion,"Anti-an
 cross_cultural_sharr_2015,8,Thekna,Avena sativa,Aerial parts,Infusion,Skeletal system enhancement
 cross_cultural_sharr_2015,9,Bari i etheve,Centaurium erythraea,Aerial parts,Infusion,Anti-pyretic
 cross_cultural_sharr_2015,9,Kokoçeli,Centaurea cyanus,Flower,Infusion,Respiratory disorders
-cross_cultural_sharr_2015,9,Lule qeni,Chamomilla recutita,Aerial parts,Infusion,"Antimicrobial; infections of the digestive tract; urinary tract infections; eye infections"
+cross_cultural_sharr_2015,9,Lule qeni,Chamomilla recutita,Aerial parts,Infusion,Antimicrobial
 cross_cultural_sharr_2015,9,Tamelqak,Chelidonium majus,Latex,"Topically used","Skin infections, warts"
 cross_cultural_sharr_2015,10,Kastravec,Cucumis sativus,Fruits and seeds,"Eaten fresh",Kidney disorders
 cross_cultural_sharr_2015,10,Pjepni,Cucumis melo,Fruits,"Eaten fresh",Infection of digestive system

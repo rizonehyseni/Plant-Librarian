@@ -24,23 +24,24 @@ No `make` (Windows)? Run the commands from the Makefile directly, e.g. `python -
 
 The repo includes a **synthetic test fixture** and one real, open-access Sharr Mountains
 study (`data/raw/cross_cultural_sharr_2015.pdf`). The committed extraction cache contains
-74 Albanian-labelled medicinal-use rows across 51 plant taxa from Table 1. Each row is
-matched to its source PDF page; these are table-derived records, not Claude output. The
-paper reports 114 medicinal taxa across Albanian, Bosniak/Gorani, and Turkish communities,
-so the current dataset is still a subset. Other community rows and the separate food and
-handicraft tables are not loaded in the app. The app hides the synthetic fixture.
+569 community-labelled medicinal-use rows across 108 plant taxa from Table 1. These include
+Albanian, Bosniak/Gorani, and Turkish reports, each matched to its source PDF page; they are
+table-derived records, not Claude output. The paper reports 114 medicinal taxa overall, so
+some taxa without a clearly labelled, page-verifiable use row are still absent. The separate
+food and handicraft tables are not loaded in the app. The app hides the synthetic fixture.
 
 Regenerate the Sharr table cache without an API key with `python -m pipeline.extract_sharr_table`.
-The script reads the committed article XML and PDF, keeps ALB-labelled plant rows, excludes
-fungi, and requires each record's table text to match a unique PDF page.
+The script reads the committed article XML and PDF, separates the ALB, BOG (Bosniak/Gorani),
+and TUR labels, excludes fungi, and requires each record's table text to match its PDF page.
 
 `eval/gold.csv` contains 23 real-study examples whose local name, plant part, preparation,
 reported use and page were checked against the source PDF. The synthetic fixture rows remain
 in the file for reference but are excluded from `make eval`. A gold row counts as found when a
-record has the same page, local name, part, preparation and use, and the same plant, written
-either as in the study or as the GBIF accepted name (e.g. *Chamomilla recutita* = *Matricaria
-chamomilla*). The 23 rows are a small sample, so `make eval` reports recall, not precision. The
-current Sharr records come from the table parser, not from Claude, so this checks the parser.
+record has the same page, community, local name, part, preparation and use, and the same plant,
+written either as in the study or as the GBIF accepted name (e.g. *Chamomilla recutita* =
+*Matricaria chamomilla*). Combined local-name aliases are matched individually. The 23 rows
+are a small sample, so `make eval` reports recall, not precision. The current Sharr records
+come from the table parser, not from Claude, so this checks the parser.
 
 ### What needs an API key
 

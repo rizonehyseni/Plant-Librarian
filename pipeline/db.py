@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS uses (
     page INTEGER,
     local_name TEXT,
     name_in_text TEXT,
+    community TEXT,
     species TEXT,            -- accepted scientific name after matching
     gbif_key INTEGER,
     match_method TEXT,       -- exact | fuzzy | gbif | unresolved
@@ -64,6 +65,7 @@ CREATE TABLE IF NOT EXISTS audit_log (
 def connect(path=DB_PATH) -> sqlite3.Connection:
     conn = sqlite3.connect(path)
     conn.row_factory = sqlite3.Row
+    initialize(conn)
     return conn
 
 
@@ -72,6 +74,7 @@ def initialize(conn: sqlite3.Connection) -> None:
     conn.executescript(SCHEMA)
     columns = {row["name"] for row in conn.execute("PRAGMA table_info(uses)")}
     additions = {
+        "community": "TEXT",
         "review_status": "TEXT NOT NULL DEFAULT 'Needs Review'",
         "reviewer_note": "TEXT",
         "record_origin": "TEXT NOT NULL DEFAULT 'AI Extracted'",
@@ -89,6 +92,4 @@ def initialize(conn: sqlite3.Connection) -> None:
 def reset(path=DB_PATH) -> sqlite3.Connection:
     if path.exists():
         path.unlink()
-    conn = connect(path)
-    initialize(conn)
-    return conn
+    return connect(path)

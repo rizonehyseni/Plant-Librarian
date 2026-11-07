@@ -1,9 +1,8 @@
 """Build the offline extraction cache from the Sharr paper's medicinal-use table.
 
-This deterministic table parser is specific to the paper's JATS XML. It keeps
-only plant rows carrying an ALB local-name label and a non-zero Albanian use
-count. Each extracted row must also match its taxon, local name, preparation,
-and use text to exactly one page in the supplied PDF.
+This deterministic parser keeps plant-use reports with a non-zero count for
+Albanian, Bosniak/Gorani, or Turkish communities. Every result is page-matched
+to the source PDF.
 """
 import json
 import re
@@ -20,6 +19,7 @@ CACHE_PATH = ROOT / "data" / "cache" / "extract" / "cross_cultural_sharr_2015.js
 
 # Table 1 includes mushrooms as well as plants; those taxa are outside this app.
 NON_PLANT_FAMILIES = {"Agaricaceae", "Amanitaceae"}
+COMMUNITIES = {"ALB": "Albanian", "BOG": "Bosniak/Gorani", "TUR": "Turkish"}
 
 
 def _norm(text: str) -> str:
@@ -64,24 +64,45 @@ def _taxon_fields(taxon: str) -> tuple[str, str]:
     return name, family
 
 
+def _folk_names(value: str) -> dict[str, set[str]]:
+    """Read one or more local names with the paper's community suffixes."""
+    out = {code: set() for code in COMMUNITIES}
+    for match in re.finditer(r"(.+?)(ALB|BOG|TUR)(?=\s|$)", value):
+        name = match.group(1).strip()
+        if name:
+            out[match.group(2)].add(name)
+    return out
+
+
 def _page_for_record(pages: list[str], fields: list[str]) -> int:
-    tokens = _norm(" ".join(fields)).split()
-    hits = [i for i, page in enumerate(pages, start=1) if all(t in page for t in tokens if len(t) > 2)]
+    taxon, local_names, part, preparation, use = fields[0], fields[1:-3], fields[-3], fields[-2], fields[-1]
+    significant = lambda value: [t for t in _norm(value).split() if len(t) > 2]
+    part_tokens, prep_tokens = significant(part), significant(preparation)
+    use_phrase = _norm(use)
+    taxon_tokens = significant(taxon)
+    aliases = [significant(name) for name in local_names if significant(name)]
+
+    def has_alias(page: str) -> bool:
+        return any(all(token in page for token in alias) for alias in aliases)
+
+    hits = [i for i, page in enumerate(pages, start=1)
+            if has_alias(page) and all(token in page for token in part_tokens + prep_tokens)
+            and use_phrase in page]
+    taxon_hits = [i for i in hits if all(token in pages[i - 1] for token in taxon_tokens)]
+    if len(taxon_hits) == 1:
+        return taxon_hits[0]
+    if not hits:
+        # Long table rows may continue onto the next printed page after the
+        # taxon, local name, part, and preparation have appeared.
+        context_pages = {i for i, page in enumerate(pages, start=1)
+                         if all(token in page for token in taxon_tokens)
+                         and has_alias(page)
+                         and all(token in page for token in part_tokens + prep_tokens)}
+        hits = [i for i, page in enumerate(pages, start=1)
+                if i - 1 in context_pages and use_phrase in page]
     if len(hits) != 1:
         raise ValueError(f"Expected one PDF page for {fields!r}; found {hits}")
     return hits[0]
-
-
-def _key(record: dict) -> tuple[str, str, str, str]:
-    name = record.get("name_in_text") or ""
-    binomial = " ".join(name.split()[:2])
-    return tuple(_norm(value) for value in (
-        binomial, record.get("local_name", ""), record.get("part_used", ""), record.get("preparation", "")
-    ))
-
-
-def _same_use(table_use: str, reviewed_use: str) -> bool:
-    return _norm(table_use).replace(" ", "") in _norm(reviewed_use).replace(" ", "")
 
 
 def extract_records() -> list[dict]:
@@ -91,53 +112,63 @@ def extract_records() -> list[dict]:
     with pymupdf.open(PDF_PATH) as pdf:
         pages = [_norm(page.get_text()) for page in pdf]
 
+    rows = list(_expanded_rows(table))
+    names_by_taxon: dict[str, dict[str, set[str]]] = {}
+    for row in rows:
+        taxon = row.get(0, "")
+        groups = names_by_taxon.setdefault(taxon, {code: set() for code in COMMUNITIES})
+        for code, names in _folk_names(row.get(2, "")).items():
+            groups[code].update(names)
+
     records = []
-    for row in _expanded_rows(table):
-        if len(row) < 13 or not row.get(2, "").endswith("ALB"):
+    seen_use_rows = set()
+    for row in rows:
+        if len(row) < 13 or not any(_folk_names(row.get(2, "")).values()):
             continue
+        taxon = row.get(0, "")
         try:
-            alb_use_count = int(row[6])
+            name, family = _taxon_fields(taxon)
+            counts = {code: int(row[column]) for code, column in (("ALB", 6), ("BOG", 7), ("TUR", 8))}
         except (KeyError, ValueError):
             continue
-        if alb_use_count <= 0:
-            continue
-
-        taxon = row.get(0, "")
-        name, family = _taxon_fields(taxon)
         if family in NON_PLANT_FAMILIES:
             continue
 
-        local_with_group = row[2]
-        local_name = local_with_group[:-3].strip()
         part_used = row.get(3, "").strip(" ,;")
         preparation = row.get(4, "").strip(" ,;")
         use = row.get(5, "").strip(" ,;")
-        page = _page_for_record(
-            pages, [" ".join(taxon.split()[:2]), local_name, part_used, preparation, use]
-        )
-        records.append({
-            "local_name": local_name,
-            "name_in_text": name,
-            "family": family,
-            "part_used": part_used,
-            "preparation": preparation,
-            "administration": None,
-            "use": use,
-            "location": None,
-            "page": page,
-            "quote": f"{local_with_group} {row.get(3, '')} {row.get(4, '')} {row.get(5, '')}".strip(),
-        })
+        if not part_used or not preparation or not use:
+            continue
+        # Several community-name rows repeat one disease/preparation record
+        # with different citation counts. The app stores the report once and
+        # does not present those counts as a per-record measurement.
+        use_key = (taxon, part_used, preparation, use)
+        if use_key in seen_use_rows:
+            continue
+        seen_use_rows.add(use_key)
 
-    # Retain the three hand-reviewed summaries already in the cache; they cover
-    # their corresponding table rows and contain more readable use wording.
-    existing = json.loads(CACHE_PATH.read_text(encoding="utf-8"))
-    for reviewed in existing:
-        key = _key(reviewed)
-        match = next((i for i, row in enumerate(records)
-                      if _key(row) == key and _same_use(row["use"], reviewed["use"])), None)
-        if match is None:
-            raise ValueError(f"Could not match existing reviewed record to Table 1: {reviewed}")
-        records[match] = reviewed
+        for code, label in COMMUNITIES.items():
+            local_names = sorted(names_by_taxon[taxon][code])
+            if counts[code] <= 0 or not local_names:
+                continue
+            local_name = " / ".join(local_names)
+            page = _page_for_record(
+                pages, [" ".join(taxon.split()[:2]), *local_names, part_used, preparation, use]
+            )
+            records.append({
+                "local_name": local_name,
+                "name_in_text": name,
+                "family": family,
+                "community": label,
+                "part_used": part_used,
+                "preparation": preparation,
+                "administration": None,
+                "use": use,
+                "location": None,
+                "page": page,
+                "quote": f"{' / '.join(local_names)} {row.get(3, '')} {row.get(4, '')} {row.get(5, '')}".strip(),
+            })
+
     return records
 
 
@@ -145,7 +176,8 @@ def main():
     records = extract_records()
     CACHE_PATH.write_text(json.dumps(records, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     taxa = {" ".join(r["name_in_text"].split()[:2]) for r in records}
-    print(f"wrote {len(records)} ALB-labelled plant-use records from {len(taxa)} taxa")
+    counts = {label: sum(row["community"] == label for row in records) for label in COMMUNITIES.values()}
+    print(f"wrote {len(records)} plant-use records from {len(taxa)} taxa: {counts}")
     print("every row matched to one PDF page; no API key used")
 
 
