@@ -98,6 +98,9 @@ Tick a box in your PR when you finish an item.
   (e.g. *Matricaria chamomilla*, *Hypericum perforatum*, *Sideritis scardica*, *Urtica dioica*): read the
   PubMed abstract and fill preparation, comparison and limitation. These turn a plant's verdict into
   "Manually reviewed".
+- `data/seed/reviewed_evidence_drafts.csv` holds 8 draft rows filled from PubMed abstracts only (status `draft - needs human check`); the app does not read it.
+- A human must read each full paper and check the preparation, comparison and limitation before trusting a draft.
+- Move only confirmed rows into `reviewed_evidence.csv` (drop the `status` column); never copy a draft over unchecked.
 
 **6. Safety and names seed data (1 h, no key)**
 - [ ] `data/seed/risk_rules.csv` has 5 rules. Add EMA/HMPC monograph rules for other plants in the data
